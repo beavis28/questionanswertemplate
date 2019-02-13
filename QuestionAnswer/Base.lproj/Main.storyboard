@@ -28,7 +28,7 @@
             </objects>
             <point key="canvasLocation" x="-585" y="-144"/>
         </scene>
-        <!--Question-->
+        <!--Review-->
         <scene sceneID="4jo-y4-4Xh">
             <objects>
                 <viewController id="M2h-kQ-oCx" customClass="ReviewTestViewController" customModule="QuestionAnswer" customModuleProvider="target" sceneMemberID="viewController">
@@ -102,7 +102,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rET-Ex-vVn"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Question" image="brain" id="5UQ-1V-5Bv"/>
+                    <tabBarItem key="tabBarItem" title="Review" image="pen" id="5UQ-1V-5Bv"/>
                     <connections>
                         <outlet property="tableView" destination="pTM-B3-Md9" id="H3i-84-uRk"/>
                     </connections>
@@ -111,7 +111,7 @@
             </objects>
             <point key="canvasLocation" x="304.80000000000001" y="-510.49475262368821"/>
         </scene>
-        <!--Review-->
+        <!--Question-->
         <scene sceneID="qG5-Fc-gX0">
             <objects>
                 <viewController id="N5S-Km-ZPw" customClass="QuestionViewController" customModule="QuestionAnswer" customModuleProvider="target" sceneMemberID="viewController">
@@ -186,7 +186,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="E2S-5G-oqQ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Review" image="pen" id="tG4-bC-KNg"/>
+                    <tabBarItem key="tabBarItem" title="Question" image="brain" id="tG4-bC-KNg"/>
                     <connections>
                         <outlet property="Ans1" destination="nyn-Pd-vSp" id="Ond-on-PRB"/>
                         <outlet property="Ans2" destination="x19-ao-U7g" id="a8s-8e-XVx"/>
