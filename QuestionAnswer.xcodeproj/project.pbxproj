@@ -15,9 +15,11 @@
 		5DE30E40221401C3000AF932 /* question.json in Resources */ = {isa = PBXBuildFile; fileRef = 5DE30E3C221401C2000AF932 /* question.json */; };
 		5DE30E41221401C3000AF932 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE30E3D221401C3000AF932 /* QuestionModel.swift */; };
 		5DE30E42221401C3000AF932 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE30E3E221401C3000AF932 /* QuestionViewController.swift */; };
+		EEA4F835022F4145629D0DC8 /* libPods-QuestionAnswer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D476E2525E3401ABA2DB34D /* libPods-QuestionAnswer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D476E2525E3401ABA2DB34D /* libPods-QuestionAnswer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuestionAnswer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE30E262213F0F9000AF932 /* QuestionAnswer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestionAnswer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE30E292213F0F9000AF932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DE30E2E2213F0F9000AF932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -28,6 +30,13 @@
 		5DE30E3C221401C2000AF932 /* question.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = question.json; path = ../../DrivingTestSG/DrivingTestSG/question.json; sourceTree = "<group>"; };
 		5DE30E3D221401C3000AF932 /* QuestionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionModel.swift; path = ../../DrivingTestSG/DrivingTestSG/QuestionModel.swift; sourceTree = "<group>"; };
 		5DE30E3E221401C3000AF932 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionViewController.swift; path = ../../DrivingTestSG/DrivingTestSG/QuestionViewController.swift; sourceTree = "<group>"; };
+		5DE30E4522168220000AF932 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		5DE30E4622168220000AF932 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		5DE30E47221683B7000AF932 /* googlemobileadssdkios.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = googlemobileadssdkios.zip; path = ../../../../Downloads/googlemobileadssdkios.zip; sourceTree = "<group>"; };
+		5DE30E4A221683C1000AF932 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		5DE30E4B221683C1000AF932 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		84C960E9628D3CB5B3A79523 /* Pods-QuestionAnswer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionAnswer.debug.xcconfig"; path = "Target Support Files/Pods-QuestionAnswer/Pods-QuestionAnswer.debug.xcconfig"; sourceTree = "<group>"; };
+		DD9CB11178666CEECD5C42A2 /* Pods-QuestionAnswer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionAnswer.release.xcconfig"; path = "Target Support Files/Pods-QuestionAnswer/Pods-QuestionAnswer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA4F835022F4145629D0DC8 /* libPods-QuestionAnswer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +56,8 @@
 			children = (
 				5DE30E282213F0F9000AF932 /* QuestionAnswer */,
 				5DE30E272213F0F9000AF932 /* Products */,
+				5DE30E4322168220000AF932 /* Frameworks */,
+				CE8F965875C03094A4A5BA57 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +85,47 @@
 			path = QuestionAnswer;
 			sourceTree = "<group>";
 		};
+		5DE30E4322168220000AF932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DE30E49221683C1000AF932 /* GoogleMobileAdsSdkiOS-7.39.0 */,
+				5DE30E47221683B7000AF932 /* googlemobileadssdkios.zip */,
+				5DE30E4422168220000AF932 /* GoogleMobileAdsSdkiOS-7.39.0 */,
+				1D476E2525E3401ABA2DB34D /* libPods-QuestionAnswer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DE30E4422168220000AF932 /* GoogleMobileAdsSdkiOS-7.39.0 */ = {
+			isa = PBXGroup;
+			children = (
+				5DE30E4522168220000AF932 /* GoogleMobileAds.framework */,
+				5DE30E4622168220000AF932 /* README.txt */,
+			);
+			name = "GoogleMobileAdsSdkiOS-7.39.0";
+			path = "../../../../Downloads/GoogleMobileAdsSdkiOS-7.39.0";
+			sourceTree = "<group>";
+		};
+		5DE30E49221683C1000AF932 /* GoogleMobileAdsSdkiOS-7.39.0 */ = {
+			isa = PBXGroup;
+			children = (
+				5DE30E4A221683C1000AF932 /* GoogleMobileAds.framework */,
+				5DE30E4B221683C1000AF932 /* README.txt */,
+			);
+			name = "GoogleMobileAdsSdkiOS-7.39.0";
+			path = "../../../../Downloads/GoogleMobileAdsSdkiOS-7.39.0";
+			sourceTree = "<group>";
+		};
+		CE8F965875C03094A4A5BA57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84C960E9628D3CB5B3A79523 /* Pods-QuestionAnswer.debug.xcconfig */,
+				DD9CB11178666CEECD5C42A2 /* Pods-QuestionAnswer.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,6 +133,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DE30E382213F0FB000AF932 /* Build configuration list for PBXNativeTarget "QuestionAnswer" */;
 			buildPhases = (
+				D4C5928C99E173E2317BC122 /* [CP] Check Pods Manifest.lock */,
 				5DE30E222213F0F9000AF932 /* Sources */,
 				5DE30E232213F0F9000AF932 /* Frameworks */,
 				5DE30E242213F0F9000AF932 /* Resources */,
@@ -139,6 +193,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D4C5928C99E173E2317BC122 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuestionAnswer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5DE30E222213F0F9000AF932 /* Sources */ = {
@@ -292,6 +371,7 @@
 		};
 		5DE30E392213F0FB000AF932 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C960E9628D3CB5B3A79523 /* Pods-QuestionAnswer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,6 +390,7 @@
 		};
 		5DE30E3A2213F0FB000AF932 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD9CB11178666CEECD5C42A2 /* Pods-QuestionAnswer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

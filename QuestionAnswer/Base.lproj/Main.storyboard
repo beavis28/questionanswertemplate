@@ -164,14 +164,21 @@
                                     <action selector="Ans3_pressed:" destination="N5S-Km-ZPw" eventType="touchUpInside" id="BZ4-cd-ZZq"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dLl-ON-V2f" customClass="GADBannerView">
+                                <rect key="frame" x="0.0" y="582" width="375" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ooN-eH-YjT" firstAttribute="top" secondItem="E2S-5G-oqQ" secondAttribute="top" id="0oG-dc-08a"/>
                             <constraint firstAttribute="trailing" secondItem="ooN-eH-YjT" secondAttribute="trailing" id="2BL-5X-rOP"/>
+                            <constraint firstItem="dLl-ON-V2f" firstAttribute="top" secondItem="uQD-PU-X2O" secondAttribute="bottom" constant="8" symbolic="YES" id="3oQ-ba-2Tw"/>
+                            <constraint firstItem="dLl-ON-V2f" firstAttribute="leading" secondItem="uQD-PU-X2O" secondAttribute="leading" id="6yQ-vj-nkq"/>
                             <constraint firstItem="x19-ao-U7g" firstAttribute="leading" secondItem="uQD-PU-X2O" secondAttribute="leading" id="9E9-ZK-Z77"/>
                             <constraint firstItem="nyn-Pd-vSp" firstAttribute="top" secondItem="xye-pj-6dH" secondAttribute="bottom" constant="13" id="CBa-ae-Smk"/>
                             <constraint firstItem="xye-pj-6dH" firstAttribute="top" secondItem="ooN-eH-YjT" secondAttribute="bottom" constant="8" symbolic="YES" id="CNZ-7b-JU2"/>
+                            <constraint firstItem="dLl-ON-V2f" firstAttribute="bottom" secondItem="E2S-5G-oqQ" secondAttribute="bottom" id="QZ7-X4-sIO"/>
                             <constraint firstItem="ooN-eH-YjT" firstAttribute="leading" secondItem="xye-pj-6dH" secondAttribute="leading" id="Xa5-Xu-naZ"/>
                             <constraint firstItem="ooN-eH-YjT" firstAttribute="leading" secondItem="6xJ-w4-aT1" secondAttribute="leading" id="dU5-GD-NwK"/>
                             <constraint firstItem="nyn-Pd-vSp" firstAttribute="leading" secondItem="x19-ao-U7g" secondAttribute="leading" id="eGE-4F-Iel"/>
@@ -181,6 +188,7 @@
                             <constraint firstItem="ooN-eH-YjT" firstAttribute="trailing" secondItem="xye-pj-6dH" secondAttribute="trailing" id="iw7-0h-pxT"/>
                             <constraint firstItem="xye-pj-6dH" firstAttribute="leading" secondItem="nyn-Pd-vSp" secondAttribute="leading" id="kDR-OD-RAf"/>
                             <constraint firstItem="x19-ao-U7g" firstAttribute="top" secondItem="nyn-Pd-vSp" secondAttribute="bottom" constant="8" symbolic="YES" id="nTU-QY-zKz"/>
+                            <constraint firstItem="dLl-ON-V2f" firstAttribute="trailing" secondItem="uQD-PU-X2O" secondAttribute="trailing" id="tQd-Rg-YrY"/>
                             <constraint firstItem="xye-pj-6dH" firstAttribute="trailing" secondItem="nyn-Pd-vSp" secondAttribute="trailing" id="vLD-fp-OFs"/>
                             <constraint firstItem="uQD-PU-X2O" firstAttribute="top" secondItem="x19-ao-U7g" secondAttribute="bottom" constant="8" symbolic="YES" id="zQo-lN-6kM"/>
                         </constraints>
@@ -191,6 +199,7 @@
                         <outlet property="Ans1" destination="nyn-Pd-vSp" id="Ond-on-PRB"/>
                         <outlet property="Ans2" destination="x19-ao-U7g" id="a8s-8e-XVx"/>
                         <outlet property="Ans3" destination="uQD-PU-X2O" id="zqO-dc-oLK"/>
+                        <outlet property="admobView" destination="dLl-ON-V2f" id="2o8-XR-A2h"/>
                         <outlet property="questionLabel" destination="xye-pj-6dH" id="6GZ-Ev-axK"/>
                     </connections>
                 </viewController>
