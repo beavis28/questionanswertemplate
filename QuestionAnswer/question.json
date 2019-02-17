@@ -1,0 +1,948 @@
+
+{"questions": {
+  "Q1": {
+    "question":"The oldest building still standing in Singapore is",
+    "ans1": "The Sultan Mosque",
+    "ans2": "The old Supreme Court",
+    "ans3": "The old Parliament House",
+    "ans": "ans3"
+  },
+  "Q2": {
+    "question":"The old Fullerton Building was completed in",
+    "ans1": "1928",
+    "ans2": "1938",
+    "ans3": " 1948",
+    "ans": "ans1"
+  },
+  "Q3": {
+    "question":"What was the very first name of Fort Canning?",
+    "ans1": "Forbidden Hill",
+    "ans2": "Government Hill",
+    "ans3": "Temasek Hill",
+    "ans": "ans1"
+  },
+  "Q4": {
+    "question":"Bukit Timah is about",
+    "ans1": "128 m high",
+    "ans2": "110 m high",
+    "ans3": "166 m high",
+    "ans": "ans3"
+  },
+  "Q5": {
+    "question":"In the first half of the 19th century, many of the Indian convicts were deployed in public works in Singapore by the British.Where were these immigrants from?",
+    "ans1": "38 islands",
+    "ans2": "15 islands",
+    "ans3": "63 islands",
+    "ans": "ans3"
+  },
+  "Q6": {
+    "question":"Singapore has",
+    "ans1": "give way to traffic going straight from all direction.",
+    "ans2": "give way only to traffic turning right from the right.",
+    "ans3": "give way only to traffic turning left from the opposite direction.",
+    "ans": "ans1"
+  },
+  "Q7": {
+    "question":"Singapore is located",
+    "ans1": "10 km north of the equator",
+    "ans2": "908 km north of the equator",
+    "ans3": "137 km north of the equator",
+    "ans": "ans3"
+  },
+  "Q8": {
+    "question":"In the early 19th century, there were also Indian and Chinese migrants from Malaya (now Malaysia) from the states of",
+    "ans1": "Penang and Malacca",
+    "ans2": "Johore and Malacca",
+    "ans3": "Johore and Penang",
+    "ans": "ans1"
+  },
+  "Q9": {
+    "question":"About 15% of Singapore's population are",
+    "ans1": "Christians and Muslims",
+    "ans2": "Buddhists and Hindus",
+    "ans3": "Buddhists and Muslims",
+    "ans": "ans1"
+  },
+  "Q10": {
+    "question":"Which of these schools would figure as the oldest girls' school in Singapore?",
+    "ans1": "CHIJ Secondary School",
+    "ans2": "Nanyang Girls' School",
+    "ans3": "St Margaret's Secondary School",
+    "ans": "ans3"
+  },
+  "Q11": {
+    "question":"The Central Provident Fund (CPF) was originally set up as a mandatory savings plan for old age in",
+    "ans1": "1930",
+    "ans2": "1955",
+    "ans3": "1965",
+    "ans": "ans2"
+  },
+  "Q12": {
+    "question":"When was ASEAN founded?",
+    "ans1": "Jul 1963",
+    "ans2": "July 1967",
+    "ans3": "July 1965",
+    "ans": "ans2"
+  },
+  "Q13": {
+    "question":"What is the length and breadth of Singapore?",
+    "ans1": "30 km in length and 20 km in breadth",
+    "ans2": "25 km in length and 14 km in breadth",
+    "ans3": "42 km in length and 23 km in breadth",
+    "ans": "ans3"
+  },
+  "Q14": {
+    "question":"The majority of the immigrants from India were southern Indians. ",
+    "ans1": "Arab Street",
+    "ans2": "High Street",
+    "ans3": "Hill Street",
+    "ans": "ans2"
+  },
+  "Q15": {
+    "question":"Geylang Serai was so named because in its early days",
+    "ans1": "There was the presence of bamboos.",
+    "ans2": "There were many poultry farms there.",
+    "ans3": "There were many lemon grass processing factories there.",
+    "ans": "ans3"
+  },
+  "Q16": {
+    "question":"A 4-room HDB apartment has typically about",
+    "ans1": "90 sq m in floor area",
+    "ans2": "110 sq m in floor area",
+    "ans3": "145 sq m in floor area",
+    "ans": "ans1"
+  },
+  "Q17": {
+    "question":"Singapore's Malay population is about",
+    "ans1": "10%",
+    "ans2": "40%",
+    "ans3": "15%",
+    "ans": "ans3"
+  },
+  "Q18": {
+    "question":"The earliest mosque in Singapore is believed to be",
+    "ans1": "Hajjah Fatimah mosque",
+    "ans2": "Omar mosque",
+    "ans3": "Jamae mosque",
+    "ans": "ans2"
+  },
+  "Q19": {
+    "question":"Early 19th century Singapore was an astounding success because",
+    "ans1": "Of its free port status",
+    "ans2": "It had British protection",
+    "ans3": "It had a deep harbour",
+    "ans": "ans2"
+  },
+  "Q20": {
+    "question":"Every _____, a ship arrives or leaves Singapore.",
+    "ans1": "2-3 minutes",
+    "ans2": "10-15 minutes",
+    "ans3": "30 minutes",
+    "ans": "ans1"
+  },
+  "Q21": {
+    "question":"Which of the following is NOT an appropriate response when you see a warning sign?",
+    "ans1": "Beware of possible dangers ahead",
+    "ans2": "Take extra care and slow down when approaching them",
+    "ans3": "Ignore it",
+    "ans": "ans3"
+  },
+  "Q22": {
+    "question":"A cyclist is using the pedestrian crossing when red man is on, what should you do?",
+    "ans1": "Sample Konfabulator Widget",
+    "ans2": "Flash your headlights at him",
+    "ans3": "Slow down and let him cross",
+    "ans": "ans3"
+  },
+  "Q23": {
+    "question":"What are the consequences of repeat drink driving?",
+    "ans1": "Fine and corrective work order.",
+    "ans2": "Fine and mandatory jail sentence.",
+    "ans3": "Fine, mandatory jail sentence and disqualification from driving.",
+    "ans": "ans3"
+  },
+  "Q24": {
+    "question":"You may overtake, When ______",
+    "ans1": "the road narrows.",
+    "ans2": "in doubt.",
+    "ans3": "on a road with broken white line in the centre.",
+    "ans": "ans3"
+  },
+  "Q25": {
+    "question":"When traffic is moving slowly in queues and vehicles in the lanes on your right are moving more slowly than you are, you ______",
+    "ans1": "can not overtake.",
+    "ans2": "can overtake on the left.",
+    "ans3": "must always overtake on the right.",
+    "ans": "ans2"
+  },
+  "Q26": {
+    "question":"Which of the following statement is INCORRECT?",
+    "ans1": "The Two-second rule can be applied to all types of vehicles at any speed.",
+    "ans2": "The Two-second rule can be applied to all road conditions, include wet road.",
+    "ans3": "You should leave more than a two-second distance in bad weather.",
+    "ans": "ans2"
+  },
+  "Q27": {
+    "question":"Which of the following can be taken as a rule of thumb to avoid tail-gating?",
+    "ans1": "The Two-Second rule.",
+    "ans2": "The Three-Second rule.",
+    "ans3": "The Four-Second rule.",
+    "ans": "ans1"
+  },
+  "Q28": {
+    "question":"How many seconds must you wait after signaling but before moving off.",
+    "ans1": "At least 3 seconds",
+    "ans2": "At least 5 seconds",
+    "ans3": "At least 7 seconds",
+    "ans": "ans1"
+  },
+  "Q29": {
+    "question":"Road hogging will:",
+    "ans1": "prevent accident.",
+    "ans2": "hold up the flow of traffic.",
+    "ans3": "allow other vehicles to overtake you.",
+    "ans": "ans2"
+  },
+  "Q30": {
+    "question":"When stopping at a traffic light controlled junction on a upward slope",
+    "ans1": "you should always apply the handbrake.",
+    "ans2": "you must not apply the handbrake.",
+    "ans3": "you should apply the handbrake only if the foot brake is not functioning.",
+    "ans": "ans1"
+  },
+  "Q31": {
+    "question":"When the traffic light turns amber and you have just crossed the stop-line, you should ______",
+    "ans1": "stop immediately.",
+    "ans2": "reverse until behind the stop-line.",
+    "ans3": "proceed.",
+    "ans": "ans3"
+  },
+  "Q32": {
+    "question":"At a junction your passenger says it is safe to proceed. You should:",
+    "ans1": "Proceed quickly.",
+    "ans2": "Check and only proceed when the situation of traffic is safe to do so.",
+    "ans3": "Sound horn as a precaution and proceed.",
+    "ans": "ans2"
+  },
+  "Q33": {
+    "question":"Vehicles travelling at slow speed should use the",
+    "ans1": "left-hand lane.",
+    "ans2": "middle lane.",
+    "ans3": "outer most right-hand lane.",
+    "ans": "ans1"
+  },
+  "Q34": {
+    "question":"When turning, which wheel ends up closer to the kerb.",
+    "ans1": "the rear wheel.",
+    "ans2": "the front wheel.",
+    "ans3": "Both wheels end up equally close to the kerb.",
+    "ans": "ans3"
+  },
+  "Q35": {
+    "question":"You may stop for immediate boarding and alighting of passengers on a road, which has ______",
+    "ans1": "a single white zig-zag line along the side.",
+    "ans2": "double yellow zig-zag lines along the side.",
+    "ans3": "a single yellow zig-zag line along the side.",
+    "ans": "ans3"
+  },
+  "Q36": {
+    "question":"When the light turns green, how many seconds should you wait before proceeding?",
+    "ans1": "0.5 seconds",
+    "ans2": "8 seconds",
+    "ans3": "2 seconds",
+    "ans": "ans3"
+  },
+  "Q37": {
+    "question":"A cyclist is using the pedestrian crossing when red man is on, what should you do?",
+    "ans1": "Sample Konfabulator Widget",
+    "ans2": "Flash your headlights at him",
+    "ans3": "Slow down and let him cross",
+    "ans": "ans3"
+  },
+  "Q38": {
+    "question":"If a driver has consumed alcohol or is tired, his",
+    "ans1": "reaction time will decrease",
+    "ans2": "reaction time will increase",
+    "ans3": "braking distance will decrease",
+    "ans": "ans2"
+  },
+  "Q39": {
+    "question":"When the light turns green, how many seconds should you wait before proceeding?",
+    "ans1": "0.5 seconds",
+    "ans2": "8 seconds",
+    "ans3": "2 seconds",
+    "ans": "ans1"
+  },
+  "Q40": {
+    "question":"What is DIPS?",
+    "ans1": "Driver Improvement Points System Rules",
+    "ans2": "Driver Improvement Passengers Safety Rules",
+    "ans3": "Driver Incident Points System Rules",
+    "ans": "ans1"
+  },
+  "Q41": {
+    "question":"Turn Left On Red means",
+    "ans1": "Vehicle can turn left even though the traffic light is red.",
+    "ans2": "Vehicle can turn right even though the traffic light is red.",
+    "ans3": "Vehicle can turn left or right when the traffic light is red.",
+    "ans": "ans2"
+  },
+  "Q42": {
+    "question":"When the light turns green at a traffic light controlled junction and the vehicle in front moves off very slowly, you should",
+    "ans1": "tap your horn repeatedly to rush him.",
+    "ans2": "wait for him to move off before proceeding.",
+    "ans3": "overtake him.",
+    "ans": "ans2"
+  },
+  "Q43": {
+    "question":"A person is walking slowly with a stick in his hand, most likely he is ___, and you should slow down and stop if necessary to give way for him to cross the road.",
+    "ans1": "Blind",
+    "ans2": "An elderly",
+    "ans3": "A Child",
+    "ans": "ans3"
+  },
+  "Q44": {
+    "question":"When driving on the road, you should always position your vehicle",
+    "ans1": "to the left of the lane",
+    "ans2": "to the center of the lane",
+    "ans3": "to the right of the lane",
+    "ans": "ans2"
+  },
+  "Q45": {
+    "question":"When approaching a hospital, you see a No Horn sign, and an upcoming vehicle suddenly cut into your path,",
+    "ans1": "You should sound the horn to warn the other road user.",
+    "ans2": "You should slow down and without sounding the horn.",
+    "ans3": "You should slow down and meanwhile sound the horn.",
+    "ans": "ans3"
+  },
+  "Q46": {
+    "question":"Upon seeing the 'End of school zone' sign, you",
+    "ans1": "need not be cautious of school students crossing",
+    "ans2": "should speed up",
+    "ans3": "should proceed to drive safely and keep to the speed limit",
+    "ans": "ans3"
+  },
+  "Q47": {
+    "question":"The Provisional Driving Licence is valid for 6 months, can it be renewed if it is expired?",
+    "ans1": "No, It cannot be renewed.",
+    "ans2": "Yes. It can be renewed for another 6 months at a time.",
+    "ans3": "Yes. It can be renewed for another 3 months.",
+    "ans": "ans2"
+  },
+  "Q48": {
+    "question":"When two vehicles are passing in opposite directions at night, the headlights of the vehicles should be :",
+    "ans1": "switched to high beam.",
+    "ans2": "switched to low beam.",
+    "ans3": "switched off.",
+    "ans": "ans2"
+  },
+  "Q49": {
+    "question":"Your car is traveling behind a long vehicle which is turning left at the junction, you should",
+    "ans1": "Quickly overtake the long vehicle",
+    "ans2": "Stop",
+    "ans3": "Slow down and wait for the long vehicle to complete the turning",
+    "ans": "ans3"
+  },
+  "Q50": {
+    "question":"When you hear the police car's siren from behind, you should",
+    "ans1": "speed up not to cause any obstruction",
+    "ans2": "slow down, keep left or move aside",
+    "ans3": "maintain the speed and keep left",
+    "ans": "ans2"
+  },
+  "Q51": {
+    "question":"when can you stop on the road shoulder?",
+    "ans1": "when you need to give way to large vehicles",
+    "ans2": "when your vehicle has broken down",
+    "ans3": "when you are sick and tired",
+    "ans": "ans2"
+  },
+  "Q52": {
+    "question":"Omnibus can use the bus lanes:",
+    "ans1": "at all times.",
+    "ans2": "only on weekdays from 7:30am to 9:30am and 4:30pm to 7:00pm.",
+    "ans3": "only on Saturday 7:30am to 9:30am and 11:30am to 2:00pm.",
+    "ans": "ans1"
+  },
+  "Q53": {
+    "question":"The Provisional Driving Licence is valid for 6 months, can it be renewed if it is expired?",
+    "ans1": "No, It cannot be renewed.",
+    "ans2": "Yes. It can be renewed for another 6 months at a time.",
+    "ans3": "Yes. It can be renewed for another 3 months.",
+    "ans": "ans2"
+  },
+  "Q54": {
+    "question":"When is the best time to check your tire pressure?",
+    "ans1": "Before leaving your home/car park.",
+    "ans2": "After driving and parked your car.",
+    "ans3": "At a red traffic light junction.",
+    "ans": "ans1"
+  },
+  "Q55": {
+    "question":"A probationary driver who has accumulated 13 or more demerit points within the first 12 months will",
+    "ans1": "be fined only",
+    "ans2": "get his/her license revoked",
+    "ans3": "be jailed only",
+    "ans": "ans2"
+  },
+  "Q56": {
+    "question":"The Provisional Driving Licence is valid for 6 months, can it be renewed if it is expired?",
+    "ans1": "No, It cannot be renewed.",
+    "ans2": "Yes. It can be renewed for another 6 months at a time.",
+    "ans3": "Yes. It can be renewed for another 3 months.",
+    "ans": "ans2"
+  },
+  "Q57": {
+    "question":"What should you do while waiting at a red traffic light?",
+    "ans1": "Pull up handbrake.",
+    "ans2": "Step on brake pedal.",
+    "ans3": "Turn on Hazard Light",
+    "ans": "ans1"
+  },
+  "Q58": {
+    "question":"road hogging most likely is caused by",
+    "ans1": "fast moving vehicles.",
+    "ans2": "slow moving vehicles.",
+    "ans3": "pedestrians.",
+    "ans": "ans2"
+  },
+  "Q59": {
+    "question":"What is the legal limit for blood alcohol content per 50ml of blood?",
+    "ans1": "40mg",
+    "ans2": "60mg",
+    "ans3": "80mg",
+    "ans": "ans1"
+  },
+  "Q60": {
+    "question":"When parking, you must engage the handbrake",
+    "ans1": "at all times",
+    "ans2": "if you are on a slope",
+    "ans3": "only when facing downhil",
+    "ans": "ans1"
+  },
+  "Q61": {
+    "question":"A cyclist is using the pedestrian crossing when red man is on, what should you do?",
+    "ans1": "Sample Konfabulator Widget",
+    "ans2": "Flash your headlights at him",
+    "ans3": "Slow down and let him cross",
+    "ans": "ans1"
+  },
+  "Q62": {
+    "question":"Which of the following vehicle is not allowed in the tunnel?",
+    "ans1": "a 5m high vehicle",
+    "ans2": "a lorry carrying heavy goods",
+    "ans3": "a 12m long vehicle",
+    "ans": "ans2"
+  },
+  "Q63": {
+    "question":"What are the consequences of tailgating?",
+    "ans1": "driver in front will drive faster",
+    "ans2": "driver in front of you may become nervous,stop suddenly and accident might occur",
+    "ans3": "no consequences",
+    "ans": "ans2"
+  },
+  "Q64": {
+    "question":"Which Gear has the highest Speed?",
+    "ans1": "Gear 1",
+    "ans2": "Gear 3",
+    "ans3": "Gear 5",
+    "ans": "ans3"
+  },
+  "Q65": {
+    "question":"Which is an incorrect statement?",
+    "ans1": "Interior car lights should be used at night when car is on the road.",
+    "ans2": "Dip you headlight when oncoming car is approaching",
+    "ans3": "Slow down when oncoming car is using high beam.",
+    "ans": "ans1"
+  },
+  "Q66": {
+    "question":"When driving on the road, you should always position you vehicle",
+    "ans1": "to the left of the lane.",
+    "ans2": "to the centre of the lane.",
+    "ans3": "to the right of the lane.",
+    "ans": "ans2"
+  },
+  "Q67": {
+    "question":"Is it ok to make a mobile phone call while you are driving on the expressway?",
+    "ans1": "Yes, if it is under emergencies.",
+    "ans2": "No, should never do that.",
+    "ans3": "Yes, but it will be an offence.",
+    "ans": "ans2"
+  },
+  "Q68": {
+    "question":"When driving along two-way streets, we should always keep to ______",
+    "ans1": "Left",
+    "ans2": "Right",
+    "ans3": "Centre",
+    "ans": "ans1"
+  },
+  "Q69": {
+    "question":"When can a vehicle enter and wait in the yellow-box at a junction, if not obstruct others?",
+    "ans1": "when trying to go straight while waiting for traffic turning left from the left.",
+    "ans2": "when trying to turn right while waiting for traffic from the left going straight to be clear.",
+    "ans3": "when trying to turn left while waiting for pedestrians crossing.",
+    "ans": "ans3"
+  },
+  "Q70": {
+    "question":"Do not park your vehicle or let your vehicle wait in",
+    "ans1": "any normal bus lanes between 7.30am to 9.30am, 5.00pm to 8.00pm on Mondays to Fridays.",
+    "ans2": "any full day bus lanes between 7.30am to 8pm on Mondays to Saturdays, except public holidays.",
+    "ans3": "any bus lanes at all times.",
+    "ans": "ans3"
+  },
+  "Q71": {
+    "question":"You are driving on an expressway and your companion gets vomiting sensation. You do not have any plastic bags in the car. What will you do?",
+    "ans1": "Stop the car immediately and let the companion go out.",
+    "ans2": "Judging the traffic, move towards the shoulder of the expressway and stop",
+    "ans3": "Turn on the hazard lights, carry on and try to reach a nearby facility",
+    "ans": "ans2"
+  },
+  "Q72": {
+    "question":"Which of the following is not allowed on the expressway?",
+    "ans1": "a vehicle that has broken down before",
+    "ans2": "a vehicle which is higher than 4.5 m",
+    "ans3": "a motorcycle with side-car attached",
+    "ans": "ans3"
+  },
+  "Q73": {
+    "question":"If the brake lights of your vehicle are not functioning,",
+    "ans1": "you still can drive it during day time in good weather.",
+    "ans2": "you should not drive it at all.",
+    "ans3": "you should drive it to workshop for repair immediately.",
+    "ans": "ans2"
+  },
+  "Q74": {
+    "question":"How should you react when you see a vehicle that displays DANGER HIGHLY FLAMMABLE?",
+    "ans1": "keep away from the vehicle",
+    "ans2": "overtake immediately",
+    "ans3": "U-turn to avoid that vehicle",
+    "ans": "ans1"
+  },
+  "Q75": {
+    "question":"If you are traveling at a speed of 80km/h, how many vehicle(s) length at least should be adhered to between your vehicle and the vehicle in front?",
+    "ans1": "10",
+    "ans2": "8",
+    "ans3": "5",
+    "ans": "ans3"
+  },
+  "Q76": {
+    "question":"A cyclist is using the pedestrian crossing when red man is on, what should you do?",
+    "ans1": "Sample Konfabulator Widget",
+    "ans2": "Flash your headlights at him",
+    "ans3": "Slow down and let him cross",
+    "ans": "ans3"
+  },
+  "Q77": {
+    "question":"The light turns green, after 15 seconds, the vehicle in front of you still not move, you should ______",
+    "ans1": "tap your horn to remind it to move off.",
+    "ans2": "keep on waiting.",
+    "ans3": "overtake it.",
+    "ans": "ans1"
+  },
+  "Q78": {
+    "question":"A continuous white line along the centre of a road indicates",
+    "ans1": "Lane mark of a one-way road.",
+    "ans2": "Centre line of a two-way road.",
+    "ans3": "vehicles are allowed to park on the side of the road.",
+    "ans": "ans2"
+  },
+  "Q79": {
+    "question":"When approaching a roundabout, you should ______",
+    "ans1": "speed up so as not to cause any obstruction.",
+    "ans2": "slow down and give way to traffic on your right.",
+    "ans3": "always stop before proceeding.",
+    "ans": "ans2"
+  },
+  "Q80": {
+    "question":"Facility Signs are signs with",
+    "ans1": "white letters on green backgrounds with white borders",
+    "ans2": "black letters on white backgrounds with black borders",
+    "ans3": "yellow letters on green backgrounds with yellow borders",
+    "ans": "ans2"
+  },
+  "Q81": {
+    "question":"At what age can you start to apply to get a driving license?",
+    "ans1": "16",
+    "ans2": "18",
+    "ans3": "20",
+    "ans": "ans2"
+  },
+  "Q82": {
+    "question":"When turning,",
+    "ans1": "keep as close to the kerb as possible.",
+    "ans2": "keep a distance of at least 0.5 metres from the kerb.",
+    "ans3": "keep a distance of at least 1 metre from the kerb.",
+    "ans": "ans3"
+  },
+  "Q83": {
+    "question":"How can we identify those Advance Directional Signs?",
+    "ans1": "Rectangular with green background",
+    "ans2": "Rectangular but with a chevron shape on one end to indicate the direction",
+    "ans3": "Rectangular with white background",
+    "ans": "ans1"
+  },
+  "Q84": {
+    "question":"Full day bus lanes are denoted by",
+    "ans1": "continuous yellow line",
+    "ans2": "dotted yellow line",
+    "ans3": "continuous red and yellow line",
+    "ans": "ans3"
+  },
+  "Q85": {
+    "question":"What is the first thing you should do to safely overtake another vehicle?",
+    "ans1": "Check Traffics Ahead",
+    "ans2": "Check Traffics Behind",
+    "ans3": "Check Blind Spot",
+    "ans": "ans1"
+  },
+  "Q86": {
+    "question":"Vehicles which have a speed limit of ___ shall use the left lane of the expressway inside Tunnels.",
+    "ans1": "60km/h and below",
+    "ans2": "55km/h and below",
+    "ans3": "50km/h and below",
+    "ans": "ans1"
+  },
+  "Q87": {
+    "question":"Which of the following is a correct practice?",
+    "ans1": "Use plastic bag to top up fuel",
+    "ans2": "Switch off the engine while filling fuel",
+    "ans3": "se handphone in the vicinity of the petrol station",
+    "ans": "ans2"
+  },
+  "Q88": {
+    "question":"A cyclist is using the pedestrian crossing when red man is on, what should you do?",
+    "ans1": "Sample Konfabulator Widget",
+    "ans2": "Flash your headlights at him",
+    "ans3": "Slow down and let him cross",
+    "ans": "ans3"
+  },
+  "Q89": {
+    "question":"TSD stands for?",
+    "ans1": "Traffic Sign Display",
+    "ans2": "Traveling Sign Display",
+    "ans3": "Time Sign Display",
+    "ans": "ans1"
+  },
+  "Q90": {
+    "question":"When the light turns green, how many seconds should you wait before proceeding?",
+    "ans1": "0.5 seconds",
+    "ans2": "8 seconds",
+    "ans3": "2 seconds",
+    "ans": "ans3"
+  },
+  "Q91": {
+    "question":"Road signs and signals are meant mainly for",
+    "ans1": "pedestrians",
+    "ans2": "the traffic police.",
+    "ans3": "motorists.",
+    "ans": "ans3"
+  },
+  "Q92": {
+    "question":"Driving with bald / worn out tyres is dangerous since :",
+    "ans1": "your vehicle may skid",
+    "ans2": "you may lose control of your vehicle.",
+    "ans3": "both A and B",
+    "ans": "ans3"
+  },
+  "Q93": {
+    "question":"While you are overtaking a vehicle and it suddenly increase its speed, you should ______",
+    "ans1": "slow down and return to your original position.",
+    "ans2": "accelerate and insist on your overtaking.",
+    "ans3": "race and wait for it to slow down.",
+    "ans": "ans1"
+  },
+  "Q94": {
+    "question":"You may overtake on the left only when",
+    "ans1": "you are approaching an accident area.",
+    "ans2": "you want to turn left at a junction.",
+    "ans3": "you are not sure if it is safe to overtake on the right.",
+    "ans": "ans2"
+  },
+  "Q95": {
+    "question":"When can you use bus lanes?",
+    "ans1": "Outside of restricted hours.",
+    "ans2": "When there are no buses around.",
+    "ans3": "Bus lanes must never be used by cars.",
+    "ans": "ans1"
+  },
+  "Q96": {
+    "question":"When driving in a heavy rain, which light(s) should be switched on?",
+    "ans1": "Hazard Light",
+    "ans2": "Headlight and hazard light",
+    "ans3": "Headlight and Taillight",
+    "ans": "ans3"
+  },
+  "Q97": {
+    "question":"Parallel continuous white lines along the centre of a road indicates",
+    "ans1": "No overtaking, also no parking on either side of the road.",
+    "ans2": "You may park, but not crossing the parallel lines.",
+    "ans3": "No parking, but you may cross the parallel lines when overtaking.",
+    "ans": "ans1"
+  },
+  "Q98": {
+    "question":"You may park your vehicle on the side of a road with _____",
+    "ans1": "broken white line along the centre.",
+    "ans2": "single continuous white line along the centre.",
+    "ans3": "parallel continuous white lines along the centre.",
+    "ans": "ans1"
+  },
+  "Q99": {
+    "question":"When may you cross the center line of a two-way road?",
+    "ans1": "When negotiating a sharp bend.",
+    "ans2": "When you cannot see clearly but you want to overtake the car in front",
+    "ans3": "When your path is obstructed by road works or parked vehicles.",
+    "ans": "ans3"
+  },
+  "Q100": {
+    "question":"According to revised seat belts rules, Adults below the height of ___ meters shall use booster seats or approved adjustable seat belts to lower the risk of injury in the event of an accident.",
+    "ans1": "1.35",
+    "ans2": "1.45",
+    "ans3": "1.50",
+    "ans": "1.35"
+  },
+  "Q101": {
+    "question":"Can a Provisional Driving License (PDL) holder drive on the expressway?",
+    "ans1": "No, cannot.",
+    "ans2": "Yes, When he/she is accompanied by a qualified driving instructor.",
+    "ans3": "Yes, when the L plates are displayed on the vehicle.",
+    "ans": "ans1"
+  },
+  "Q102": {
+    "question":"What should you do to allow your car to stop in an emergency without skidding or losing control?",
+    "ans1": "drive slowly.",
+    "ans2": "drive fast but carefully",
+    "ans3": "constantly adjust speed of car to conditions on road",
+    "ans": "ans3"
+  },
+  "Q103": {
+    "question":"You hear an ambulance siren approaching from behind, you should",
+    "ans1": "slow down and keep to the left for it to pass.",
+    "ans2": "stop immediately for it to pass.",
+    "ans3": "maintain the speed for it to pass.",
+    "ans": "ans1"
+  },
+  "Q104": {
+    "question":"When should you check on the level of the engine oil?",
+    "ans1": "Regularly",
+    "ans2": "Only when you send the vehicle for inspection.",
+    "ans3": "When the very first time you drive the vehicle.",
+    "ans": "ans1"
+  },
+  "Q105": {
+    "question":"What should you do when approaching speed bumps?",
+    "ans1": "Speed up to pass the speed bumps faster.",
+    "ans2": "Slow down.",
+    "ans3": "Stop and push your car over the speed bumps carefully.",
+    "ans": "ans2"
+  },
+  "Q106": {
+    "question":"To Apply for the Provisional Driving License(PDL), you must first pass",
+    "ans1": "the Riding Theory Test.",
+    "ans2": "the Basic Driving Theory Test.",
+    "ans3": "the Final Driving Theory Test",
+    "ans": "ans2"
+  },
+  "Q107": {
+    "question":"When is reversing from a side road to a main road allowed?",
+    "ans1": "When traffic is clear on main road.",
+    "ans2": "Never",
+    "ans3": "When you are in one way road",
+    "ans": "ans1"
+  },
+  "Q108": {
+    "question":"After overtaking, you should ______",
+    "ans1": "return to your original lane when it is safe to do so.",
+    "ans2": "cut in sharply to your original lane.",
+    "ans3": "remain in the new lane.",
+    "ans": "ans3"
+  },
+  "Q109": {
+    "question":"Where are emergency telephones located in the tunnel?",
+    "ans1": "alongside the fast lane every 10 metres",
+    "ans2": "at the exit and entrance",
+    "ans3": "next to the slow lane at about 100m intervals.",
+    "ans": "ans3"
+  },
+  "Q110": {
+    "question":"Who needs to use a seat belt?",
+    "ans1": "Driver only",
+    "ans2": "Driver and the front passenger only",
+    "ans3": "Driver and all the passengers",
+    "ans": "ans3"
+  },
+  "Q111": {
+    "question":"Driving licences are classified based on the different types of motor vehicles and all together there are ______ classes of driving licence in Singapore.",
+    "ans1": "6",
+    "ans2": "9",
+    "ans3": "12",
+    "ans": "ans2"
+  },
+  "Q112": {
+    "question":"To keep your focus on the road ahead While driving, you should avoid:",
+    "ans1": "checking your rear view and side mirrors.",
+    "ans2": "talking to passengers in the vehicle.",
+    "ans3": "looking at a map or directory.",
+    "ans": "ans3"
+  },
+  "Q113": {
+    "question":"When approaching a school or hospital,",
+    "ans1": "you should never sound your horn.",
+    "ans2": "you may sound your horn when necessary to avoid accident.",
+    "ans3": "you should always slow down.",
+    "ans": "ans2"
+  },
+  "Q114": {
+    "question":"Which of the following is not allowed on the expressway?",
+    "ans1": "a vehicle that has broken down before",
+    "ans2": "a vehicle which is higher than 4.5 m",
+    "ans3": "a motorcycle with side-car attached",
+    "ans": "ans3"
+  },
+  "Q115": {
+    "question":"Tyres that have treads less than ______ in depth should be replaced.",
+    "ans1": "1.0 mm",
+    "ans2": "1.6 mm",
+    "ans3": "2.0 mm",
+    "ans": "ans2"
+  },
+  "Q116": {
+    "question":"Visibility is poor, however you noticed there are oncoming vehicles and cyclists, you should",
+    "ans1": "switch the headlight from low beam to high beam.",
+    "ans2": "switch the headlight from high beam to low beam.",
+    "ans3": "switch off the headlight.",
+    "ans": "ans2"
+  },
+  "Q117": {
+    "question":"A cyclist is using the pedestrian crossing when red man is on, what should you do?",
+    "ans1": "Sample Konfabulator Widget",
+    "ans2": "Flash your headlights at him",
+    "ans3": "Slow down and let him cross",
+    "ans": "ans3"
+  },
+  "Q118": {
+    "question":"Can you drive motorcycle if you only have a car license?",
+    "ans1": "yes",
+    "ans2": "no",
+    "ans3": "depends on situation",
+    "ans": "ans2"
+  },
+  "Q119": {
+    "question":"How should you check the blind spots?",
+    "ans1": "turn your head and look over your shoulders.",
+    "ans2": "check through the side view mirrors.",
+    "ans3": "check through the rear view mirrors.",
+    "ans": "ans1"
+  },
+  "Q120": {
+    "question":"When should you switch on the hazard light, if your vehicle encounters problem on the road?",
+    "ans1": "while you are bringing the vehicles to a stop",
+    "ans2": "only after the vehicle has completely stopped",
+    "ans3": "after you have displayed the vehicle breakdown sign",
+    "ans": "ans2"
+  },
+  "Q121": {
+    "question":"Which of the following people can not drive?",
+    "ans1": "Pregnant women",
+    "ans2": "drunk people",
+    "ans3": "students",
+    "ans": "ans2"
+  },
+  "Q122": {
+    "question":"Which of the following is INCORRECT? You are allowed to overtake",
+    "ans1": "at any road junction",
+    "ans2": "on the right even if you are turning left",
+    "ans3": "on the right if you are turning right",
+    "ans": "ans1"
+  },
+  "Q123": {
+    "question":"Which of the following is NOT applicable to parallel continuous white lines in the center of a two-way road?",
+    "ans1": "No parking on either side of the road",
+    "ans2": "Vehicles should keep to the right of these lines",
+    "ans3": "Vehicles are not allowed to cross these lines",
+    "ans": "ans2"
+  },
+  "Q124": {
+    "question":"What should you not do when you are at the bend, brow of a hill or a bridge?",
+    "ans1": "speed up a little if too slow, but ensure not to exceed the speed limit of the road or the vehicle.",
+    "ans2": "park or let your vehicle wait",
+    "ans3": "drive slowly and carefully",
+    "ans": "ans2"
+  },
+  "Q125": {
+    "question":"When is tailgating acceptable?",
+    "ans1": "When you want the vehicle in front to speed up",
+    "ans2": "when you want the vehicle in front to give way",
+    "ans3": "tailgating is never acceptable",
+    "ans": "ans3"
+  },
+  "Q126": {
+    "question":"Red circular signs are",
+    "ans1": "Regulatory signs - meant to regulate traffic movement.",
+    "ans2": "Prohibitory signs - obey these signs at all times.",
+    "ans3": "Warning signs - slow down and proceed with caution",
+    "ans": "ans2"
+  },
+  "Q127": {
+    "question":"When entering a school zone, a driver should:",
+    "ans1": "Speed up and exit the school zone quickly so that you won't obstruct the school buses",
+    "ans2": "Proceed cautiously and maintain within the speed limit of the school zone",
+    "ans3": "Slow down to 20Km/h so that you can react effectively when a children rushes out of the road",
+    "ans": "ans2"
+  },
+  "Q128": {
+    "question":"Who shall wear booster seat or approved adjustable seat belt instead of wearing a normal seat belt when traveling in a vehicle?",
+    "ans1": "Passengers with height above 1.35 meters",
+    "ans2": "Passengers with height below 1.35 meters",
+    "ans3": "Passengers with height above 2.0 meters",
+    "ans": "ans2"
+  },
+  "Q129": {
+    "question":"What should you do if you see an accident on the road?",
+    "ans1": "speed up and pass through quickly",
+    "ans2": "Slow down and proceed with caution",
+    "ans3": "Stop and see what is happening",
+    "ans": "ans2"
+  },
+  "Q130": {
+    "question":"Prohibitory or restrictive signs are",
+    "ans1": "usually circular with red borders.",
+    "ans2": "usually squarish with red borders.",
+    "ans3": "usually circular with white borders.",
+    "ans": "ans1"
+  },
+  "Q131": {
+    "question":"The penalty for drink driving is a fine of 1,000 to 5,000 dollars or a maximum term of 6 months imprisonment, plus",
+    "ans1": "one year disqualification of driving licence.",
+    "ans2": "6 month disqualification of driving licence.",
+    "ans3": "9 month disqualification of driving licence.",
+    "ans": "ans1"
+  },
+  "Q132": {
+    "question":"When driving on steel plates laid on unfinished road works, you should",
+    "ans1": "speed up to pass through quickly.",
+    "ans2": "slow down.",
+    "ans3": "maintain your speed",
+    "ans": "ans2"
+  },
+  "Q133": {
+    "question":"Which of the following is correct?",
+    "ans1": "adjust your mirror before adjusting the position of your seat",
+    "ans2": "adjust your mirror after adjusting the position of your seat",
+    "ans3": "adjust your mirror and seat position after moving off",
+    "ans": "ans2"
+  },
+  "Q134": {
+    "question":"On unlit roads, you should _____.",
+    "ans1": "use the high beam lights",
+    "ans2": "use the low beam lights",
+    "ans3": "flashing your headlights",
+    "ans": "ans1"
+  },
+  "Q135": {
+    "question":"What should you do when starting an uphill climb?",
+    "ans1": "Drive in a zig-zag fashion to improve tyre traction.",
+    "ans2": "Change to a lower gear.",
+    "ans3": "Change to a higher gear.",
+    "ans": "ans2"
+  }
+}}
