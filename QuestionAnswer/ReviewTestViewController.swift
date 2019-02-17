@@ -35,7 +35,7 @@ extension ReviewTestViewController: UITableViewDataSource {
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCell(withIdentifier: "reviewItem", for: indexPath) as! DrivingTestViewReviewCell
+    let cell = tableView.dequeueReusableCell(withIdentifier: "reviewItem", for: indexPath) as! TestViewReviewCell
     let review = questionModel.getReviewValue(index: indexPath.row)
     cell.question_label?.text = review.question
     cell.answer_label?.text = review.answer
@@ -76,7 +76,7 @@ extension ReviewTestViewController: UITableViewDelegate {
   }
 }
 
-class DrivingTestViewReviewCell: UITableViewCell {
+class TestViewReviewCell: UITableViewCell {
   @IBOutlet weak var question_label: UILabel!
   @IBOutlet weak var answer_label: UILabel!
 }
