@@ -1,91 +1,91 @@
 
 {"questions": {
   "Q1": {
-    "question":"The oldest building still standing in Singapore is",
-    "ans1": "The Sultan Mosque",
-    "ans2": "The old Supreme Court",
-    "ans3": "The old Parliament House",
+    "question":"The full form of Malware is ________",
+    "ans1": "Malfunctioned Software",
+    "ans2": "Multipurpose Software",
+    "ans3": "Malicious Software",
     "ans": "ans3"
   },
   "Q2": {
-    "question":"The old Fullerton Building was completed in",
-    "ans1": "1928",
-    "ans2": "1938",
-    "ans3": " 1948",
-    "ans": "ans1"
+    "question":"______ is a code injecting method used for attacking the database of a system / website.",
+    "ans1": "HTML injection",
+    "ans2": "SQL Injection",
+    "ans3": "XML Injection",
+    "ans": "ans2"
   },
   "Q3": {
-    "question":"What was the very first name of Fort Canning?",
-    "ans1": "Forbidden Hill",
-    "ans2": "Government Hill",
-    "ans3": "Temasek Hill",
-    "ans": "ans1"
+    "question":"XSS is abbreviated as __________",
+    "ans1": "Extreme Secure Scripting",
+    "ans2": "Cross Site Scripting",
+    "ans3": "X Site Scripting",
+    "ans": "ans2"
   },
   "Q4": {
-    "question":"Bukit Timah is about",
-    "ans1": "128 m high",
-    "ans2": "110 m high",
-    "ans3": "166 m high",
-    "ans": "ans3"
+    "question":"This attack can be deployed by infusing a malicious code in a website’s comment section. What is “this” attack referred to here?",
+    "ans1": "SQL injection",
+    "ans2": "Cross Site Scripting (XSS)",
+    "ans3": "Cross Site Request Forgery (XSRF)",
+    "ans": "ans2"
   },
   "Q5": {
-    "question":"In the first half of the 19th century, many of the Indian convicts were deployed in public works in Singapore by the British.Where were these immigrants from?",
-    "ans1": "38 islands",
-    "ans2": "15 islands",
-    "ans3": "63 islands",
-    "ans": "ans3"
+    "question":"When there is an excessive amount of data flow, which the system cannot handle, _____ attack takes place.",
+    "ans1": "DoS (Denial of Service) attack",
+    "ans2": "Data overflow Attack",
+    "ans3": "Buffer Overflow attack",
+    "ans": "ans1"
   },
   "Q6": {
-    "question":"Singapore has",
-    "ans1": "give way to traffic going straight from all direction.",
-    "ans2": "give way only to traffic turning right from the right.",
-    "ans3": "give way only to traffic turning left from the opposite direction.",
+    "question":"Compromising a user’s session for exploiting the user’s data and do malicious activities or misuse user’s credentials is called ___________",
+    "ans1": "Session Hijacking",
+    "ans2": "Session Fixation",
+    "ans3": "Session Spying",
     "ans": "ans1"
   },
   "Q7": {
-    "question":"Singapore is located",
-    "ans1": "10 km north of the equator",
-    "ans2": "908 km north of the equator",
-    "ans3": "137 km north of the equator",
-    "ans": "ans3"
+    "question":"Which of this is an example of physical hacking?",
+    "ans1": "Remote Unauthorised access",
+    "ans2": "Inserting malware loaded USB to a system",
+    "ans3": "SQL Injection on SQL vulnerable site",
+    "ans": "ans2"
   },
   "Q8": {
-    "question":"In the early 19th century, there were also Indian and Chinese migrants from Malaya (now Malaysia) from the states of",
-    "ans1": "Penang and Malacca",
-    "ans2": "Johore and Malacca",
-    "ans3": "Johore and Penang",
-    "ans": "ans1"
-  },
-  "Q9": {
-    "question":"About 15% of Singapore's population are",
-    "ans1": "Christians and Muslims",
-    "ans2": "Buddhists and Hindus",
-    "ans3": "Buddhists and Muslims",
-    "ans": "ans1"
-  },
-  "Q10": {
-    "question":"Which of these schools would figure as the oldest girls' school in Singapore?",
-    "ans1": "CHIJ Secondary School",
-    "ans2": "Nanyang Girls' School",
-    "ans3": "St Margaret's Secondary School",
+    "question":"Which of them is not a wireless attack?",
+    "ans1": "Eavesdropping",
+    "ans2": "MAC Spoofing",
+    "ans3": "Phishing",
     "ans": "ans3"
   },
+  "Q9": {
+    "question":"Which method of hacking will record all your keystrokes?",
+    "ans1": "Keyhijacking",
+    "ans2": "Keyjacking",
+    "ans3": "Keylogging",
+    "ans": "ans3"
+  },
+  "Q10": {
+    "question":"_________ are the special type of programs used for recording and tracking user’s keystroke.",
+    "ans1": "Keylogger",
+    "ans2": "Trojans",
+    "ans3": "Virus",
+    "ans": "ans1"
+  },
   "Q11": {
-    "question":"The Central Provident Fund (CPF) was originally set up as a mandatory savings plan for old age in",
-    "ans1": "1930",
-    "ans2": "1955",
-    "ans3": "1965",
+    "question":"Which is the legal form of hacking based on which jobs are provided in IT industries and firms?",
+    "ans1": "Cracking",
+    "ans2": "Ethical hacking",
+    "ans3": "Hactivism",
     "ans": "ans2"
   },
   "Q12": {
-    "question":"When was ASEAN founded?",
-    "ans1": "Jul 1963",
-    "ans2": "July 1967",
-    "ans3": "July 1965",
-    "ans": "ans2"
+    "question":"________ are the combination of both white as well as black hat hackers.",
+    "ans1": "Gray Hat Hackers",
+    "ans2": "White Hat Hackers",
+    "ans3": "Black Hat Hackers",
+    "ans": "ans1"
   },
   "Q13": {
-    "question":"What is the length and breadth of Singapore?",
+    "question":"When integrity is lacking in a security system, _________ occurs.",
     "ans1": "30 km in length and 20 km in breadth",
     "ans2": "25 km in length and 14 km in breadth",
     "ans3": "42 km in length and 23 km in breadth",
@@ -93,570 +93,570 @@
   },
   "Q14": {
     "question":"The majority of the immigrants from India were southern Indians. ",
-    "ans1": "Arab Street",
-    "ans2": "High Street",
-    "ans3": "Hill Street",
-    "ans": "ans2"
+    "ans1": "Database hacking",
+    "ans2": "Data deletion",
+    "ans3": "Data tampering",
+    "ans": "ans3"
   },
   "Q15": {
-    "question":"Geylang Serai was so named because in its early days",
-    "ans1": "There was the presence of bamboos.",
-    "ans2": "There were many poultry farms there.",
-    "ans3": "There were many lemon grass processing factories there.",
+    "question":"____ of information means, only authorised users are capable of accessing the information.",
+    "ans1": "Confidentiality",
+    "ans2": "Integrity",
+    "ans3": "Availability",
     "ans": "ans3"
   },
   "Q16": {
-    "question":"A 4-room HDB apartment has typically about",
-    "ans1": "90 sq m in floor area",
-    "ans2": "110 sq m in floor area",
-    "ans3": "145 sq m in floor area",
+    "question":"Data ___________ is used to ensure confidentiality.",
+    "ans1": "Encryption",
+    "ans2": "Locking",
+    "ans3": "Deleting",
     "ans": "ans1"
   },
   "Q17": {
-    "question":"Singapore's Malay population is about",
-    "ans1": "10%",
-    "ans2": "40%",
-    "ans3": "15%",
-    "ans": "ans3"
+    "question":"Which of these is not a proper method of maintaining confidentiality?",
+    "ans1": "2-factor authentication",
+    "ans2": "switching off the phone",
+    "ans3": "ID and password based verification",
+    "ans": "ans2"
   },
   "Q18": {
-    "question":"The earliest mosque in Singapore is believed to be",
-    "ans1": "Hajjah Fatimah mosque",
-    "ans2": "Omar mosque",
-    "ans3": "Jamae mosque",
+    "question":"Which of the following information security technology is used for avoiding browser-based hacking?",
+    "ans1": "Anti-malware in browsers",
+    "ans2": "Remote browser access",
+    "ans3": "Adware remover in browsers",
     "ans": "ans2"
   },
   "Q19": {
-    "question":"Early 19th century Singapore was an astounding success because",
-    "ans1": "Of its free port status",
-    "ans2": "It had British protection",
-    "ans3": "It had a deep harbour",
-    "ans": "ans2"
-  },
-  "Q20": {
-    "question":"Every _____, a ship arrives or leaves Singapore.",
-    "ans1": "2-3 minutes",
-    "ans2": "10-15 minutes",
-    "ans3": "30 minutes",
-    "ans": "ans1"
-  },
-  "Q21": {
-    "question":"Which of the following is NOT an appropriate response when you see a warning sign?",
-    "ans1": "Beware of possible dangers ahead",
-    "ans2": "Take extra care and slow down when approaching them",
-    "ans3": "Ignore it",
+    "question":"The full form of EDR is _______",
+    "ans1": "Endpoint Detection and recovery",
+    "ans2": "Early detection and response",
+    "ans3": "Endpoint Detection and response",
     "ans": "ans3"
   },
+  "Q20": {
+    "question":"Lack of access control policy is a ______",
+    "ans1": "Bug",
+    "ans2": "Threat",
+    "ans3": "Vulnerability",
+    "ans": "ans3"
+  },
+  "Q21": {
+    "question":"_______ is the information gathering phase in ethical hacking from the target user.",
+    "ans1": "Reconnaissance",
+    "ans2": "Scanning",
+    "ans3": "Gaining access",
+    "ans": "ans1"
+  },
   "Q22": {
-    "question":"A cyclist is using the pedestrian crossing when red man is on, what should you do?",
+    "question":"Which of the following is an example of active reconnaissance?",
     "ans1": "Sample Konfabulator Widget",
     "ans2": "Flash your headlights at him",
     "ans3": "Slow down and let him cross",
     "ans": "ans3"
   },
   "Q23": {
-    "question":"What are the consequences of repeat drink driving?",
-    "ans1": "Fine and corrective work order.",
-    "ans2": "Fine and mandatory jail sentence.",
-    "ans3": "Fine, mandatory jail sentence and disqualification from driving.",
-    "ans": "ans3"
+    "question":"________ phase in ethical hacking is known as the pre-attack phase.",
+    "ans1": "Reconnaissance",
+    "ans2": "Scanning",
+    "ans3": "Gaining access",
+    "ans": "ans2"
   },
   "Q24": {
-    "question":"You may overtake, When ______",
-    "ans1": "the road narrows.",
-    "ans2": "in doubt.",
-    "ans3": "on a road with broken white line in the centre.",
+    "question":"Which of them do not comes under scanning methodologies?",
+    "ans1": "Vulnerability scanning",
+    "ans2": "Sweeping",
+    "ans3": "Google Dorks",
     "ans": "ans3"
   },
   "Q25": {
-    "question":"When traffic is moving slowly in queues and vehicles in the lanes on your right are moving more slowly than you are, you ______",
-    "ans1": "can not overtake.",
-    "ans2": "can overtake on the left.",
-    "ans3": "must always overtake on the right.",
+    "question":"A _________ can gain access illegally to a system if the system is not properly tested in scanning and gaining access phase.",
+    "ans1": "security officer",
+    "ans2": "malicious hacker",
+    "ans3": "security auditor",
     "ans": "ans2"
   },
   "Q26": {
-    "question":"Which of the following statement is INCORRECT?",
-    "ans1": "The Two-second rule can be applied to all types of vehicles at any speed.",
-    "ans2": "The Two-second rule can be applied to all road conditions, include wet road.",
-    "ans3": "You should leave more than a two-second distance in bad weather.",
-    "ans": "ans2"
+    "question":"In which phase, the hackers install backdoors so that his/her ownership with the victim’s system can be retained later?",
+    "ans1": "Scanning",
+    "ans2": "Maintaining access",
+    "ans3": "Maintaining Access",
+    "ans": "ans3"
   },
   "Q27": {
-    "question":"Which of the following can be taken as a rule of thumb to avoid tail-gating?",
-    "ans1": "The Two-Second rule.",
-    "ans2": "The Three-Second rule.",
-    "ans3": "The Four-Second rule.",
+    "question":"____ is the tool used for this purpose.",
+    "ans1": "Powersploit",
+    "ans2": "Aircrack – ng",
+    "ans3": "Snort",
     "ans": "ans1"
   },
   "Q28": {
-    "question":"How many seconds must you wait after signaling but before moving off.",
-    "ans1": "At least 3 seconds",
-    "ans2": "At least 5 seconds",
-    "ans3": "At least 7 seconds",
+    "question":"Which of the following hacking tools and techniques hackers’ do not use for maintaining access in a system?",
+    "ans1": "Wireshark",
+    "ans2": "Backdoors",
+    "ans3": "Rootkits",
     "ans": "ans1"
   },
   "Q29": {
-    "question":"Road hogging will:",
-    "ans1": "prevent accident.",
-    "ans2": "hold up the flow of traffic.",
-    "ans3": "allow other vehicles to overtake you.",
+    "question":"In _______ phase, the hackers try to hide their footprints.",
+    "ans1": "Scanning",
+    "ans2": "Tracks clearing",
+    "ans3": "Reconnaissance",
     "ans": "ans2"
   },
   "Q30": {
-    "question":"When stopping at a traffic light controlled junction on a upward slope",
-    "ans1": "you should always apply the handbrake.",
-    "ans2": "you must not apply the handbrake.",
-    "ans3": "you should apply the handbrake only if the foot brake is not functioning.",
-    "ans": "ans1"
+    "question":"Which of them is not a track clearing technique?",
+    "ans1": "Altering log files",
+    "ans2": "Port Scanning",
+    "ans3": "Footprint removing",
+    "ans": "ans2"
   },
   "Q31": {
-    "question":"When the traffic light turns amber and you have just crossed the stop-line, you should ______",
-    "ans1": "stop immediately.",
-    "ans2": "reverse until behind the stop-line.",
-    "ans3": "proceed.",
+    "question":"Which of the following do not comes under Social Engineering?",
+    "ans1": "Footprint removing",
+    "ans2": "Tailgating",
+    "ans3": "Spamming",
     "ans": "ans3"
   },
   "Q32": {
-    "question":"At a junction your passenger says it is safe to proceed. You should:",
-    "ans1": "Proceed quickly.",
-    "ans2": "Check and only proceed when the situation of traffic is safe to do so.",
-    "ans3": "Sound horn as a precaution and proceed.",
+    "question":"_________ involves scams where an individual (usually an attacker) lie to a person (the target victim) to acquire privilege data.",
+    "ans1": "Phishing",
+    "ans2": "Pretexting",
+    "ans3": "Spamming",
     "ans": "ans2"
   },
   "Q33": {
-    "question":"Vehicles travelling at slow speed should use the",
-    "ans1": "left-hand lane.",
-    "ans2": "middle lane.",
-    "ans3": "outer most right-hand lane.",
-    "ans": "ans1"
+    "question":"Which of the following is the technique used to look for information in trash or around dustbin container?",
+    "ans1": "Baiting",
+    "ans2": "Quid Pro Quo",
+    "ans3": "Dumpster diving",
+    "ans": "ans3"
   },
   "Q34": {
-    "question":"When turning, which wheel ends up closer to the kerb.",
-    "ans1": "the rear wheel.",
-    "ans2": "the front wheel.",
-    "ans3": "Both wheels end up equally close to the kerb.",
+    "question":"Which of the following is not an example of social engineering?",
+    "ans1": "Dumpster diving",
+    "ans2": "Shoulder surfing",
+    "ans3": "Carding",
     "ans": "ans3"
   },
   "Q35": {
-    "question":"You may stop for immediate boarding and alighting of passengers on a road, which has ______",
-    "ans1": "a single white zig-zag line along the side.",
-    "ans2": "double yellow zig-zag lines along the side.",
-    "ans3": "a single yellow zig-zag line along the side.",
-    "ans": "ans3"
+    "question":"In a phishing, attackers target the ________ technology to so social engineering.",
+    "ans1": "Emails",
+    "ans2": "WI-FI network",
+    "ans3": "Operating systems",
+    "ans": "ans1"
   },
   "Q36": {
-    "question":"When the light turns green, how many seconds should you wait before proceeding?",
-    "ans1": "0.5 seconds",
-    "ans2": "8 seconds",
-    "ans3": "2 seconds",
+    "question":"________ is the ability of an individual to gain physical access to an authorized area.",
+    "ans1": "Network accessing",
+    "ans2": "Database accessing",
+    "ans3": "Physical accessing",
     "ans": "ans3"
   },
   "Q37": {
-    "question":"A cyclist is using the pedestrian crossing when red man is on, what should you do?",
-    "ans1": "Sample Konfabulator Widget",
-    "ans2": "Flash your headlights at him",
-    "ans3": "Slow down and let him cross",
+    "question":"___ ensures the integrity and security of data that are passing over a network.",
+    "ans1": "Firewall",
+    "ans2": "Antivirus",
+    "ans3": "Network-security protocols",
     "ans": "ans3"
   },
   "Q38": {
-    "question":"If a driver has consumed alcohol or is tired, his",
-    "ans1": "reaction time will decrease",
-    "ans2": "reaction time will increase",
-    "ans3": "braking distance will decrease",
-    "ans": "ans2"
+    "question":"Which of the following is not a strong security protocol?",
+    "ans1": "HTTPS",
+    "ans2": "SFTP",
+    "ans3": "SMTP",
+    "ans": "ans3"
   },
   "Q39": {
-    "question":"When the light turns green, how many seconds should you wait before proceeding?",
-    "ans1": "0.5 seconds",
-    "ans2": "8 seconds",
-    "ans3": "2 seconds",
+    "question":"Which of the following is not a secured mail transferring methodology?",
+    "ans1": "POP3",
+    "ans2": "SSMTP",
+    "ans3": "S/MIME",
     "ans": "ans1"
   },
   "Q40": {
-    "question":"What is DIPS?",
-    "ans1": "Driver Improvement Points System Rules",
-    "ans2": "Driver Improvement Passengers Safety Rules",
-    "ans3": "Driver Incident Points System Rules",
-    "ans": "ans1"
+    "question":"____ is a set of conventions & rules set for communicating two or more devices residing in the same network?",
+    "ans1": "Security policies",
+    "ans2": "Protocols",
+    "ans3": "Wireless network",
+    "ans": "ans2"
   },
   "Q41": {
-    "question":"Turn Left On Red means",
-    "ans1": "Vehicle can turn left even though the traffic light is red.",
-    "ans2": "Vehicle can turn right even though the traffic light is red.",
-    "ans3": "Vehicle can turn left or right when the traffic light is red.",
+    "question":"In SSL, what is used for authenticating a message?",
+    "ans1": "MAC (Message Access Code)",
+    "ans2": "MAC (Message Authentication Code)",
+    "ans3": "MAC (Machine Authentication Code)",
     "ans": "ans2"
   },
   "Q42": {
-    "question":"When the light turns green at a traffic light controlled junction and the vehicle in front moves off very slowly, you should",
-    "ans1": "tap your horn repeatedly to rush him.",
-    "ans2": "wait for him to move off before proceeding.",
-    "ans3": "overtake him.",
-    "ans": "ans2"
+    "question":"_______ is used for encrypting data at network level.",
+    "ans1": "IPSec",
+    "ans2": "HTTPS",
+    "ans3": "SMTP",
+    "ans": "ans1"
   },
   "Q43": {
-    "question":"A person is walking slowly with a stick in his hand, most likely he is ___, and you should slow down and stop if necessary to give way for him to cross the road.",
-    "ans1": "Blind",
-    "ans2": "An elderly",
-    "ans3": "A Child",
-    "ans": "ans3"
-  },
-  "Q44": {
-    "question":"When driving on the road, you should always position your vehicle",
-    "ans1": "to the left of the lane",
-    "ans2": "to the center of the lane",
-    "ans3": "to the right of the lane",
+    "question":"Users are able to see a pad-lock icon in the address bar of the browser when there is _______ connection.",
+    "ans1": "HTTP",
+    "ans2": "HTTPS",
+    "ans3": "SMTP",
     "ans": "ans2"
   },
-  "Q45": {
-    "question":"When approaching a hospital, you see a No Horn sign, and an upcoming vehicle suddenly cut into your path,",
-    "ans1": "You should sound the horn to warn the other road user.",
-    "ans2": "You should slow down and without sounding the horn.",
-    "ans3": "You should slow down and meanwhile sound the horn.",
+  "Q44": {
+    "question":"Why did SSL certificate require in HTTP?",
+    "ans1": "For making security weak",
+    "ans2": "For making information move faster",
+    "ans3": "For encrypted data sent over HTTP protocol",
     "ans": "ans3"
   },
+  "Q45": {
+    "question":"SFTP is abbreviated as ________",
+    "ans1": "Secure File Transfer Protocol",
+    "ans2": "Secured File Transfer Protocol",
+    "ans3": "Secure Folder Transfer Protocol",
+    "ans": "ans1"
+  },
   "Q46": {
-    "question":"Upon seeing the 'End of school zone' sign, you",
-    "ans1": "need not be cautious of school students crossing",
-    "ans2": "should speed up",
-    "ans3": "should proceed to drive safely and keep to the speed limit",
+    "question":"PCT is abbreviated as ________",
+    "ans1": "Private Connecting Technology",
+    "ans2": "Private Communication Technique",
+    "ans3": "Private Communication Technology",
     "ans": "ans3"
   },
   "Q47": {
-    "question":"The Provisional Driving Licence is valid for 6 months, can it be renewed if it is expired?",
-    "ans1": "No, It cannot be renewed.",
-    "ans2": "Yes. It can be renewed for another 6 months at a time.",
-    "ans3": "Yes. It can be renewed for another 3 months.",
+    "question":"Adware are pre-chosen _______ developed to display ads",
+    "ans1": "banner",
+    "ans2": "software",
+    "ans3": "malware",
     "ans": "ans2"
   },
   "Q48": {
-    "question":"When two vehicles are passing in opposite directions at night, the headlights of the vehicles should be :",
-    "ans1": "switched to high beam.",
-    "ans2": "switched to low beam.",
-    "ans3": "switched off.",
-    "ans": "ans2"
+    "question":"Data masking is also known as _______",
+    "ans1": "Data obfuscation",
+    "ans2": "Data copying",
+    "ans3": "Data breaching",
+    "ans": "ans1"
   },
   "Q49": {
-    "question":"Your car is traveling behind a long vehicle which is turning left at the junction, you should",
-    "ans1": "Quickly overtake the long vehicle",
-    "ans2": "Stop",
-    "ans3": "Slow down and wait for the long vehicle to complete the turning",
+    "question":"__________ is a scenario when information is accessed without authorization.",
+    "ans1": "Data infiltration",
+    "ans2": "Data Hack",
+    "ans3": "Data Breach",
     "ans": "ans3"
   },
   "Q50": {
-    "question":"When you hear the police car's siren from behind, you should",
-    "ans1": "speed up not to cause any obstruction",
-    "ans2": "slow down, keep left or move aside",
-    "ans3": "maintain the speed and keep left",
-    "ans": "ans2"
+    "question":"______ is a device which secretly collects data from credit / debit cards",
+    "ans1": "Card Skimmer",
+    "ans2": "Data Stealer",
+    "ans3": "Card Copier",
+    "ans": "ans1"
   },
   "Q51": {
-    "question":"when can you stop on the road shoulder?",
-    "ans1": "when you need to give way to large vehicles",
-    "ans2": "when your vehicle has broken down",
-    "ans3": "when you are sick and tired",
+    "question":"____ is a technique used when artificial clicks are made which increases revenue because of pay-per-click.",
+    "ans1": "Clickjacking",
+    "ans2": "Clickfraud",
+    "ans3": "Click-hacking",
     "ans": "ans2"
   },
   "Q52": {
-    "question":"Omnibus can use the bus lanes:",
-    "ans1": "at all times.",
-    "ans2": "only on weekdays from 7:30am to 9:30am and 4:30pm to 7:00pm.",
-    "ans3": "only on Saturday 7:30am to 9:30am and 11:30am to 2:00pm.",
+    "question":"_____ is the practice implemented to spy someone using technology for gathering sensitive information.",
+    "ans1": "Cyber espionage",
+    "ans2": "Cyber-spy",
+    "ans3": "Spyware",
     "ans": "ans1"
   },
   "Q53": {
-    "question":"The Provisional Driving Licence is valid for 6 months, can it be renewed if it is expired?",
-    "ans1": "No, It cannot be renewed.",
-    "ans2": "Yes. It can be renewed for another 6 months at a time.",
-    "ans3": "Yes. It can be renewed for another 3 months.",
-    "ans": "ans2"
+    "question":"________ is the way or technique through which majority of the malware gets installed in our system.",
+    "ans1": "Drive-by click",
+    "ans2": "Drive-by redirection",
+    "ans3": "Drive-by download",
+    "ans": "ans3"
   },
   "Q54": {
-    "question":"When is the best time to check your tire pressure?",
-    "ans1": "Before leaving your home/car park.",
-    "ans2": "After driving and parked your car.",
-    "ans3": "At a red traffic light junction.",
-    "ans": "ans1"
+    "question":"___ is the term used for toolkits that are purchased and used for targeting different exploits",
+    "ans1": "Exploit bag",
+    "ans2": "Exploit Toolkit",
+    "ans3": "Exploit pack",
+    "ans": "ans3"
   },
   "Q55": {
-    "question":"A probationary driver who has accumulated 13 or more demerit points within the first 12 months will",
-    "ans1": "be fined only",
-    "ans2": "get his/her license revoked",
-    "ans3": "be jailed only",
-    "ans": "ans2"
+    "question":"____ is the hacking approach where cyber-criminals design fake websites or pages for tricking or gaining additional traffic.",
+    "ans1": "Cyber-replication",
+    "ans2": "Mimicking",
+    "ans3": "Pharming",
+    "ans": "ans1"
   },
   "Q56": {
-    "question":"The Provisional Driving Licence is valid for 6 months, can it be renewed if it is expired?",
-    "ans1": "No, It cannot be renewed.",
-    "ans2": "Yes. It can be renewed for another 6 months at a time.",
-    "ans3": "Yes. It can be renewed for another 3 months.",
+    "question":"_____ are deadly exploits where the vulnerability is known and found by cyber-criminals but not known and fixed by the owner of that application or company.",
+    "ans1": "Unknown attacks",
+    "ans2": "Zero-day exploits",
+    "ans3": "Elite exploits",
     "ans": "ans2"
   },
   "Q57": {
-    "question":"What should you do while waiting at a red traffic light?",
-    "ans1": "Pull up handbrake.",
-    "ans2": "Step on brake pedal.",
-    "ans3": "Turn on Hazard Light",
+    "question":"____________ is the kind of firewall is connected between the device and the network connecting to internet.",
+    "ans1": "Hardware Firewall",
+    "ans2": "Software Firewall",
+    "ans3": "Stateful Inspection Firewall",
     "ans": "ans1"
   },
   "Q58": {
-    "question":"road hogging most likely is caused by",
-    "ans1": "fast moving vehicles.",
-    "ans2": "slow moving vehicles.",
-    "ans3": "pedestrians.",
-    "ans": "ans2"
-  },
-  "Q59": {
-    "question":"What is the legal limit for blood alcohol content per 50ml of blood?",
-    "ans1": "40mg",
-    "ans2": "60mg",
-    "ans3": "80mg",
+    "question":"Which of the following is not a software firewall?",
+    "ans1": "Linksys Firewall",
+    "ans2": "Endian Firewall",
+    "ans3": "Windows Firewall",
     "ans": "ans1"
   },
+  "Q59": {
+    "question":"A firewall protects which of the following attacks?",
+    "ans1": "Phishing",
+    "ans2": "Dumpster diving",
+    "ans3": "Denial of Service (DoS)",
+    "ans": "ans3"
+  },
   "Q60": {
-    "question":"When parking, you must engage the handbrake",
-    "ans1": "at all times",
-    "ans2": "if you are on a slope",
-    "ans3": "only when facing downhil",
+    "question":"Packet filtering firewalls are deployed on ________",
+    "ans1": "routers",
+    "ans2": "switches",
+    "ans3": "hubs",
     "ans": "ans1"
   },
   "Q61": {
-    "question":"A cyclist is using the pedestrian crossing when red man is on, what should you do?",
-    "ans1": "Sample Konfabulator Widget",
-    "ans2": "Flash your headlights at him",
-    "ans3": "Slow down and let him cross",
+    "question":"The __________ defines the packet filtering firewall rules.",
+    "ans1": "Access Control List",
+    "ans2": "Protocols",
+    "ans3": "Policies",
     "ans": "ans1"
   },
   "Q62": {
-    "question":"Which of the following vehicle is not allowed in the tunnel?",
-    "ans1": "a 5m high vehicle",
-    "ans2": "a lorry carrying heavy goods",
-    "ans3": "a 12m long vehicle",
-    "ans": "ans2"
+    "question":"VPN is abbreviated as __________",
+    "ans1": "Visual Private Network",
+    "ans2": "Virtual Protocol Network",
+    "ans3": "Virtual Private Network",
+    "ans": "ans3"
   },
   "Q63": {
-    "question":"What are the consequences of tailgating?",
-    "ans1": "driver in front will drive faster",
-    "ans2": "driver in front of you may become nervous,stop suddenly and accident might occur",
-    "ans3": "no consequences",
-    "ans": "ans2"
+    "question":"____ provides an isolated tunnel across a public network for sending and receiving data privately, as if the computing devices were directly connected to the private network.",
+    "ans1": "Visual Private Network",
+    "ans2": "Virtual Protocol Network",
+    "ans3": "Virtual Private Network",
+    "ans": "ans3"
   },
   "Q64": {
-    "question":"Which Gear has the highest Speed?",
-    "ans1": "Gear 1",
-    "ans2": "Gear 3",
-    "ans3": "Gear 5",
+    "question":"Which of the statements are not true to classify VPN systems?",
+    "ans1": "Protocols used for tunnelling the traffic",
+    "ans2": "Whether VPNs are providing site-to-site or remote access connection",
+    "ans3": "Securing the network from bots and malwares",
     "ans": "ans3"
   },
   "Q65": {
-    "question":"Which is an incorrect statement?",
-    "ans1": "Interior car lights should be used at night when car is on the road.",
-    "ans2": "Dip you headlight when oncoming car is approaching",
-    "ans3": "Slow down when oncoming car is using high beam.",
-    "ans": "ans1"
+    "question":"_____ is one of the most secured Linux OS that provides anonymity and incognito option for securing its user data.",
+    "ans1": "Fedora",
+    "ans2": "Tails",
+    "ans3": "Ubuntu",
+    "ans": "ans2"
   },
   "Q66": {
-    "question":"When driving on the road, you should always position you vehicle",
-    "ans1": "to the left of the lane.",
-    "ans2": "to the centre of the lane.",
-    "ans3": "to the right of the lane.",
-    "ans": "ans2"
+    "question":"A __________ is a sequential segment of the memory location that is allocated for containing some data such as a character string or an array of integers.",
+    "ans1": "stack",
+    "ans2": "queue",
+    "ans3": "buffer",
+    "ans": "ans3"
   },
   "Q67": {
-    "question":"Is it ok to make a mobile phone call while you are driving on the expressway?",
-    "ans1": "Yes, if it is under emergencies.",
-    "ans2": "No, should never do that.",
-    "ans3": "Yes, but it will be an offence.",
-    "ans": "ans2"
+    "question":"In a _____________ attack, the extra data that holds some specific instructions in the memory for actions is projected by a cyber-criminal or penetration tester to crack the system.",
+    "ans1": "Phishing",
+    "ans2": "MiTM",
+    "ans3": "Buffer-overflow",
+    "ans": "ans3"
   },
   "Q68": {
-    "question":"When driving along two-way streets, we should always keep to ______",
-    "ans1": "Left",
-    "ans2": "Right",
-    "ans3": "Centre",
-    "ans": "ans1"
+    "question":"________ is a widespread app’s coding mistake made by developers which could be exploited by an attacker for gaining access or malfunctioning your system",
+    "ans1": "Memory leakage",
+    "ans2": "Buffer-overrun",
+    "ans3": "Less processing power",
+    "ans": "ans2"
   },
   "Q69": {
-    "question":"When can a vehicle enter and wait in the yellow-box at a junction, if not obstruct others?",
-    "ans1": "when trying to go straight while waiting for traffic turning left from the left.",
-    "ans2": "when trying to turn right while waiting for traffic from the left going straight to be clear.",
-    "ans3": "when trying to turn left while waiting for pedestrians crossing.",
+    "question":"Buffer-overflow may remain as a bug in apps if __________ are not done fully.",
+    "ans1": "boundary hacks",
+    "ans2": "memory checks",
+    "ans3": "boundary checks",
     "ans": "ans3"
   },
   "Q70": {
-    "question":"Do not park your vehicle or let your vehicle wait in",
-    "ans1": "any normal bus lanes between 7.30am to 9.30am, 5.00pm to 8.00pm on Mondays to Fridays.",
-    "ans2": "any full day bus lanes between 7.30am to 8pm on Mondays to Saturdays, except public holidays.",
-    "ans3": "any bus lanes at all times.",
-    "ans": "ans3"
-  },
-  "Q71": {
-    "question":"You are driving on an expressway and your companion gets vomiting sensation. You do not have any plastic bags in the car. What will you do?",
-    "ans1": "Stop the car immediately and let the companion go out.",
-    "ans2": "Judging the traffic, move towards the shoulder of the expressway and stop",
-    "ans3": "Turn on the hazard lights, carry on and try to reach a nearby facility",
+    "question":"Applications developed by programming languages like ____ and ______ have this common buffer-overflow error.",
+    "ans1": "Python, Ruby",
+    "ans2": "C, C++",
+    "ans3": "Tcl, C#",
     "ans": "ans2"
   },
+  "Q71": {
+    "question":"Why apps developed in languages like C, C++ is prone to Buffer-overflow?",
+    "ans1": "No string boundary checks in predefined functions",
+    "ans2": "No storage check in the external memory",
+    "ans3": "No processing power check",
+    "ans": "ans1"
+  },
   "Q72": {
-    "question":"Which of the following is not allowed on the expressway?",
-    "ans1": "a vehicle that has broken down before",
-    "ans2": "a vehicle which is higher than 4.5 m",
-    "ans3": "a motorcycle with side-car attached",
+    "question":"Among the two types ____________buffer-overflow is complex to execute and the least common attack that may take place.",
+    "ans1": "memory-based",
+    "ans2": "queue-based",
+    "ans3": "heap-based",
     "ans": "ans3"
   },
   "Q73": {
-    "question":"If the brake lights of your vehicle are not functioning,",
-    "ans1": "you still can drive it during day time in good weather.",
-    "ans2": "you should not drive it at all.",
-    "ans3": "you should drive it to workshop for repair immediately.",
-    "ans": "ans2"
-  },
-  "Q74": {
-    "question":"How should you react when you see a vehicle that displays DANGER HIGHLY FLAMMABLE?",
-    "ans1": "keep away from the vehicle",
-    "ans2": "overtake immediately",
-    "ans3": "U-turn to avoid that vehicle",
-    "ans": "ans1"
-  },
-  "Q75": {
-    "question":"If you are traveling at a speed of 80km/h, how many vehicle(s) length at least should be adhered to between your vehicle and the vehicle in front?",
-    "ans1": "10",
-    "ans2": "8",
-    "ans3": "5",
+    "question":"___________ buffer overflows, which are more common among attackers.",
+    "ans1": "Memory-based",
+    "ans2": "Queue-based",
+    "ans3": "Stack-based",
     "ans": "ans3"
   },
+  "Q74": {
+    "question":"With the lack of boundary check, the program ends abnormally and leads to ___________ error.",
+    "ans1": "logical",
+    "ans2": "segmentation",
+    "ans3": "compile-time",
+    "ans": "ans2"
+  },
+  "Q75": {
+    "question":"In an application that uses heap, the memory for data is allocated ___",
+    "ans1": "logical",
+    "ans2": "dynamically",
+    "ans3": "statically",
+    "ans": "ans2"
+  },
   "Q76": {
-    "question":"A cyclist is using the pedestrian crossing when red man is on, what should you do?",
-    "ans1": "Sample Konfabulator Widget",
-    "ans2": "Flash your headlights at him",
-    "ans3": "Slow down and let him cross",
+    "question":"In an application that uses stack, the memory for data is allocated _______",
+    "ans1": "logical",
+    "ans2": "dynamically",
+    "ans3": "statically",
     "ans": "ans3"
   },
   "Q77": {
-    "question":"The light turns green, after 15 seconds, the vehicle in front of you still not move, you should ______",
-    "ans1": "tap your horn to remind it to move off.",
-    "ans2": "keep on waiting.",
-    "ans3": "overtake it.",
+    "question":"Malicious code can be pushed into the _________ during ______________ attack",
+    "ans1": "stack, buffer-overflow",
+    "ans2": "queue, buffer-overflow",
+    "ans3": "memory-card, buffer-overflow",
     "ans": "ans1"
   },
   "Q78": {
-    "question":"A continuous white line along the centre of a road indicates",
-    "ans1": "Lane mark of a one-way road.",
-    "ans2": "Centre line of a two-way road.",
-    "ans3": "vehicles are allowed to park on the side of the road.",
-    "ans": "ans2"
-  },
-  "Q79": {
-    "question":"When approaching a roundabout, you should ______",
-    "ans1": "speed up so as not to cause any obstruction.",
-    "ans2": "slow down and give way to traffic on your right.",
-    "ans3": "always stop before proceeding.",
-    "ans": "ans2"
-  },
-  "Q80": {
-    "question":"Facility Signs are signs with",
-    "ans1": "white letters on green backgrounds with white borders",
-    "ans2": "black letters on white backgrounds with black borders",
-    "ans3": "yellow letters on green backgrounds with yellow borders",
-    "ans": "ans2"
-  },
-  "Q81": {
-    "question":"At what age can you start to apply to get a driving license?",
-    "ans1": "16",
-    "ans2": "18",
-    "ans3": "20",
-    "ans": "ans2"
-  },
-  "Q82": {
-    "question":"When turning,",
-    "ans1": "keep as close to the kerb as possible.",
-    "ans2": "keep a distance of at least 0.5 metres from the kerb.",
-    "ans3": "keep a distance of at least 1 metre from the kerb.",
+    "question":"Variables that gets created dynamically when a function (such as malloc()) is called is created in the form of _______ data-structure.",
+    "ans1": "array",
+    "ans2": "stack",
+    "ans3": "heap",
     "ans": "ans3"
   },
+  "Q79": {
+    "question":"Attackers commonly target ____________ for fetching IP address of a target or victim user",
+    "ans1": "websites",
+    "ans2": "ip tracker",
+    "ans3": "emails",
+    "ans": "ans1"
+  },
+  "Q80": {
+    "question":"Enumeration is done to gain information. Which of the following cannot be achieved using enumeration?",
+    "ans1": "IP Tables",
+    "ans2": "SNMP data, if not secured appropriately",
+    "ans3": "Private chats",
+    "ans": "ans3"
+  },
+  "Q81": {
+    "question":"______ suite is used for NTP enumeration.",
+    "ans1": "DNS",
+    "ans2": "NTP",
+    "ans3": "SNMP",
+    "ans": "ans1"
+  },
+  "Q82": {
+    "question":"enum4linux is used to enumerate _______",
+    "ans1": "Linux systems",
+    "ans2": "Windows systems",
+    "ans3": "Mac systems",
+    "ans": "ans1"
+  },
   "Q83": {
-    "question":"How can we identify those Advance Directional Signs?",
-    "ans1": "Rectangular with green background",
-    "ans2": "Rectangular but with a chevron shape on one end to indicate the direction",
-    "ans3": "Rectangular with white background",
+    "question":"______ is used that tries for guessing the usernames by using SMTP service",
+    "ans1": "smtp-user-enum",
+    "ans2": "smtp-enum",
+    "ans3": "snmp-enum",
     "ans": "ans1"
   },
   "Q84": {
-    "question":"Full day bus lanes are denoted by",
-    "ans1": "continuous yellow line",
-    "ans2": "dotted yellow line",
-    "ans3": "continuous red and yellow line",
-    "ans": "ans3"
-  },
-  "Q85": {
-    "question":"What is the first thing you should do to safely overtake another vehicle?",
-    "ans1": "Check Traffics Ahead",
-    "ans2": "Check Traffics Behind",
-    "ans3": "Check Blind Spot",
+    "question":"Network enumeration is the finding of __________ or devices on a network.",
+    "ans1": "hosts",
+    "ans2": "servers",
+    "ans3": "network connection",
     "ans": "ans1"
   },
+  "Q85": {
+    "question":"Which of the following do not comes under the intangible skills of hackers?",
+    "ans1": "Creative thinking",
+    "ans2": "Problem-solving capability",
+    "ans3": "Smart attacking potential",
+    "ans": "ans3"
+  },
   "Q86": {
-    "question":"Vehicles which have a speed limit of ___ shall use the left lane of the expressway inside Tunnels.",
-    "ans1": "60km/h and below",
-    "ans2": "55km/h and below",
-    "ans3": "50km/h and below",
+    "question":"_______________ is gained if you send especially skilled packets to a target machine.",
+    "ans1": "Active fingerprinting",
+    "ans2": "Passive fingerprinting",
+    "ans3": "OS fingerprinting",
     "ans": "ans1"
   },
   "Q87": {
-    "question":"Which of the following is a correct practice?",
-    "ans1": "Use plastic bag to top up fuel",
-    "ans2": "Switch off the engine while filling fuel",
-    "ans3": "se handphone in the vicinity of the petrol station",
+    "question":"_____________ is based on sniffer traces from the remote system.",
+    "ans1": "Active fingerprinting",
+    "ans2": "Passive fingerprinting",
+    "ans3": "OS fingerprinting",
     "ans": "ans2"
   },
   "Q88": {
-    "question":"A cyclist is using the pedestrian crossing when red man is on, what should you do?",
-    "ans1": "Sample Konfabulator Widget",
-    "ans2": "Flash your headlights at him",
-    "ans3": "Slow down and let him cross",
-    "ans": "ans3"
+    "question":"A _____________ is a network scanning practice through which hackers can use to conclude to a point which IP address from a list of IP addresses is mapping to live hosts",
+    "ans1": "ping-based hacking",
+    "ans2": "ping sweep",
+    "ans3": "ping-range",
+    "ans": "ans2"
   },
   "Q89": {
-    "question":"TSD stands for?",
-    "ans1": "Traffic Sign Display",
-    "ans2": "Traveling Sign Display",
-    "ans3": "Time Sign Display",
+    "question":"The _____________ command is used on Linux for getting the DNS and host-related information.",
+    "ans1": "nslookup",
+    "ans2": "dnslookup",
+    "ans3": "infolookup",
     "ans": "ans1"
   },
   "Q90": {
-    "question":"When the light turns green, how many seconds should you wait before proceeding?",
-    "ans1": "0.5 seconds",
-    "ans2": "8 seconds",
-    "ans3": "2 seconds",
-    "ans": "ans3"
+    "question":"_________ are piece of programs or scripts that allow hackers to take control over any system",
+    "ans1": "Exploits",
+    "ans2": "Antivirus",
+    "ans3": "Worms",
+    "ans": "ans1"
   },
   "Q91": {
-    "question":"Road signs and signals are meant mainly for",
-    "ans1": "pedestrians",
-    "ans2": "the traffic police.",
-    "ans3": "motorists.",
-    "ans": "ans3"
+    "question":"The process of finding vulnerabilities and exploiting them using exploitable scripts or programs are known as _____",
+    "ans1": "infiltrating",
+    "ans2": "exploitation",
+    "ans3": "hacking",
+    "ans": "ans2"
   },
   "Q92": {
-    "question":"Driving with bald / worn out tyres is dangerous since :",
-    "ans1": "your vehicle may skid",
-    "ans2": "you may lose control of your vehicle.",
-    "ans3": "both A and B",
+    "question":"Which of them is not a powerful vulnerability detecting tool?",
+    "ans1": "Nessus",
+    "ans2": "Nexpose",
+    "ans3": "Nmap",
     "ans": "ans3"
   },
   "Q93": {
-    "question":"While you are overtaking a vehicle and it suddenly increase its speed, you should ______",
-    "ans1": "slow down and return to your original position.",
-    "ans2": "accelerate and insist on your overtaking.",
-    "ans3": "race and wait for it to slow down.",
-    "ans": "ans1"
+    "question":"Which of the following is not a type of cyber crime?",
+    "ans1": "Data theft",
+    "ans2": "Forgery",
+    "ans3": "Installing antivirus for protection",
+    "ans": "ans3"
   },
   "Q94": {
-    "question":"You may overtake on the left only when",
-    "ans1": "you are approaching an accident area.",
-    "ans2": "you want to turn left at a junction.",
-    "ans3": "you are not sure if it is safe to overtake on the right.",
-    "ans": "ans2"
+    "question":"Which of the following is not a type of peer-to-peer cyber-crime?",
+    "ans1": "Phishing",
+    "ans2": "Injecting Trojans to a target victim",
+    "ans3": "Credit card details leak in deep web",
+    "ans": "ans3"
   },
   "Q95": {
     "question":"When can you use bus lanes?",
@@ -666,171 +666,171 @@
     "ans": "ans1"
   },
   "Q96": {
-    "question":"When driving in a heavy rain, which light(s) should be switched on?",
-    "ans1": "Hazard Light",
-    "ans2": "Headlight and hazard light",
-    "ans3": "Headlight and Taillight",
+    "question":"Which of the following attach is not used by LC4 to recover Windows password?",
+    "ans1": "Brute-force attack",
+    "ans2": "Dictionary attack",
+    "ans3": "MiTM attack",
     "ans": "ans3"
   },
   "Q97": {
-    "question":"Parallel continuous white lines along the centre of a road indicates",
-    "ans1": "No overtaking, also no parking on either side of the road.",
-    "ans2": "You may park, but not crossing the parallel lines.",
-    "ans3": "No parking, but you may cross the parallel lines when overtaking.",
-    "ans": "ans1"
+    "question":"_____is the world’s most popular vulnerability scanner used in companies for checking vulnerabilities in the network.",
+    "ans1": "Wireshark",
+    "ans2": "Nessus",
+    "ans3": "Snort",
+    "ans": "ans2"
   },
   "Q98": {
-    "question":"You may park your vehicle on the side of a road with _____",
-    "ans1": "broken white line along the centre.",
-    "ans2": "single continuous white line along the centre.",
-    "ans3": "parallel continuous white lines along the centre.",
-    "ans": "ans1"
-  },
-  "Q99": {
-    "question":"When may you cross the center line of a two-way road?",
-    "ans1": "When negotiating a sharp bend.",
-    "ans2": "When you cannot see clearly but you want to overtake the car in front",
-    "ans3": "When your path is obstructed by road works or parked vehicles.",
+    "question":"_____ is a tool which can detect registry issues in an operating system",
+    "ans1": "Network Stumbler",
+    "ans2": "Ettercap",
+    "ans3": "LANguard Network Security Scanner",
     "ans": "ans3"
   },
+  "Q99": {
+    "question":"________ is a debugger and exploration tool.",
+    "ans1": "Netdog",
+    "ans2": "Netcat",
+    "ans3": "Tcpdump",
+    "ans": "ans2"
+  },
   "Q100": {
-    "question":"According to revised seat belts rules, Adults below the height of ___ meters shall use booster seats or approved adjustable seat belts to lower the risk of injury in the event of an accident.",
-    "ans1": "1.35",
-    "ans2": "1.45",
-    "ans3": "1.50",
-    "ans": "1.35"
+    "question":"______ is a popular command-line packet analyser.",
+    "ans1": "Wireshark",
+    "ans2": "Snort",
+    "ans3": "Tcpdump",
+    "ans": "ans3"
   },
   "Q101": {
-    "question":"Can a Provisional Driving License (PDL) holder drive on the expressway?",
-    "ans1": "No, cannot.",
-    "ans2": "Yes, When he/she is accompanied by a qualified driving instructor.",
-    "ans3": "Yes, when the L plates are displayed on the vehicle.",
+    "question":"_____ is a platform that essentially keeps the log of data from networks, devices as well as applications in a single location",
+    "ans1": "EventLog Analyser",
+    "ans2": "Wireshark",
+    "ans3": "PacketFilter Analyzer",
     "ans": "ans1"
   },
   "Q102": {
-    "question":"What should you do to allow your car to stop in an emergency without skidding or losing control?",
-    "ans1": "drive slowly.",
-    "ans2": "drive fast but carefully",
-    "ans3": "constantly adjust speed of car to conditions on road",
+    "question":"______ is competent to restore corrupted Exchange Server Database files as well as recovering unapproachable mails in mailboxes",
+    "ans1": "Outlook",
+    "ans2": "Nessus",
+    "ans3": "Mailbox Exchange Recovery",
     "ans": "ans3"
   },
   "Q103": {
-    "question":"You hear an ambulance siren approaching from behind, you should",
-    "ans1": "slow down and keep to the left for it to pass.",
-    "ans2": "stop immediately for it to pass.",
-    "ans3": "maintain the speed for it to pass.",
-    "ans": "ans1"
+    "question":"_____ is a popular corporate security tool that is used to detect the attack on email with cloud only services",
+    "ans1": "Cain and Abel",
+    "ans2": "Proofpoint",
+    "ans3": "Angry IP Scanner",
+    "ans": "ans2"
   },
   "Q104": {
-    "question":"When should you check on the level of the engine oil?",
-    "ans1": "Regularly",
-    "ans2": "Only when you send the vehicle for inspection.",
-    "ans3": "When the very first time you drive the vehicle.",
-    "ans": "ans1"
+    "question":"______ helps in protecting corporate data, communications and other assets.",
+    "ans1": "Snort",
+    "ans2": "CipherCloud",
+    "ans3": "Burp Suit",
+    "ans": "ans2"
   },
   "Q105": {
-    "question":"What should you do when approaching speed bumps?",
-    "ans1": "Speed up to pass the speed bumps faster.",
-    "ans2": "Slow down.",
-    "ans3": "Stop and push your car over the speed bumps carefully.",
-    "ans": "ans2"
-  },
-  "Q106": {
-    "question":"To Apply for the Provisional Driving License(PDL), you must first pass",
-    "ans1": "the Riding Theory Test.",
-    "ans2": "the Basic Driving Theory Test.",
-    "ans3": "the Final Driving Theory Test",
-    "ans": "ans2"
-  },
-  "Q107": {
-    "question":"When is reversing from a side road to a main road allowed?",
-    "ans1": "When traffic is clear on main road.",
-    "ans2": "Never",
-    "ans3": "When you are in one way road",
+    "question":"_________ helps in protecting businesses against data breaches that may make threats to cloud",
+    "ans1": "Centrify",
+    "ans2": "Mailbox Exchange Recovery",
+    "ans3": "Nessus",
     "ans": "ans1"
   },
+  "Q106": {
+    "question":"______ is a weakness that can be exploited by attackers",
+    "ans1": "System with Virus",
+    "ans2": "System without firewall",
+    "ans3": "System with vulnerabilities",
+    "ans": "ans3"
+  },
+  "Q107": {
+    "question":"____ is the sum of all the possible points in software or system where unauthorized users can enter as well as extract data from the system",
+    "ans1": "Attack vector",
+    "ans2": "Attack surface",
+    "ans3": "Attack point",
+    "ans": "ans2"
+  },
   "Q108": {
-    "question":"After overtaking, you should ______",
-    "ans1": "return to your original lane when it is safe to do so.",
-    "ans2": "cut in sharply to your original lane.",
-    "ans3": "remain in the new lane.",
+    "question":"_______ is the cyclic practice for identifying & classifying and then solving the vulnerabilities in a system",
+    "ans1": "Bug protection",
+    "ans2": "Bug bounty",
+    "ans3": "Vulnerability management",
     "ans": "ans3"
   },
   "Q109": {
-    "question":"Where are emergency telephones located in the tunnel?",
-    "ans1": "alongside the fast lane every 10 metres",
-    "ans2": "at the exit and entrance",
-    "ans3": "next to the slow lane at about 100m intervals.",
-    "ans": "ans3"
+    "question":"________ is a special type of vulnerability that doesn’t possess risk",
+    "ans1": "Vulnerabilities without risk",
+    "ans2": "Vulnerabilities without attacker",
+    "ans3": "Vulnerabilities without action",
+    "ans": "ans1"
   },
   "Q110": {
-    "question":"Who needs to use a seat belt?",
-    "ans1": "Driver only",
-    "ans2": "Driver and the front passenger only",
-    "ans3": "Driver and all the passengers",
-    "ans": "ans3"
+    "question":"___ type of exploit requires accessing to any vulnerable system for enhancing privilege for an attacker to run the exploit",
+    "ans1": "Local exploits",
+    "ans2": "Remote exploits",
+    "ans3": "System exploits",
+    "ans": "ans1"
   },
   "Q111": {
-    "question":"Driving licences are classified based on the different types of motor vehicles and all together there are ______ classes of driving licence in Singapore.",
-    "ans1": "6",
-    "ans2": "9",
-    "ans3": "12",
-    "ans": "ans2"
+    "question":"____ is a technique used by penetration testers to compromise any system within a network for targeting other systems",
+    "ans1": "Exploiting",
+    "ans2": "Cracking",
+    "ans3": "Pivoting",
+    "ans": "ans3"
   },
   "Q112": {
-    "question":"To keep your focus on the road ahead While driving, you should avoid:",
-    "ans1": "checking your rear view and side mirrors.",
-    "ans2": "talking to passengers in the vehicle.",
-    "ans3": "looking at a map or directory.",
-    "ans": "ans3"
+    "question":"_____ is the timeframe from when the loophole in security was introduced till the time when the bug was fixed",
+    "ans1": "Time-frame of vulnerability",
+    "ans2": "Window of vulnerability",
+    "ans3": "Time-lap of vulnerability",
+    "ans": "ans2"
   },
   "Q113": {
-    "question":"When approaching a school or hospital,",
-    "ans1": "you should never sound your horn.",
-    "ans2": "you may sound your horn when necessary to avoid accident.",
-    "ans3": "you should always slow down.",
-    "ans": "ans2"
+    "question":"An attacker, who is an employee of your firm may ___________ to know your system password",
+    "ans1": "Shoulder surfing",
+    "ans2": "Phishing",
+    "ans3": "Spamming",
+    "ans": "ans1"
   },
   "Q114": {
-    "question":"Which of the following is not allowed on the expressway?",
-    "ans1": "a vehicle that has broken down before",
-    "ans2": "a vehicle which is higher than 4.5 m",
-    "ans3": "a motorcycle with side-car attached",
-    "ans": "ans3"
-  },
-  "Q115": {
-    "question":"Tyres that have treads less than ______ in depth should be replaced.",
-    "ans1": "1.0 mm",
-    "ans2": "1.6 mm",
-    "ans3": "2.0 mm",
+    "question":"_____ will encrypt all your system files and will ask you to pay a ransom in order to decrypt all the files and unlock the system",
+    "ans1": "Scareware",
+    "ans2": "Ransomware",
+    "ans3": "Adware",
     "ans": "ans2"
   },
+  "Q115": {
+    "question":"The attacker will use different bots (zombie PCs) to ping your system and the name of the attack is ________",
+    "ans1": "Distributed Denial-of-Service (DDoS)",
+    "ans2": "Permanent Denial-of-Service (PDoS)",
+    "ans3": "Controlled Denial-of-Service (CDoS)",
+    "ans": "ans1"
+  },
   "Q116": {
-    "question":"Visibility is poor, however you noticed there are oncoming vehicles and cyclists, you should",
-    "ans1": "switch the headlight from low beam to high beam.",
-    "ans2": "switch the headlight from high beam to low beam.",
-    "ans3": "switch off the headlight.",
+    "question":"Which of them is not a major way of stealing email information?",
+    "ans1": "Stealing cookies",
+    "ans2": "Reverse Engineering",
+    "ans3": "Password Phishing",
     "ans": "ans2"
   },
   "Q117": {
-    "question":"A cyclist is using the pedestrian crossing when red man is on, what should you do?",
-    "ans1": "Sample Konfabulator Widget",
-    "ans2": "Flash your headlights at him",
-    "ans3": "Slow down and let him cross",
+    "question":"______ is a famous technological medium for the spread of malware, facing problems of spam, & phishing attacks",
+    "ans1": "Cloud",
+    "ans2": "Website",
+    "ans3": "Email",
     "ans": "ans3"
   },
   "Q118": {
-    "question":"Can you drive motorcycle if you only have a car license?",
-    "ans1": "yes",
-    "ans2": "no",
-    "ans3": "depends on situation",
-    "ans": "ans2"
+    "question":"Which of them is not a proper method for email security?",
+    "ans1": "Use Strong password",
+    "ans2": "Use email Encryption",
+    "ans3": "Click on unknown links to explore",
+    "ans": "ans3"
   },
   "Q119": {
-    "question":"How should you check the blind spots?",
-    "ans1": "turn your head and look over your shoulders.",
-    "ans2": "check through the side view mirrors.",
-    "ans3": "check through the rear view mirrors.",
+    "question":"Which of them is an example of grabbing email information?",
+    "ans1": "Cookie stealing",
+    "ans2": "Reverse engineering",
+    "ans3": "Port scanning",
     "ans": "ans1"
   },
   "Q120": {
@@ -841,108 +841,444 @@
     "ans": "ans2"
   },
   "Q121": {
-    "question":"Which of the following people can not drive?",
-    "ans1": "Pregnant women",
-    "ans2": "drunk people",
-    "ans3": "students",
+    "question":"____ is the technique used for tricking users to disclose their username and passwords through fake pages",
+    "ans1": "Social Engineering",
+    "ans2": "Phishing",
+    "ans3": "Banner Grabbing",
     "ans": "ans2"
   },
   "Q122": {
-    "question":"Which of the following is INCORRECT? You are allowed to overtake",
-    "ans1": "at any road junction",
-    "ans2": "on the right even if you are turning left",
-    "ans3": "on the right if you are turning right",
+    "question":"In _______________ attacks an attacker do not contact with authorizing party for stealing password",
+    "ans1": "passive online",
+    "ans2": "active online",
+    "ans3": "non-electronic",
     "ans": "ans1"
   },
   "Q123": {
-    "question":"Which of the following is NOT applicable to parallel continuous white lines in the center of a two-way road?",
-    "ans1": "No parking on either side of the road",
-    "ans2": "Vehicles should keep to the right of these lines",
-    "ans3": "Vehicles are not allowed to cross these lines",
-    "ans": "ans2"
+    "question":"Which of the following is not an example of a passive online attack?",
+    "ans1": "MiTM",
+    "ans2": "Reply Attack",
+    "ans3": "Phishing",
+    "ans": "ans3"
   },
   "Q124": {
-    "question":"What should you not do when you are at the bend, brow of a hill or a bridge?",
-    "ans1": "speed up a little if too slow, but ensure not to exceed the speed limit of the road or the vehicle.",
-    "ans2": "park or let your vehicle wait",
-    "ans3": "drive slowly and carefully",
-    "ans": "ans2"
+    "question":"Which of the following do not comes under hurdles of passive online attack for hackers?",
+    "ans1": "Hard to perpetrate",
+    "ans2": "Computationally complex",
+    "ans3": "Tools not available",
+    "ans": "ans3"
   },
   "Q125": {
-    "question":"When is tailgating acceptable?",
-    "ans1": "When you want the vehicle in front to speed up",
-    "ans2": "when you want the vehicle in front to give way",
-    "ans3": "tailgating is never acceptable",
+    "question":"Which of the following case comes under victims’ list of an active online attack?",
+    "ans1": "Strong password based accounts",
+    "ans2": "Unsecured HTTP users",
+    "ans3": "Open authentication points",
     "ans": "ans3"
   },
   "Q126": {
-    "question":"Red circular signs are",
-    "ans1": "Regulatory signs - meant to regulate traffic movement.",
-    "ans2": "Prohibitory signs - obey these signs at all times.",
-    "ans3": "Warning signs - slow down and proceed with caution",
-    "ans": "ans2"
+    "question":"________ attack is a combination of Dictionary attack & brute force attack",
+    "ans1": "Syllable",
+    "ans2": "Syllabi",
+    "ans3": "Database",
+    "ans": "ans1"
   },
   "Q127": {
-    "question":"When entering a school zone, a driver should:",
-    "ans1": "Speed up and exit the school zone quickly so that you won't obstruct the school buses",
-    "ans2": "Proceed cautiously and maintain within the speed limit of the school zone",
-    "ans3": "Slow down to 20Km/h so that you can react effectively when a children rushes out of the road",
+    "question":"A _____________ attack one of the simplest processes of gaining access to any password-protected system",
+    "ans1": "Clickjacking",
+    "ans2": "Brute force",
+    "ans3": "Eavesdropping",
     "ans": "ans2"
   },
   "Q128": {
-    "question":"Who shall wear booster seat or approved adjustable seat belt instead of wearing a normal seat belt when traveling in a vehicle?",
-    "ans1": "Passengers with height above 1.35 meters",
-    "ans2": "Passengers with height below 1.35 meters",
-    "ans3": "Passengers with height above 2.0 meters",
-    "ans": "ans2"
+    "question":"___________ are based on dictionary attack techniques.",
+    "ans1": "Hybrid attacks",
+    "ans2": "Network attacks",
+    "ans3": "Database attacks",
+    "ans": "ans1"
   },
   "Q129": {
-    "question":"What should you do if you see an accident on the road?",
-    "ans1": "speed up and pass through quickly",
-    "ans2": "Slow down and proceed with caution",
-    "ans3": "Stop and see what is happening",
-    "ans": "ans2"
+    "question":"_____ gets propagated through networks and technologies like SMS, Bluetooth, wireless medium, USBs and infrared to affect mobile phones",
+    "ans1": "Worms",
+    "ans2": "Antivirus",
+    "ans3": "Malware",
+    "ans": "ans3"
   },
   "Q130": {
-    "question":"Prohibitory or restrictive signs are",
-    "ans1": "usually circular with red borders.",
-    "ans2": "usually squarish with red borders.",
-    "ans3": "usually circular with white borders.",
-    "ans": "ans1"
+    "question":"DDoS in mobile systems wait for the owner of the _____________ to trigger the attack",
+    "ans1": "worms",
+    "ans2": "virus",
+    "ans3": "botnets",
+    "ans": "ans3"
   },
   "Q131": {
-    "question":"The penalty for drink driving is a fine of 1,000 to 5,000 dollars or a maximum term of 6 months imprisonment, plus",
-    "ans1": "one year disqualification of driving licence.",
-    "ans2": "6 month disqualification of driving licence.",
-    "ans3": "9 month disqualification of driving licence.",
-    "ans": "ans1"
+    "question":"Which among them has the strongest wireless security?",
+    "ans1": "WEP",
+    "ans2": "WPA",
+    "ans3": "WPA3",
+    "ans": "ans3"
   },
   "Q132": {
-    "question":"When driving on steel plates laid on unfinished road works, you should",
-    "ans1": "speed up to pass through quickly.",
-    "ans2": "slow down.",
-    "ans3": "maintain your speed",
-    "ans": "ans2"
-  },
-  "Q133": {
-    "question":"Which of the following is correct?",
-    "ans1": "adjust your mirror before adjusting the position of your seat",
-    "ans2": "adjust your mirror after adjusting the position of your seat",
-    "ans3": "adjust your mirror and seat position after moving off",
-    "ans": "ans2"
-  },
-  "Q134": {
-    "question":"On unlit roads, you should _____.",
-    "ans1": "use the high beam lights",
-    "ans2": "use the low beam lights",
-    "ans3": "flashing your headlights",
+    "question":"The three steps of data loss prevention are – Identify, Discover and_____",
+    "ans1": "Classify",
+    "ans2": "Clarify",
+    "ans3": "Deletion",
     "ans": "ans1"
   },
+  "Q133": {
+    "question":"Which of the following is not a type of virus?",
+    "ans1": "Boot sector",
+    "ans2": "Polymorphic",
+    "ans3": "Trojans",
+    "ans": "ans3"
+  },
+  "Q134": {
+    "question":"________ works in background and steals sensitive data",
+    "ans1": "Virus",
+    "ans2": "Shareware",
+    "ans3": "Trojan",
+    "ans": "ans3"
+  },
   "Q135": {
-    "question":"What should you do when starting an uphill climb?",
-    "ans1": "Drive in a zig-zag fashion to improve tyre traction.",
-    "ans2": "Change to a lower gear.",
-    "ans3": "Change to a higher gear.",
+    "question":"Trojan creators do not look for ________",
+    "ans1": "Credit card information",
+    "ans2": "Confidential data",
+    "ans3": "Securing systems with such programs",
+    "ans": "ans3"
+  },
+  "Q136": {
+    "question":"Which of the following port is not used by Trojans?",
+    "ans1": "UDP",
+    "ans2": "TCP",
+    "ans3": "MP",
+    "ans": "ans3"
+  },
+  "Q137": {
+    "question":"Trojans can not _______",
+    "ans1": "steal data",
+    "ans2": "self-replicate",
+    "ans3": "steal login credentials",
     "ans": "ans2"
-  }
+  },
+  "Q138": {
+    "question":"Botnets are managed by _______",
+    "ans1": "Bot-holders",
+    "ans2": "Bot-herders",
+    "ans3": "Bot-trainers",
+    "ans": "ans2"
+  },
+  "Q139": {
+    "question":"________ are implemented to carry out distributed DDoS attacks, steal data, send spam messages & permits the hacker to access various devices & its connection",
+    "ans1": "Trojan",
+    "ans2": "Virus",
+    "ans3": "Botnet",
+    "ans": "ans2"
+  },
+  "Q140": {
+    "question":"The intent of a ______________ is to overkill the targeted server’s bandwidth and other resources of the target website",
+    "ans1": "Phishing attack",
+    "ans2": "DoS attack",
+    "ans3": "Website attack",
+    "ans": "ans2"
+  },
+  "Q141": {
+    "question":"Which of the following is not a type of application layer DoS?",
+    "ans1": "HTTP flooding",
+    "ans2": "TCP flooding",
+    "ans3": "DNS query flooding",
+    "ans": "ans2"
+  },
+  "Q142": {
+    "question":"Phishers often develop ______________ websites for tricking users & filling their personal data",
+    "ans1": "legitimate",
+    "ans2": "illegitimate",
+    "ans3": "genuine",
+    "ans": "ans2"
+  },
+  "Q143": {
+    "question":"_______ refers to phishing performed over smart-phone by calling",
+    "ans1": "Algo-based phishing",
+    "ans2": "Email-based phishing",
+    "ans3": "Vishing",
+    "ans": "ans3"
+  },
+  "Q144": {
+    "question":"______________ is usually targeted by nature where the emails are exclusively designed to target any exact user.",
+    "ans1": "Algo-based phishing",
+    "ans2": "Vishing",
+    "ans3": "Spear phishing",
+    "ans": "ans3"
+  },
+  "Q145": {
+    "question":"_______ is data interception method used by hackers",
+    "ans1": "Phishing",
+    "ans2": "DoS",
+    "ans3": "Sniffing",
+    "ans": "ans3"
+  },
+  "Q146": {
+    "question":"Sniffing is also known as _________",
+    "ans1": "network-tapping",
+    "ans2": "wiretapping",
+    "ans3": "wireless-tapping",
+    "ans": "ans2"
+  },
+  "Q147": {
+    "question":"Which of them is not an objective of sniffing for hackers?",
+    "ans1": "Fetching passwords",
+    "ans2": "Email texts",
+    "ans3": "Geographic location of a user",
+    "ans": "ans3"
+  },
+  "Q148": {
+    "question":"Which of the below-mentioned protocol is not susceptible to sniffing?",
+    "ans1": "HTTP",
+    "ans2": "SMTP",
+    "ans3": "TCP",
+    "ans": "ans3"
+  },
+  "Q149": {
+    "question":"______ attack is the exploitation of the web-session & its mechanism that is usually managed with a session token",
+    "ans1": "Session Hacking",
+    "ans2": "Session Hijacking",
+    "ans3": "Session Compromising",
+    "ans": "ans2"
+  },
+  "Q150": {
+    "question":"Since most _______________________ occur at the very beginning of the TCP session, this allows hackers to gain access to any system",
+    "ans1": "authentications",
+    "ans2": "breaches",
+    "ans3": "integrations",
+    "ans": "ans1"
+  },
+  "Q151": {
+    "question":"The ______________ hijacking is implemented on the data flow of protocol shared by all web applicationsm",
+    "ans1": "network level",
+    "ans2": "physical level",
+    "ans3": "application level",
+    "ans": "ans1"
+  },
+  "Q152": {
+    "question":" Which of the following is not an appropriate method of defacing web server?",
+    "ans1": "Fetching credentials through MiTM",
+    "ans2": "Brute-forcing Admin Password",
+    "ans3": "IP address spoofing",
+    "ans": "ans3"
+  },
+  "Q153": {
+    "question":"Which of the following is not an appropriate method of web application hacking?",
+    "ans1": "XSS",
+    "ans2": "CSRF",
+    "ans3": "Brute-force",
+    "ans": "ans3"
+  },
+  "Q154": {
+    "question":"Which of the following is not a threat of web application?",
+    "ans1": "Reverse engineering",
+    "ans2": "Command injection",
+    "ans3": "Buffer Overflow",
+    "ans": "ans1"
+  },
+  "Q155": {
+    "question":"Which of the following scripting language is used for injecting executable malicious code for web-app hacking?",
+    "ans1": "C++",
+    "ans2": "Python",
+    "ans3": "Javascript",
+    "ans": "ans3"
+  },
+  "Q156": {
+    "question":"____ are unwanted software intended to pitch advertisements upon the user’s screen, most often within a web browser",
+    "ans1": "Shareware",
+    "ans2": "Adware",
+    "ans3": "Ransomware",
+    "ans": "ans2"
+  },
+  "Q157": {
+    "question":"Users might invite some bogus virus in his/her system by clicking the ______",
+    "ans1": "Shareware",
+    "ans2": "Adware",
+    "ans3": "URL",
+    "ans": "ans2"
+  },
+  "Q158": {
+    "question":"Which among the following is not a symptom of your system compromised with adware?",
+    "ans1": "Website links redirect to sites unlike from what user is intended",
+    "ans2": "Web browser acts slows to a crawl",
+    "ans3": "System takes restarts frequently",
+    "ans": "ans3"
+  },
+  "Q159": {
+    "question":"_______ are unnecessary software which infiltrates user’s system, spy on user’s activities, stealing internet usage data & sensitive information of that user",
+    "ans1": "Shareware",
+    "ans2": "Spyware",
+    "ans3": "Ransomware",
+    "ans": "ans2"
+  },
+  "Q160": {
+    "question":"_______ are unnecessary software which infiltrates user’s system, spy on user’s activities, stealing internet usage data & sensitive information of that user",
+    "ans1": "Shareware",
+    "ans2": "Spyware",
+    "ans3": "Ransomware",
+    "ans": "ans2"
+  },
+  "Q161": {
+    "question":"Spyware collects user’s personal data & spreads it to______________ data-firms, or its creator.",
+    "ans1": "advertisers",
+    "ans2": "dark-market",
+    "ans3": "antivirus company",
+    "ans": "ans1"
+  },
+  "Q162": {
+    "question":"Which of the following activity is not done by spyware?",
+    "ans1": "sell internet usage data",
+    "ans2": "capture credit card details",
+    "ans3": "steal signature of the different virus",
+    "ans": "ans3"
+  },
+  "Q163": {
+    "question":"_______ track the user’s online activities like search queries, history pages & downloads, for selling purposes",
+    "ans1": "Ad-based spyware",
+    "ans2": "System Monitors",
+    "ans3": "Tracking cookies",
+    "ans": "ans3"
+  },
+  "Q164": {
+    "question":"_________ tracks your data and displays those products as ads for promotions",
+    "ans1": "Ad-based spyware",
+    "ans2": "System Monitors",
+    "ans3": "Tracking cookies",
+    "ans": "ans1"
+  },
+  "Q165": {
+    "question":"Which of the following activity is a good aspect of reverse engineering in ethical hacking?",
+    "ans1": "Cracking the trial version of the product to make it full-version",
+    "ans2": "Removing the product key insertion step",
+    "ans3": "Determine whether the app contains any undocumented functionality",
+    "ans": "ans3"
+  },
+  "Q166": {
+    "question":"Some security issues might exist owing to misconfigured __________________ which can direct to disclosure of information regarding the domain.",
+    "ans1": "DNS names",
+    "ans2": "HTTP setup",
+    "ans3": "ISP setup",
+    "ans": "ans1"
+  },
+  "Q167": {
+    "question":"__________ can be attained by the use of malware or by changing the server’s settings.",
+    "ans1": "DNS poisoning",
+    "ans2": "DNS cracking",
+    "ans3": "DNS hijacking",
+    "ans": "ans3"
+  },
+  "Q168": {
+    "question":"A ______________ is essentially a text file residing on the server that hosts different domain containing entries for dissimilar resource records",
+    "ans1": "Zone file",
+    "ans2": "Robot file",
+    "ans3": "DNS file",
+    "ans": "ans1"
+  },
+  "Q169": {
+    "question":"Which of the following is not an objective of scanning?",
+    "ans1": "Detection of the live system running on network",
+    "ans2": "Discovering the IP address of the target system",
+    "ans3": "Detection of spyware in a system",
+    "ans": "ans3"
+  },
+  "Q170": {
+    "question":"Conventional cryptography is also known as _____________ or symmetric-key encryption",
+    "ans1": "secret-key",
+    "ans2": "public key",
+    "ans3": "protected key",
+    "ans": "ans1"
+  },
+  "Q171": {
+    "question":"Data Encryption Standard is an example of a _____________ cryptosystem",
+    "ans1": "conventional",
+    "ans2": "public key",
+    "ans3": "asymmetric-key",
+    "ans": "ans1"
+  },
+  "Q172": {
+    "question":"_______ cryptography operates on binary-bit series and strings",
+    "ans1": "Modern",
+    "ans2": "Classic",
+    "ans3": "Traditional",
+    "ans": "ans1"
+  },
+  "Q173": {
+    "question":"______________ is the art & science of cracking the cipher-text without knowing the key",
+    "ans1": "Cracking",
+    "ans2": "Cryptanalysis",
+    "ans3": "Cryptography",
+    "ans": "ans2"
+  },
+  "Q174": {
+    "question":"The method of reverting the encrypted text which is known as cipher text to its original form i.e. plain text is known as ______",
+    "ans1": "cryptanalysis",
+    "ans2": "decryption",
+    "ans3": "encryption",
+    "ans": "ans2"
+  },
+  "Q175": {
+    "question":"Which of the following is not the primary objective of cryptography?",
+    "ans1": "Confidentiality",
+    "ans2": "Data Integrity",
+    "ans3": "Data Redundancy",
+    "ans": "ans3"
+  },
+  "Q176": {
+    "question":"_________ takes the plain text and the key as input for creating cipher-text",
+    "ans1": "Decryption Algorithm",
+    "ans2": "Hashing Algorithm",
+    "ans3": "Tuning Algorithm",
+    "ans": "ans1"
+  },
+  "Q177": {
+    "question":"A set of all probable decryption keys are collectively termed as _____",
+    "ans1": "key-stack",
+    "ans2": "key bunch",
+    "ans3": "key space",
+    "ans": "ans3"
+  },
+  "Q178": {
+    "question":"________ is the concept that tells us about the replacement of every alphabet by another alphabet and the entire series gets ‘shifted’ by some fixed quantity.",
+    "ans1": "Rolling Cipher",
+    "ans2": "Shift Cipher",
+    "ans3": "Playfair Cipher",
+    "ans": "ans2"
+  },
+  "Q179": {
+    "question":"_______ employs a text string as a key that is implemented to do a series of shifts on the plain-text",
+    "ans1": "Vigenere Cipher",
+    "ans2": "Shift Cipher",
+    "ans3": "Playfair Cipher",
+    "ans": "ans2"
+  },
+  "Q180": {
+    "question":"The procedure to add bits to the last block is termed as ______________",
+    "ans1": "decryption",
+    "ans2": "hashing",
+    "ans3": "padding",
+    "ans": "ans3"
+  },
+  "Q181": {
+    "question":"The term _____________ means taking care of a user’s name as well as the identity hidden or veiled using a variety of applications",
+    "ans1": "pseudonymous",
+    "ans2": "anonymous",
+    "ans3": "eponymous",
+    "ans": "ans2"
+  },
+  "Q182": {
+    "question":"______ services are examples of anonymity services that conceal the location and usage of any user",
+    "ans1": "Tor",
+    "ans2": "Encrypted router",
+    "ans3": "Firewall",
+    "ans": "ans1"
+  },
+  "Q183": {
+    "question":"By using ______________ you can diminish the chance of data leakage",
+    "ans1": "Cryptography",
+    "ans2": "Tomography",
+    "ans3": "Chorography",
+    "ans": "ans3"
+  },
 }}
