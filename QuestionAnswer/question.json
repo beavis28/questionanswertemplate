@@ -85,17 +85,17 @@
     "ans": "ans1"
   },
   "Q13": {
-    "question":"When integrity is lacking in a security system, _________ occurs.",
-    "ans1": "30 km in length and 20 km in breadth",
-    "ans2": "25 km in length and 14 km in breadth",
-    "ans3": "42 km in length and 23 km in breadth",
+    "question":"As a backup for securing your device, it is necessary to create a ________",
+    "ans1": "backup point",
+    "ans2": "copy of files in separate drives",
+    "ans3": "restore point",
     "ans": "ans3"
   },
   "Q14": {
-    "question":"The majority of the immigrants from India were southern Indians. ",
-    "ans1": "Database hacking",
-    "ans2": "Data deletion",
-    "ans3": "Data tampering",
+    "question":"Which of the following is not a steganography tool?",
+    "ans1": "Xaio steganography",
+    "ans2": "Image steganography",
+    "ans3": "ReaperExploit",
     "ans": "ans3"
   },
   "Q15": {
@@ -176,10 +176,10 @@
     "ans": "ans2"
   },
   "Q26": {
-    "question":"In which phase, the hackers install backdoors so that his/her ownership with the victim’s system can be retained later?",
-    "ans1": "Scanning",
-    "ans2": "Maintaining access",
-    "ans3": "Maintaining Access",
+    "question":"Which of the following is not a web server attack type?",
+    "ans1": "DOS attack",
+    "ans2": "Website Defacement using SQLi",
+    "ans3": "Password guessing",
     "ans": "ans3"
   },
   "Q27": {
@@ -659,11 +659,11 @@
     "ans": "ans3"
   },
   "Q95": {
-    "question":"When can you use bus lanes?",
-    "ans1": "Outside of restricted hours.",
-    "ans2": "When there are no buses around.",
-    "ans3": "Bus lanes must never be used by cars.",
-    "ans": "ans1"
+    "question":"_____ are essential because they frequently comprises of critical patches to security holes.",
+    "ans1": "System software",
+    "ans2": "Utility Software",
+    "ans3": "Software updates",
+    "ans": "ans3"
   },
   "Q96": {
     "question":"Which of the following attach is not used by LC4 to recover Windows password?",
@@ -834,10 +834,10 @@
     "ans": "ans1"
   },
   "Q120": {
-    "question":"When should you switch on the hazard light, if your vehicle encounters problem on the road?",
-    "ans1": "while you are bringing the vehicles to a stop",
-    "ans2": "only after the vehicle has completely stopped",
-    "ans3": "after you have displayed the vehicle breakdown sign",
+    "question":"Which of the following is a session hijacking tool?",
+    "ans1": "T-Sight",
+    "ans2": "Wireshark",
+    "ans3": "Maltego",
     "ans": "ans2"
   },
   "Q121": {
