@@ -225,7 +225,7 @@
     "ans": "ans2"
   },
   "Q33": {
-    "question":"Why is this keyword not preferred in JavaScript?",
+    "question":"Why is keyword 'this' not preferred in JavaScript?",
     "ans1": "Highly memory consuming",
     "ans2": "Functions should access the global objects",
     "ans3": "Functions should not access the global objects",
