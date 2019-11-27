@@ -737,7 +737,7 @@
   },
   "Q106": {
     "question":"Pick the correct statement about string objects in C++.",
-    "ans1": "String objects must be terminated by a null character(‘\0’)",
+    "ans1": "String objects must be terminated by a null character",
     "ans2": "String objects have a static size",
     "ans3": "String objects have a dynamic size",
     "ans": "ans3"
@@ -974,24 +974,24 @@
     "ans": "ans1"
   },
   "Q140": {
-    "question":"What do vectors represent?",
-    "ans1": "Static arrays",
-    "ans2": "Dynamic arrays",
-    "ans3": "Queue",
-    "ans": "ans2"
-  },
-  "Q141": {
-    "question":"Pick out the correct statement about vector.",
-    "ans1": "vector<int> values (5)",
-    "ans2": "vector values (5)",
-    "ans3": "vector<int> (5)",
+    "question":"What is any in C++?",
+    "ans1": "STL container used to store a single value of any type",
+    "ans2": "Exception class in C++",
+    "ans3": "Fundamental type provided by C++",
     "ans": "ans1"
   },
+  "Q141": {
+    "question":"Which of the following syntax is used to convert any variable to its original type?",
+    "ans1": "any_cast<variable_name>();",
+    "ans2": "<original_type>(variable_name);",
+    "ans3": "any_cast<original_type>(variable_name);",
+    "ans": "ans3"
+  },
   "Q142": {
-    "question":"How the list containers are implemented?",
-    "ans1": "Using Double linked list",
-    "ans2": "Using Single linked list",
-    "ans3": "Using linear linked list",
+    "question":"Which header file is required to use any container?",
+    "ans1": "<any>",
+    "ans2": "<stl>",
+    "ans3": "<container-any>",
     "ans": "ans1"
   },
   "Q143": {
@@ -1002,48 +1002,188 @@
     "ans": "ans1"
   },
   "Q144": {
-    "question":"What do maps and sets support?",
-    "ans1": "Single directional iterators",
-    "ans2": "Bi-directional iterators",
-    "ans3": "functional iterators",
-    "ans": "ans2"
+    "question":"Which type of heap is implemented in STL heap?",
+    "ans1": "max heap",
+    "ans2": "min heap",
+    "ans3": "middle heap",
+    "ans": "ans1"
   },
   "Q145": {
-    "question":"What type of access does deque and vector provide?",
-    "ans1": "Linear access",
-    "ans2": "Parallel access",
-    "ans3": "Random access",
-    "ans": "ans3"
+    "question":"Which function is used to insert an element into heap?",
+    "ans1": "push_back()",
+    "ans2": "push_heap()",
+    "ans3": "pop_back()",
+    "ans": "ans2"
   },
   "Q146": {
-    "question":"What is a pair?",
-    "ans1": "Container consisting of one header and two data elements of the same type",
-    "ans2": "Container consisting of two data elements of different type",
-    "ans3": "Container consisting of two data elements can have the same or different type",
-    "ans": "ans3"
+    "question":"Elements in STL heap are removed in ____",
+    "ans1": "decreasing order",
+    "ans2": "increasing order",
+    "ans3": "input order",
+    "ans": "ans1"
   },
   "Q147": {
-    "question":"Which of the following is the correct syntax of using pair p?",
-    "ans1": "pair <type,type> p;",
-    "ans2": "pair p <type,type>;",
-    "ans3": "pair [type,type] p;",
+    "question":"What is vtable in C++?",
+    "ans1": "Lookup table to resolve function calls in dynamic manners",
+    "ans2": "Lookup table to resolve function calls in static manners",
+    "ans3": "Lookup table to check how many functions are there int he program",
     "ans": "ans1"
   },
   "Q148": {
-    "question":"Which operator is used to access the first or second element of a pair?",
-    "ans1": "->",
-    "ans2": ".",
-    "ans3": "*",
+    "question":"Which classes can have vtable?",
+    "ans1": "Classes having friend functions",
+    "ans2": "Classes having virtual functions",
+    "ans3": "Classes having static functions",
     "ans": "ans2"
   },
   "Q149": {
-    "question":"Which of the following is the correct syntax of accessing the first element of a pair p?",
-    "ans1": "p.first",
-    "ans2": "p[0]",
-    "ans3": "p[1]",
+    "question":"What are the Generators in C++?",
+    "ans1": "An object that generates uniformly distributed numbers",
+    "ans2": "An object that generates a number from a given sequence",
+    "ans3": "An object that generates the smallest number from a given range",
     "ans": "ans1"
   },
   "Q150": {
+    "question":"What is the use of is_array() function in C++?",
+    "ans1": "To check if a variable is array type or not",
+    "ans2": "To check if a variable is 1-D array type or not",
+    "ans3": "To check if a variable is 2-D array type or not",
+    "ans": "ans1"
+  },
+  "Q151": {
+    "question":"What is the use of rank() function in C++?",
+    "ans1": "Returns size of each dimension",
+    "ans2": "Returns how many elements are in array currently",
+    "ans3": "Returns the dimension of an array",
+    "ans": "ans3"
+  },
+  "Q152": {
+    "question":"Which of the following is correct about extent() function?",
+    "ans1": "Returns how many elements are in array currently",
+    "ans2": "Returns the size of the 1st dimension",
+    "ans3": "Returns the size of a given dimension",
+    "ans": "ans3"
+  },
+  "Q153": {
+    "question":"Which of the following is the correct way of declaring a tuple?",
+    "ans1": "tuple tp<type1, type2, type3>;",
+    "ans2": "tuple tp = new tuple<type1, type2, type3>;",
+    "ans3": "tuple <type1, type2, type3> tp;",
+    "ans": "ans3"
+  },
+  "Q154": {
+    "question":"Which of the following function is used to initialize a tuple?",
+    "ans1": "make_pair()",
+    "ans2": "make_tuple()",
+    "ans3": "make_Tuple()",
+    "ans": "ans1"
+  },
+  "Q155": {
+    "question":"What does the size of the vector refers to in c++?",
+    "ans1": "Type of vector",
+    "ans2": "Number of elements",
+    "ans3": "Size of vector",
+    "ans": "ans2"
+  },
+  "Q156": {
+    "question":"Which operator is used to insert the data into file?",
+    "ans1": ">>",
+    "ans2": "<<",
+    "ans3": "<",
+    "ans": "ans2"
+  },
+  "Q157": {
+    "question":"Which header file is used for reading and writing to a file?",
+    "ans1": "#include<iostream>",
+    "ans2": "#include<fstream>",
+    "ans3": "#include<file>",
+    "ans": "ans2"
+  },
+  "Q158": {
+    "question":"Which of the following is the correct syntax of declaring a complex number?",
+    "ans1": "complex variable_name<type>;",
+    "ans2": "complex<type> variable_name;",
+    "ans3": "Complex<type> variable_name;",
+    "ans": "ans2"
+  },
+  "Q159": {
+    "question":"Which header file is required to use file I/O operations?",
+    "ans1": "<ifstream>",
+    "ans2": "<ostream>",
+    "ans3": "<fstream>",
+    "ans": "ans3"
+  },
+  "Q160": {
+    "question":"Which header file is used for reading and writing to a file?",
+    "ans1": "#include<iostream>",
+    "ans2": "#include<fstream>",
+    "ans3": "#include<file>",
+    "ans": "ans2"
+  },
+  "Q161": {
+    "question":"Which of the following is used to create an output stream?",
+    "ans1": "ofstream",
+    "ans2": "ifstream",
+    "ans3": "iostream",
+    "ans": "ans1"
+  },
+  "Q162": {
+    "question":"Which of the following is not used as a file opening mode?",
+    "ans1": "ios::trunc",
+    "ans2": "ios::binary",
+    "ans3": "ios::in",
+    "ans": "ans1"
+  },
+  "Q163": {
+    "question":"What is the use of ios::trunc mode?",
+    "ans1": "To open a file in input mode",
+    "ans2": "To open a file in output mode",
+    "ans3": "To truncate an existing file to zero",
+    "ans": "ans3"
+  },
+  "Q164": {
+    "question":"Which of the following is not used to seek file pointer?",
+    "ans1": "ios::cur",
+    "ans2": "ios::end",
+    "ans3": "ios::set",
+    "ans": "ans3"
+  },
+  "Q165": {
+    "question":"Which function is used to reposition the file pointer?",
+    "ans1": "moveg()",
+    "ans2": "seekg()",
+    "ans3": "changep()",
+    "ans": "ans2"
+  },
+  "Q166": {
+    "question":"What is lambda expression in C++?",
+    "ans1": "A technique of C++ that allows us to write inline functions without a name",
+    "ans2": "A technique of C++ that allows us to write overloaded functions",
+    "ans3": "A technique of C++ that allows us to write functions that are called more than once",
+    "ans": "ans1"
+  },
+  "Q167": {
+    "question":"What is the syntax of defining lambda expression?",
+    "ans1": "[capture clause](parameters) -> return_type { body of the function }",
+    "ans2": "[parameters](capture clause) -> return_type { body of the function }",
+    "ans3": "[parameters:capture clause]() -> return_type { body of the function }",
+    "ans": "ans1"
+  },
+  "Q168": {
+    "question":"Which of the following operator is used to capture all the external variable by reference?",
+    "ans1": "=",
+    "ans2": "&",
+    "ans3": "&&",
+    "ans": "ans2"
+  },
+  "Q169": {
+    "question":"Which is the correct syntax of capturing a variable ‘X’ by reference and other variable ‘Y’ by value in lambda expression?",
+    "ans1": "[&X, Y]",
+    "ans2": "[X, Y]",
+    "ans3": "[X, &Y]",
+    "ans": "ans1"
+  },
+  "Q170": {
     "question":"What is meant by template specialization?",
     "ans1": "It will have certain data types to be fixed",
     "ans2": "It will make certain data types to be dynamic",

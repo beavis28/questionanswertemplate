@@ -24,7 +24,7 @@
 		5D50BE6B2219016D005EAD40 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
 		5D50BE6D22190193005EAD40 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		5D50BE6F221901DC005EAD40 /* ReviewTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTestViewController.swift; sourceTree = "<group>"; };
-		5DE30E262213F0F9000AF932 /* Javascript Q&A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Javascript Q&A.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE30E262213F0F9000AF932 /* C++ Q&A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "C++ Q&A.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE30E292213F0F9000AF932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DE30E2E2213F0F9000AF932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DE30E302213F0FB000AF932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		5DE30E272213F0F9000AF932 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5DE30E262213F0F9000AF932 /* Javascript Q&A.app */,
+				5DE30E262213F0F9000AF932 /* C++ Q&A.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,7 +143,7 @@
 			);
 			name = QuestionAnswer;
 			productName = QuestionAnswer;
-			productReference = 5DE30E262213F0F9000AF932 /* Javascript Q&A.app */;
+			productReference = 5DE30E262213F0F9000AF932 /* C++ Q&A.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -381,8 +381,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.javascriptqanda;
-				PRODUCT_NAME = "Javascript Q&A";
+				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.cplusplusqanda;
+				PRODUCT_NAME = "C++ Q&A";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -401,8 +401,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.javascriptqanda;
-				PRODUCT_NAME = "Javascript Q&A";
+				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.cplusplusqanda;
+				PRODUCT_NAME = "C++ Q&A";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
