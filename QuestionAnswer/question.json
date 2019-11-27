@@ -1,703 +1,1053 @@
 
 {"questions": {
   "Q1": {
-    "question":"The escape sequence ‘\f’ stands for _________",
-    "ans1": "Floating numbers",
-    "ans2": "Representation of functions that returns a value",
-    "ans3": "Form feed",
-    "ans": "ans3"
+    "question":"Wrapping data and its related functionality into a single entity is known as _______",
+    "ans1": "Abstraction",
+    "ans2": "Encapsulation",
+    "ans3": "Polymorphism",
+    "ans": "ans1"
   },
   "Q2": {
-    "question":"The statement a===b refers to _________",
-    "ans1": "Both a and b are equal in value, type and reference address",
-    "ans2": "Both a and b are equal in value",
-    "ans3": "Both a and b are equal in value and type",
-    "ans": "ans3"
+    "question":"How structures and classes in C++ differ?",
+    "ans1": "In Structures, members are public by default whereas, in Classes, they are private by default",
+    "ans2": "In Structures, members are private by default whereas, in Classes, they are public by default",
+    "ans3": "Structures by default hide every member whereas classes do not",
+    "ans": "ans1"
   },
   "Q3": {
-    "question":"The snippet that has to be used to check if 'a' is not equal to null is _________",
-    "ans1": "if(a!=null)",
-    "ans2": "if (!a)",
-    "ans3": "if(a!==null)",
+    "question":"Which of the following class allows to declare only one object of it?",
+    "ans1": "Abstract class",
+    "ans2": "Virtual class",
+    "ans3": "Singleton class",
     "ans": "ans3"
   },
   "Q4": {
-    "question":"Assume that we have to convert 'false' that is a non-string to string. The command that we use is",
-    "ans1": "false.toString()",
-    "ans2": "String(false)",
-    "ans3": "Both false.toString() and String(false)",
-    "ans": "ans3"
+    "question":"Which of the following is correct?",
+    "ans1": "Base class pointer object cannot point to a derived class object",
+    "ans2": "Derived class pointer object cannot point to a base class object",
+    "ans3": "A base class cannot have pointer objects",
+    "ans": "ans2"
   },
   "Q5": {
-    "question":"The unordered collection of properties, each of which has a name and a value is called",
-    "ans1": "String",
-    "ans2": "Object",
-    "ans3": "Array",
+    "question":"Out of the following, which is not a member of the class?",
+    "ans1": "Static function",
+    "ans2": "Friend function",
+    "ans3": "Virtual function",
     "ans": "ans2"
   },
   "Q6": {
-    "question":"The object has three object attributes namely",
-    "ans1": "Class, parameters, object’s extensible flag",
-    "ans2": "Prototype, class, objects’ parameters",
-    "ans3": "Prototype, class, object’s extensible flag",
+    "question":"Which of the following cannot be a friend?",
+    "ans1": "Function",
+    "ans2": "Class",
+    "ans3": "Object",
     "ans": "ans3"
   },
   "Q7": {
-    "question":"Consider the code snippet given below \n var count = [1,,3]; \n What is the observation made?",
-    "ans1": "The omitted value takes “undefined”",
-    "ans2": "This results in an error",
-    "ans3": "This results in an exception",
-    "ans": "ans1"
+    "question":"Why references are different from pointers?",
+    "ans1": "A reference cannot be made null",
+    "ans2": "A reference cannot be changed once initialized",
+    "ans3": "All of the mentioned",
+    "ans": "ans3"
   },
   "Q8": {
-    "question":"The pop() method of the array does which of the following task ?",
-    "ans1": "decrements the total length by 1",
-    "ans2": "increments the total length by 1",
-    "ans3": "prints the first element but no effect on the length",
-    "ans": "ans1"
+    "question":"How run-time polymorphisms are implemented in C++?",
+    "ans1": "Using Virtual functions",
+    "ans2": "Using Templates",
+    "ans3": "Using Inheritance and Virtual functions",
+    "ans": "ans3"
   },
   "Q9": {
-    "question":"What will happen if reverse() and join() methods are used simultaneously?",
-    "ans1": "Reverses and stores in the same array",
-    "ans2": "Reverses and concatenates the elements of the array",
-    "ans3": "Reverses",
-    "ans": "ans1"
+    "question":"How compile-time polymorphisms are implemented in C++?",
+    "ans1": "Using Inheritance",
+    "ans2": "Using Virtual functions",
+    "ans3": "Using Templates",
+    "ans": "ans3"
   },
   "Q10": {
-    "question":"What is the purpose of a return statement in a function?",
-    "ans1": "Stops executing the function and returns the value",
-    "ans2": "Returns the value and stops executing the function",
-    "ans3": "Returns the value and stops the program",
-    "ans": "ans1"
+    "question":"Which concept means the addition of new components to a program as it runs?",
+    "ans1": "Data hiding",
+    "ans2": "Dynamic binding",
+    "ans3": "Dynamic loading",
+    "ans": "ans3"
   },
   "Q11": {
-    "question":"What will happen if a return statement does not have an associated expression?",
-    "ans1": "It will throw an exception",
-    "ans2": "It returns the undefined value",
-    "ans3": "It returns the value 0",
+    "question":"Which of the following cannot be used with the virtual keyword?",
+    "ans1": "Class",
+    "ans2": "Constructors",
+    "ans3": "Destructors",
     "ans": "ans2"
   },
   "Q12": {
-    "question":"var grand_Total=eval(\"10*10+5\");",
-    "ans1": "10*10+5",
-    "ans2": "105 as a string",
-    "ans3": "105 as an integer value",
-    "ans": "ans3"
+    "question":"Which members are inherited but are not accessible in any case?",
+    "ans1": "Private",
+    "ans2": "Public",
+    "ans3": "Protected",
+    "ans": "ans1"
   },
   "Q13": {
-    "question":"var tensquared = (function(x) {return x*x;}(10)); \n Will the above code work ?",
-    "ans1": "Yes, perfectly",
-    "ans2": "Error",
-    "ans3": "Exception will be thrown",
+    "question":"What is virtual inheritance?",
+    "ans1": "C++ technique to avoid multiple copies of the base class into children/derived class",
+    "ans2": "C++ technique to avoid multiple inheritances of classes",
+    "ans3": "C++ technique to enhance multiple inheritance",
     "ans": "ans1"
   },
   "Q14": {
-    "question":"var string2Num=parseInt(\"123xyz\"); ",
-    "ans1": "123",
-    "ans2": "123xyz",
-    "ans3": "Exception",
-    "ans": "ans1"
-  },
-  "Q15": {
-    "question":"What kind of scoping does JavaScript use?",
-    "ans1": "Literal",
-    "ans2": "Lexical",
-    "ans3": "Segmental",
+    "question":"What is the difference between delete and delete[] in C++?",
+    "ans1": "delete is used to delete normal objects whereas delete[] is used to pointer objects",
+    "ans2": "delete is used to delete single object whereas delete[] is used to multiple(array/pointer of) objects",
+    "ans3": "delete is a keyword whereas delete[] is an identifier",
     "ans": "ans2"
   },
+  "Q15": {
+    "question":"Which of the following is not a fundamental type is not present in C but present in C++?",
+    "ans1": "int",
+    "ans2": "float",
+    "ans3": "bool",
+    "ans": "ans3"
+  },
   "Q16": {
-    "question":"What must be done in order to implement Lexical Scoping?",
-    "ans1": "Reference the current scope chain",
-    "ans2": "Dereference the current scope chain",
-    "ans3": "Get the object",
+    "question":"What is the size of a boolean variable in C++?",
+    "ans1": "1 bit",
+    "ans2": "1 byte",
+    "ans3": "4 bytes",
     "ans": "ans1"
   },
   "Q17": {
-    "question":"What is a closure?",
-    "ans1": "Function objects",
-    "ans2": "Scope where function’s variables are resolved",
-    "ans3": "Both Function objects and Scope where function’s variables are resolved",
-    "ans": "ans3"
+    "question":"What is dynamic binding?",
+    "ans1": "The process of linking the actual code with a procedural call during run-time",
+    "ans2": "The process of linking the actual code with a procedural call during compile-time",
+    "ans3": "The process of linking the actual code with a procedural call at any-time",
+    "ans": "ans1"
   },
   "Q18": {
-    "question":"What is the fundamental rule of lexical scoping?",
-    "ans1": "Functions are declared in the scope",
-    "ans2": "Functions are executed using scope chain",
-    "ans3": "Functions are declared outside the scope",
+    "question":"Which of the following operator is used with this pointer to access members of a class?",
+    "ans1": "!",
+    "ans2": "->",
+    "ans3": ".",
     "ans": "ans2"
   },
   "Q19": {
-    "question":"The behaviour of the instances present of a class inside a method is defined by __________",
-    "ans1": "Method",
-    "ans2": "Classes",
-    "ans3": "Interfaces",
-    "ans": "ans2"
+    "question":"Why this pointer is used?",
+    "ans1": "To access the members of a class which have the same name as local variables in that scope",
+    "ans2": "To access all the data stored under that class",
+    "ans3": "To access objects of other variables",
+    "ans": "ans1"
   },
   "Q20": {
-    "question":"var o = new F(); \n o.constructor === F \n The output would be:",
-    "ans1": "false",
-    "ans2": "true",
-    "ans3": "0",
-    "ans": "ans2"
+    "question":"Which of the following is correct about static variables?",
+    "ans1": "Static functions do not support polymorphism",
+    "ans2": "Static data members cannot be accessed by non-static member functions",
+    "ans3": "Static data members functions can access only static data members",
+    "ans": "ans3"
   },
   "Q21": {
-    "question":"The basic difference between JavaScript and Java is _________",
-    "ans1": "Functions are considered as fields",
-    "ans2": "Variables are specific",
-    "ans3": "Functions are values, and there is no hard distinction between methods and fields",
-    "ans": "ans3"
+    "question":"The value 132.54 can be represented using which data type?",
+    "ans1": "double",
+    "ans2": "void",
+    "ans3": "int",
+    "ans": "ans1"
   },
   "Q22": {
-    "question":"The meaning for Augmenting classes is that:",
-    "ans1": "objects inherit prototype properties even in dynamic state",
-    "ans2": "objects inherit prototype properties only in dynamic state",
-    "ans3": "objects inherit prototype properties in static state",
-    "ans": "ans1"
+    "question":"Which of these expressions will return true if the input integer v is a power of two?",
+    "ans1": "(v | (v + 1)) == 0;",
+    "ans2": "(~v & (v – 1)) == 0;",
+    "ans3": "(v & (v – 1)) == 0;",
+    "ans": "ans3"
   },
   "Q23": {
-    "question":"The property of JSON() method is:",
-    "ans1": "it can be invoked manually as object.JSON()",
-    "ans2": "it will be automatically invoked by the compiler",
-    "ans3": "it is invoked automatically by the JSON.stringify() method",
-    "ans": "ans3"
-  },
-  "Q24": {
-    "question":"When a class B can extend another class A, we say that:",
-    "ans1": "A is the superclass and B is the subclass",
-    "ans2": "B is the superclass and A is the subclass",
-    "ans3": "Both A and B are the superclass",
+    "question":"How do we represent a wide character of the form wchar_t?",
+    "ans1": "L’a’",
+    "ans2": "l’a’",
+    "ans3": "L[a]",
     "ans": "ans1"
   },
+  "Q24": {
+    "question":"The size of an object or a type can be determined using which operator?",
+    "ans1": "malloc",
+    "ans2": "sizeof",
+    "ans3": "calloc",
+    "ans": "ans2"
+  },
   "Q25": {
-    "question":"If A is the superclass and B is the subclass, then subclass inheriting the superclass can be represented as _________",
-    "ans1": "B=inherit(A);",
-    "ans2": "B=A.inherit();",
-    "ans3": "B.prototype=inherit(A);",
-    "ans": "ans3"
+    "question":"In which type do the enumerators are stored by the compiler?",
+    "ans1": "string",
+    "ans2": "integer",
+    "ans3": "float",
+    "ans": "ans2"
   },
   "Q26": {
-    "question":"The ‘$’ present in the RegExp object is called a ____________",
-    "ans1": "character",
-    "ans2": "matcher",
-    "ans3": "metacharacter",
-    "ans": "ans3"
+    "question":"What will happen when defining the enumerated type?",
+    "ans1": "it will not allocate memory",
+    "ans2": "it will allocate memory",
+    "ans3": "allocate memory to objects",
+    "ans": "ans1"
   },
   "Q27": {
-    "question":"The regular expression to match any one character not between the brackets is __________",
-    "ans1": "[…]",
-    "ans2": "[^]",
-    "ans3": "[^…]",
+    "question":"What does the following statement mean?\n int (*fp)(char*)",
+    "ans1": "pointer to a pointer",
+    "ans2": "pointer to an array of chars",
+    "ans3": "pointer to function taking a char* argument and returns an int",
     "ans": "ans3"
   },
   "Q28": {
-    "question":"What is the most essential purpose of parantheses in regular expressions?",
-    "ans1": "Define pattern matching techniques",
-    "ans2": "Define subpatterns within the complete pattern",
-    "ans3": "Define portion of strings in the regular expression",
-    "ans": "ans2"
-  },
-  "Q29": {
-    "question":"The method that performs the search-and-replace operation to strings for pattern matching is _______",
-    "ans1": "searchandreplace()",
-    "ans2": "edit()",
-    "ans3": "replace()",
-    "ans": "ans3"
-  },
-  "Q30": {
-    "question":"The Crockford’s subset does not include which function in JavaScript?",
-    "ans1": "eval()",
-    "ans2": "coeval()",
-    "ans3": "equal()",
+    "question":"The operator used for dereferencing or indirection is ____",
+    "ans1": "*",
+    "ans2": "&",
+    "ans3": "->",
     "ans": "ans1"
   },
+  "Q29": {
+    "question":"Choose the right option.\n string* x, y;",
+    "ans1": "x is a pointer to a string, y is a string",
+    "ans2": "y is a pointer to a string, x is a string",
+    "ans3": "both x and y are pointers to string types",
+    "ans": "ans1"
+  },
+  "Q30": {
+    "question":"Which one of the following is not a possible state for a pointer.",
+    "ans1": "hold the address of the specific object",
+    "ans2": "zero",
+    "ans3": "point to a type",
+    "ans": "ans3"
+  },
   "Q31": {
-    "question":"What does javascript use instead of == and !=?",
-    "ans1": "It uses bitwise checking",
-    "ans2": "It uses === and !== instead",
-    "ans3": "It uses equals() and notequals() instead",
-    "ans": "ans2"
+    "question":"Which of the following is illegal?",
+    "ans1": "int *ip;",
+    "ans2": "string s, *sp = 0;",
+    "ans3": "int i; double* dp = &i;",
+    "ans": "ans3"
   },
   "Q32": {
-    "question":"What is being imposed on each subset to ensure that it conforms to the subset?",
-    "ans1": "A parser to parse the code",
-    "ans2": "A parser that parses and adds to the subset",
-    "ans3": "A static verifier that parses code",
+    "question":"The correct statement for a function that takes pointer to a float, a pointer to a pointer to a char and returns a pointer to a pointer to a integer is ___",
+    "ans1": "int **fun(float**, char**)",
+    "ans2": "int **fun(float*, char**)",
+    "ans3": "int ***fun(*float, **char)",
     "ans": "ans2"
   },
   "Q33": {
-    "question":"Why is keyword 'this' not preferred in JavaScript?",
-    "ans1": "Highly memory consuming",
-    "ans2": "Functions should access the global objects",
-    "ans3": "Functions should not access the global objects",
-    "ans": "ans2"
+    "question":"Which of the following correctly declares an array?",
+    "ans1": "int array[10];",
+    "ans2": "int array;",
+    "ans3": "array{10};",
+    "ans": "ans1"
   },
   "Q34": {
-    "question":"Which are the two functions that are not allowed in any secure subset?",
-    "ans1": "evaluate() and restrict()",
-    "ans2": "debugger() and test()",
-    "ans3": "eval() and debugger()",
-    "ans": "ans3"
+    "question":"What is the index number of the last element of an array with 9 elements?",
+    "ans1": "9",
+    "ans2": "8",
+    "ans3": "10",
+    "ans": "ans2"
   },
   "Q35": {
-    "question":"Which is the object that defines methods that allow complete control over page content?",
-    "ans1": "The client-side document object",
-    "ans2": "The server-side document object",
-    "ans3": "Both client-side and server-side document object",
+    "question":"Which of the following accesses the seventh element stored in array?",
+    "ans1": "array[6];",
+    "ans2": "array[7];",
+    "ans3": "array(7);",
     "ans": "ans1"
   },
   "Q36": {
-    "question":"const pi=3.14; \n var pi=4; \n console.log(pi); \n What will be the output for the above code snippet?",
-    "ans1": "This will flash an error",
-    "ans2": "Prints 4",
-    "ans3": "Prints 3.14",
-    "ans": "ans1"
+    "question":"Which of the following gives the memory address of the first element in array?",
+    "ans1": "array[0];",
+    "ans2": "array[1];",
+    "ans3": "array;",
+    "ans": "ans3"
   },
   "Q37": {
-    "question":"The main difference between the variables declared with var and with let is __________",
-    "ans1": "var is confined to a particular function but let is not",
-    "ans2": "let is confined to a particular function but var is not",
-    "ans3": "var defines values based on conditions but let does not",
+    "question":"What is the meaning of the following declaration?\n int(*p[5])();",
+    "ans1": "p is pointer to function",
+    "ans2": "p is array of pointer to function",
+    "ans3": "p is pointer to such function which return type is the array",
     "ans": "ans2"
   },
   "Q38": {
-    "question":"data.sort(function(a,b),b-a); \n What does the above code do?",
-    "ans1": "Sort in the alphabetical order",
-    "ans2": "Sort in reverse numerical order",
-    "ans3": "Sort in reverse alphabetical order",
+    "question":"What is size of generic pointer in C++ (in 32-bit platform)?",
+    "ans1": "2",
+    "ans2": "4",
+    "ans3": "8",
     "ans": "ans2"
   },
   "Q39": {
-    "question":"What will be the reaction when a catch clause has no conditionals?",
-    "ans1": "Takes it to be 0",
-    "ans2": "Takes it to be true",
-    "ans3": "Takes it to be false",
-    "ans": "ans2"
+    "question":"How are the constants declared?",
+    "ans1": "const keyword",
+    "ans2": "#define preprocessor",
+    "ans3": "both const keyword and #define preprocessor",
+    "ans": "ans3"
   },
   "Q40": {
-    "question":"What is the return type of typeof for standard JavaScript objects?",
-    "ans1": "xml",
-    "ans2": "object",
-    "ans3": "dom",
-    "ans": "ans2"
+    "question":"Which value can we not assign to reference?",
+    "ans1": "integer",
+    "ans2": "floating",
+    "ans3": "null",
+    "ans": "ans3"
   },
   "Q41": {
-    "question":"What are the events generated by the Node objects called?",
-    "ans1": "generators",
-    "ans2": "emitters",
-    "ans3": "dispatchers",
+    "question":"Identify the incorrect statement.",
+    "ans1": "Reference is the alternate name of the object",
+    "ans2": "A reference value once defined can be reassigned",
+    "ans3": "A reference value once defined cannot be reassigned",
     "ans": "ans2"
   },
   "Q42": {
-    "question":"What is the function used to deregister event handler ‘f’?",
-    "ans1": "deleteAllListeners(name)",
-    "ans2": "deleteListener(name,f)",
-    "ans3": "removeListener(name,f)",
-    "ans": "ans3"
+    "question":"Which reference modifier is used to define the reference variable?",
+    "ans1": "&",
+    "ans2": "$",
+    "ans3": "#",
+    "ans": "ans1"
   },
   "Q43": {
-    "question":"Which function is a synonym for on()?",
-    "ans1": "addListener()",
-    "ans2": "listeners()",
-    "ans3": "add()",
+    "question":"Identify the correct sentence regarding inequality between reference and pointer.",
+    "ans1": "we can not create the array of reference",
+    "ans2": "we can create the Array of reference",
+    "ans3": "we can use reference to reference",
     "ans": "ans1"
   },
   "Q44": {
-    "question":"A JavaScript program can traverse and manipulate document content through",
-    "ans1": "Element Object",
-    "ans2": "Document Object",
-    "ans3": "Both Element and Document Object",
+    "question":"The pointer can point to any variable that is not declared with which of these?",
+    "ans1": "const",
+    "ans2": "volatile",
+    "ans3": "both const & volatile",
     "ans": "ans3"
   },
   "Q45": {
-    "question":"Which of the following is an event emitter?",
-    "ans1": "once",
-    "ans2": "process",
-    "ans3": "listeners",
+    "question":"The data elements in the structure are also known as what?",
+    "ans1": "objects",
+    "ans2": "members",
+    "ans3": "data",
     "ans": "ans2"
   },
   "Q46": {
-    "question":"What is the method used to pause 'data' events?",
-    "ans1": "s.pause();",
-    "ans2": "s.stop();",
-    "ans3": "s.halt();",
+    "question":"What will happen when the structure is declared?",
+    "ans1": "it will not allocate any memory",
+    "ans2": "it will allocate the memory",
+    "ans3": "it will be declared and initialized",
     "ans": "ans1"
   },
   "Q47": {
-    "question":"When the 'end' event fires on EOF when no more data will arrive, which function is called?",
-    "ans1": "s.on(\"data\",f);",
-    "ans2": "s.on(\"end\",f);",
-    "ans3": "s.on(\"error\",f);",
-    "ans": "ans2"
+    "question":"Which of the following is a properly defined structure?",
+    "ans1": "struct {int a;}",
+    "ans2": "struct a_struct {int a;}",
+    "ans3": "struct a_struct {int a;};",
+    "ans": "ans3"
   },
   "Q48": {
-    "question":"Which of the following are global functions that are not part of core JavaScript?",
-    "ans1": "spawn(f);",
-    "ans2": "trim();",
-    "ans3": "exult();",
+    "question":"Which of the following accesses a variable in structure *b?",
+    "ans1": "b->var;",
+    "ans2": "b.var;",
+    "ans3": "b-var;",
     "ans": "ans1"
   },
   "Q49": {
-    "question":"Which is a fast C++ based JavaScript interpreter?",
-    "ans1": "Closures",
-    "ans2": "Node",
-    "ans3": "Sockets",
-    "ans": "ans2"
+    "question":"Which function is used to check whether a character is an alphabet?",
+    "ans1": "isalpha()",
+    "ans2": "isalnum()",
+    "ans3": "isdigit()",
+    "ans": "ans1"
   },
   "Q50": {
-    "question":"Why does the Node rely on event handlers?",
-    "ans1": "APIs are synchronous",
-    "ans2": "APIs are asynchronous",
-    "ans3": "APIs are reusable",
+    "question":"Which function is used to check whether a character is an alphabet or number?",
+    "ans1": "isalpha()",
+    "ans2": "isalnum()",
+    "ans3": "isdigit()",
     "ans": "ans2"
   },
   "Q51": {
-    "question":"What is the command to run the node programs?",
-    "ans1": "node(program.js)",
-    "ans2": "program.js",
-    "ans3": "node program.js",
+    "question":"Which function is used to check whether a character is a number?",
+    "ans1": "isalpha()",
+    "ans2": "isalnum()",
+    "ans3": "isdigit()",
     "ans": "ans3"
   },
   "Q52": {
-    "question":"What is the alternative command used in Node for load()?",
-    "ans1": "store()",
-    "ans2": "module()",
-    "ans3": "require()",
+    "question":"Which function is used to check whether a character is a tab or space?",
+    "ans1": "isalpha()",
+    "ans2": "isalnum()",
+    "ans3": "isblank()",
     "ans": "ans3"
   },
   "Q53": {
-    "question":"What is the command used for debugging output in Node?",
-    "ans1": "print();",
-    "ans2": "console.log(…);",
-    "ans3": "debug(…);",
+    "question":"Which operator is having the right to left associativity in the following?",
+    "ans1": "Array subscripting",
+    "ans2": "Type cast",
+    "ans3": "Function call",
     "ans": "ans2"
   },
   "Q54": {
-    "question":"Among the below given functions, Node supports which of the following client-side timer functions?",
-    "ans1": "getInterval()",
-    "ans2": "Interval()",
-    "ans3": "clearTimeout()",
-    "ans": "ans3"
+    "question":"What is the use of dynamic_cast operator?",
+    "ans1": "it converts virtual base class to derived class",
+    "ans2": "it converts the virtual base object to derived objects",
+    "ans3": "it will convert the operator based on precedence",
+    "ans": "ans1"
   },
   "Q55": {
-    "question":"The necessary globals of a node are defined under which namespace?",
-    "ans1": "variables",
-    "ans2": "system",
-    "ans3": "process",
+    "question":"How many can max number of arguments present in function in the c99 compiler?",
+    "ans1": "99",
+    "ans2": "90",
+    "ans3": "127",
     "ans": "ans3"
   },
   "Q56": {
-    "question":"Why does Node not block while waiting for operations to complete?",
-    "ans1": "Static",
-    "ans2": "Asynchronous",
-    "ans3": "Synchronous",
+    "question":"Which is more effective while calling the functions?",
+    "ans1": "call by value",
+    "ans2": "call by reference",
+    "ans3": "call by pointer",
     "ans": "ans2"
   },
   "Q57": {
-    "question":"Which is the method used for registering handlers?",
-    "ans1": "on()",
-    "ans2": "register()",
-    "ans3": "include()",
+    "question":"What is the scope of the variable declared in the user defined function?",
+    "ans1": "only inside the {} block",
+    "ans2": "the main function",
+    "ans3": "whole program",
     "ans": "ans1"
   },
   "Q58": {
-    "question":"Which object is the main entry point to all client-side JavaScript features and APIs?",
-    "ans1": "Standard",
-    "ans2": "Window",
-    "ans3": "Position",
+    "question":"Which is used to keep the call by reference value as intact?",
+    "ans1": "static",
+    "ans2": "const",
+    "ans3": "virtual",
     "ans": "ans2"
   },
   "Q59": {
-    "question":"Which Window object method is used to display message in a dialog box?",
-    "ans1": "alert()",
-    "ans2": "prompt()",
-    "ans3": "console.log()",
+    "question":"By default how the value are passed in c++?",
+    "ans1": "call by value",
+    "ans2": "call by reference",
+    "ans3": "call by pointer",
     "ans": "ans1"
   },
   "Q60": {
-    "question":"The setTimeout() method is used to",
-    "ans1": "Make the event sleep",
-    "ans2": "Register a function to be invoked after a certain time",
-    "ans3": "Invoke an event after a certain time",
+    "question":"What will you use if you are not intended to get a return value?",
+    "ans1": "static",
+    "ans2": "void",
+    "ans3": "volatile",
     "ans": "ans2"
   },
   "Q61": {
-    "question":"Which of the following is a global object?",
-    "ans1": "Register",
-    "ans2": "Location",
-    "ans3": "Window",
-    "ans": "ans3"
+    "question":"Where does the return statement returns the execution of the program?",
+    "ans1": "main function",
+    "ans2": "caller function",
+    "ans3": "block function",
+    "ans": "ans2"
   },
   "Q62": {
-    "question":"What is the property to access the first child of a node?",
-    "ans1": "timestamp.Child1",
-    "ans2": "timestamp.Child(0)",
-    "ans3": "timestamp.firstChild",
-    "ans": "ans3"
+    "question":"Overloaded functions are _______",
+    "ans1": "Very long functions that can hardly run",
+    "ans2": "Two or more functions with the same name but different number of parameters or type",
+    "ans3": "One function containing another one or more functions inside it",
+    "ans": "ans2"
   },
   "Q63": {
-    "question":"What are the properties supporting CSS styles for a document element?",
-    "ans1": "style and font",
-    "ans2": "style and className",
-    "ans3": "size and style",
+    "question":"What will happen while using pass by reference?",
+    "ans1": "The values of those variables are passed to the function so that it can manipulate them",
+    "ans2": "The location of variable in memory is passed to the function so that it can use the same memory area for its processing",
+    "ans3": "The function declaration should contain $",
     "ans": "ans2"
   },
   "Q64": {
-    "question":"When a program contains extensive use of event handlers, which of the following is necessary?",
-    "ans1": "Modular functions",
-    "ans2": "Nested functions",
-    "ans3": "Global variables",
+    "question":"What should be passed in parameters when function does not require any parameters?",
+    "ans1": "void",
+    "ans2": "blank space",
+    "ans3": "tab space",
     "ans": "ans2"
   },
   "Q65": {
-    "question":"What is the code snippet to find all container elements with class 'reveal'?",
-    "ans1": "var elements = document.getElementsByClassName(\"reveal\");",
-    "ans2": "var elements = document.getElementByClassName(\"reveal\");",
-    "ans3": "var elements = document.getElementByName(\"reveal\");",
-    "ans": "ans1"
+    "question":"What are the advantages of passing arguments by reference?",
+    "ans1": "Changes to parameter values within the function also affect the original arguments",
+    "ans2": "There is no need to call constructors for parameters (i.e. faster)",
+    "ans3": "All of the mentioned",
+    "ans": "ans3"
   },
   "Q66": {
-    "question":"Which handler is triggered when the content of the document in the window is stable and ready for manipulation?",
-    "ans1": "onload",
-    "ans2": "manipulate",
-    "ans3": "create",
-    "ans": "ans1"
+    "question":"To which does the function pointer point to?",
+    "ans1": "variable",
+    "ans2": "constants",
+    "ans3": "function",
+    "ans": "ans3"
   },
   "Q67": {
-    "question":"Which of the following is not an object?",
-    "ans1": "Element",
-    "ans2": "Position",
-    "ans3": "Window",
-    "ans": "ans2"
+    "question":"What will we not do with function pointers?",
+    "ans1": "allocation of memory",
+    "ans2": "deallocation of memory",
+    "ans3": "both allocation & deallocation of memory",
+    "ans": "ans3"
   },
   "Q68": {
-    "question":"Which is the handler method used to invoke when uncaught JavaScript exceptions occur?",
-    "ans1": "Onhalt",
-    "ans2": "Onerror",
-    "ans3": "Onsuspend",
-    "ans": "ans2"
+    "question":"What is the default calling convention for a compiler in c++?",
+    "ans1": "__cdecl",
+    "ans2": "__stdcall",
+    "ans3": "__pascal",
+    "ans": "ans1"
   },
   "Q69": {
-    "question":"Which function among the following lets to register a function to be invoked repeatedly after a certain time?",
-    "ans1": "setTimeout()",
-    "ans2": "setInterval()",
-    "ans3": "settime()",
-    "ans": "ans2"
+    "question":"What is the mandatory part to present in function pointers?",
+    "ans1": "&",
+    "ans2": "return values",
+    "ans3": "data types",
+    "ans": "ans3"
   },
   "Q70": {
-    "question":"Which property is used to obtain browser vendor and version information?",
-    "ans1": "modal",
-    "ans2": "browser",
-    "ans3": "navigator",
-    "ans": "ans3"
+    "question":"which keyword is used to define the macros in c++?",
+    "ans1": "macro",
+    "ans2": "#define",
+    "ans3": "#macro",
+    "ans": "ans2"
   },
   "Q71": {
-    "question":"Which method receives the return value of setInterval() to cancel future invocations?",
-    "ans1": "clearInvocation()",
-    "ans2": "cancelInvocation()",
-    "ans3": "clearInterval()",
-    "ans": "ans3"
+    "question":"which of the following is used to implement the c++ interfaces?",
+    "ans1": "absolute variables",
+    "ans2": "abstract classes",
+    "ans3": "constant variables",
+    "ans": "ans2"
   },
   "Q72": {
-    "question":"What will happen if we call setTimeout() with a time of 0 ms?",
-    "ans1": "Placed in stack",
-    "ans2": "Placed in queue",
-    "ans3": "Will execute immediately",
-    "ans": "ans2"
+    "question":"Identify the correct statement.",
+    "ans1": "c++ does not have built-in interfaces",
+    "ans2": "c++ does have built-in interfaces",
+    "ans3": "c++ does have built-in interfaces & classes",
+    "ans": "ans1"
   },
   "Q73": {
-    "question":"If the window has child windows, how will the browsing histories be affected?",
-    "ans1": "Numerically interleaved",
-    "ans2": "Chronologically interleaved",
-    "ans3": "Both Numerically and Chronologically interleaved",
-    "ans": "ans2"
+    "question":"What is similar to the interface in c++?",
+    "ans1": "pure abstract class",
+    "ans2": "instance of a class",
+    "ans3": "methods & instance of a class",
+    "ans": "ans1"
   },
   "Q74": {
-    "question":"The length property belongs to which of the following objects?",
-    "ans1": "Window",
-    "ans2": "Element",
-    "ans3": "History",
+    "question":"Which operator is used to signify the namespace?",
+    "ans1": "conditional operator",
+    "ans2": "ternary operator",
+    "ans3": "scope operator",
     "ans": "ans3"
   },
   "Q75": {
-    "question":"The central object in a larger API is known as",
-    "ans1": "Document Object Material",
-    "ans2": "Document Object Model",
-    "ans3": "Binary Object Model",
+    "question":"What is the use of Namespace?",
+    "ans1": "To encapsulate the data",
+    "ans2": "To structure a program into logical units",
+    "ans3": "Encapsulate the data & structure a program into logical units",
     "ans": "ans2"
   },
   "Q76": {
-    "question":"In general, event handler is nothing but",
-    "ans1": "function",
-    "ans2": "interface",
-    "ans3": "handler",
+    "question":"What is the general syntax for accessing the namespace variable?",
+    "ans1": "namespace::operator",
+    "ans2": "namespace#operator",
+    "ans3": "namespace$operator",
     "ans": "ans1"
   },
   "Q77": {
-    "question":"The video and the audio belong to the",
-    "ans1": "Timers and error handlers",
-    "ans2": "API-Specific events",
-    "ans3": "State change events",
-    "ans": "ans2"
+    "question":"Which keyword is used to access the variable in the namespace?",
+    "ans1": "using",
+    "ans2": "dynamic",
+    "ans3": "const",
+    "ans": "ans1"
   },
   "Q78": {
-    "question":"A continuous white line along the centre of a road indicates",
-    "ans1": "Lane mark of a one-way road.",
-    "ans2": "Centre line of a two-way road.",
-    "ans3": "vehicles are allowed to park on the side of the road.",
+    "question":"To where does the program control transfers when the exception is arisen?",
+    "ans1": "catch",
+    "ans2": "handlers",
+    "ans3": "throw",
     "ans": "ans2"
   },
   "Q79": {
-    "question":"Which event is fired when a document and all of its external resources are fully loaded and displayed to the user?",
-    "ans1": "Window",
-    "ans2": "Load",
-    "ans3": "Element",
-    "ans": "ans2"
+    "question":"Which keyword is used to check exception in the block of code?",
+    "ans1": "catch",
+    "ans2": "throw",
+    "ans3": "try",
+    "ans": "ans3"
   },
   "Q80": {
-    "question":"When is the mouseover event fired?",
-    "ans1": "When mouse is moved over a new element",
-    "ans2": "When mouse is clicked",
-    "ans3": "When mouse is both moved and clicked",
+    "question":"What will happen when the exception is not caught in the program?",
+    "ans1": "error",
+    "ans2": "program will execute",
+    "ans3": "block of that code will not execute",
     "ans": "ans1"
   },
   "Q81": {
-    "question":"What is the code for getting the current time?",
-    "ans1": "now = new Date();",
-    "ans2": "var now = new Date();",
-    "ans3": "var now = Date();",
-    "ans": "ans2"
+    "question":"What will happen when the handler is not found for an exception?",
+    "ans1": "calls the standard library function terminate()",
+    "ans2": "raise an error",
+    "ans3": "executes the remaining block",
+    "ans": "ans1"
   },
   "Q82": {
-    "question":"What will be done if more than one page requires a file of JavaScript code?",
-    "ans1": "Downloads that many times",
-    "ans2": "Retrives from the browser cache",
-    "ans3": "Must be re executed",
+    "question":"To use external linkage we have to use which keyword?",
+    "ans1": "static",
+    "ans2": "extern",
+    "ans3": "argc",
     "ans": "ans2"
   },
   "Q83": {
-    "question":"What is the purpose of the Node object property ownerDocument?",
-    "ans1": "Returns the root element",
-    "ans2": "Returns the last element",
-    "ans3": "Returns the parent node",
-    "ans": "ans1"
+    "question":"What is the user-defined header file extension in c++?",
+    "ans1": "cpp",
+    "ans2": "h",
+    "ans3": "m",
+    "ans": "ans2"
   },
   "Q84": {
-    "question":"What is the property textContent?",
-    "ans1": "Sets the textual content of a node",
-    "ans2": "Returns the textual content of a node",
-    "ans3": "Sets & Returns the textual content of a node",
-    "ans": "ans3"
+    "question":"Which of the following keyword is used to declare the header file?",
+    "ans1": "include",
+    "ans2": "namespace",
+    "ans3": "exclude",
+    "ans": "ans1"
   },
   "Q85": {
-    "question":"What is the purpose of a Rendering Engine?",
-    "ans1": "Parsing objects in the page",
-    "ans2": "Drawing all objects in the page",
-    "ans3": "Both Parsing & Drawing all objects in the page",
+    "question":"Which of the following header file does not exist?",
+    "ans1": "<iostream>",
+    "ans2": "<string>",
+    "ans3": "<sstring>",
     "ans": "ans3"
   },
   "Q86": {
-    "question":"What is the purpose of the JavaScript Engine?",
-    "ans1": "Compiling the JavaScript",
-    "ans2": "Interpreting the JavaScript",
-    "ans3": "Both Compiling & Interpreting the JavaScript",
+    "question":"Which of the header file must be included to use stringstream?",
+    "ans1": "<iostream>",
+    "ans2": "<string>",
+    "ans3": "<sstream>",
     "ans": "ans2"
   },
   "Q87": {
-    "question":"How will the HTTP GET request be sent from the browser?",
-    "ans1": "Remote server",
-    "ans2": "Local server",
-    "ans3": "By itself",
-    "ans": "ans1"
-  },
-  "Q88": {
-    "question":"Which of the following explains Cookies nature?",
-    "ans1": "Non Volatile",
-    "ans2": "Volatile",
-    "ans3": "Transient",
-    "ans": "ans3"
-  },
-  "Q89": {
-    "question":"How do we define the term Thread?",
-    "ans1": "Device that controls input",
-    "ans2": "Variable that controls movement",
-    "ans3": "Controlled execution of applications",
-    "ans": "ans3"
-  },
-  "Q90": {
-    "question":"From which did Minification concept originate?",
-    "ans1": "JavaScript code efficiency",
-    "ans2": "JavaScript interpreter",
-    "ans3": "Both JavaScript code efficiency and interpreter",
+    "question":"Which of the following header files is required for creating and reading data files?",
+    "ans1": "ofstream.h",
+    "ans2": "fstream.h",
+    "ans3": "ifstream.h",
     "ans": "ans2"
   },
+  "Q88": {
+    "question":"The data members and functions of a class in C++ are by default ____",
+    "ans1": "protected",
+    "ans2": "private",
+    "ans3": "public",
+    "ans": "ans2"
+  },
+  "Q89": {
+    "question":"Constructors are used to ______",
+    "ans1": "initialize the objects",
+    "ans2": "construct the data members",
+    "ans3": "both initialize the objects & construct the data members",
+    "ans": "ans1"
+  },
+  "Q90": {
+    "question":"When struct is used instead of the keyword class means, what will happen in the program?",
+    "ans1": "access is public by default",
+    "ans2": "access is private by default",
+    "ans3": "access is protected by default",
+    "ans": "ans1"
+  },
   "Q91": {
-    "question":"What is the purpose of the product Minify?",
-    "ans1": "Storing the data",
-    "ans2": "Streamlining the data",
-    "ans3": "Proxies the JavaScript file",
-    "ans": "ans3"
+    "question":"Which keyword is used to define the user defined data types?",
+    "ans1": "def",
+    "ans2": "typedef",
+    "ans3": "type",
+    "ans": "ans2"
   },
   "Q92": {
-    "question":"How to get a particular value using the tagged name?",
-    "ans1": "getElementbyID()",
-    "ans2": "getElementsbyName()",
-    "ans3": "getElementsbyTagName()",
-    "ans": "ans3"
+    "question":"What does the data type defined by union will do?",
+    "ans1": "It allow one different portion of memory to be accessed as same data types",
+    "ans2": "It allow one same portion of memory to be accessed as different data types",
+    "ans3": "It allow one different portion of memory to be accessed as different data types",
+    "ans": "ans2"
   },
   "Q93": {
-    "question":"The localStorage and sessionStorage belongs to ___________",
-    "ans1": "Window object",
-    "ans2": "Element object",
-    "ans3": "Hash object",
+    "question":"What is the syntax of user-defined data types?",
+    "ans1": "typedef ExistingDataType NameByUser",
+    "ans2": "typedef NameByUser ExistingDataType",
+    "ans3": "def NameByUser ExistingDataType",
     "ans": "ans1"
   },
   "Q94": {
-    "question":"How can we make methods available on all objects?",
-    "ans1": "Object.prototype",
-    "ans2": "Object.add(methods)",
-    "ans3": "Object.methods(add)",
-    "ans": "ans1"
+    "question":"Pick out the other definition of objects.",
+    "ans1": "member of the class",
+    "ans2": "instance of the class",
+    "ans3": "attribute of the class",
+    "ans": "ans2"
   },
   "Q95": {
-    "question":"What is the purpose of lazy loading?",
-    "ans1": "Immediate loading is not necessary",
-    "ans2": "Loading under command",
-    "ans3": "Immediate loading is necessary",
+    "question":"How to declare operator function?",
+    "ans1": "operator sign",
+    "ans2": "name of the class",
+    "ans3": "operator",
     "ans": "ans1"
   },
   "Q96": {
-    "question":"Which of the following is an attribute to the script object?",
-    "ans1": "onclick",
-    "ans2": "onload",
-    "ans3": "onshow",
+    "question":"Operator overloading is _______",
+    "ans1": "making c++ operator works with objects",
+    "ans2": "adding operation to the existing operators",
+    "ans3": "making the new operator",
     "ans": "ans2"
   },
   "Q97": {
-    "question":"How is the render time calculated?",
-    "ans1": "Date.Now()",
-    "ans2": "Date.Now() – performance.timing.domLoading",
-    "ans3": "performance.domLoading",
-    "ans": "ans2"
+    "question":"What is the syntax of overloading operator + for class A?",
+    "ans1": "A operator+(argument_list){}",
+    "ans2": "int +(argument_list){}",
+    "ans3": "int [+](argument_list){}",
+    "ans": "ans1"
   },
   "Q98": {
-    "question":"Which object is passed as the argument to handlers for keydown, keyup, and keypress events?",
-    "ans1": "KeyboardEvent",
-    "ans2": "Key Event",
-    "ans3": "Mouse Event",
+    "question":"Why we use the “dynamic_cast” type conversion?",
+    "ans1": "result of the type conversion is a valid",
+    "ans2": "to be used in low memory",
+    "ans3": "result of the type conversion is an invalid",
     "ans": "ans1"
   },
   "Q99": {
-    "question":"Which method is used to obtain the “drawing context” object ?",
-    "ans1": "getContext()",
-    "ans2": "getObject()",
-    "ans3": "getDrawing()",
+    "question":"Pick out the correct syntax of operator conversion.",
+    "ans1": "operator float() const",
+    "ans2": "operator float()",
+    "ans3": "operator const",
     "ans": "ans1"
   },
   "Q100": {
-    "question":"How does SVG describe complex shapes?",
-    "ans1": "Path of lines and curves",
-    "ans2": "Path of curves",
-    "ans3": "Path of lines",
+    "question":"Which rule will not affect the friend function?",
+    "ans1": "private and protected members of a class cannot be accessed from outside",
+    "ans2": "private and protected member can be accessed anywhere",
+    "ans3": "protected member can be accessed anywhere",
+    "ans": "ans1"
+  },
+  "Q101": {
+    "question":"Which keyword is used to declare the friend function?",
+    "ans1": "firend",
+    "ans2": "classfriend",
+    "ans3": "friend",
+    "ans": "ans3"
+  },
+  "Q102": {
+    "question":"Pick out the correct statement.",
+    "ans1": "A friend function may be a member of another class",
+    "ans2": "A friend function may not be a member of another class",
+    "ans3": "A friend function may or may not be a member of another class",
+    "ans": "ans3"
+  },
+  "Q103": {
+    "question":"Pick the correct statement.",
+    "ans1": "Friend functions are in the scope of a class",
+    "ans2": "Friend functions can be called using class objects",
+    "ans3": "Friend functions can be invoked as a normal function",
+    "ans": "ans3"
+  },
+  "Q104": {
+    "question":"How to store the large objects in c++ if it extends its allocated memory?",
+    "ans1": "memory heap",
+    "ans2": "stack",
+    "ans3": "queue",
+    "ans": "ans1"
+  },
+  "Q105": {
+    "question":"Which option is best to eliminate the memory problem?",
+    "ans1": "use smart pointers",
+    "ans2": "use raw pointers",
+    "ans3": "use smart pointers & virtual destructor",
+    "ans": "ans3"
+  },
+  "Q106": {
+    "question":"Pick the correct statement about string objects in C++.",
+    "ans1": "String objects must be terminated by a null character(‘\0’)",
+    "ans2": "String objects have a static size",
+    "ans3": "String objects have a dynamic size",
+    "ans": "ans3"
+  },
+  "Q107": {
+    "question":"What is a copy constructor?",
+    "ans1": "A constructor that allows a user to move data from one object to another",
+    "ans2": "A constructor to initialize an object with the values of another object",
+    "ans3": "A constructor to check the whether to objects are equal or not",
+    "ans": "ans2"
+  },
+  "Q108": {
+    "question":"What happens if a user forgets to define a constructor inside a class?",
+    "ans1": "Error occurs",
+    "ans2": "Segmentation fault",
+    "ans3": "Compiler provides a default constructor to avoid faults/errors",
+    "ans": "ans3"
+  },
+  "Q109": {
+    "question":"What is the role of destructors in Classes?",
+    "ans1": "To modify the data whenever required",
+    "ans2": "To destroy an object when the lifetime of an object ends",
+    "ans3": "To initialize the data members of an object when it is created",
+    "ans": "ans2"
+  },
+  "Q110": {
+    "question":"Which of the following is correct?",
+    "ans1": "Destructors can be virtual",
+    "ans2": "There can be more than one destructor in a class",
+    "ans3": "Destructor is used to initialize objects",
+    "ans": "ans1"
+  },
+  "Q111": {
+    "question":"Which of the following can derived class inherit?",
+    "ans1": "members",
+    "ans2": "functions",
+    "ans3": "both members & functions",
+    "ans": "ans3"
+  },
+  "Q112": {
+    "question":"Which operator is used to declare the destructor?",
+    "ans1": "#",
+    "ans2": "~",
+    "ans3": "@",
+    "ans": "ans2"
+  },
+  "Q113": {
+    "question":"Which class is used to design the base class?",
+    "ans1": "abstract class",
+    "ans2": "derived class",
+    "ans3": "static class",
+    "ans": "ans1"
+  },
+  "Q114": {
+    "question":"Which is also called as abstract class?",
+    "ans1": "virtual function",
+    "ans2": "pure virtual function",
+    "ans3": "derived class",
+    "ans": "ans2"
+  },
+  "Q115": {
+    "question":"What is a template?",
+    "ans1": "A template is a formula for creating a generic class",
+    "ans2": "A template is used to manipulate the class",
+    "ans3": "A template is used for creating the attributes",
+    "ans": "ans1"
+  },
+  "Q116": {
+    "question":"How to declare a template?",
+    "ans1": "template<>",
+    "ans2": "temp()",
+    "ans3": "temp",
+    "ans": "ans1"
+  },
+  "Q117": {
+    "question":"What is a function template?",
+    "ans1": "creating a function without having to specify the exact type",
+    "ans2": "creating a function with having an exact type",
+    "ans3": "creating a function without having blank spaces",
+    "ans": "ans1"
+  },
+  "Q118": {
+    "question":"Which is used to describe the function using placeholder types?",
+    "ans1": "template parameters",
+    "ans2": "template type parameters",
+    "ans3": "template type",
+    "ans": "ans2"
+  },
+  "Q119": {
+    "question":"How the template class is different from the normal class?",
+    "ans1": "Template class generate objects of classes based on the template type",
+    "ans2": "Template class saves system memory",
+    "ans3": "All of the mentioned",
+    "ans": "ans3"
+  },
+  "Q120": {
+    "question":"Which is called on allocating the memory for the array of objects?",
+    "ans1": "destructor",
+    "ans2": "constructor",
+    "ans3": "method",
+    "ans": "ans2"
+  },
+  "Q121": {
+    "question":"Which of the following can derived class inherit?",
+    "ans1": "members",
+    "ans2": "functions",
+    "ans3": "both members & functions",
+    "ans": "ans3"
+  },
+  "Q122": {
+    "question":"What is the Standard Template Library?",
+    "ans1": "Set of C++ template classes to provide common programming data structures and functions",
+    "ans2": "Set of C++ classes",
+    "ans3": "Set of Template functions used for easy data structures implementation",
+    "ans": "ans1"
+  },
+  "Q123": {
+    "question":"What are the containers?",
+    "ans1": "Containers store objects and data",
+    "ans2": "Containers stores all the algorithms",
+    "ans3": "Containers contain overloaded functions",
+    "ans": "ans1"
+  },
+  "Q124": {
+    "question":"What are the Sequence Containers?",
+    "ans1": "Containers that implements data structures which can be accessed sequentially",
+    "ans2": "Containers that implements sorted data structures for fast search in O(logn)",
+    "ans3": "Containers that implements data structures which can be accessed non-sequentially",
+    "ans": "ans1"
+  },
+  "Q125": {
+    "question":"Which header file is used for Iterators?",
+    "ans1": "<iterator>",
+    "ans2": "<algorithm>",
+    "ans3": "<iter>",
+    "ans": "ans1"
+  },
+  "Q126": {
+    "question":"What does the cerr represent?",
+    "ans1": "Standard logging stream",
+    "ans2": "Input stream",
+    "ans3": "Standard error stream",
+    "ans": "ans3"
+  },
+  "Q127": {
+    "question":"Which symbol is used to create multiple inheritances?",
+    "ans1": "Dot",
+    "ans2": "Comma",
+    "ans3": "Dollar",
+    "ans": "ans2"
+  },
+  "Q128": {
+    "question":"Which design patterns benefit from the multiple inheritances?",
+    "ans1": "Adapter and observer pattern",
+    "ans2": "Code pattern",
+    "ans3": "Star pattern",
+    "ans": "ans1"
+  },
+  "Q129": {
+    "question":"What is Inheritance in C++?",
+    "ans1": "Wrapping of data into a single class",
+    "ans2": "Deriving new classes from existing classes",
+    "ans3": "Overloading of classes",
+    "ans": "ans2"
+  },
+  "Q130": {
+    "question":"What do vectors represent?",
+    "ans1": "Static arrays",
+    "ans2": "Dynamic arrays",
+    "ans3": "Queue",
+    "ans": "ans2"
+  },
+  "Q131": {
+    "question":"Pick out the correct statement about vector.",
+    "ans1": "vector<int> values (5)",
+    "ans2": "vector values (5)",
+    "ans3": "vector<int> (5)",
+    "ans": "ans1"
+  },
+  "Q132": {
+    "question":"How the list containers are implemented?",
+    "ans1": "Using Double linked list",
+    "ans2": "Using Single linked list",
+    "ans3": "Using linear linked list",
+    "ans": "ans1"
+  },
+  "Q133": {
+    "question":"What do container adapter provide to interface?",
+    "ans1": "Restricted interface",
+    "ans2": "More interface",
+    "ans3": "Memory interface",
+    "ans": "ans1"
+  },
+  "Q134": {
+    "question":"What do maps and sets support?",
+    "ans1": "Single directional iterators",
+    "ans2": "Bi-directional iterators",
+    "ans3": "functional iterators",
+    "ans": "ans2"
+  },
+  "Q135": {
+    "question":"What type of access does deque and vector provide?",
+    "ans1": "Linear access",
+    "ans2": "Parallel access",
+    "ans3": "Random access",
+    "ans": "ans3"
+  },
+  "Q136": {
+    "question":"What is a pair?",
+    "ans1": "Container consisting of one header and two data elements of the same type",
+    "ans2": "Container consisting of two data elements of different type",
+    "ans3": "Container consisting of two data elements can have the same or different type",
+    "ans": "ans3"
+  },
+  "Q137": {
+    "question":"Which of the following is the correct syntax of using pair p?",
+    "ans1": "pair <type,type> p;",
+    "ans2": "pair p <type,type>;",
+    "ans3": "pair [type,type] p;",
+    "ans": "ans1"
+  },
+  "Q138": {
+    "question":"Which operator is used to access the first or second element of a pair?",
+    "ans1": "->",
+    "ans2": ".",
+    "ans3": "*",
+    "ans": "ans2"
+  },
+  "Q139": {
+    "question":"Which of the following is the correct syntax of accessing the first element of a pair p?",
+    "ans1": "p.first",
+    "ans2": "p[0]",
+    "ans3": "p[1]",
+    "ans": "ans1"
+  },
+  "Q140": {
+    "question":"What do vectors represent?",
+    "ans1": "Static arrays",
+    "ans2": "Dynamic arrays",
+    "ans3": "Queue",
+    "ans": "ans2"
+  },
+  "Q141": {
+    "question":"Pick out the correct statement about vector.",
+    "ans1": "vector<int> values (5)",
+    "ans2": "vector values (5)",
+    "ans3": "vector<int> (5)",
+    "ans": "ans1"
+  },
+  "Q142": {
+    "question":"How the list containers are implemented?",
+    "ans1": "Using Double linked list",
+    "ans2": "Using Single linked list",
+    "ans3": "Using linear linked list",
+    "ans": "ans1"
+  },
+  "Q143": {
+    "question":"What do container adapter provide to interface?",
+    "ans1": "Restricted interface",
+    "ans2": "More interface",
+    "ans3": "Memory interface",
+    "ans": "ans1"
+  },
+  "Q144": {
+    "question":"What do maps and sets support?",
+    "ans1": "Single directional iterators",
+    "ans2": "Bi-directional iterators",
+    "ans3": "functional iterators",
+    "ans": "ans2"
+  },
+  "Q145": {
+    "question":"What type of access does deque and vector provide?",
+    "ans1": "Linear access",
+    "ans2": "Parallel access",
+    "ans3": "Random access",
+    "ans": "ans3"
+  },
+  "Q146": {
+    "question":"What is a pair?",
+    "ans1": "Container consisting of one header and two data elements of the same type",
+    "ans2": "Container consisting of two data elements of different type",
+    "ans3": "Container consisting of two data elements can have the same or different type",
+    "ans": "ans3"
+  },
+  "Q147": {
+    "question":"Which of the following is the correct syntax of using pair p?",
+    "ans1": "pair <type,type> p;",
+    "ans2": "pair p <type,type>;",
+    "ans3": "pair [type,type] p;",
+    "ans": "ans1"
+  },
+  "Q148": {
+    "question":"Which operator is used to access the first or second element of a pair?",
+    "ans1": "->",
+    "ans2": ".",
+    "ans3": "*",
+    "ans": "ans2"
+  },
+  "Q149": {
+    "question":"Which of the following is the correct syntax of accessing the first element of a pair p?",
+    "ans1": "p.first",
+    "ans2": "p[0]",
+    "ans3": "p[1]",
+    "ans": "ans1"
+  },
+  "Q150": {
+    "question":"What is meant by template specialization?",
+    "ans1": "It will have certain data types to be fixed",
+    "ans2": "It will make certain data types to be dynamic",
+    "ans3": "Certain data types are invalid",
     "ans": "ans1"
   }
 }}
