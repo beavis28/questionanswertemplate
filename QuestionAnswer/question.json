@@ -1,1263 +1,1264 @@
-
-{"questions": {
-  "Q1": {
-    "question":"They primary R system is available from the ____",
-    "ans1": "CRAN",
-    "ans2": "CRWO",
-    "ans3": "GNU",
-    "ans": "ans1"
-  },
-  "Q2": {
-    "question":"Point out the wrong statement?",
-    "ans1": "Key feature of R was that its syntax is very similar to S",
-    "ans2": "R runs only on Windows computing platform and operating system",
-    "ans3": "R functionality is divided into a number of Packages",
-    "ans": "ans2"
-  },
-  "Q3": {
-    "question":"R functionality is divided into a number of _____",
-    "ans1": "Packages",
-    "ans2": "Functions",
-    "ans3": "Domains",
-    "ans": "ans1"
-  },
-  "Q4": {
-    "question":"Which Package contains most fundamental functions to run R?",
-    "ans1": "root",
-    "ans2": "child",
-    "ans3": "base",
-    "ans": "ans3"
-  },
-  "Q5": {
-    "question":"Point out the wrong statement?",
-    "ans1": "R has sophisticated graphics capabilities",
-    "ans2": "One nice feature that R shares with many popular open source projects is frequent releases",
-    "ans3": "S’s base graphics system allows for very fine control over essentially every aspect of a plot or graph",
-    "ans": "ans3"
-  },
-  "Q6": {
-    "question":"Which of the following is a base package for R language?",
-    "ans1": "util",
-    "ans2": "lang",
-    "ans3": "tools",
-    "ans": "ans3"
-  },
-  "Q7": {
-    "question":"Which of the following is “Recommended” package in R?",
-    "ans1": "util",
-    "ans2": "lang",
-    "ans3": "spatial",
-    "ans": "ans3"
-  },
-  "Q8": {
-    "question":"What is the output of getOption(“defaultPackages”) in R studio?",
-    "ans1": "Installs a new package",
-    "ans2": "Shows default packages in R",
-    "ans3": "Error",
-    "ans": "ans2"
-  },
-  "Q9": {
-    "question":"Advanced users can write ___ code to manipulate R objects directly.",
-    "ans1": "C, C++",
-    "ans2": "Java, C",
-    "ans3": "C++, Java",
-    "ans": "ans1"
-  },
-  "Q10": {
-    "question":"What will be the output of the following R program?\n r<-0:10\nr[2]",
-    "ans1": "0",
-    "ans2": "1",
-    "ans3": "2",
-    "ans": "ans2"
-  },
-  "Q11": {
-    "question":"Which of the following operator is used to create integer sequences?",
-    "ans1": ":",
-    "ans2": "–",
-    "ans3": "~",
-    "ans": "ans1"
-  },
-  "Q12": {
-    "question":"In R language, a vector is defined that it can only contain objects of the _____",
-    "ans1": "Same class",
-    "ans2": "Different class",
-    "ans3": "Any class",
-    "ans": "ans1"
-  },
-  "Q13": {
-    "question":"A list is represented as a vector but can contain objects of ______",
-    "ans1": "Same class",
-    "ans2": "Different class",
-    "ans3": "Any class",
-    "ans": "ans1"
-  },
-  "Q14": {
-    "question":"How can we define ‘undefined value’ in R language?",
-    "ans1": "Sup",
-    "ans2": "Und",
-    "ans3": "NaN",
-    "ans": "ans3"
-  },
-  "Q15": {
-    "question":"What is NaN called?",
-    "ans1": "Not a Number",
-    "ans2": "Not a Numeric",
-    "ans3": "Number and Number",
-    "ans": "ans1"
-  },
-  "Q16": {
-    "question":"How can we define ‘infinity’ in R language?",
-    "ans1": "Inf",
-    "ans2": "Sup",
-    "ans3": "Und",
-    "ans": "ans1"
-  },
-  "Q17": {
-    "question":"Which one of the following is not a basic datatype?",
-    "ans1": "Numeric",
-    "ans2": "Character",
-    "ans3": "Data frame",
-    "ans": "ans3"
-  },
-  "Q18": {
-    "question":"How do you create an integer suppose 5 in R?",
-    "ans1": "5L",
-    "ans2": "5l",
-    "ans3": "5d",
-    "ans": "ans1"
-  },
-  "Q19": {
-    "question":"The dimension attribute is itself an integer vector of length ___",
-    "ans1": "1",
-    "ans2": "2",
-    "ans3": "3",
-    "ans": "ans2"
-  },
-  "Q20": {
-    "question":"Matrices can be created by row-binding with the help of the following function.",
-    "ans1": "rjoin()",
-    "ans2": "rbind()",
-    "ans3": "rowbind()",
-    "ans": "ans2"
-  },
-  "Q21": {
-    "question":"What is the function used to test objects (returns a logical operator) if they are NA?",
-    "ans1": "is.na()",
-    "ans2": "is.nan()",
-    "ans3": "as.na()",
-    "ans": "ans1"
-  },
-  "Q22": {
-    "question":"What is the function to set column names for a matrix?",
-    "ans1": "names()",
-    "ans2": "colnames()",
-    "ans3": "col.names()",
-    "ans": "ans2"
-  },
-  "Q23": {
-    "question":"Point out the wrong statement?",
-    "ans1": "Setting up a workstation to take full advantage of the customizable features of R is a straightforward thing",
-    "ans2": "q() is used to quit the R program",
-    "ans3": "R has an inbuilt help facility similar to the man facility of UNIX",
-    "ans": "ans2"
-  },
-  "Q24": {
-    "question":"Which of the following statement is alternative to ____\n\n?solve",
-    "ans1": "help(solve)",
-    "ans2": "print(solve)",
-    "ans3": "bind(solve)",
-    "ans": "ans1"
-  },
-  "Q25": {
-    "question":"Elementary commands in R consist of either _______ or assignments.",
-    "ans1": "utilstats",
-    "ans2": "language",
-    "ans3": "expressions",
-    "ans": "ans3"
-  },
-  "Q26": {
-    "question":"If the code is stored in the external file, which of the following function is used to call them to a working directory?",
-    "ans1": "exec()",
-    "ans2": "source()",
-    "ans3": "execute()",
-    "ans": "ans2"
-  },
-  "Q27": {
-    "question":"Advanced programmers can write ______ code to manipulate R objects.",
-    "ans1": "Python",
-    "ans2": "Java",
-    "ans3": "C",
-    "ans": "ans3"
-  },
-  "Q28": {
-    "question":"Functionality of R is divided into a number of ___",
-    "ans1": "Functions",
-    "ans2": "Domains",
-    "ans3": "Packages",
-    "ans": "ans1"
-  },
-  "Q29": {
-    "question":"Dataframes can be converted into a matrix by calling the following function data ____",
-    "ans1": "matr()",
-    "ans2": "matrix()",
-    "ans3": "matrixfunc()",
-    "ans": "ans2"
-  },
-  "Q30": {
-    "question":"What will be the output of the following R code? \n a <- (“a” , “b”)\n mode(a)",
-    "ans1": "CRAN",
-    "ans2": "GNU",
-    "ans3": "R studio",
-    "ans": "ans1"
-  },
-  "Q31": {
-    "question":"Point out the wrong statement?",
-    "ans1": "The grammar of the language determines whether an expression is complete or not",
-    "ans2": "The <- symbol is the assignment operator in R",
-    "ans3": "The ## character indicates a comment",
-    "ans": "ans3"
-  },
-  "Q32": {
-    "question":"Point out the wrong statement?",
-    "ans1": ": operator is used to create integer sequences",
-    "ans2": "The numbers in the square brackets are part of the vector itself",
-    "ans3": "There is a difference between the actual R object and the manner in which that R object is printed to the console",
-    "ans": "ans2"
-  },
-  "Q33": {
-    "question":"If commands are stored in an external file, say commands.R in the working directory work, they may be executed at any time in an R session with the command ______",
-    "ans1": "source(“commands.R”)",
-    "ans2": "exec(“commands.R”)",
-    "ans3": "execute(“commands.R”)",
-    "ans": "ans1"
-  },
-  "Q34": {
-    "question":"____ will divert all subsequent output from the console to an external file.",
-    "ans1": "sink",
-    "ans2": "div",
-    "ans3": "exp",
-    "ans": "ans2"
-  },
-  "Q35": {
-    "question":"The entities that R creates and manipulates are known as ____",
-    "ans1": "objects",
-    "ans2": "task",
-    "ans3": "container",
-    "ans": "ans1"
-  },
-  "Q36": {
-    "question":"Which of the following can be used to display the names of (most of) the objects which are currently stored within R?",
-    "ans1": "object()",
-    "ans2": "objects()",
-    "ans3": "list()",
-    "ans": "ans2"
-  },
-  "Q37": {
-    "question":"Collection of objects currently stored in R is called as ________",
-    "ans1": "package",
-    "ans2": "workspace",
-    "ans3": "list",
-    "ans": "ans2"
-  },
-  "Q38": {
-    "question":"What will be the output of the following R function? \n d <- date() \n d",
-    "ans1": "Prints todays date",
-    "ans2": "Prints some date",
-    "ans3": "Prints exact present time and date",
-    "ans": "ans3"
-  },
-  "Q39": {
-    "question":"What will be the output of the following R function? \n nchar()",
-    "ans1": "no. of characters",
-    "ans2": "first 5 characters",
-    "ans3": "last 5 characters",
-    "ans": "ans1"
-  },
-  "Q40": {
-    "question":"R has how many atomic classes of objects?",
-    "ans1": "1",
-    "ans2": "2",
-    "ans3": "5",
-    "ans": "ans3"
-  },
-  "Q41": {
-    "question":"Numbers in R are generally treated as _______ precision real numbers.",
-    "ans1": "single",
-    "ans2": "double",
-    "ans3": "real",
-    "ans": "ans2"
-  },
-  "Q42": {
-    "question":"If you explicitly want an integer, you need to specify the _____ suffix.",
-    "ans1": "D",
-    "ans2": "R",
-    "ans3": "L",
-    "ans": "ans3"
-  },
-  "Q43": {
-    "question":"Attributes of an object (if any) can be accessed using the ______ function.",
-    "ans1": "objects()",
-    "ans2": "attrib()",
-    "ans3": "attributes()",
-    "ans": "ans3"
-  },
-  "Q44": {
-    "question":"R objects can have attributes, which are like ________ for the object.",
-    "ans1": "metadata",
-    "ans2": "features",
-    "ans3": "expression",
-    "ans": "ans1"
-  },
-  "Q45": {
-    "question":"The data elements in the structure are also known as what?",
-    "ans1": "objects",
-    "ans2": "members",
-    "ans3": "data",
-    "ans": "ans2"
-  },
-  "Q46": {
-    "question":"The ________ function can be used to create vectors of objects by concatenating things together.",
-    "ans1": "cp()",
-    "ans2": "c()",
-    "ans3": "concat()",
-    "ans": "ans2"
-  },
-  "Q47": {
-    "question":"What will be the output of the following R code? \n m <- 1:10 \n m",
-    "ans1": "1 2 3 4 5 6 7 8 9 10",
-    "ans2": "1 2 3 4 5 6 7 8 9 10 11",
-    "ans3": "0 1 2 3 4 5 6 7 8 9 10",
-    "ans": "ans1"
-  },
-  "Q48": {
-    "question":"Find the following type of vector? \n a <- c(1,2,5.3,6,-2,4)",
-    "ans1": "Numeric",
-    "ans2": "Character",
-    "ans3": "Integer",
-    "ans": "ans1"
-  },
-  "Q49": {
-    "question":"All columns in a matrix must have the same mode and the _________ length.",
-    "ans1": "Different",
-    "ans2": "Same",
-    "ans3": "May be the same",
-    "ans": "ans2"
-  },
-  "Q50": {
-    "question":"________ provides optional labels with the columns and rows.",
-    "ans1": "Disnames",
-    "ans2": "Dimnames",
-    "ans3": "Denmes",
-    "ans": "ans2"
-  },
-  "Q51": {
-    "question":"____ are similar to matrices but can have more than two dimensions.",
-    "ans1": "Functions",
-    "ans2": "Packages",
-    "ans3": "Arrays",
-    "ans": "ans3"
-  },
-  "Q52": {
-    "question":"Which is more general than a matrix, in that different columns can have different modes?",
-    "ans1": "Data types",
-    "ans2": "Data frames",
-    "ans3": "Data sets",
-    "ans": "ans3"
-  },
-  "Q53": {
-    "question":"An ordered collection of objects or components are called ____",
-    "ans1": "Data frames",
-    "ans2": "Datasets",
-    "ans3": "Lists",
-    "ans": "ans3"
-  },
-  "Q54": {
-    "question":"The ________ stores the nominal values as a vector of integers in the range of 1 to unique values in the nominal variable.",
-    "ans1": "Factor",
-    "ans2": "Matrix",
-    "ans3": "Lists",
-    "ans": "ans1"
-  },
-  "Q55": {
-    "question":"An ordered factor is used to represent an _______",
-    "ans1": "Ordinal variable",
-    "ans2": "Simple variable",
-    "ans3": "Coordinal variable",
-    "ans": "ans1"
-  },
-  "Q56": {
-    "question":"Which function is used to combine the elements into a vector?",
-    "ans1": "C()",
-    "ans2": "D()",
-    "ans3": "E()",
-    "ans": "ans1"
-  },
-  "Q57": {
-    "question":"A __________ is an R-object which can contain many different types of elements inside it.",
-    "ans1": "Vector",
-    "ans2": "Lists",
-    "ans3": "Matrix",
-    "ans": "ans2"
-  },
-  "Q58": {
-    "question":"Which function takes a dim attribute which creates the required number of dimensions?",
-    "ans1": "Vector",
-    "ans2": "Array",
-    "ans3": "Matrix",
-    "ans": "ans2"
-  },
-  "Q59": {
-    "question":"Factors are the r-objects which are created using a _______",
-    "ans1": "Vector",
-    "ans2": "Matrix",
-    "ans3": "Lists",
-    "ans": "ans1"
-  },
-  "Q60": {
-    "question":"vectors can be one of two types namely atomic vectors and ____",
-    "ans1": "Matrix",
-    "ans2": "Vector",
-    "ans3": "Lists",
-    "ans": "ans3"
-  },
-  "Q61": {
-    "question":"Which is the basic data structure of R containing the same type of data?",
-    "ans1": "Functions",
-    "ans2": "Array",
-    "ans3": "Vector",
-    "ans": "ans3"
-  },
-  "Q62": {
-    "question":"The four most frequently used types of data objects in R are vectors, matrices, data frames and ______",
-    "ans1": "Function",
-    "ans2": "Lists",
-    "ans3": "Packages",
-    "ans": "ans2"
-  },
-  "Q63": {
-    "question":"What is the simplest way of creating the vector?",
-    "ans1": "C function",
-    "ans2": "Create",
-    "ans3": "Destroy",
-    "ans": "ans1"
-  },
-  "Q64": {
-    "question":" Which function replicates elements of vectors?",
-    "ans1": "C",
-    "ans2": "Rep",
-    "ans3": "Crep",
-    "ans": "ans2"
-  },
-  "Q65": {
-    "question":"Which of the following is a 3-dimensional dataset?",
-    "ans1": "Eris",
-    "ans2": "Iris",
-    "ans3": "Toris",
-    "ans": "ans2"
-  },
-  "Q66": {
-    "question":"Which dimension corresponds to the explanatory variables collected for each species?",
-    "ans1": "First",
-    "ans2": "Second",
-    "ans3": "Third",
-    "ans": "ans2"
-  },
-  "Q67": {
-    "question":"Which of the following code snippet will create a vector with NAs in it?",
-    "ans1": "x >- c(1, 2, NA, 10, 3)",
-    "ans2": "x >- cNA(1, 2, NA, 10, 3)",
-    "ans3": "x >- NA(1, 2, NA, 10, 3)",
-    "ans": "ans1"
-  },
-  "Q68": {
-    "question":"The ________ function takes an arbitrary number of arguments and concatenates them one by one into character strings.",
-    "ans1": "copy()",
-    "ans2": "paste()",
-    "ans3": "bind()",
-    "ans": "ans1"
-  },
-  "Q69": {
-    "question":"Point out the wrong statement?",
-    "ans1": "is.nan() is used to test objects if they are NA",
-    "ans2": "is.nan() is used to test for NaN",
-    "ans3": "NA values have a class",
-    "ans": "ans1"
-  },
-  "Q70": {
-    "question":"Data frames can be converted to a matrix by calling data ____",
-    "ans1": "as.matr()",
-    "ans2": "as.mat()",
-    "ans3": "as.matrix()",
-    "ans": "ans3"
-  },
-  "Q71": {
-    "question":"Which of the following is used for reading tabular data?",
-    "ans1": "read.csv",
-    "ans2": "dget",
-    "ans3": "readLines",
-    "ans": "ans1"
-  },
-  "Q72": {
-    "question":"R Commander is used to ___________ in R",
-    "ans1": "Export data",
-    "ans2": "Import data",
-    "ans3": "Use data",
-    "ans": "ans2"
-  },
-  "Q73": {
-    "question":"Two vectors M and N are defined as M <- c(3, 2, 4) and N <- c(1, 2). What will be the output of vector Z that is defined as Z <- M*N.",
-    "ans1": "Z <- (3, 2, 4)",
-    "ans2": "Z <- (3, 6, 4)",
-    "ans3": "Z <- (3, 4, 4)",
-    "ans": "ans3"
-  },
-  "Q74": {
-    "question":"How missing values and impossible values are represented in R language?",
-    "ans1": "NA",
-    "ans2": "NAN",
-    "ans3": "NA & NAN",
-    "ans": "ans3"
-  },
-  "Q75": {
-    "question":"CRAN package ecosystem has more than ______ packages.",
-    "ans1": "5000",
-    "ans2": "4000",
-    "ans3": "6000",
-    "ans": "ans3"
-  },
-  "Q76": {
-    "question":"Which function in R language is used to find out whether the means of 2 groups are equal to each other or not?",
-    "ans1": "f.tests ()",
-    "ans2": "l.tests ()",
-    "ans3": "t.tests ()",
-    "ans": "ans3"
-  },
-  "Q77": {
-    "question":"_____ is the best way for communicating the results of data analysis using the R language.",
-    "ans1": "Single document",
-    "ans2": "Files",
-    "ans3": "Structures",
-    "ans": "ans1"
-  },
-  "Q78": {
-    "question":"_____ is the easiest method for reshaping the data before analysis.",
-    "ans1": "Transpose()",
-    "ans2": "Structure()",
-    "ans3": "Package()",
-    "ans": "ans1"
-  },
-  "Q79": {
-    "question":"____ function is used to apply an expression for a given dataset",
-    "ans1": "This()",
-    "ans2": "With()",
-    "ans3": "Unwith()",
-    "ans": "ans2"
-  },
-  "Q80": {
-    "question":"____ package is used to speed up data frame management code.",
-    "ans1": "Data.table",
-    "ans2": "Dplyr",
-    "ans3": "Table",
-    "ans": "ans2"
-  },
-  "Q81": {
-    "question":"Individual R objects can be saved to a file using the _____ function.",
-    "ans1": "save",
-    "ans2": "put",
-    "ans3": "get",
-    "ans": "ans1"
-  },
-  "Q82": {
-    "question":"_____ opens a connection to a file compressed with gzip.",
-    "ans1": "url",
-    "ans2": "gzfile
-    "ans3": "bzfile",
-    "ans": "ans2"
-  },
-  "Q83": {
-    "question":"Point out the wrong statement?",
-    "ans1": "$ operator semantics are similar to that of [[",
-    "ans2": "The [ operator always returns an object of the same class as the original",
-    "ans3": "The $ operator is used to extract elements of a list or a data frame",
-    "ans": "ans3"
-  },
-  "Q84": {
-    "question":"Which of the following extracts first element from the following R list? \n x <- list(foo = 1:4, bar = 0.6)",
-    "ans1": "x[[1]]",
-    "ans2": "x[1]",
-    "ans3": "x[[0]]",
-    "ans": "ans1"
-  },
-  "Q85": {
-    "question":"Point out the correct statement?",
-    "ans1": "You can also use the $ operator to extract elements by name",
-    "ans2": "$ operator can be used with computed indices",
-    "ans3": "The [[ operator can only be used with literal names",
-    "ans": "ans1"
-  },
-  "Q86": {
-    "question":"Which of the following is example of vectorized operation as far as subtraction is concerned? \n x <- 1:4 \n y <- 6:9",
-    "ans1": "x+y",
-    "ans2": "x-y",
-    "ans3": "x/y",
-    "ans": "ans2"
-  },
-  "Q87": {
-    "question":"Point out the wrong statement?",
-    "ans1": "Very less operations in R are vectorized",
-    "ans2": "Vectorization allows you to write code that is efficient, concise, and easier to read than in non-vectorized languages",
-    "ans3": "vectorized means that operations occur in parallel in certain R objects",
-    "ans": "ans1"
-  },
-  "Q88": {
-    "question":"What will be the output of the following R code? \n x <- 1:4 \n x > 2",
-    "ans1": "1 2 3 4",
-    "ans2": "FALSE FALSE TRUE TRUE",
-    "ans3": "1 2 3 4 5",
-    "ans": "ans2"
-  },
-  "Q89": {
-    "question":"Point out the wrong statement?",
-    "ans1": "Dates are represented by the Date class",
-    "ans2": "Times are represented by the POSIXct or the POSIXlt class",
-    "ans3": "Dates are represented by the DateTime class",
-    "ans": "ans3"
-  },
-  "Q90": {
-    "question":"Which of the following code represents internal representation of a Date object?",
-    "ans1": "class(as.Date('1970-01-02'))",
-    "ans2": "unclass(as.Date('1970-01-02'))",
-    "ans3": "unclassint(as.Date('1970-01-02'))",
-    "ans": "ans2"
-  },
-  "Q91": {
-    "question":"Which keyword is used to define the user defined data types?",
-    "ans1": "def",
-    "ans2": "typedef",
-    "ans3": "type",
-    "ans": "ans2"
-  },
-  "Q92": {
-    "question":"Which of the following R syntax is correct for while loop?",
-    "ans1": "while ( statement1 ) statement2",
-    "ans2": "while ( statement1 ) else statement2",
-    "ans3": "while ( statement1 ) do statement2",
-    "ans": "ans1"
-  },
-  "Q93": {
-    "question":"_____ is used to break the execution of a loop.",
-    "ans1": "next",
-    "ans2": "skip",
-    "ans3": "break",
-    "ans": "ans3"
-  },
-  "Q94": {
-    "question":"Which of the following statement can be used to explicitly control looping?",
-    "ans1": "if",
-    "ans2": "while",
-    "ans3": "break",
-    "ans": "ans3"
-  },
-  "Q95": {
-    "question":"Which of the following should be preferred for evaluation from list of alternatives?",
-    "ans1": "subsett",
-    "ans2": "eval",
-    "ans3": "switch",
-    "ans": "ans2"
-  },
-  "Q96": {
-    "question":"Operator overloading is _______",
-    "ans1": "making c++ operator works with objects",
-    "ans2": "adding operation to the existing operators",
-    "ans3": "making the new operator",
-    "ans": "ans2"
-  },
-  "Q97": {
-    "question":"______ initiates an infinite loop right from the start.",
-    "ans1": "never",
-    "ans2": "repeat",
-    "ans3": "break",
-    "ans": "ans2"
-  },
-  "Q98": {
-    "question":"____ is used to skip an iteration of a loop.",
-    "ans1": "next",
-    "ans2": "skip",
-    "ans3": "group",
-    "ans": "ans1"
-  },
-  "Q99": {
-    "question":"The syntax of the repeat loop is _____",
-    "ans1": "rep statement",
-    "ans2": "repeat statement",
-    "ans3": "repeat while",
-    "ans": "ans2"
-  },
-  "Q100": {
-    "question":"Which of the following is apply function in R?",
-    "ans1": "apply()",
-    "ans2": "tapply()",
-    "ans3": "fapply()",
-    "ans": "ans2"
-  },
-  "Q101": {
-    "question":"You can check to see whether an R object is NULL with the _________ function.",
-    "ans1": "is.null()",
-    "ans2": "is.nullobj()",
-    "ans3": "null()",
-    "ans": "ans1"
-  },
-  "Q102": {
-    "question":"Which package can be integrated with dplyr for large fast tables?",
-    "ans1": "Table",
-    "ans2": "Data, dplyr",
-    "ans3": "Data.table",
-    "ans": "ans3"
-  },
-  "Q103": {
-    "question":"In the base graphics system, which function is used to add elements to a plot?",
-    "ans1": "Boxplot()",
-    "ans2": "Text()",
-    "ans3": "Boxplot() or Text()",
-    "ans": "ans3"
-  },
-  "Q104": {
-    "question":"What will be the output of log (-5.8) when executed on R console?",
-    "ans1": "NAN",
-    "ans2": "NA",
-    "ans3": "0.213",
-    "ans": "ans1"
-  },
-  "Q105": {
-    "question":"Which package in R supports the exploratory analysis of genomic data?",
-    "ans1": "Adegenat",
-    "ans2": "Adegenet",
-    "ans3": "Adegnet",
-    "ans": "ans2"
-  },
-  "Q106": {
-    "question":"_____ can contain heterogeneous inputs.",
-    "ans1": "Matrix",
-    "ans2": "Data Frames",
-    "ans3": "Does not exists",
-    "ans": "ans2"
-  },
-  "Q107": {
-    "question":"R code can be tested using _________________ package.",
-    "ans1": "Dplyr",
-    "ans2": "Hadley’s testthat",
-    "ans3": "SKLearn",
-    "ans": "ans2"
-  },
-  "Q108": {
-    "question":"If the programmers want the output to be a data frame or a vector, then ________ function is used.",
-    "ans1": "Lapply",
-    "ans2": "Sapply",
-    "ans3": "Vapply",
-    "ans": "ans1"
-  },
-  "Q109": {
-    "question":"which of the following statement make a mosaic plot?",
-    "ans1": "histogram()",
-    "ans2": "mosaicplot()",
-    "ans3": "bar()",
-    "ans": "ans2"
-  },
-  "Q110": {
-    "question":"______ will produce a sequential vector c( (1,2,3,4,5,6,7,8,9)).",
-    "ans1": "Seq(9)",
-    "ans2": "Seq(10)",
-    "ans3": "Seq(15)",
-    "ans": "ans1"
-  },
-  "Q111": {
-    "question":"_____ function is used for reading the .csv file in R language.",
-    "ans1": "Write.csv()",
-    "ans2": "Read.csv()",
-    "ans3": "Let.csv()",
-    "ans": "ans2"
-  },
-  "Q112": {
-    "question":" If the function in a console is.matrix(X) returns true then X can be considered as a ___",
-    "ans1": "Matrix object",
-    "ans2": "Matrix data object",
-    "ans3": "Matrix vector",
-    "ans": "ans2"
-  },
-  "Q113": {
-    "question":"____ measures the probability of the binary response variable in R language.",
-    "ans1": "Logical Regression",
-    "ans2": "Multivariate Regression",
-    "ans3": "Simpler Regression",
-    "ans": "ans1"
-  },
-  "Q114": {
-    "question":"____ function will measure the probability of the binary response variable in R language.",
-    "ans1": "Glm()",
-    "ans2": "Glmi()",
-    "ans3": "Gelmi()",
-    "ans": "ans1"
-  },
-  "Q115": {
-    "question":"_____ function can be used to select the random sample of size ‘n’ from a huge dataset.",
-    "ans1": "Simple()",
-    "ans2": "Sample()",
-    "ans3": "Signal()",
-    "ans": "ans2"
-  },
-  "Q116": {
-    "question":"How to declare a template?",
-    "ans1": "template<>",
-    "ans2": "temp()",
-    "ans3": "temp",
-    "ans": "ans1"
-  },
-  "Q117": {
-    "question":"Which function is used to select variables and observations from a given dataset?",
-    "ans1": "Subset()",
-    "ans2": "Sample()",
-    "ans3": "Signal()",
-    "ans": "ans1"
-  },
-  "Q118": {
-    "question":"___ package in R language provides various options for re-randomization and permutations based on statistical tests.",
-    "ans1": "Coin",
-    "ans2": "Vain",
-    "ans3": "Join",
-    "ans": "ans1"
-  },
-  "Q119": {
-    "question":"A matrix of scatterplots can be produced using _________ function.",
-    "ans1": "Pears",
-    "ans2": "Pairs",
-    "ans3": "Tears",
-    "ans": "ans2"
-  },
-  "Q120": {
-    "question":"_____ function takes various parameters like formula, data, subset, labels, etc.",
-    "ans1": "Pears",
-    "ans2": "Pairs",
-    "ans3": "Tears",
-    "ans": "ans2"
-  },
-  "Q121": {
-    "question":"What would be the value of following R expression?\nlog(-1)",
-    "ans1": "Warning in log(-1): NaNs produced",
-    "ans2": "Null",
-    "ans3": "0",
-    "ans": "ans1"
-  },
-  "Q122": {
-    "question":"Warnings are generated by the _________ function.",
-    "ans1": "warning()",
-    "ans2": "error()",
-    "ans3": "run()",
-    "ans": "ans1"
-  },
-  "Q123": {
-    "question":"To get the current date, the _______ function will return a Date object which can be converted to a different class if necessary.",
-    "ans1": "Sys.Time",
-    "ans2": "Sys.Date",
-    "ans3": "Sys.DateTime",
-    "ans": "ans2"
-  },
-  "Q124": {
-    "question":"A function, together with an environment, makes up what is called a ______ closure.",
-    "ans1": "formal",
-    "ans2": "function",
-    "ans3": "reflective",
-    "ans": "ans2"
-  },
-  "Q125": {
-    "question":"Point out the wrong statement?",
-    "ans1": "The order of the packages on the search list does not matter",
-    "ans2": "R has separate namespaces for functions and non-functions",
-    "ans3": "Users can configure which packages get loaded on startup so if you are writing a function",
-    "ans": "ans1"
-  },
-  "Q126": {
-    "question":"The only environment without a parent is the ________ environment.",
-    "ans1": "full",
-    "ans2": "half",
-    "ans3": "empty",
-    "ans": "ans3"
-  },
-  "Q127": {
-    "question":"The ________ for R are the main feature that make it different from the original S language.",
-    "ans1": "scoping rules",
-    "ans2": "closure rules",
-    "ans3": "environment rules",
-    "ans": "ans1"
-  },
-  "Q128": {
-    "question":"The _________ function is a kind of “constructor function” that can be used to construct other functions.",
-    "ans1": "make.pow()",
-    "ans2": "make.power()",
-    "ans3": "keep.power()",
-    "ans": "ans2"
-  },
-  "Q129": {
-    "question":"The recover() function will first print out the function call stack when an _______ occurs.",
-    "ans1": "Error",
-    "ans2": "Warning",
-    "ans3": "Messages",
-    "ans": "ans1"
-  },
-  "Q130": {
-    "question":"Which of the following is primary tool for debugging?",
-    "ans1": "debug()",
-    "ans2": "trace()",
-    "ans3": "browser()",
-    "ans": "ans1"
-  },
-  "Q131": {
-    "question":"_____ allows you to insert debugging code into a function a specific places",
-    "ans1": "debug()",
-    "ans2": "trace()",
-    "ans3": "browser()",
-    "ans": "ans2"
-  },
-  "Q132": {
-    "question":"____ evaluate the cumulative distribution function for a Normal distribution.",
-    "ans1": "dnorm",
-    "ans2": "rnorm",
-    "ans3": "pnorm",
-    "ans": "ans3"
-  },
-  "Q133": {
-    "question":"Which of the following evaluate the Normal probability density (with a given mean/SD) at a point?",
-    "ans1": "dnorm",
-    "ans2": "rnorm",
-    "ans3": "pnorm",
-    "ans": "ans1"
-  },
-  "Q134": {
-    "question":"R comes with a ________ to help you optimize your code and improve its performance.",
-    "ans1": "debugger",
-    "ans2": "monitor",
-    "ans3": "browser",
-    "ans": "ans1"
-  },
-  "Q135": {
-    "question":"The _______ function computes the time (in seconds) needed to execute an expression.",
-    "ans1": "system.timedeb()",
-    "ans2": "system.time()",
-    "ans3": "system.datetime()",
-    "ans": "ans2"
-  },
-  "Q136": {
-    "question":"system.time function returns an object of class _______ which contains two useful bits of information.",
-    "ans1": "debug_time",
-    "ans2": "proc_time",
-    "ans3": "procedure_time",
-    "ans": "ans2"
-  },
-  "Q137": {
-    "question":"____ time is time charged to the CPU(s) for the R expression.",
-    "ans1": "elapsed",
-    "ans2": "user",
-    "ans3": "response",
-    "ans": "ans1"
-  },
-  "Q138": {
-    "question":"The elapsed time may be ________ than the user time if your machine has multiple cores/processors.",
-    "ans1": "smaller",
-    "ans2": "greater",
-    "ans3": "null",
-    "ans": "ans1"
-  },
-  "Q139": {
-    "question":"You can time ________ expressions by wrapping them in curly braces within the call to system.time().",
-    "ans1": "smaller",
-    "ans2": "longer",
-    "ans3": "grater",
-    "ans": "ans2"
-  },
-  "Q140": {
-    "question":"____ grammar makes a clear distinction between your data and what gets displayed on the screen or page.",
-    "ans1": "ggplot1",
-    "ans2": "ggplot2",
-    "ans3": "d3.js",
-    "ans": "ans2"
-  },
-  "Q141": {
-    "question":"Which of the following cuts numeric vector into intervals of equal length?",
-    "ans1": "cut_interval",
-    "ans2": "cut_time",
-    "ans3": "cut_number",
-    "ans": "ans1"
-  },
-  "Q142": {
-    "question":"Which of the following is a plot to investigate the order in which observations were recorded?",
-    "ans1": "ggplot",
-    "ans2": "ggsave",
-    "ans3": "ggorder",
-    "ans": "ans3"
-  },
-  "Q143": {
-    "question":"_____ modifies geom/stat aesthetic defaults for future plots.",
-    "ans1": "translate_qplot_base",
-    "ans2": "translate_qplot_gpl",
-    "ans3": "translate_qplot_defaults",
-    "ans": "ans3"
-  },
-  "Q144": {
-    "question":"Which of the following is discrete state calculator?",
-    "ans1": "discrete_scale",
-    "ans2": "ggpcp",
-    "ans3": "ggfluctuation",
-    "ans": "ans3"
-  },
-  "Q145": {
-    "question":"Which of the following creates fluctuation plot?",
-    "ans1": "ggmissplot",
-    "ans2": "ggmissing",
-    "ans3": "ggfluctuation",
-    "ans": "ans2"
-  },
-  "Q146": {
-    "question":"Elements in STL heap are removed in ____",
-    "ans1": "decreasing order",
-    "ans2": "increasing order",
-    "ans3": "input order",
-    "ans": "ans1"
-  },
-  "Q147": {
-    "question":"_____ is used to create a plot to illustrate patterns of missing values.",
-    "ans1": "ggmissplot",
-    "ans2": "ggmissing",
-    "ans3": "ggfluctuation",
-    "ans": "ans2"
-  },
-  "Q148": {
-    "question":"Which of the following function takes multiple columns?",
-    "ans1": "spread()",
-    "ans2": "gather()",
-    "ans3": "separate()",
-    "ans": "ans2"
-  },
-  "Q149": {
-    "question":"Which of the following merges two variables into one?",
-    "ans1": "spread()",
-    "ans2": "gather()",
-    "ans3": "separate()",
-    "ans": "ans3"
-  },
-  "Q150": {
-    "question":"____ add new variables/columns or transform existing variables.",
-    "ans1": "mutate",
-    "ans2": "add",
-    "ans3": "apped",
-    "ans": "ans1"
-  },
-  "Q151": {
-    "question":"___ extract a subset of rows from a data frame based on logical conditions.",
-    "ans1": "rename",
-    "ans2": "filter",
-    "ans3": "subset",
-    "ans": "ans3"
-  },
-  "Q152": {
-    "question":"Which of the following code create a n item vector of random normal deviates?",
-    "ans1": "x1 <- c(snorm(n))",
-    "ans2": "x1 <- c(pnorm(n))",
-    "ans3": "x1 <- c(rnorm(n))",
-    "ans": "ans3"
-  },
-  "Q153": {
-    "question":"Which of the following statement read a tab or space delimited file?",
-    "ans1": "read.table(filename,header=TRUE)",
-    "ans2": "read.CSV(filename,header=TRUE)",
-    "ans3": "read.table(filename,header=FALSE)",
-    "ans": "ans1"
-  },
-  "Q154": {
-    "question":"which of the following statement chose those objects meeting a logical criterion?",
-    "ans1": "sub(dataset,logical)",
-    "ans2": "subset(dataset,logical)",
-    "ans3": "subsetcon(dataset,logical)",
-    "ans": "ans2"
-  },
-  "Q155": {
-    "question":"___ list the variables in the workspace.",
-    "ans1": "rm(x)",
-    "ans2": "rm(list=ls())",
-    "ans3": "ls()",
-    "ans": "ans3"
-  },
-  "Q156": {
-    "question":"_____ remove all the variables from the workspace.",
-    "ans1": "rm(x)",
-    "ans2": "rm(list=ls())",
-    "ans3": "attach(mat)",
-    "ans": "ans2"
-  },
-  "Q157": {
-    "question":"Which of the following finds row sums for each level of a grouping variable?",
-    "ans1": "rowSums (x, na.rm = FALSE, dims = 1)",
-    "ans2": "colMeans(x, na.rm = FALSE, dims = 1)",
-    "ans3": "rowMeans(x, na.rm = FALSE, dims = 1)",
-    "ans": "ans3"
-  },
-  "Q158": {
-    "question":"Which of the following statement finds the maximum for each column?",
-    "ans1": "apply(x,2,max)",
-    "ans2": "col.max(x)",
-    "ans3": "which.min(x)",
-    "ans": "ans1"
-  },
-  "Q159": {
-    "question":"Which of the following finds row sums for each level of a grouping variable?",
-    "ans1": "as.numeric(x)",
-    "ans2": "rowsum(x, group, reorder = TRUE, …)",
-    "ans3": "as.order(x)",
-    "ans": "ans2"
-  },
-  "Q160": {
-    "question":"Which of the following sets the size of the outer margins for the graph?",
-    "ans1": "par(mfrow=c(nrow,mcol))",
-    "ans2": "par(ask=TRUE)",
-    "ans3": "par(omi=c(0,0,1,0) )",
-    "ans": "ans3"
-  },
-  "Q161": {
-    "question":"Which of the following function is used for plotting histogram?",
-    "ans1": "hist()",
-    "ans2": "histog()",
-    "ans3": "histg()",
-    "ans": "ans1"
-  },
-  "Q162": {
-    "question":"Which of the following will add the title “R language” to the graph?",
-    "ans1": "titleAdd( “R language”)",
-    "ans2": "title( “R language”)",
-    "ans3": "titleBar( “R language”)",
-    "ans": "ans2"
-  },
-  "Q163": {
-    "question":"Which of the following is a principle of analytic graphics?",
-    "ans1": "Don’t plot more than two variables at at time",
-    "ans2": "Make judicious use of color in your scatterplots",
-    "ans3": "Show causality, mechanism, explanation",
-    "ans": "ans3"
-  },
-  "Q164": {
-    "question":"What is the role of exploratory graphs in data analysis?",
-    "ans1": "They are made for formal presentations",
-    "ans2": "They are typically made very quickly",
-    "ans3": "Axes, legends, and other details are clean and exactly detailed",
-    "ans": "ans2"
-  },
-  "Q165": {
-    "question":"Which of the following is true about the base plotting system?",
-    "ans1": "Margins and spacings are adjusted automatically depending on the type of plot and the data",
-    "ans2": "Plots are typically created with a single function call",
-    "ans3": "Plots are created and annotated with separate functions",
-    "ans": "ans3"
-  },
-  "Q166": {
-    "question":"Which of the following is an example of a valid graphics device in R?",
-    "ans1": "A socket connection",
-    "ans2": "A Microsoft Word document",
-    "ans3": "A PDF file",
-    "ans": "ans3"
-  },
-  "Q167": {
-    "question":"What is the syntax of defining lambda expression?",
-    "ans1": "[capture clause](parameters) -> return_type { body of the function }",
-    "ans2": "[parameters](capture clause) -> return_type { body of the function }",
-    "ans3": "[parameters:capture clause]() -> return_type { body of the function }",
-    "ans": "ans1"
-  },
-  "Q168": {
-    "question":"Which of the following is an example of a vector graphics device in R?",
-    "ans1": "JPEG",
-    "ans2": "PNG",
-    "ans3": "SVG",
-    "ans": "ans3"
-  },
-  "Q169": {
-    "question":"Which of the following functions is typically used to add elements to a plot in the base graphics system?",
-    "ans1": "lines()",
-    "ans2": "boxplot()",
-    "ans3": "plot()",
-    "ans": "ans2"
-  },
-  "Q170": {
-    "question":"Which function opens the screen graphics device for the Mac?",
-    "ans1": "bitmap()",
-    "ans2": "quartz()",
-    "ans3": "pdf()",
-    "ans": "ans2"
-  },
-  "Q171": {
-    "question":"____ makes it incredibly easy to fit time series models like ARIMA, ARMA, AR, Exponential Smoothing, etc.",
-    "ans1": "sqldf",
-    "ans2": "plyr",
-    "ans3": "forecast",
-    "ans": "ans3"
-  },
-  "Q172": {
-    "question":"____ provides needed string operators in R.",
-    "ans1": "str",
-    "ans2": "forecast",
-    "ans3": "stringr",
-    "ans": "ans3"
-  },
-  "Q173": {
-    "question":"Which of the following will add the title “R language” to the graph?",
-    "ans1": "titleAdd( “R language”)",
-    "ans2": "title( “R language”)",
-    "ans3": "titleBar( “R language”)",
-    "ans": "ans2"
-  },
-  "Q174": {
-    "question":"Which of the following is a library for statistical quality control?",
-    "ans1": "gcc",
-    "ans2": "qcc",
-    "ans3": "anc",
-    "ans": "ans2"
-  },
-  "Q175": {
-    "question":"____ specializes in converting data from wide to long format.",
-    "ans1": "gcc",
-    "ans2": "reshape",
-    "ans3": "reshape2",
-    "ans": "ans3"
-  },
-  "Q176": {
-    "question":"_____ is used to convert wide data to long data.",
-    "ans1": "melt",
-    "ans2": "dcast",
-    "ans3": "cast",
-    "ans": "ans1"
-  },
-  "Q177": {
-    "question":"Which of the following method make vector of repeated values?",
-    "ans1": "rep()",
-    "ans2": "data()",
-    "ans3": "view()",
-    "ans": "ans2"
-  },
-  "Q178": {
-    "question":"Which of the following finds the position of a quantile in a dataset?",
-    "ans1": "quantile()",
-    "ans2": "barplot()",
-    "ans3": "barchart()",
-    "ans": "ans1"
-  },
-  "Q179": {
-    "question":"Which of the following function cross-tabulate tables using formulas?",
-    "ans1": "table",
-    "ans2": "stem",
-    "ans3": "read",
-    "ans": "ans3"
-  },
-  "Q180": {
-    "question":"Which of the following groups find the correlation matrix?",
-    "ans1": "factor.model",
-    "ans2": "col.max(x)",
-    "ans3": "stem",
-    "ans": "ans1"
-  }
-}}
+{
+    "questions": {
+        "Q1": {
+            "question": "They primary R system is available from the ____",
+            "ans1": "CRAN",
+            "ans2": "CRWO",
+            "ans3": "GNU",
+            "ans": "ans1"
+        },
+        "Q2": {
+            "question": "Point out the wrong statement?",
+            "ans1": "Key feature of R was that its syntax is very similar to S",
+            "ans2": "R runs only on Windows computing platform and operating system",
+            "ans3": "R functionality is divided into a number of Packages",
+            "ans": "ans2"
+        },
+        "Q3": {
+            "question": "R functionality is divided into a number of _____",
+            "ans1": "Packages",
+            "ans2": "Functions",
+            "ans3": "Domains",
+            "ans": "ans1"
+        },
+        "Q4": {
+            "question": "Which Package contains most fundamental functions to run R?",
+            "ans1": "root",
+            "ans2": "child",
+            "ans3": "base",
+            "ans": "ans3"
+        },
+        "Q5": {
+            "question": "Point out the wrong statement?",
+            "ans1": "R has sophisticated graphics capabilities",
+            "ans2": "One nice feature that R shares with many popular open source projects is frequent releases",
+            "ans3": "S’s base graphics system allows for very fine control over essentially every aspect of a plot or graph",
+            "ans": "ans3"
+        },
+        "Q6": {
+            "question": "Which of the following is a base package for R language?",
+            "ans1": "util",
+            "ans2": "lang",
+            "ans3": "tools",
+            "ans": "ans3"
+        },
+        "Q7": {
+            "question": "Which of the following compute analysis of variance table for fitted model?",
+            "ans1": "ecdf()",
+            "ans2": "cum()",
+            "ans3": "anova()",
+            "ans": "ans3"
+        },
+        "Q8": {
+            "question": "What is the output of getOption(“defaultPackages”) in R studio?",
+            "ans1": "Installs a new package",
+            "ans2": "Shows default packages in R",
+            "ans3": "Error",
+            "ans": "ans2"
+        },
+        "Q9": {
+            "question": "Advanced users can write ___ code to manipulate R objects directly.",
+            "ans1": "C, C++",
+            "ans2": "Java, C",
+            "ans3": "C++, Java",
+            "ans": "ans1"
+        },
+        "Q10": {
+            "question": "What will be the output of the following R program?\n r<-0:10\nr[2]",
+            "ans1": "0",
+            "ans2": "1",
+            "ans3": "2",
+            "ans": "ans2"
+        },
+        "Q11": {
+            "question": "Which of the following operator is used to create integer sequences?",
+            "ans1": ":",
+            "ans2": "–",
+            "ans3": "~",
+            "ans": "ans1"
+        },
+        "Q12": {
+            "question": "In R language, a vector is defined that it can only contain objects of the _____",
+            "ans1": "Same class",
+            "ans2": "Different class",
+            "ans3": "Any class",
+            "ans": "ans1"
+        },
+        "Q13": {
+            "question": "A list is represented as a vector but can contain objects of ______",
+            "ans1": "Same class",
+            "ans2": "Different class",
+            "ans3": "Any class",
+            "ans": "ans1"
+        },
+        "Q14": {
+            "question": "How can we define ‘undefined value’ in R language?",
+            "ans1": "Sup",
+            "ans2": "Und",
+            "ans3": "NaN",
+            "ans": "ans3"
+        },
+        "Q15": {
+            "question": "What is NaN called?",
+            "ans1": "Not a Number",
+            "ans2": "Not a Numeric",
+            "ans3": "Number and Number",
+            "ans": "ans1"
+        },
+        "Q16": {
+            "question": "How can we define ‘infinity’ in R language?",
+            "ans1": "Inf",
+            "ans2": "Sup",
+            "ans3": "Und",
+            "ans": "ans1"
+        },
+        "Q17": {
+            "question": "Which one of the following is not a basic datatype?",
+            "ans1": "Numeric",
+            "ans2": "Character",
+            "ans3": "Data frame",
+            "ans": "ans3"
+        },
+        "Q18": {
+            "question": "How do you create an integer suppose 5 in R?",
+            "ans1": "5L",
+            "ans2": "5l",
+            "ans3": "5d",
+            "ans": "ans1"
+        },
+        "Q19": {
+            "question": "The dimension attribute is itself an integer vector of length ___",
+            "ans1": "1",
+            "ans2": "2",
+            "ans3": "3",
+            "ans": "ans2"
+        },
+        "Q20": {
+            "question": "Matrices can be created by row-binding with the help of the following function.",
+            "ans1": "rjoin()",
+            "ans2": "rbind()",
+            "ans3": "rowbind()",
+            "ans": "ans2"
+        },
+        "Q21": {
+            "question": "What is the function used to test objects (returns a logical operator) if they are NA?",
+            "ans1": "is.na()",
+            "ans2": "is.nan()",
+            "ans3": "as.na()",
+            "ans": "ans1"
+        },
+        "Q22": {
+            "question": "What is the function to set column names for a matrix?",
+            "ans1": "names()",
+            "ans2": "colnames()",
+            "ans3": "col.names()",
+            "ans": "ans2"
+        },
+        "Q23": {
+            "question": "Point out the wrong statement?",
+            "ans1": "Setting up a workstation to take full advantage of the customizable features of R is a straightforward thing",
+            "ans2": "q() is used to quit the R program",
+            "ans3": "R has an inbuilt help facility similar to the man facility of UNIX",
+            "ans": "ans2"
+        },
+        "Q24": {
+            "question": "Which of the following determine the least-squares regression line?",
+            "ans1": "histo()",
+            "ans2": "lm",
+            "ans3": "barlm()",
+            "ans": "ans2"
+        },
+        "Q25": {
+            "question": "Which of the following is tool for checking normality?",
+            "ans1": "qqline()",
+            "ans2": "qline()",
+            "ans3": "anova()",
+            "ans": "ans1"
+        },
+        "Q26": {
+            "question": "Which of the following is lattice command for producing boxplots?",
+            "ans1": "plot()",
+            "ans2": "bwplot()",
+            "ans3": "xyplot()",
+            "ans": "ans2"
+        },
+        "Q27": {
+            "question": "Advanced programmers can write ______ code to manipulate R objects.",
+            "ans1": "Python",
+            "ans2": "Java",
+            "ans3": "C",
+            "ans": "ans3"
+        },
+        "Q28": {
+            "question": "Functionality of R is divided into a number of ___",
+            "ans1": "Functions",
+            "ans2": "Domains",
+            "ans3": "Packages",
+            "ans": "ans1"
+        },
+        "Q29": {
+            "question": "Which of the following adds marginal sums to an existing table?",
+            "ans1": "par()",
+            "ans2": "prop.table()",
+            "ans3": "addmargins()",
+            "ans": "ans2"
+        },
+        "Q30": {
+            "question": "Which of the following lists names of variables in a data.frame?",
+            "ans1": "quantile()",
+            "ans2": "names()",
+            "ans3": "barchart()",
+            "ans": "ans1"
+        },
+        "Q31": {
+            "question": "Point out the wrong statement?",
+            "ans1": "The grammar of the language determines whether an expression is complete or not",
+            "ans2": "The <- symbol is the assignment operator in R",
+            "ans3": "The ## character indicates a comment",
+            "ans": "ans3"
+        },
+        "Q32": {
+            "question": "Which of the following is tool for chi-square distributions?",
+            "ans1": "pchisq()",
+            "ans2": "chisq()",
+            "ans3": "pnorm",
+            "ans": "ans2"
+        },
+        "Q33": {
+            "question": "Which of the following groups values of a variable into larger bins?",
+            "ans1": "cut",
+            "ans2": "col.max(x)",
+            "ans3": "stem",
+            "ans": "ans1"
+        },
+        "Q34": {
+            "question": "Which of the following is used to find variance of all values?",
+            "ans1": "var()",
+            "ans2": "mean()",
+            "ans3": "anova()",
+            "ans": "ans1"
+        },
+        "Q35": {
+            "question": "Which of the following is used to plot multiple histograms?",
+            "ans1": "multi.plot()",
+            "ans2": "multi.hist",
+            "ans3": "poly()",
+            "ans": "ans2"
+        },
+        "Q36": {
+            "question": "Which of the following can be used to display the names of (most of) the objects which are currently stored within R?",
+            "ans1": "object()",
+            "ans2": "objects()",
+            "ans3": "list()",
+            "ans": "ans2"
+        },
+        "Q37": {
+            "question": "Which of the following count the number of good cases when doing pairwise analysis?",
+            "ans1": "count.pairwise",
+            "ans2": "anova.para()",
+            "ans3": "count.poly()",
+            "ans": "ans1"
+        },
+        "Q38": {
+            "question": "What will be the output of the following R function? \n d <- date() \n d",
+            "ans1": "Prints todays date",
+            "ans2": "Prints some date",
+            "ans3": "Prints exact present time and date",
+            "ans": "ans3"
+        },
+        "Q39": {
+            "question": "The purpose of correct.cor is to correct _________ in values.",
+            "ans1": "difference",
+            "ans2": "reliability",
+            "ans3": "error",
+            "ans": "ans2"
+        },
+        "Q40": {
+            "question": "Function used for linear regression in R is ______",
+            "ans1": "lm(formula, data)",
+            "ans2": "lr(formula, data)",
+            "ans3": "lrm(formula, data)",
+            "ans": "ans1"
+        },
+        "Q41": {
+            "question": "Numbers in R are generally treated as _______ precision real numbers.",
+            "ans1": "single",
+            "ans2": "double",
+            "ans3": "real",
+            "ans": "ans2"
+        },
+        "Q42": {
+            "question": "___ is discovering unseen patterns from data.",
+            "ans1": "Data Milling",
+            "ans2": "Data Mining",
+            "ans3": "Niching",
+            "ans": "ans2"
+        },
+        "Q43": {
+            "question": "Attributes of an object (if any) can be accessed using the ______ function.",
+            "ans1": "objects()",
+            "ans2": "attrib()",
+            "ans3": "attributes()",
+            "ans": "ans3"
+        },
+        "Q44": {
+            "question": "_______ produces one-dimensional scatterplots.",
+            "ans1": "xyplot",
+            "ans2": "stripplot",
+            "ans3": "barchart",
+            "ans": "ans1"
+        },
+        "Q45": {
+            "question": "Logical flag is applicable to which of the following plots?",
+            "ans1": "scatterplot",
+            "ans2": "dotplot",
+            "ans3": "xyplot",
+            "ans": "ans2"
+        },
+        "Q46": {
+            "question": "_____ produces bivariate scatterplots or time-series plots.",
+            "ans1": "xyplot",
+            "ans2": "dotplot",
+            "ans3": "barchart",
+            "ans": "ans1"
+        },
+        "Q47": {
+            "question": "What will be the output of the following R code? \n m <- 1:10 \n m",
+            "ans1": "1 2 3 4 5 6 7 8 9 10",
+            "ans2": "1 2 3 4 5 6 7 8 9 10 11",
+            "ans3": "0 1 2 3 4 5 6 7 8 9 10",
+            "ans": "ans1"
+        },
+        "Q48": {
+            "question": "Which of the following simple the square root of σ square?",
+            "ans1": "Variance",
+            "ans2": "Standard deviation",
+            "ans3": "Mean",
+            "ans": "ans2"
+        },
+        "Q49": {
+            "question": "All columns in a matrix must have the same mode and the _________ length.",
+            "ans1": "Different",
+            "ans2": "Same",
+            "ans3": "May be the same",
+            "ans": "ans2"
+        },
+        "Q50": {
+            "question": "Which function is used to simulate discrete uniform random variables?",
+            "ans1": "Sample",
+            "ans2": "Simple",
+            "ans3": "Function",
+            "ans": "ans1"
+        },
+        "Q51": {
+            "question": "Which function is used for seeing currently active libraries?",
+            "ans1": "Curlib()",
+            "ans2": "Currlib()",
+            "ans3": ".libpaths()",
+            "ans": "ans3"
+        },
+        "Q52": {
+            "question": "Which is more general than a matrix, in that different columns can have different modes?",
+            "ans1": "Data types",
+            "ans2": "Data frames",
+            "ans3": "Data sets",
+            "ans": "ans3"
+        },
+        "Q53": {
+            "question": "An ordered collection of objects or components are called ____",
+            "ans1": "Data frames",
+            "ans2": "Datasets",
+            "ans3": "Lists",
+            "ans": "ans3"
+        },
+        "Q54": {
+            "question": "The ________ stores the nominal values as a vector of integers in the range of 1 to unique values in the nominal variable.",
+            "ans1": "Factor",
+            "ans2": "Matrix",
+            "ans3": "Lists",
+            "ans": "ans1"
+        },
+        "Q55": {
+            "question": "An ordered factor is used to represent an _______",
+            "ans1": "Ordinal variable",
+            "ans2": "Simple variable",
+            "ans3": "Coordinal variable",
+            "ans": "ans1"
+        },
+        "Q56": {
+            "question": "Which function is used to combine the elements into a vector?",
+            "ans1": "C()",
+            "ans2": "D()",
+            "ans3": "E()",
+            "ans": "ans1"
+        },
+        "Q57": {
+            "question": "Which of the following contains pre-built predictive tools?",
+            "ans1": "alteryx",
+            "ans2": "fossilx",
+            "ans3": "ssas",
+            "ans": "ans1"
+        },
+        "Q58": {
+            "question": "Which function takes a dim attribute which creates the required number of dimensions?",
+            "ans1": "Vector",
+            "ans2": "Array",
+            "ans3": "Matrix",
+            "ans": "ans2"
+        },
+        "Q59": {
+            "question": "Factors are the r-objects which are created using a _______",
+            "ans1": "Vector",
+            "ans2": "Matrix",
+            "ans3": "Lists",
+            "ans": "ans1"
+        },
+        "Q60": {
+            "question": "vectors can be one of two types namely atomic vectors and ____",
+            "ans1": "Matrix",
+            "ans2": "Vector",
+            "ans3": "Lists",
+            "ans": "ans3"
+        },
+        "Q61": {
+            "question": "Which is the basic data structure of R containing the same type of data?",
+            "ans1": "Functions",
+            "ans2": "Array",
+            "ans3": "Vector",
+            "ans": "ans3"
+        },
+        "Q62": {
+            "question": "The four most frequently used types of data objects in R are vectors, matrices, data frames and ______",
+            "ans1": "Function",
+            "ans2": "Lists",
+            "ans3": "Packages",
+            "ans": "ans2"
+        },
+        "Q63": {
+            "question": "What is the simplest way of creating the vector?",
+            "ans1": "C function",
+            "ans2": "Create",
+            "ans3": "Destroy",
+            "ans": "ans1"
+        },
+        "Q64": {
+            "question": " Which function replicates elements of vectors?",
+            "ans1": "C",
+            "ans2": "Rep",
+            "ans3": "Crep",
+            "ans": "ans2"
+        },
+        "Q65": {
+            "question": "Which of the following is a 3-dimensional dataset?",
+            "ans1": "Eris",
+            "ans2": "Iris",
+            "ans3": "Toris",
+            "ans": "ans2"
+        },
+        "Q66": {
+            "question": "Which dimension corresponds to the explanatory variables collected for each species?",
+            "ans1": "First",
+            "ans2": "Second",
+            "ans3": "Third",
+            "ans": "ans2"
+        },
+        "Q67": {
+            "question": "Which of the following code snippet will create a vector with NAs in it?",
+            "ans1": "x >- c(1, 2, NA, 10, 3)",
+            "ans2": "x >- cNA(1, 2, NA, 10, 3)",
+            "ans3": "x >- NA(1, 2, NA, 10, 3)",
+            "ans": "ans1"
+        },
+        "Q68": {
+            "question": "The ________ function takes an arbitrary number of arguments and concatenates them one by one into character strings.",
+            "ans1": "copy()",
+            "ans2": "paste()",
+            "ans3": "bind()",
+            "ans": "ans1"
+        },
+        "Q69": {
+            "question": "Point out the wrong statement?",
+            "ans1": "is.nan() is used to test objects if they are NA",
+            "ans2": "is.nan() is used to test for NaN",
+            "ans3": "NA values have a class",
+            "ans": "ans1"
+        },
+        "Q70": {
+            "question": "Data frames can be converted to a matrix by calling data ____",
+            "ans1": "as.matr()",
+            "ans2": "as.mat()",
+            "ans3": "as.matrix()",
+            "ans": "ans3"
+        },
+        "Q71": {
+            "question": "Which of the following is used for reading tabular data?",
+            "ans1": "read.csv",
+            "ans2": "dget",
+            "ans3": "readLines",
+            "ans": "ans1"
+        },
+        "Q72": {
+            "question": "R Commander is used to ___________ in R",
+            "ans1": "Export data",
+            "ans2": "Import data",
+            "ans3": "Use data",
+            "ans": "ans2"
+        },
+        "Q73": {
+            "question": "Two vectors M and N are defined as M <- c(3, 2, 4) and N <- c(1, 2). What will be the output of vector Z that is defined as Z <- M*N.",
+            "ans1": "Z <- (3, 2, 4)",
+            "ans2": "Z <- (3, 6, 4)",
+            "ans3": "Z <- (3, 4, 4)",
+            "ans": "ans3"
+        },
+        "Q74": {
+            "question": "How missing values and impossible values are represented in R language?",
+            "ans1": "NA",
+            "ans2": "NAN",
+            "ans3": "NA & NAN",
+            "ans": "ans3"
+        },
+        "Q75": {
+            "question": "CRAN package ecosystem has more than ______ packages.",
+            "ans1": "5000",
+            "ans2": "4000",
+            "ans3": "6000",
+            "ans": "ans3"
+        },
+        "Q76": {
+            "question": "Which function in R language is used to find out whether the means of 2 groups are equal to each other or not?",
+            "ans1": "f.tests ()",
+            "ans2": "l.tests ()",
+            "ans3": "t.tests ()",
+            "ans": "ans3"
+        },
+        "Q77": {
+            "question": "_____ is the best way for communicating the results of data analysis using the R language.",
+            "ans1": "Single document",
+            "ans2": "Files",
+            "ans3": "Structures",
+            "ans": "ans1"
+        },
+        "Q78": {
+            "question": "_____ is the easiest method for reshaping the data before analysis.",
+            "ans1": "Transpose()",
+            "ans2": "Structure()",
+            "ans3": "Package()",
+            "ans": "ans1"
+        },
+        "Q79": {
+            "question": "____ function is used to apply an expression for a given dataset",
+            "ans1": "This()",
+            "ans2": "With()",
+            "ans3": "Unwith()",
+            "ans": "ans2"
+        },
+        "Q80": {
+            "question": "____ package is used to speed up data frame management code.",
+            "ans1": "Data.table",
+            "ans2": "Dplyr",
+            "ans3": "Table",
+            "ans": "ans2"
+        },
+        "Q81": {
+            "question": "Individual R objects can be saved to a file using the _____ function.",
+            "ans1": "save",
+            "ans2": "put",
+            "ans3": "get",
+            "ans": "ans1"
+        },
+        "Q82": {
+            "question": "_____ opens a connection to a file compressed with gzip.",
+            "ans1": "url",
+            "ans2": "gzfile",
+            "ans3": "bzfile",
+            "ans": "ans2"
+        },
+        "Q83": {
+            "question": "Point out the wrong statement?",
+            "ans1": "$ operator semantics are similar to that of [[",
+            "ans2": "The [ operator always returns an object of the same class as the original",
+            "ans3": "The $ operator is used to extract elements of a list or a data frame",
+            "ans": "ans3"
+        },
+        "Q84": {
+            "question": "___ is simplest class of analytics.",
+            "ans1": "Descriptive",
+            "ans2": "Predictive",
+            "ans3": "Prescriptive",
+            "ans": "ans1"
+        },
+        "Q85": {
+            "question": "Point out the correct statement?",
+            "ans1": "You can also use the $ operator to extract elements by name",
+            "ans2": "$ operator can be used with computed indices",
+            "ans3": "The [[ operator can only be used with literal names",
+            "ans": "ans1"
+        },
+        "Q86": {
+            "question": "_____ is proprietary tool for predictive analytics.",
+            "ans1": "SAS",
+            "ans2": "SSAS",
+            "ans3": "EDR",
+            "ans": "ans2"
+        },
+        "Q87": {
+            "question": "Which of the following involves predicting a categorical response?",
+            "ans1": "Regression",
+            "ans2": "Summarization",
+            "ans3": "Classification",
+            "ans": "ans3"
+        },
+        "Q88": {
+            "question": "Which of the following is used to analyze paleontological time-series?",
+            "ans1": "accelerometry",
+            "ans2": "parfossil",
+            "ans3": "paleoTS",
+            "ans": "ans3"
+        },
+        "Q89": {
+            "question": "Point out the wrong statement?",
+            "ans1": "Dates are represented by the Date class",
+            "ans2": "Times are represented by the POSIXct or the POSIXlt class",
+            "ans3": "Dates are represented by the DateTime class",
+            "ans": "ans3"
+        },
+        "Q90": {
+            "question": "Which of the following code represents internal representation of a Date object?",
+            "ans1": "class(as.Date('1970-01-02'))",
+            "ans2": "unclass(as.Date('1970-01-02'))",
+            "ans3": "unclassint(as.Date('1970-01-02'))",
+            "ans": "ans2"
+        },
+        "Q91": {
+            "question": "Which keyword is used to define the user defined data types?",
+            "ans1": "def",
+            "ans2": "typedef",
+            "ans3": "type",
+            "ans": "ans2"
+        },
+        "Q92": {
+            "question": "Which of the following R syntax is correct for while loop?",
+            "ans1": "while ( statement1 ) statement2",
+            "ans2": "while ( statement1 ) else statement2",
+            "ans3": "while ( statement1 ) do statement2",
+            "ans": "ans1"
+        },
+        "Q93": {
+            "question": "_____ is used to break the execution of a loop.",
+            "ans1": "next",
+            "ans2": "skip",
+            "ans3": "break",
+            "ans": "ans3"
+        },
+        "Q94": {
+            "question": "Which of the following statement can be used to explicitly control looping?",
+            "ans1": "if",
+            "ans2": "while",
+            "ans3": "break",
+            "ans": "ans3"
+        },
+        "Q95": {
+            "question": "Which of the following should be preferred for evaluation from list of alternatives?",
+            "ans1": "subsett",
+            "ans2": "eval",
+            "ans3": "switch",
+            "ans": "ans2"
+        },
+        "Q96": {
+            "question": "Operator overloading is _______",
+            "ans1": "making c++ operator works with objects",
+            "ans2": "adding operation to the existing operators",
+            "ans3": "making the new operator",
+            "ans": "ans2"
+        },
+        "Q97": {
+            "question": "______ initiates an infinite loop right from the start.",
+            "ans1": "never",
+            "ans2": "repeat",
+            "ans3": "break",
+            "ans": "ans2"
+        },
+        "Q98": {
+            "question": "____ is used to skip an iteration of a loop.",
+            "ans1": "next",
+            "ans2": "skip",
+            "ans3": "group",
+            "ans": "ans1"
+        },
+        "Q99": {
+            "question": "The syntax of the repeat loop is _____",
+            "ans1": "rep statement",
+            "ans2": "repeat statement",
+            "ans3": "repeat while",
+            "ans": "ans2"
+        },
+        "Q100": {
+            "question": "Which of the following is apply function in R?",
+            "ans1": "apply()",
+            "ans2": "tapply()",
+            "ans3": "fapply()",
+            "ans": "ans2"
+        },
+        "Q101": {
+            "question": "You can check to see whether an R object is NULL with the _________ function.",
+            "ans1": "is.null()",
+            "ans2": "is.nullobj()",
+            "ans3": "null()",
+            "ans": "ans1"
+        },
+        "Q102": {
+            "question": "Which package can be integrated with dplyr for large fast tables?",
+            "ans1": "Table",
+            "ans2": "Data, dplyr",
+            "ans3": "Data.table",
+            "ans": "ans3"
+        },
+        "Q103": {
+            "question": "In the base graphics system, which function is used to add elements to a plot?",
+            "ans1": "Boxplot()",
+            "ans2": "Text()",
+            "ans3": "Boxplot() or Text()",
+            "ans": "ans3"
+        },
+        "Q104": {
+            "question": "What will be the output of log (-5.8) when executed on R console?",
+            "ans1": "NAN",
+            "ans2": "NA",
+            "ans3": "0.213",
+            "ans": "ans1"
+        },
+        "Q105": {
+            "question": "Which package in R supports the exploratory analysis of genomic data?",
+            "ans1": "Adegenat",
+            "ans2": "Adegenet",
+            "ans3": "Adegnet",
+            "ans": "ans2"
+        },
+        "Q106": {
+            "question": "_____ can contain heterogeneous inputs.",
+            "ans1": "Matrix",
+            "ans2": "Data Frames",
+            "ans3": "Does not exists",
+            "ans": "ans2"
+        },
+        "Q107": {
+            "question": "R code can be tested using _________________ package.",
+            "ans1": "Dplyr",
+            "ans2": "Hadley’s testthat",
+            "ans3": "SKLearn",
+            "ans": "ans2"
+        },
+        "Q108": {
+            "question": "If the programmers want the output to be a data frame or a vector, then ________ function is used.",
+            "ans1": "Lapply",
+            "ans2": "Sapply",
+            "ans3": "Vapply",
+            "ans": "ans1"
+        },
+        "Q109": {
+            "question": "which of the following statement make a mosaic plot?",
+            "ans1": "histogram()",
+            "ans2": "mosaicplot()",
+            "ans3": "bar()",
+            "ans": "ans2"
+        },
+        "Q110": {
+            "question": "______ will produce a sequential vector c( (1,2,3,4,5,6,7,8,9)).",
+            "ans1": "Seq(9)",
+            "ans2": "Seq(10)",
+            "ans3": "Seq(15)",
+            "ans": "ans1"
+        },
+        "Q111": {
+            "question": "_____ function is used for reading the .csv file in R language.",
+            "ans1": "Write.csv()",
+            "ans2": "Read.csv()",
+            "ans3": "Let.csv()",
+            "ans": "ans2"
+        },
+        "Q112": {
+            "question": " If the function in a console is.matrix(X) returns true then X can be considered as a ___",
+            "ans1": "Matrix object",
+            "ans2": "Matrix data object",
+            "ans3": "Matrix vector",
+            "ans": "ans2"
+        },
+        "Q113": {
+            "question": "____ measures the probability of the binary response variable in R language.",
+            "ans1": "Logical Regression",
+            "ans2": "Multivariate Regression",
+            "ans3": "Simpler Regression",
+            "ans": "ans1"
+        },
+        "Q114": {
+            "question": "____ function will measure the probability of the binary response variable in R language.",
+            "ans1": "Glm()",
+            "ans2": "Glmi()",
+            "ans3": "Gelmi()",
+            "ans": "ans1"
+        },
+        "Q115": {
+            "question": "_____ function can be used to select the random sample of size ‘n’ from a huge dataset.",
+            "ans1": "Simple()",
+            "ans2": "Sample()",
+            "ans3": "Signal()",
+            "ans": "ans2"
+        },
+        "Q116": {
+            "question": "How to declare a template?",
+            "ans1": "template<>",
+            "ans2": "temp()",
+            "ans3": "temp",
+            "ans": "ans1"
+        },
+        "Q117": {
+            "question": "Which function is used to select variables and observations from a given dataset?",
+            "ans1": "Subset()",
+            "ans2": "Sample()",
+            "ans3": "Signal()",
+            "ans": "ans1"
+        },
+        "Q118": {
+            "question": "___ package in R language provides various options for re-randomization and permutations based on statistical tests.",
+            "ans1": "Coin",
+            "ans2": "Vain",
+            "ans3": "Join",
+            "ans": "ans1"
+        },
+        "Q119": {
+            "question": "A matrix of scatterplots can be produced using _________ function.",
+            "ans1": "Pears",
+            "ans2": "Pairs",
+            "ans3": "Tears",
+            "ans": "ans2"
+        },
+        "Q120": {
+            "question": "_____ function takes various parameters like formula, data, subset, labels, etc.",
+            "ans1": "Pears",
+            "ans2": "Pairs",
+            "ans3": "Tears",
+            "ans": "ans2"
+        },
+        "Q121": {
+            "question": "What would be the value of following R expression?\nlog(-1)",
+            "ans1": "Warning in log(-1): NaNs produced",
+            "ans2": "Null",
+            "ans3": "0",
+            "ans": "ans1"
+        },
+        "Q122": {
+            "question": "Warnings are generated by the _________ function.",
+            "ans1": "warning()",
+            "ans2": "error()",
+            "ans3": "run()",
+            "ans": "ans1"
+        },
+        "Q123": {
+            "question": "To get the current date, the _______ function will return a Date object which can be converted to a different class if necessary.",
+            "ans1": "Sys.Time",
+            "ans2": "Sys.Date",
+            "ans3": "Sys.DateTime",
+            "ans": "ans2"
+        },
+        "Q124": {
+            "question": "A function, together with an environment, makes up what is called a ______ closure.",
+            "ans1": "formal",
+            "ans2": "function",
+            "ans3": "reflective",
+            "ans": "ans2"
+        },
+        "Q125": {
+            "question": "Point out the wrong statement?",
+            "ans1": "The order of the packages on the search list does not matter",
+            "ans2": "R has separate namespaces for functions and non-functions",
+            "ans3": "Users can configure which packages get loaded on startup so if you are writing a function",
+            "ans": "ans1"
+        },
+        "Q126": {
+            "question": "The only environment without a parent is the ________ environment.",
+            "ans1": "full",
+            "ans2": "half",
+            "ans3": "empty",
+            "ans": "ans3"
+        },
+        "Q127": {
+            "question": "The ________ for R are the main feature that make it different from the original S language.",
+            "ans1": "scoping rules",
+            "ans2": "closure rules",
+            "ans3": "environment rules",
+            "ans": "ans1"
+        },
+        "Q128": {
+            "question": "The _________ function is a kind of “constructor function” that can be used to construct other functions.",
+            "ans1": "make.pow()",
+            "ans2": "make.power()",
+            "ans3": "keep.power()",
+            "ans": "ans2"
+        },
+        "Q129": {
+            "question": "The recover() function will first print out the function call stack when an _______ occurs.",
+            "ans1": "Error",
+            "ans2": "Warning",
+            "ans3": "Messages",
+            "ans": "ans1"
+        },
+        "Q130": {
+            "question": "Which of the following is primary tool for debugging?",
+            "ans1": "debug()",
+            "ans2": "trace()",
+            "ans3": "browser()",
+            "ans": "ans1"
+        },
+        "Q131": {
+            "question": "_____ allows you to insert debugging code into a function a specific places",
+            "ans1": "debug()",
+            "ans2": "trace()",
+            "ans3": "browser()",
+            "ans": "ans2"
+        },
+        "Q132": {
+            "question": "____ evaluate the cumulative distribution function for a Normal distribution.",
+            "ans1": "dnorm",
+            "ans2": "rnorm",
+            "ans3": "pnorm",
+            "ans": "ans3"
+        },
+        "Q133": {
+            "question": "Which of the following evaluate the Normal probability density (with a given mean/SD) at a point?",
+            "ans1": "dnorm",
+            "ans2": "rnorm",
+            "ans3": "pnorm",
+            "ans": "ans1"
+        },
+        "Q134": {
+            "question": "R comes with a ________ to help you optimize your code and improve its performance.",
+            "ans1": "debugger",
+            "ans2": "monitor",
+            "ans3": "browser",
+            "ans": "ans1"
+        },
+        "Q135": {
+            "question": "The _______ function computes the time (in seconds) needed to execute an expression.",
+            "ans1": "system.timedeb()",
+            "ans2": "system.time()",
+            "ans3": "system.datetime()",
+            "ans": "ans2"
+        },
+        "Q136": {
+            "question": "system.time function returns an object of class _______ which contains two useful bits of information.",
+            "ans1": "debug_time",
+            "ans2": "proc_time",
+            "ans3": "procedure_time",
+            "ans": "ans2"
+        },
+        "Q137": {
+            "question": "____ time is time charged to the CPU(s) for the R expression.",
+            "ans1": "elapsed",
+            "ans2": "user",
+            "ans3": "response",
+            "ans": "ans1"
+        },
+        "Q138": {
+            "question": "The elapsed time may be ________ than the user time if your machine has multiple cores/processors.",
+            "ans1": "smaller",
+            "ans2": "greater",
+            "ans3": "null",
+            "ans": "ans1"
+        },
+        "Q139": {
+            "question": "You can time ________ expressions by wrapping them in curly braces within the call to system.time().",
+            "ans1": "smaller",
+            "ans2": "longer",
+            "ans3": "grater",
+            "ans": "ans2"
+        },
+        "Q140": {
+            "question": "____ grammar makes a clear distinction between your data and what gets displayed on the screen or page.",
+            "ans1": "ggplot1",
+            "ans2": "ggplot2",
+            "ans3": "d3.js",
+            "ans": "ans2"
+        },
+        "Q141": {
+            "question": "Which of the following cuts numeric vector into intervals of equal length?",
+            "ans1": "cut_interval",
+            "ans2": "cut_time",
+            "ans3": "cut_number",
+            "ans": "ans1"
+        },
+        "Q142": {
+            "question": "Which of the following is a plot to investigate the order in which observations were recorded?",
+            "ans1": "ggplot",
+            "ans2": "ggsave",
+            "ans3": "ggorder",
+            "ans": "ans3"
+        },
+        "Q143": {
+            "question": "_____ modifies geom/stat aesthetic defaults for future plots.",
+            "ans1": "translate_qplot_base",
+            "ans2": "translate_qplot_gpl",
+            "ans3": "translate_qplot_defaults",
+            "ans": "ans3"
+        },
+        "Q144": {
+            "question": "Which of the following is discrete state calculator?",
+            "ans1": "discrete_scale",
+            "ans2": "ggpcp",
+            "ans3": "ggfluctuation",
+            "ans": "ans3"
+        },
+        "Q145": {
+            "question": "Which of the following creates fluctuation plot?",
+            "ans1": "ggmissplot",
+            "ans2": "ggmissing",
+            "ans3": "ggfluctuation",
+            "ans": "ans2"
+        },
+        "Q146": {
+            "question": "Elements in STL heap are removed in ____",
+            "ans1": "decreasing order",
+            "ans2": "increasing order",
+            "ans3": "input order",
+            "ans": "ans1"
+        },
+        "Q147": {
+            "question": "_____ is used to create a plot to illustrate patterns of missing values.",
+            "ans1": "ggmissplot",
+            "ans2": "ggmissing",
+            "ans3": "ggfluctuation",
+            "ans": "ans2"
+        },
+        "Q148": {
+            "question": "Which of the following function takes multiple columns?",
+            "ans1": "spread()",
+            "ans2": "gather()",
+            "ans3": "separate()",
+            "ans": "ans2"
+        },
+        "Q149": {
+            "question": "Which of the following merges two variables into one?",
+            "ans1": "spread()",
+            "ans2": "gather()",
+            "ans3": "separate()",
+            "ans": "ans3"
+        },
+        "Q150": {
+            "question": "____ add new variables/columns or transform existing variables.",
+            "ans1": "mutate",
+            "ans2": "add",
+            "ans3": "apped",
+            "ans": "ans1"
+        },
+        "Q151": {
+            "question": "___ extract a subset of rows from a data frame based on logical conditions.",
+            "ans1": "rename",
+            "ans2": "filter",
+            "ans3": "subset",
+            "ans": "ans3"
+        },
+        "Q152": {
+            "question": "Which of the following code create a n item vector of random normal deviates?",
+            "ans1": "x1 <- c(snorm(n))",
+            "ans2": "x1 <- c(pnorm(n))",
+            "ans3": "x1 <- c(rnorm(n))",
+            "ans": "ans3"
+        },
+        "Q153": {
+            "question": "Which of the following statement read a tab or space delimited file?",
+            "ans1": "read.table(filename,header=TRUE)",
+            "ans2": "read.CSV(filename,header=TRUE)",
+            "ans3": "read.table(filename,header=FALSE)",
+            "ans": "ans1"
+        },
+        "Q154": {
+            "question": "which of the following statement chose those objects meeting a logical criterion?",
+            "ans1": "sub(dataset,logical)",
+            "ans2": "subset(dataset,logical)",
+            "ans3": "subsetcon(dataset,logical)",
+            "ans": "ans2"
+        },
+        "Q155": {
+            "question": "___ list the variables in the workspace.",
+            "ans1": "rm(x)",
+            "ans2": "rm(list=ls())",
+            "ans3": "ls()",
+            "ans": "ans3"
+        },
+        "Q156": {
+            "question": "_____ remove all the variables from the workspace.",
+            "ans1": "rm(x)",
+            "ans2": "rm(list=ls())",
+            "ans3": "attach(mat)",
+            "ans": "ans2"
+        },
+        "Q157": {
+            "question": "Which of the following finds row sums for each level of a grouping variable?",
+            "ans1": "rowSums (x, na.rm = FALSE, dims = 1)",
+            "ans2": "colMeans(x, na.rm = FALSE, dims = 1)",
+            "ans3": "rowMeans(x, na.rm = FALSE, dims = 1)",
+            "ans": "ans3"
+        },
+        "Q158": {
+            "question": "Which of the following statement finds the maximum for each column?",
+            "ans1": "apply(x,2,max)",
+            "ans2": "col.max(x)",
+            "ans3": "which.min(x)",
+            "ans": "ans1"
+        },
+        "Q159": {
+            "question": "Which of the following finds row sums for each level of a grouping variable?",
+            "ans1": "as.numeric(x)",
+            "ans2": "rowsum(x, group, reorder = TRUE, …)",
+            "ans3": "as.order(x)",
+            "ans": "ans2"
+        },
+        "Q160": {
+            "question": "Which of the following sets the size of the outer margins for the graph?",
+            "ans1": "par(mfrow=c(nrow,mcol))",
+            "ans2": "par(ask=TRUE)",
+            "ans3": "par(omi=c(0,0,1,0) )",
+            "ans": "ans3"
+        },
+        "Q161": {
+            "question": "Which of the following function is used for plotting histogram?",
+            "ans1": "hist()",
+            "ans2": "histog()",
+            "ans3": "histg()",
+            "ans": "ans1"
+        },
+        "Q162": {
+            "question": "Which of the following will add the title “R language” to the graph?",
+            "ans1": "titleAdd( “R language”)",
+            "ans2": "title( “R language”)",
+            "ans3": "titleBar( “R language”)",
+            "ans": "ans2"
+        },
+        "Q163": {
+            "question": "Which of the following is a principle of analytic graphics?",
+            "ans1": "Don’t plot more than two variables at at time",
+            "ans2": "Make judicious use of color in your scatterplots",
+            "ans3": "Show causality, mechanism, explanation",
+            "ans": "ans3"
+        },
+        "Q164": {
+            "question": "What is the role of exploratory graphs in data analysis?",
+            "ans1": "They are made for formal presentations",
+            "ans2": "They are typically made very quickly",
+            "ans3": "Axes, legends, and other details are clean and exactly detailed",
+            "ans": "ans2"
+        },
+        "Q165": {
+            "question": "Which of the following is true about the base plotting system?",
+            "ans1": "Margins and spacings are adjusted automatically depending on the type of plot and the data",
+            "ans2": "Plots are typically created with a single function call",
+            "ans3": "Plots are created and annotated with separate functions",
+            "ans": "ans3"
+        },
+        "Q166": {
+            "question": "Which of the following is an example of a valid graphics device in R?",
+            "ans1": "A socket connection",
+            "ans2": "A Microsoft Word document",
+            "ans3": "A PDF file",
+            "ans": "ans3"
+        },
+        "Q167": {
+            "question": "What is the syntax of defining lambda expression?",
+            "ans1": "[capture clause](parameters) -> return_type { body of the function }",
+            "ans2": "[parameters](capture clause) -> return_type { body of the function }",
+            "ans3": "[parameters:capture clause]() -> return_type { body of the function }",
+            "ans": "ans1"
+        },
+        "Q168": {
+            "question": "Which of the following is an example of a vector graphics device in R?",
+            "ans1": "JPEG",
+            "ans2": "PNG",
+            "ans3": "SVG",
+            "ans": "ans3"
+        },
+        "Q169": {
+            "question": "Which of the following functions is typically used to add elements to a plot in the base graphics system?",
+            "ans1": "lines()",
+            "ans2": "boxplot()",
+            "ans3": "plot()",
+            "ans": "ans2"
+        },
+        "Q170": {
+            "question": "Which function opens the screen graphics device for the Mac?",
+            "ans1": "bitmap()",
+            "ans2": "quartz()",
+            "ans3": "pdf()",
+            "ans": "ans2"
+        },
+        "Q171": {
+            "question": "____ makes it incredibly easy to fit time series models like ARIMA, ARMA, AR, Exponential Smoothing, etc.",
+            "ans1": "sqldf",
+            "ans2": "plyr",
+            "ans3": "forecast",
+            "ans": "ans3"
+        },
+        "Q172": {
+            "question": "____ provides needed string operators in R.",
+            "ans1": "str",
+            "ans2": "forecast",
+            "ans3": "stringr",
+            "ans": "ans3"
+        },
+        "Q173": {
+            "question": "Which of the following will add the title “R language” to the graph?",
+            "ans1": "titleAdd( “R language”)",
+            "ans2": "title( “R language”)",
+            "ans3": "titleBar( “R language”)",
+            "ans": "ans2"
+        },
+        "Q174": {
+            "question": "Which of the following is a library for statistical quality control?",
+            "ans1": "gcc",
+            "ans2": "qcc",
+            "ans3": "anc",
+            "ans": "ans2"
+        },
+        "Q175": {
+            "question": "____ specializes in converting data from wide to long format.",
+            "ans1": "gcc",
+            "ans2": "reshape",
+            "ans3": "reshape2",
+            "ans": "ans3"
+        },
+        "Q176": {
+            "question": "_____ is used to convert wide data to long data.",
+            "ans1": "melt",
+            "ans2": "dcast",
+            "ans3": "cast",
+            "ans": "ans1"
+        },
+        "Q177": {
+            "question": "Which of the following method make vector of repeated values?",
+            "ans1": "rep()",
+            "ans2": "data()",
+            "ans3": "view()",
+            "ans": "ans2"
+        },
+        "Q178": {
+            "question": "Which of the following finds the position of a quantile in a dataset?",
+            "ans1": "quantile()",
+            "ans2": "barplot()",
+            "ans3": "barchart()",
+            "ans": "ans1"
+        },
+        "Q179": {
+            "question": "Which of the following function cross-tabulate tables using formulas?",
+            "ans1": "table",
+            "ans2": "stem",
+            "ans3": "read",
+            "ans": "ans3"
+        },
+        "Q180": {
+            "question": "Which of the following groups find the correlation matrix?",
+            "ans1": "factor.model",
+            "ans2": "col.max(x)",
+            "ans3": "stem",
+            "ans": "ans1"
+        }
+    }
+}
