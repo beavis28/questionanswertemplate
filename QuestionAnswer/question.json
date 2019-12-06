@@ -1,312 +1,312 @@
 
 {"questions": {
   "Q1": {
-    "question":"Wrapping data and its related functionality into a single entity is known as _______",
-    "ans1": "Abstraction",
-    "ans2": "Encapsulation",
-    "ans3": "Polymorphism",
+    "question":"They primary R system is available from the ____",
+    "ans1": "CRAN",
+    "ans2": "CRWO",
+    "ans3": "GNU",
     "ans": "ans1"
   },
   "Q2": {
-    "question":"How structures and classes in C++ differ?",
-    "ans1": "In Structures, members are public by default whereas, in Classes, they are private by default",
-    "ans2": "In Structures, members are private by default whereas, in Classes, they are public by default",
-    "ans3": "Structures by default hide every member whereas classes do not",
-    "ans": "ans1"
+    "question":"Point out the wrong statement?",
+    "ans1": "Key feature of R was that its syntax is very similar to S",
+    "ans2": "R runs only on Windows computing platform and operating system",
+    "ans3": "R functionality is divided into a number of Packages",
+    "ans": "ans2"
   },
   "Q3": {
-    "question":"Which of the following class allows to declare only one object of it?",
-    "ans1": "Abstract class",
-    "ans2": "Virtual class",
-    "ans3": "Singleton class",
-    "ans": "ans3"
+    "question":"R functionality is divided into a number of _____",
+    "ans1": "Packages",
+    "ans2": "Functions",
+    "ans3": "Domains",
+    "ans": "ans1"
   },
   "Q4": {
-    "question":"Which of the following is correct?",
-    "ans1": "Base class pointer object cannot point to a derived class object",
-    "ans2": "Derived class pointer object cannot point to a base class object",
-    "ans3": "A base class cannot have pointer objects",
-    "ans": "ans2"
+    "question":"Which Package contains most fundamental functions to run R?",
+    "ans1": "root",
+    "ans2": "child",
+    "ans3": "base",
+    "ans": "ans3"
   },
   "Q5": {
-    "question":"Out of the following, which is not a member of the class?",
-    "ans1": "Static function",
-    "ans2": "Friend function",
-    "ans3": "Virtual function",
-    "ans": "ans2"
+    "question":"Point out the wrong statement?",
+    "ans1": "R has sophisticated graphics capabilities",
+    "ans2": "One nice feature that R shares with many popular open source projects is frequent releases",
+    "ans3": "S’s base graphics system allows for very fine control over essentially every aspect of a plot or graph",
+    "ans": "ans3"
   },
   "Q6": {
-    "question":"Which of the following cannot be a friend?",
-    "ans1": "Function",
-    "ans2": "Class",
-    "ans3": "Object",
+    "question":"Which of the following is a base package for R language?",
+    "ans1": "util",
+    "ans2": "lang",
+    "ans3": "tools",
     "ans": "ans3"
   },
   "Q7": {
-    "question":"Why references are different from pointers?",
-    "ans1": "A reference cannot be made null",
-    "ans2": "A reference cannot be changed once initialized",
-    "ans3": "All of the mentioned",
+    "question":"Which of the following is “Recommended” package in R?",
+    "ans1": "util",
+    "ans2": "lang",
+    "ans3": "spatial",
     "ans": "ans3"
   },
   "Q8": {
-    "question":"How run-time polymorphisms are implemented in C++?",
-    "ans1": "Using Virtual functions",
-    "ans2": "Using Templates",
-    "ans3": "Using Inheritance and Virtual functions",
-    "ans": "ans3"
-  },
-  "Q9": {
-    "question":"How compile-time polymorphisms are implemented in C++?",
-    "ans1": "Using Inheritance",
-    "ans2": "Using Virtual functions",
-    "ans3": "Using Templates",
-    "ans": "ans3"
-  },
-  "Q10": {
-    "question":"Which concept means the addition of new components to a program as it runs?",
-    "ans1": "Data hiding",
-    "ans2": "Dynamic binding",
-    "ans3": "Dynamic loading",
-    "ans": "ans3"
-  },
-  "Q11": {
-    "question":"Which of the following cannot be used with the virtual keyword?",
-    "ans1": "Class",
-    "ans2": "Constructors",
-    "ans3": "Destructors",
+    "question":"What is the output of getOption(“defaultPackages”) in R studio?",
+    "ans1": "Installs a new package",
+    "ans2": "Shows default packages in R",
+    "ans3": "Error",
     "ans": "ans2"
   },
+  "Q9": {
+    "question":"Advanced users can write ___ code to manipulate R objects directly.",
+    "ans1": "C, C++",
+    "ans2": "Java, C",
+    "ans3": "C++, Java",
+    "ans": "ans1"
+  },
+  "Q10": {
+    "question":"What will be the output of the following R program?\n r<-0:10\nr[2]",
+    "ans1": "0",
+    "ans2": "1",
+    "ans3": "2",
+    "ans": "ans2"
+  },
+  "Q11": {
+    "question":"Which of the following operator is used to create integer sequences?",
+    "ans1": ":",
+    "ans2": "–",
+    "ans3": "~",
+    "ans": "ans1"
+  },
   "Q12": {
-    "question":"Which members are inherited but are not accessible in any case?",
-    "ans1": "Private",
-    "ans2": "Public",
-    "ans3": "Protected",
+    "question":"In R language, a vector is defined that it can only contain objects of the _____",
+    "ans1": "Same class",
+    "ans2": "Different class",
+    "ans3": "Any class",
     "ans": "ans1"
   },
   "Q13": {
-    "question":"What is virtual inheritance?",
-    "ans1": "C++ technique to avoid multiple copies of the base class into children/derived class",
-    "ans2": "C++ technique to avoid multiple inheritances of classes",
-    "ans3": "C++ technique to enhance multiple inheritance",
+    "question":"A list is represented as a vector but can contain objects of ______",
+    "ans1": "Same class",
+    "ans2": "Different class",
+    "ans3": "Any class",
     "ans": "ans1"
   },
   "Q14": {
-    "question":"What is the difference between delete and delete[] in C++?",
-    "ans1": "delete is used to delete normal objects whereas delete[] is used to pointer objects",
-    "ans2": "delete is used to delete single object whereas delete[] is used to multiple(array/pointer of) objects",
-    "ans3": "delete is a keyword whereas delete[] is an identifier",
-    "ans": "ans2"
-  },
-  "Q15": {
-    "question":"Which of the following is not a fundamental type is not present in C but present in C++?",
-    "ans1": "int",
-    "ans2": "float",
-    "ans3": "bool",
+    "question":"How can we define ‘undefined value’ in R language?",
+    "ans1": "Sup",
+    "ans2": "Und",
+    "ans3": "NaN",
     "ans": "ans3"
   },
+  "Q15": {
+    "question":"What is NaN called?",
+    "ans1": "Not a Number",
+    "ans2": "Not a Numeric",
+    "ans3": "Number and Number",
+    "ans": "ans1"
+  },
   "Q16": {
-    "question":"What is the size of a boolean variable in C++?",
-    "ans1": "1 bit",
-    "ans2": "1 byte",
-    "ans3": "4 bytes",
+    "question":"How can we define ‘infinity’ in R language?",
+    "ans1": "Inf",
+    "ans2": "Sup",
+    "ans3": "Und",
     "ans": "ans1"
   },
   "Q17": {
-    "question":"What is dynamic binding?",
-    "ans1": "The process of linking the actual code with a procedural call during run-time",
-    "ans2": "The process of linking the actual code with a procedural call during compile-time",
-    "ans3": "The process of linking the actual code with a procedural call at any-time",
-    "ans": "ans1"
-  },
-  "Q18": {
-    "question":"Which of the following operator is used with this pointer to access members of a class?",
-    "ans1": "!",
-    "ans2": "->",
-    "ans3": ".",
-    "ans": "ans2"
-  },
-  "Q19": {
-    "question":"Why this pointer is used?",
-    "ans1": "To access the members of a class which have the same name as local variables in that scope",
-    "ans2": "To access all the data stored under that class",
-    "ans3": "To access objects of other variables",
-    "ans": "ans1"
-  },
-  "Q20": {
-    "question":"Which of the following is correct about static variables?",
-    "ans1": "Static functions do not support polymorphism",
-    "ans2": "Static data members cannot be accessed by non-static member functions",
-    "ans3": "Static data members functions can access only static data members",
+    "question":"Which one of the following is not a basic datatype?",
+    "ans1": "Numeric",
+    "ans2": "Character",
+    "ans3": "Data frame",
     "ans": "ans3"
   },
+  "Q18": {
+    "question":"How do you create an integer suppose 5 in R?",
+    "ans1": "5L",
+    "ans2": "5l",
+    "ans3": "5d",
+    "ans": "ans1"
+  },
+  "Q19": {
+    "question":"The dimension attribute is itself an integer vector of length ___",
+    "ans1": "1",
+    "ans2": "2",
+    "ans3": "3",
+    "ans": "ans2"
+  },
+  "Q20": {
+    "question":"Matrices can be created by row-binding with the help of the following function.",
+    "ans1": "rjoin()",
+    "ans2": "rbind()",
+    "ans3": "rowbind()",
+    "ans": "ans2"
+  },
   "Q21": {
-    "question":"The value 132.54 can be represented using which data type?",
-    "ans1": "double",
-    "ans2": "void",
-    "ans3": "int",
+    "question":"What is the function used to test objects (returns a logical operator) if they are NA?",
+    "ans1": "is.na()",
+    "ans2": "is.nan()",
+    "ans3": "as.na()",
     "ans": "ans1"
   },
   "Q22": {
-    "question":"Which of these expressions will return true if the input integer v is a power of two?",
-    "ans1": "(v | (v + 1)) == 0;",
-    "ans2": "(~v & (v – 1)) == 0;",
-    "ans3": "(v & (v – 1)) == 0;",
-    "ans": "ans3"
+    "question":"What is the function to set column names for a matrix?",
+    "ans1": "names()",
+    "ans2": "colnames()",
+    "ans3": "col.names()",
+    "ans": "ans2"
   },
   "Q23": {
-    "question":"How do we represent a wide character of the form wchar_t?",
-    "ans1": "L’a’",
-    "ans2": "l’a’",
-    "ans3": "L[a]",
-    "ans": "ans1"
+    "question":"Point out the wrong statement?",
+    "ans1": "Setting up a workstation to take full advantage of the customizable features of R is a straightforward thing",
+    "ans2": "q() is used to quit the R program",
+    "ans3": "R has an inbuilt help facility similar to the man facility of UNIX",
+    "ans": "ans2"
   },
   "Q24": {
-    "question":"The size of an object or a type can be determined using which operator?",
-    "ans1": "malloc",
-    "ans2": "sizeof",
-    "ans3": "calloc",
-    "ans": "ans2"
-  },
-  "Q25": {
-    "question":"In which type do the enumerators are stored by the compiler?",
-    "ans1": "string",
-    "ans2": "integer",
-    "ans3": "float",
-    "ans": "ans2"
-  },
-  "Q26": {
-    "question":"What will happen when defining the enumerated type?",
-    "ans1": "it will not allocate memory",
-    "ans2": "it will allocate memory",
-    "ans3": "allocate memory to objects",
+    "question":"Which of the following statement is alternative to ____\n\n?solve",
+    "ans1": "help(solve)",
+    "ans2": "print(solve)",
+    "ans3": "bind(solve)",
     "ans": "ans1"
   },
+  "Q25": {
+    "question":"Elementary commands in R consist of either _______ or assignments.",
+    "ans1": "utilstats",
+    "ans2": "language",
+    "ans3": "expressions",
+    "ans": "ans3"
+  },
+  "Q26": {
+    "question":"If the code is stored in the external file, which of the following function is used to call them to a working directory?",
+    "ans1": "exec()",
+    "ans2": "source()",
+    "ans3": "execute()",
+    "ans": "ans2"
+  },
   "Q27": {
-    "question":"What does the following statement mean?\n int (*fp)(char*)",
-    "ans1": "pointer to a pointer",
-    "ans2": "pointer to an array of chars",
-    "ans3": "pointer to function taking a char* argument and returns an int",
+    "question":"Advanced programmers can write ______ code to manipulate R objects.",
+    "ans1": "Python",
+    "ans2": "Java",
+    "ans3": "C",
     "ans": "ans3"
   },
   "Q28": {
-    "question":"The operator used for dereferencing or indirection is ____",
-    "ans1": "*",
-    "ans2": "&",
-    "ans3": "->",
+    "question":"Functionality of R is divided into a number of ___",
+    "ans1": "Functions",
+    "ans2": "Domains",
+    "ans3": "Packages",
     "ans": "ans1"
   },
   "Q29": {
-    "question":"Choose the right option.\n string* x, y;",
-    "ans1": "x is a pointer to a string, y is a string",
-    "ans2": "y is a pointer to a string, x is a string",
-    "ans3": "both x and y are pointers to string types",
-    "ans": "ans1"
+    "question":"Dataframes can be converted into a matrix by calling the following function data ____",
+    "ans1": "matr()",
+    "ans2": "matrix()",
+    "ans3": "matrixfunc()",
+    "ans": "ans2"
   },
   "Q30": {
-    "question":"Which one of the following is not a possible state for a pointer.",
-    "ans1": "hold the address of the specific object",
-    "ans2": "zero",
-    "ans3": "point to a type",
-    "ans": "ans3"
+    "question":"What will be the output of the following R code? \n a <- (“a” , “b”)\n mode(a)",
+    "ans1": "CRAN",
+    "ans2": "GNU",
+    "ans3": "R studio",
+    "ans": "ans1"
   },
   "Q31": {
-    "question":"Which of the following is illegal?",
-    "ans1": "int *ip;",
-    "ans2": "string s, *sp = 0;",
-    "ans3": "int i; double* dp = &i;",
+    "question":"Point out the wrong statement?",
+    "ans1": "The grammar of the language determines whether an expression is complete or not",
+    "ans2": "The <- symbol is the assignment operator in R",
+    "ans3": "The ## character indicates a comment",
     "ans": "ans3"
   },
   "Q32": {
-    "question":"The correct statement for a function that takes pointer to a float, a pointer to a pointer to a char and returns a pointer to a pointer to a integer is ___",
-    "ans1": "int **fun(float**, char**)",
-    "ans2": "int **fun(float*, char**)",
-    "ans3": "int ***fun(*float, **char)",
+    "question":"Point out the wrong statement?",
+    "ans1": ": operator is used to create integer sequences",
+    "ans2": "The numbers in the square brackets are part of the vector itself",
+    "ans3": "There is a difference between the actual R object and the manner in which that R object is printed to the console",
     "ans": "ans2"
   },
   "Q33": {
-    "question":"Which of the following correctly declares an array?",
-    "ans1": "int array[10];",
-    "ans2": "int array;",
-    "ans3": "array{10};",
+    "question":"If commands are stored in an external file, say commands.R in the working directory work, they may be executed at any time in an R session with the command ______",
+    "ans1": "source(“commands.R”)",
+    "ans2": "exec(“commands.R”)",
+    "ans3": "execute(“commands.R”)",
     "ans": "ans1"
   },
   "Q34": {
-    "question":"What is the index number of the last element of an array with 9 elements?",
-    "ans1": "9",
-    "ans2": "8",
-    "ans3": "10",
+    "question":"____ will divert all subsequent output from the console to an external file.",
+    "ans1": "sink",
+    "ans2": "div",
+    "ans3": "exp",
     "ans": "ans2"
   },
   "Q35": {
-    "question":"Which of the following accesses the seventh element stored in array?",
-    "ans1": "array[6];",
-    "ans2": "array[7];",
-    "ans3": "array(7);",
+    "question":"The entities that R creates and manipulates are known as ____",
+    "ans1": "objects",
+    "ans2": "task",
+    "ans3": "container",
     "ans": "ans1"
   },
   "Q36": {
-    "question":"Which of the following gives the memory address of the first element in array?",
-    "ans1": "array[0];",
-    "ans2": "array[1];",
-    "ans3": "array;",
-    "ans": "ans3"
+    "question":"Which of the following can be used to display the names of (most of) the objects which are currently stored within R?",
+    "ans1": "object()",
+    "ans2": "objects()",
+    "ans3": "list()",
+    "ans": "ans2"
   },
   "Q37": {
-    "question":"What is the meaning of the following declaration?\n int(*p[5])();",
-    "ans1": "p is pointer to function",
-    "ans2": "p is array of pointer to function",
-    "ans3": "p is pointer to such function which return type is the array",
+    "question":"Collection of objects currently stored in R is called as ________",
+    "ans1": "package",
+    "ans2": "workspace",
+    "ans3": "list",
     "ans": "ans2"
   },
   "Q38": {
-    "question":"What is size of generic pointer in C++ (in 32-bit platform)?",
-    "ans1": "2",
-    "ans2": "4",
-    "ans3": "8",
-    "ans": "ans2"
-  },
-  "Q39": {
-    "question":"How are the constants declared?",
-    "ans1": "const keyword",
-    "ans2": "#define preprocessor",
-    "ans3": "both const keyword and #define preprocessor",
+    "question":"What will be the output of the following R function? \n d <- date() \n d",
+    "ans1": "Prints todays date",
+    "ans2": "Prints some date",
+    "ans3": "Prints exact present time and date",
     "ans": "ans3"
   },
+  "Q39": {
+    "question":"What will be the output of the following R function? \n nchar()",
+    "ans1": "no. of characters",
+    "ans2": "first 5 characters",
+    "ans3": "last 5 characters",
+    "ans": "ans1"
+  },
   "Q40": {
-    "question":"Which value can we not assign to reference?",
-    "ans1": "integer",
-    "ans2": "floating",
-    "ans3": "null",
+    "question":"R has how many atomic classes of objects?",
+    "ans1": "1",
+    "ans2": "2",
+    "ans3": "5",
     "ans": "ans3"
   },
   "Q41": {
-    "question":"Identify the incorrect statement.",
-    "ans1": "Reference is the alternate name of the object",
-    "ans2": "A reference value once defined can be reassigned",
-    "ans3": "A reference value once defined cannot be reassigned",
+    "question":"Numbers in R are generally treated as _______ precision real numbers.",
+    "ans1": "single",
+    "ans2": "double",
+    "ans3": "real",
     "ans": "ans2"
   },
   "Q42": {
-    "question":"Which reference modifier is used to define the reference variable?",
-    "ans1": "&",
-    "ans2": "$",
-    "ans3": "#",
-    "ans": "ans1"
+    "question":"If you explicitly want an integer, you need to specify the _____ suffix.",
+    "ans1": "D",
+    "ans2": "R",
+    "ans3": "L",
+    "ans": "ans3"
   },
   "Q43": {
-    "question":"Identify the correct sentence regarding inequality between reference and pointer.",
-    "ans1": "we can not create the array of reference",
-    "ans2": "we can create the Array of reference",
-    "ans3": "we can use reference to reference",
-    "ans": "ans1"
+    "question":"Attributes of an object (if any) can be accessed using the ______ function.",
+    "ans1": "objects()",
+    "ans2": "attrib()",
+    "ans3": "attributes()",
+    "ans": "ans3"
   },
   "Q44": {
-    "question":"The pointer can point to any variable that is not declared with which of these?",
-    "ans1": "const",
-    "ans2": "volatile",
-    "ans3": "both const & volatile",
-    "ans": "ans3"
+    "question":"R objects can have attributes, which are like ________ for the object.",
+    "ans1": "metadata",
+    "ans2": "features",
+    "ans3": "expression",
+    "ans": "ans1"
   },
   "Q45": {
     "question":"The data elements in the structure are also known as what?",
@@ -316,319 +316,319 @@
     "ans": "ans2"
   },
   "Q46": {
-    "question":"What will happen when the structure is declared?",
-    "ans1": "it will not allocate any memory",
-    "ans2": "it will allocate the memory",
-    "ans3": "it will be declared and initialized",
-    "ans": "ans1"
+    "question":"The ________ function can be used to create vectors of objects by concatenating things together.",
+    "ans1": "cp()",
+    "ans2": "c()",
+    "ans3": "concat()",
+    "ans": "ans2"
   },
   "Q47": {
-    "question":"Which of the following is a properly defined structure?",
-    "ans1": "struct {int a;}",
-    "ans2": "struct a_struct {int a;}",
-    "ans3": "struct a_struct {int a;};",
-    "ans": "ans3"
+    "question":"What will be the output of the following R code? \n m <- 1:10 \n m",
+    "ans1": "1 2 3 4 5 6 7 8 9 10",
+    "ans2": "1 2 3 4 5 6 7 8 9 10 11",
+    "ans3": "0 1 2 3 4 5 6 7 8 9 10",
+    "ans": "ans1"
   },
   "Q48": {
-    "question":"Which of the following accesses a variable in structure *b?",
-    "ans1": "b->var;",
-    "ans2": "b.var;",
-    "ans3": "b-var;",
+    "question":"Find the following type of vector? \n a <- c(1,2,5.3,6,-2,4)",
+    "ans1": "Numeric",
+    "ans2": "Character",
+    "ans3": "Integer",
     "ans": "ans1"
   },
   "Q49": {
-    "question":"Which function is used to check whether a character is an alphabet?",
-    "ans1": "isalpha()",
-    "ans2": "isalnum()",
-    "ans3": "isdigit()",
-    "ans": "ans1"
+    "question":"All columns in a matrix must have the same mode and the _________ length.",
+    "ans1": "Different",
+    "ans2": "Same",
+    "ans3": "May be the same",
+    "ans": "ans2"
   },
   "Q50": {
-    "question":"Which function is used to check whether a character is an alphabet or number?",
-    "ans1": "isalpha()",
-    "ans2": "isalnum()",
-    "ans3": "isdigit()",
+    "question":"________ provides optional labels with the columns and rows.",
+    "ans1": "Disnames",
+    "ans2": "Dimnames",
+    "ans3": "Denmes",
     "ans": "ans2"
   },
   "Q51": {
-    "question":"Which function is used to check whether a character is a number?",
-    "ans1": "isalpha()",
-    "ans2": "isalnum()",
-    "ans3": "isdigit()",
+    "question":"____ are similar to matrices but can have more than two dimensions.",
+    "ans1": "Functions",
+    "ans2": "Packages",
+    "ans3": "Arrays",
     "ans": "ans3"
   },
   "Q52": {
-    "question":"Which function is used to check whether a character is a tab or space?",
-    "ans1": "isalpha()",
-    "ans2": "isalnum()",
-    "ans3": "isblank()",
+    "question":"Which is more general than a matrix, in that different columns can have different modes?",
+    "ans1": "Data types",
+    "ans2": "Data frames",
+    "ans3": "Data sets",
     "ans": "ans3"
   },
   "Q53": {
-    "question":"Which operator is having the right to left associativity in the following?",
-    "ans1": "Array subscripting",
-    "ans2": "Type cast",
-    "ans3": "Function call",
-    "ans": "ans2"
+    "question":"An ordered collection of objects or components are called ____",
+    "ans1": "Data frames",
+    "ans2": "Datasets",
+    "ans3": "Lists",
+    "ans": "ans3"
   },
   "Q54": {
-    "question":"What is the use of dynamic_cast operator?",
-    "ans1": "it converts virtual base class to derived class",
-    "ans2": "it converts the virtual base object to derived objects",
-    "ans3": "it will convert the operator based on precedence",
+    "question":"The ________ stores the nominal values as a vector of integers in the range of 1 to unique values in the nominal variable.",
+    "ans1": "Factor",
+    "ans2": "Matrix",
+    "ans3": "Lists",
     "ans": "ans1"
   },
   "Q55": {
-    "question":"How many can max number of arguments present in function in the c99 compiler?",
-    "ans1": "99",
-    "ans2": "90",
-    "ans3": "127",
-    "ans": "ans3"
-  },
-  "Q56": {
-    "question":"Which is more effective while calling the functions?",
-    "ans1": "call by value",
-    "ans2": "call by reference",
-    "ans3": "call by pointer",
-    "ans": "ans2"
-  },
-  "Q57": {
-    "question":"What is the scope of the variable declared in the user defined function?",
-    "ans1": "only inside the {} block",
-    "ans2": "the main function",
-    "ans3": "whole program",
+    "question":"An ordered factor is used to represent an _______",
+    "ans1": "Ordinal variable",
+    "ans2": "Simple variable",
+    "ans3": "Coordinal variable",
     "ans": "ans1"
   },
+  "Q56": {
+    "question":"Which function is used to combine the elements into a vector?",
+    "ans1": "C()",
+    "ans2": "D()",
+    "ans3": "E()",
+    "ans": "ans1"
+  },
+  "Q57": {
+    "question":"A __________ is an R-object which can contain many different types of elements inside it.",
+    "ans1": "Vector",
+    "ans2": "Lists",
+    "ans3": "Matrix",
+    "ans": "ans2"
+  },
   "Q58": {
-    "question":"Which is used to keep the call by reference value as intact?",
-    "ans1": "static",
-    "ans2": "const",
-    "ans3": "virtual",
+    "question":"Which function takes a dim attribute which creates the required number of dimensions?",
+    "ans1": "Vector",
+    "ans2": "Array",
+    "ans3": "Matrix",
     "ans": "ans2"
   },
   "Q59": {
-    "question":"By default how the value are passed in c++?",
-    "ans1": "call by value",
-    "ans2": "call by reference",
-    "ans3": "call by pointer",
+    "question":"Factors are the r-objects which are created using a _______",
+    "ans1": "Vector",
+    "ans2": "Matrix",
+    "ans3": "Lists",
     "ans": "ans1"
   },
   "Q60": {
-    "question":"What will you use if you are not intended to get a return value?",
-    "ans1": "static",
-    "ans2": "void",
-    "ans3": "volatile",
-    "ans": "ans2"
+    "question":"vectors can be one of two types namely atomic vectors and ____",
+    "ans1": "Matrix",
+    "ans2": "Vector",
+    "ans3": "Lists",
+    "ans": "ans3"
   },
   "Q61": {
-    "question":"Where does the return statement returns the execution of the program?",
-    "ans1": "main function",
-    "ans2": "caller function",
-    "ans3": "block function",
-    "ans": "ans2"
+    "question":"Which is the basic data structure of R containing the same type of data?",
+    "ans1": "Functions",
+    "ans2": "Array",
+    "ans3": "Vector",
+    "ans": "ans3"
   },
   "Q62": {
-    "question":"Overloaded functions are _______",
-    "ans1": "Very long functions that can hardly run",
-    "ans2": "Two or more functions with the same name but different number of parameters or type",
-    "ans3": "One function containing another one or more functions inside it",
+    "question":"The four most frequently used types of data objects in R are vectors, matrices, data frames and ______",
+    "ans1": "Function",
+    "ans2": "Lists",
+    "ans3": "Packages",
     "ans": "ans2"
   },
   "Q63": {
-    "question":"What will happen while using pass by reference?",
-    "ans1": "The values of those variables are passed to the function so that it can manipulate them",
-    "ans2": "The location of variable in memory is passed to the function so that it can use the same memory area for its processing",
-    "ans3": "The function declaration should contain $",
-    "ans": "ans2"
+    "question":"What is the simplest way of creating the vector?",
+    "ans1": "C function",
+    "ans2": "Create",
+    "ans3": "Destroy",
+    "ans": "ans1"
   },
   "Q64": {
-    "question":"What should be passed in parameters when function does not require any parameters?",
-    "ans1": "void",
-    "ans2": "blank space",
-    "ans3": "tab space",
+    "question":" Which function replicates elements of vectors?",
+    "ans1": "C",
+    "ans2": "Rep",
+    "ans3": "Crep",
     "ans": "ans2"
   },
   "Q65": {
-    "question":"What are the advantages of passing arguments by reference?",
-    "ans1": "Changes to parameter values within the function also affect the original arguments",
-    "ans2": "There is no need to call constructors for parameters (i.e. faster)",
-    "ans3": "All of the mentioned",
-    "ans": "ans3"
+    "question":"Which of the following is a 3-dimensional dataset?",
+    "ans1": "Eris",
+    "ans2": "Iris",
+    "ans3": "Toris",
+    "ans": "ans2"
   },
   "Q66": {
-    "question":"To which does the function pointer point to?",
-    "ans1": "variable",
-    "ans2": "constants",
-    "ans3": "function",
-    "ans": "ans3"
+    "question":"Which dimension corresponds to the explanatory variables collected for each species?",
+    "ans1": "First",
+    "ans2": "Second",
+    "ans3": "Third",
+    "ans": "ans2"
   },
   "Q67": {
-    "question":"What will we not do with function pointers?",
-    "ans1": "allocation of memory",
-    "ans2": "deallocation of memory",
-    "ans3": "both allocation & deallocation of memory",
-    "ans": "ans3"
+    "question":"Which of the following code snippet will create a vector with NAs in it?",
+    "ans1": "x >- c(1, 2, NA, 10, 3)",
+    "ans2": "x >- cNA(1, 2, NA, 10, 3)",
+    "ans3": "x >- NA(1, 2, NA, 10, 3)",
+    "ans": "ans1"
   },
   "Q68": {
-    "question":"What is the default calling convention for a compiler in c++?",
-    "ans1": "__cdecl",
-    "ans2": "__stdcall",
-    "ans3": "__pascal",
+    "question":"The ________ function takes an arbitrary number of arguments and concatenates them one by one into character strings.",
+    "ans1": "copy()",
+    "ans2": "paste()",
+    "ans3": "bind()",
     "ans": "ans1"
   },
   "Q69": {
-    "question":"What is the mandatory part to present in function pointers?",
-    "ans1": "&",
-    "ans2": "return values",
-    "ans3": "data types",
-    "ans": "ans3"
+    "question":"Point out the wrong statement?",
+    "ans1": "is.nan() is used to test objects if they are NA",
+    "ans2": "is.nan() is used to test for NaN",
+    "ans3": "NA values have a class",
+    "ans": "ans1"
   },
   "Q70": {
-    "question":"which keyword is used to define the macros in c++?",
-    "ans1": "macro",
-    "ans2": "#define",
-    "ans3": "#macro",
-    "ans": "ans2"
+    "question":"Data frames can be converted to a matrix by calling data ____",
+    "ans1": "as.matr()",
+    "ans2": "as.mat()",
+    "ans3": "as.matrix()",
+    "ans": "ans3"
   },
   "Q71": {
-    "question":"which of the following is used to implement the c++ interfaces?",
-    "ans1": "absolute variables",
-    "ans2": "abstract classes",
-    "ans3": "constant variables",
-    "ans": "ans2"
+    "question":"Which of the following is used for reading tabular data?",
+    "ans1": "read.csv",
+    "ans2": "dget",
+    "ans3": "readLines",
+    "ans": "ans1"
   },
   "Q72": {
-    "question":"Identify the correct statement.",
-    "ans1": "c++ does not have built-in interfaces",
-    "ans2": "c++ does have built-in interfaces",
-    "ans3": "c++ does have built-in interfaces & classes",
-    "ans": "ans1"
+    "question":"R Commander is used to ___________ in R",
+    "ans1": "Export data",
+    "ans2": "Import data",
+    "ans3": "Use data",
+    "ans": "ans2"
   },
   "Q73": {
-    "question":"What is similar to the interface in c++?",
-    "ans1": "pure abstract class",
-    "ans2": "instance of a class",
-    "ans3": "methods & instance of a class",
-    "ans": "ans1"
+    "question":"Two vectors M and N are defined as M <- c(3, 2, 4) and N <- c(1, 2). What will be the output of vector Z that is defined as Z <- M*N.",
+    "ans1": "Z <- (3, 2, 4)",
+    "ans2": "Z <- (3, 6, 4)",
+    "ans3": "Z <- (3, 4, 4)",
+    "ans": "ans3"
   },
   "Q74": {
-    "question":"Which operator is used to signify the namespace?",
-    "ans1": "conditional operator",
-    "ans2": "ternary operator",
-    "ans3": "scope operator",
+    "question":"How missing values and impossible values are represented in R language?",
+    "ans1": "NA",
+    "ans2": "NAN",
+    "ans3": "NA & NAN",
     "ans": "ans3"
   },
   "Q75": {
-    "question":"What is the use of Namespace?",
-    "ans1": "To encapsulate the data",
-    "ans2": "To structure a program into logical units",
-    "ans3": "Encapsulate the data & structure a program into logical units",
-    "ans": "ans2"
+    "question":"CRAN package ecosystem has more than ______ packages.",
+    "ans1": "5000",
+    "ans2": "4000",
+    "ans3": "6000",
+    "ans": "ans3"
   },
   "Q76": {
-    "question":"What is the general syntax for accessing the namespace variable?",
-    "ans1": "namespace::operator",
-    "ans2": "namespace#operator",
-    "ans3": "namespace$operator",
-    "ans": "ans1"
+    "question":"Which function in R language is used to find out whether the means of 2 groups are equal to each other or not?",
+    "ans1": "f.tests ()",
+    "ans2": "l.tests ()",
+    "ans3": "t.tests ()",
+    "ans": "ans3"
   },
   "Q77": {
-    "question":"Which keyword is used to access the variable in the namespace?",
-    "ans1": "using",
-    "ans2": "dynamic",
-    "ans3": "const",
+    "question":"_____ is the best way for communicating the results of data analysis using the R language.",
+    "ans1": "Single document",
+    "ans2": "Files",
+    "ans3": "Structures",
     "ans": "ans1"
   },
   "Q78": {
-    "question":"To where does the program control transfers when the exception is arisen?",
-    "ans1": "catch",
-    "ans2": "handlers",
-    "ans3": "throw",
-    "ans": "ans2"
-  },
-  "Q79": {
-    "question":"Which keyword is used to check exception in the block of code?",
-    "ans1": "catch",
-    "ans2": "throw",
-    "ans3": "try",
-    "ans": "ans3"
-  },
-  "Q80": {
-    "question":"What will happen when the exception is not caught in the program?",
-    "ans1": "error",
-    "ans2": "program will execute",
-    "ans3": "block of that code will not execute",
+    "question":"_____ is the easiest method for reshaping the data before analysis.",
+    "ans1": "Transpose()",
+    "ans2": "Structure()",
+    "ans3": "Package()",
     "ans": "ans1"
   },
+  "Q79": {
+    "question":"____ function is used to apply an expression for a given dataset",
+    "ans1": "This()",
+    "ans2": "With()",
+    "ans3": "Unwith()",
+    "ans": "ans2"
+  },
+  "Q80": {
+    "question":"____ package is used to speed up data frame management code.",
+    "ans1": "Data.table",
+    "ans2": "Dplyr",
+    "ans3": "Table",
+    "ans": "ans2"
+  },
   "Q81": {
-    "question":"What will happen when the handler is not found for an exception?",
-    "ans1": "calls the standard library function terminate()",
-    "ans2": "raise an error",
-    "ans3": "executes the remaining block",
+    "question":"Individual R objects can be saved to a file using the _____ function.",
+    "ans1": "save",
+    "ans2": "put",
+    "ans3": "get",
     "ans": "ans1"
   },
   "Q82": {
-    "question":"To use external linkage we have to use which keyword?",
-    "ans1": "static",
-    "ans2": "extern",
-    "ans3": "argc",
+    "question":"_____ opens a connection to a file compressed with gzip.",
+    "ans1": "url",
+    "ans2": "gzfile
+    "ans3": "bzfile",
     "ans": "ans2"
   },
   "Q83": {
-    "question":"What is the user-defined header file extension in c++?",
-    "ans1": "cpp",
-    "ans2": "h",
-    "ans3": "m",
-    "ans": "ans2"
+    "question":"Point out the wrong statement?",
+    "ans1": "$ operator semantics are similar to that of [[",
+    "ans2": "The [ operator always returns an object of the same class as the original",
+    "ans3": "The $ operator is used to extract elements of a list or a data frame",
+    "ans": "ans3"
   },
   "Q84": {
-    "question":"Which of the following keyword is used to declare the header file?",
-    "ans1": "include",
-    "ans2": "namespace",
-    "ans3": "exclude",
+    "question":"Which of the following extracts first element from the following R list? \n x <- list(foo = 1:4, bar = 0.6)",
+    "ans1": "x[[1]]",
+    "ans2": "x[1]",
+    "ans3": "x[[0]]",
     "ans": "ans1"
   },
   "Q85": {
-    "question":"Which of the following header file does not exist?",
-    "ans1": "<iostream>",
-    "ans2": "<string>",
-    "ans3": "<sstring>",
-    "ans": "ans3"
+    "question":"Point out the correct statement?",
+    "ans1": "You can also use the $ operator to extract elements by name",
+    "ans2": "$ operator can be used with computed indices",
+    "ans3": "The [[ operator can only be used with literal names",
+    "ans": "ans1"
   },
   "Q86": {
-    "question":"Which of the header file must be included to use stringstream?",
-    "ans1": "<iostream>",
-    "ans2": "<string>",
-    "ans3": "<sstream>",
+    "question":"Which of the following is example of vectorized operation as far as subtraction is concerned? \n x <- 1:4 \n y <- 6:9",
+    "ans1": "x+y",
+    "ans2": "x-y",
+    "ans3": "x/y",
     "ans": "ans2"
   },
   "Q87": {
-    "question":"Which of the following header files is required for creating and reading data files?",
-    "ans1": "ofstream.h",
-    "ans2": "fstream.h",
-    "ans3": "ifstream.h",
-    "ans": "ans2"
+    "question":"Point out the wrong statement?",
+    "ans1": "Very less operations in R are vectorized",
+    "ans2": "Vectorization allows you to write code that is efficient, concise, and easier to read than in non-vectorized languages",
+    "ans3": "vectorized means that operations occur in parallel in certain R objects",
+    "ans": "ans1"
   },
   "Q88": {
-    "question":"The data members and functions of a class in C++ are by default ____",
-    "ans1": "protected",
-    "ans2": "private",
-    "ans3": "public",
+    "question":"What will be the output of the following R code? \n x <- 1:4 \n x > 2",
+    "ans1": "1 2 3 4",
+    "ans2": "FALSE FALSE TRUE TRUE",
+    "ans3": "1 2 3 4 5",
     "ans": "ans2"
   },
   "Q89": {
-    "question":"Constructors are used to ______",
-    "ans1": "initialize the objects",
-    "ans2": "construct the data members",
-    "ans3": "both initialize the objects & construct the data members",
-    "ans": "ans1"
+    "question":"Point out the wrong statement?",
+    "ans1": "Dates are represented by the Date class",
+    "ans2": "Times are represented by the POSIXct or the POSIXlt class",
+    "ans3": "Dates are represented by the DateTime class",
+    "ans": "ans3"
   },
   "Q90": {
-    "question":"When struct is used instead of the keyword class means, what will happen in the program?",
-    "ans1": "access is public by default",
-    "ans2": "access is private by default",
-    "ans3": "access is protected by default",
-    "ans": "ans1"
+    "question":"Which of the following code represents internal representation of a Date object?",
+    "ans1": "class(as.Date('1970-01-02'))",
+    "ans2": "unclass(as.Date('1970-01-02'))",
+    "ans3": "unclassint(as.Date('1970-01-02'))",
+    "ans": "ans2"
   },
   "Q91": {
     "question":"Which keyword is used to define the user defined data types?",
@@ -638,32 +638,32 @@
     "ans": "ans2"
   },
   "Q92": {
-    "question":"What does the data type defined by union will do?",
-    "ans1": "It allow one different portion of memory to be accessed as same data types",
-    "ans2": "It allow one same portion of memory to be accessed as different data types",
-    "ans3": "It allow one different portion of memory to be accessed as different data types",
-    "ans": "ans2"
+    "question":"Which of the following R syntax is correct for while loop?",
+    "ans1": "while ( statement1 ) statement2",
+    "ans2": "while ( statement1 ) else statement2",
+    "ans3": "while ( statement1 ) do statement2",
+    "ans": "ans1"
   },
   "Q93": {
-    "question":"What is the syntax of user-defined data types?",
-    "ans1": "typedef ExistingDataType NameByUser",
-    "ans2": "typedef NameByUser ExistingDataType",
-    "ans3": "def NameByUser ExistingDataType",
-    "ans": "ans1"
+    "question":"_____ is used to break the execution of a loop.",
+    "ans1": "next",
+    "ans2": "skip",
+    "ans3": "break",
+    "ans": "ans3"
   },
   "Q94": {
-    "question":"Pick out the other definition of objects.",
-    "ans1": "member of the class",
-    "ans2": "instance of the class",
-    "ans3": "attribute of the class",
-    "ans": "ans2"
+    "question":"Which of the following statement can be used to explicitly control looping?",
+    "ans1": "if",
+    "ans2": "while",
+    "ans3": "break",
+    "ans": "ans3"
   },
   "Q95": {
-    "question":"How to declare operator function?",
-    "ans1": "operator sign",
-    "ans2": "name of the class",
-    "ans3": "operator",
-    "ans": "ans1"
+    "question":"Which of the following should be preferred for evaluation from list of alternatives?",
+    "ans1": "subsett",
+    "ans2": "eval",
+    "ans3": "switch",
+    "ans": "ans2"
   },
   "Q96": {
     "question":"Operator overloading is _______",
@@ -673,137 +673,137 @@
     "ans": "ans2"
   },
   "Q97": {
-    "question":"What is the syntax of overloading operator + for class A?",
-    "ans1": "A operator+(argument_list){}",
-    "ans2": "int +(argument_list){}",
-    "ans3": "int [+](argument_list){}",
-    "ans": "ans1"
+    "question":"______ initiates an infinite loop right from the start.",
+    "ans1": "never",
+    "ans2": "repeat",
+    "ans3": "break",
+    "ans": "ans2"
   },
   "Q98": {
-    "question":"Why we use the “dynamic_cast” type conversion?",
-    "ans1": "result of the type conversion is a valid",
-    "ans2": "to be used in low memory",
-    "ans3": "result of the type conversion is an invalid",
+    "question":"____ is used to skip an iteration of a loop.",
+    "ans1": "next",
+    "ans2": "skip",
+    "ans3": "group",
     "ans": "ans1"
   },
   "Q99": {
-    "question":"Pick out the correct syntax of operator conversion.",
-    "ans1": "operator float() const",
-    "ans2": "operator float()",
-    "ans3": "operator const",
-    "ans": "ans1"
+    "question":"The syntax of the repeat loop is _____",
+    "ans1": "rep statement",
+    "ans2": "repeat statement",
+    "ans3": "repeat while",
+    "ans": "ans2"
   },
   "Q100": {
-    "question":"Which rule will not affect the friend function?",
-    "ans1": "private and protected members of a class cannot be accessed from outside",
-    "ans2": "private and protected member can be accessed anywhere",
-    "ans3": "protected member can be accessed anywhere",
-    "ans": "ans1"
+    "question":"Which of the following is apply function in R?",
+    "ans1": "apply()",
+    "ans2": "tapply()",
+    "ans3": "fapply()",
+    "ans": "ans2"
   },
   "Q101": {
-    "question":"Which keyword is used to declare the friend function?",
-    "ans1": "firend",
-    "ans2": "classfriend",
-    "ans3": "friend",
-    "ans": "ans3"
+    "question":"You can check to see whether an R object is NULL with the _________ function.",
+    "ans1": "is.null()",
+    "ans2": "is.nullobj()",
+    "ans3": "null()",
+    "ans": "ans1"
   },
   "Q102": {
-    "question":"Pick out the correct statement.",
-    "ans1": "A friend function may be a member of another class",
-    "ans2": "A friend function may not be a member of another class",
-    "ans3": "A friend function may or may not be a member of another class",
+    "question":"Which package can be integrated with dplyr for large fast tables?",
+    "ans1": "Table",
+    "ans2": "Data, dplyr",
+    "ans3": "Data.table",
     "ans": "ans3"
   },
   "Q103": {
-    "question":"Pick the correct statement.",
-    "ans1": "Friend functions are in the scope of a class",
-    "ans2": "Friend functions can be called using class objects",
-    "ans3": "Friend functions can be invoked as a normal function",
+    "question":"In the base graphics system, which function is used to add elements to a plot?",
+    "ans1": "Boxplot()",
+    "ans2": "Text()",
+    "ans3": "Boxplot() or Text()",
     "ans": "ans3"
   },
   "Q104": {
-    "question":"How to store the large objects in c++ if it extends its allocated memory?",
-    "ans1": "memory heap",
-    "ans2": "stack",
-    "ans3": "queue",
+    "question":"What will be the output of log (-5.8) when executed on R console?",
+    "ans1": "NAN",
+    "ans2": "NA",
+    "ans3": "0.213",
     "ans": "ans1"
   },
   "Q105": {
-    "question":"Which option is best to eliminate the memory problem?",
-    "ans1": "use smart pointers",
-    "ans2": "use raw pointers",
-    "ans3": "use smart pointers & virtual destructor",
-    "ans": "ans3"
+    "question":"Which package in R supports the exploratory analysis of genomic data?",
+    "ans1": "Adegenat",
+    "ans2": "Adegenet",
+    "ans3": "Adegnet",
+    "ans": "ans2"
   },
   "Q106": {
-    "question":"Pick the correct statement about string objects in C++.",
-    "ans1": "String objects must be terminated by a null character",
-    "ans2": "String objects have a static size",
-    "ans3": "String objects have a dynamic size",
-    "ans": "ans3"
+    "question":"_____ can contain heterogeneous inputs.",
+    "ans1": "Matrix",
+    "ans2": "Data Frames",
+    "ans3": "Does not exists",
+    "ans": "ans2"
   },
   "Q107": {
-    "question":"What is a copy constructor?",
-    "ans1": "A constructor that allows a user to move data from one object to another",
-    "ans2": "A constructor to initialize an object with the values of another object",
-    "ans3": "A constructor to check the whether to objects are equal or not",
+    "question":"R code can be tested using _________________ package.",
+    "ans1": "Dplyr",
+    "ans2": "Hadley’s testthat",
+    "ans3": "SKLearn",
     "ans": "ans2"
   },
   "Q108": {
-    "question":"What happens if a user forgets to define a constructor inside a class?",
-    "ans1": "Error occurs",
-    "ans2": "Segmentation fault",
-    "ans3": "Compiler provides a default constructor to avoid faults/errors",
-    "ans": "ans3"
+    "question":"If the programmers want the output to be a data frame or a vector, then ________ function is used.",
+    "ans1": "Lapply",
+    "ans2": "Sapply",
+    "ans3": "Vapply",
+    "ans": "ans1"
   },
   "Q109": {
-    "question":"What is the role of destructors in Classes?",
-    "ans1": "To modify the data whenever required",
-    "ans2": "To destroy an object when the lifetime of an object ends",
-    "ans3": "To initialize the data members of an object when it is created",
+    "question":"which of the following statement make a mosaic plot?",
+    "ans1": "histogram()",
+    "ans2": "mosaicplot()",
+    "ans3": "bar()",
     "ans": "ans2"
   },
   "Q110": {
-    "question":"Which of the following is correct?",
-    "ans1": "Destructors can be virtual",
-    "ans2": "There can be more than one destructor in a class",
-    "ans3": "Destructor is used to initialize objects",
+    "question":"______ will produce a sequential vector c( (1,2,3,4,5,6,7,8,9)).",
+    "ans1": "Seq(9)",
+    "ans2": "Seq(10)",
+    "ans3": "Seq(15)",
     "ans": "ans1"
   },
   "Q111": {
-    "question":"Which of the following can derived class inherit?",
-    "ans1": "members",
-    "ans2": "functions",
-    "ans3": "both members & functions",
-    "ans": "ans3"
+    "question":"_____ function is used for reading the .csv file in R language.",
+    "ans1": "Write.csv()",
+    "ans2": "Read.csv()",
+    "ans3": "Let.csv()",
+    "ans": "ans2"
   },
   "Q112": {
-    "question":"Which operator is used to declare the destructor?",
-    "ans1": "#",
-    "ans2": "~",
-    "ans3": "@",
+    "question":" If the function in a console is.matrix(X) returns true then X can be considered as a ___",
+    "ans1": "Matrix object",
+    "ans2": "Matrix data object",
+    "ans3": "Matrix vector",
     "ans": "ans2"
   },
   "Q113": {
-    "question":"Which class is used to design the base class?",
-    "ans1": "abstract class",
-    "ans2": "derived class",
-    "ans3": "static class",
+    "question":"____ measures the probability of the binary response variable in R language.",
+    "ans1": "Logical Regression",
+    "ans2": "Multivariate Regression",
+    "ans3": "Simpler Regression",
     "ans": "ans1"
   },
   "Q114": {
-    "question":"Which is also called as abstract class?",
-    "ans1": "virtual function",
-    "ans2": "pure virtual function",
-    "ans3": "derived class",
-    "ans": "ans2"
+    "question":"____ function will measure the probability of the binary response variable in R language.",
+    "ans1": "Glm()",
+    "ans2": "Glmi()",
+    "ans3": "Gelmi()",
+    "ans": "ans1"
   },
   "Q115": {
-    "question":"What is a template?",
-    "ans1": "A template is a formula for creating a generic class",
-    "ans2": "A template is used to manipulate the class",
-    "ans3": "A template is used for creating the attributes",
-    "ans": "ans1"
+    "question":"_____ function can be used to select the random sample of size ‘n’ from a huge dataset.",
+    "ans1": "Simple()",
+    "ans2": "Sample()",
+    "ans3": "Signal()",
+    "ans": "ans2"
   },
   "Q116": {
     "question":"How to declare a template?",
@@ -813,206 +813,206 @@
     "ans": "ans1"
   },
   "Q117": {
-    "question":"What is a function template?",
-    "ans1": "creating a function without having to specify the exact type",
-    "ans2": "creating a function with having an exact type",
-    "ans3": "creating a function without having blank spaces",
+    "question":"Which function is used to select variables and observations from a given dataset?",
+    "ans1": "Subset()",
+    "ans2": "Sample()",
+    "ans3": "Signal()",
     "ans": "ans1"
   },
   "Q118": {
-    "question":"Which is used to describe the function using placeholder types?",
-    "ans1": "template parameters",
-    "ans2": "template type parameters",
-    "ans3": "template type",
-    "ans": "ans2"
+    "question":"___ package in R language provides various options for re-randomization and permutations based on statistical tests.",
+    "ans1": "Coin",
+    "ans2": "Vain",
+    "ans3": "Join",
+    "ans": "ans1"
   },
   "Q119": {
-    "question":"How the template class is different from the normal class?",
-    "ans1": "Template class generate objects of classes based on the template type",
-    "ans2": "Template class saves system memory",
-    "ans3": "All of the mentioned",
-    "ans": "ans3"
+    "question":"A matrix of scatterplots can be produced using _________ function.",
+    "ans1": "Pears",
+    "ans2": "Pairs",
+    "ans3": "Tears",
+    "ans": "ans2"
   },
   "Q120": {
-    "question":"Which is called on allocating the memory for the array of objects?",
-    "ans1": "destructor",
-    "ans2": "constructor",
-    "ans3": "method",
+    "question":"_____ function takes various parameters like formula, data, subset, labels, etc.",
+    "ans1": "Pears",
+    "ans2": "Pairs",
+    "ans3": "Tears",
     "ans": "ans2"
   },
   "Q121": {
-    "question":"Which of the following can derived class inherit?",
-    "ans1": "members",
-    "ans2": "functions",
-    "ans3": "both members & functions",
-    "ans": "ans3"
+    "question":"What would be the value of following R expression?\nlog(-1)",
+    "ans1": "Warning in log(-1): NaNs produced",
+    "ans2": "Null",
+    "ans3": "0",
+    "ans": "ans1"
   },
   "Q122": {
-    "question":"What is the Standard Template Library?",
-    "ans1": "Set of C++ template classes to provide common programming data structures and functions",
-    "ans2": "Set of C++ classes",
-    "ans3": "Set of Template functions used for easy data structures implementation",
+    "question":"Warnings are generated by the _________ function.",
+    "ans1": "warning()",
+    "ans2": "error()",
+    "ans3": "run()",
     "ans": "ans1"
   },
   "Q123": {
-    "question":"What are the containers?",
-    "ans1": "Containers store objects and data",
-    "ans2": "Containers stores all the algorithms",
-    "ans3": "Containers contain overloaded functions",
-    "ans": "ans1"
+    "question":"To get the current date, the _______ function will return a Date object which can be converted to a different class if necessary.",
+    "ans1": "Sys.Time",
+    "ans2": "Sys.Date",
+    "ans3": "Sys.DateTime",
+    "ans": "ans2"
   },
   "Q124": {
-    "question":"What are the Sequence Containers?",
-    "ans1": "Containers that implements data structures which can be accessed sequentially",
-    "ans2": "Containers that implements sorted data structures for fast search in O(logn)",
-    "ans3": "Containers that implements data structures which can be accessed non-sequentially",
-    "ans": "ans1"
+    "question":"A function, together with an environment, makes up what is called a ______ closure.",
+    "ans1": "formal",
+    "ans2": "function",
+    "ans3": "reflective",
+    "ans": "ans2"
   },
   "Q125": {
-    "question":"Which header file is used for Iterators?",
-    "ans1": "<iterator>",
-    "ans2": "<algorithm>",
-    "ans3": "<iter>",
+    "question":"Point out the wrong statement?",
+    "ans1": "The order of the packages on the search list does not matter",
+    "ans2": "R has separate namespaces for functions and non-functions",
+    "ans3": "Users can configure which packages get loaded on startup so if you are writing a function",
     "ans": "ans1"
   },
   "Q126": {
-    "question":"What does the cerr represent?",
-    "ans1": "Standard logging stream",
-    "ans2": "Input stream",
-    "ans3": "Standard error stream",
+    "question":"The only environment without a parent is the ________ environment.",
+    "ans1": "full",
+    "ans2": "half",
+    "ans3": "empty",
     "ans": "ans3"
   },
   "Q127": {
-    "question":"Which symbol is used to create multiple inheritances?",
-    "ans1": "Dot",
-    "ans2": "Comma",
-    "ans3": "Dollar",
-    "ans": "ans2"
+    "question":"The ________ for R are the main feature that make it different from the original S language.",
+    "ans1": "scoping rules",
+    "ans2": "closure rules",
+    "ans3": "environment rules",
+    "ans": "ans1"
   },
   "Q128": {
-    "question":"Which design patterns benefit from the multiple inheritances?",
-    "ans1": "Adapter and observer pattern",
-    "ans2": "Code pattern",
-    "ans3": "Star pattern",
-    "ans": "ans1"
+    "question":"The _________ function is a kind of “constructor function” that can be used to construct other functions.",
+    "ans1": "make.pow()",
+    "ans2": "make.power()",
+    "ans3": "keep.power()",
+    "ans": "ans2"
   },
   "Q129": {
-    "question":"What is Inheritance in C++?",
-    "ans1": "Wrapping of data into a single class",
-    "ans2": "Deriving new classes from existing classes",
-    "ans3": "Overloading of classes",
-    "ans": "ans2"
+    "question":"The recover() function will first print out the function call stack when an _______ occurs.",
+    "ans1": "Error",
+    "ans2": "Warning",
+    "ans3": "Messages",
+    "ans": "ans1"
   },
   "Q130": {
-    "question":"What do vectors represent?",
-    "ans1": "Static arrays",
-    "ans2": "Dynamic arrays",
-    "ans3": "Queue",
-    "ans": "ans2"
+    "question":"Which of the following is primary tool for debugging?",
+    "ans1": "debug()",
+    "ans2": "trace()",
+    "ans3": "browser()",
+    "ans": "ans1"
   },
   "Q131": {
-    "question":"Pick out the correct statement about vector.",
-    "ans1": "vector<int> values (5)",
-    "ans2": "vector values (5)",
-    "ans3": "vector<int> (5)",
-    "ans": "ans1"
+    "question":"_____ allows you to insert debugging code into a function a specific places",
+    "ans1": "debug()",
+    "ans2": "trace()",
+    "ans3": "browser()",
+    "ans": "ans2"
   },
   "Q132": {
-    "question":"How the list containers are implemented?",
-    "ans1": "Using Double linked list",
-    "ans2": "Using Single linked list",
-    "ans3": "Using linear linked list",
-    "ans": "ans1"
+    "question":"____ evaluate the cumulative distribution function for a Normal distribution.",
+    "ans1": "dnorm",
+    "ans2": "rnorm",
+    "ans3": "pnorm",
+    "ans": "ans3"
   },
   "Q133": {
-    "question":"What do container adapter provide to interface?",
-    "ans1": "Restricted interface",
-    "ans2": "More interface",
-    "ans3": "Memory interface",
+    "question":"Which of the following evaluate the Normal probability density (with a given mean/SD) at a point?",
+    "ans1": "dnorm",
+    "ans2": "rnorm",
+    "ans3": "pnorm",
     "ans": "ans1"
   },
   "Q134": {
-    "question":"What do maps and sets support?",
-    "ans1": "Single directional iterators",
-    "ans2": "Bi-directional iterators",
-    "ans3": "functional iterators",
-    "ans": "ans2"
+    "question":"R comes with a ________ to help you optimize your code and improve its performance.",
+    "ans1": "debugger",
+    "ans2": "monitor",
+    "ans3": "browser",
+    "ans": "ans1"
   },
   "Q135": {
-    "question":"What type of access does deque and vector provide?",
-    "ans1": "Linear access",
-    "ans2": "Parallel access",
-    "ans3": "Random access",
-    "ans": "ans3"
+    "question":"The _______ function computes the time (in seconds) needed to execute an expression.",
+    "ans1": "system.timedeb()",
+    "ans2": "system.time()",
+    "ans3": "system.datetime()",
+    "ans": "ans2"
   },
   "Q136": {
-    "question":"What is a pair?",
-    "ans1": "Container consisting of one header and two data elements of the same type",
-    "ans2": "Container consisting of two data elements of different type",
-    "ans3": "Container consisting of two data elements can have the same or different type",
-    "ans": "ans3"
+    "question":"system.time function returns an object of class _______ which contains two useful bits of information.",
+    "ans1": "debug_time",
+    "ans2": "proc_time",
+    "ans3": "procedure_time",
+    "ans": "ans2"
   },
   "Q137": {
-    "question":"Which of the following is the correct syntax of using pair p?",
-    "ans1": "pair <type,type> p;",
-    "ans2": "pair p <type,type>;",
-    "ans3": "pair [type,type] p;",
+    "question":"____ time is time charged to the CPU(s) for the R expression.",
+    "ans1": "elapsed",
+    "ans2": "user",
+    "ans3": "response",
     "ans": "ans1"
   },
   "Q138": {
-    "question":"Which operator is used to access the first or second element of a pair?",
-    "ans1": "->",
-    "ans2": ".",
-    "ans3": "*",
-    "ans": "ans2"
+    "question":"The elapsed time may be ________ than the user time if your machine has multiple cores/processors.",
+    "ans1": "smaller",
+    "ans2": "greater",
+    "ans3": "null",
+    "ans": "ans1"
   },
   "Q139": {
-    "question":"Which of the following is the correct syntax of accessing the first element of a pair p?",
-    "ans1": "p.first",
-    "ans2": "p[0]",
-    "ans3": "p[1]",
-    "ans": "ans1"
+    "question":"You can time ________ expressions by wrapping them in curly braces within the call to system.time().",
+    "ans1": "smaller",
+    "ans2": "longer",
+    "ans3": "grater",
+    "ans": "ans2"
   },
   "Q140": {
-    "question":"What is any in C++?",
-    "ans1": "STL container used to store a single value of any type",
-    "ans2": "Exception class in C++",
-    "ans3": "Fundamental type provided by C++",
-    "ans": "ans1"
+    "question":"____ grammar makes a clear distinction between your data and what gets displayed on the screen or page.",
+    "ans1": "ggplot1",
+    "ans2": "ggplot2",
+    "ans3": "d3.js",
+    "ans": "ans2"
   },
   "Q141": {
-    "question":"Which of the following syntax is used to convert any variable to its original type?",
-    "ans1": "any_cast<variable_name>();",
-    "ans2": "<original_type>(variable_name);",
-    "ans3": "any_cast<original_type>(variable_name);",
-    "ans": "ans3"
+    "question":"Which of the following cuts numeric vector into intervals of equal length?",
+    "ans1": "cut_interval",
+    "ans2": "cut_time",
+    "ans3": "cut_number",
+    "ans": "ans1"
   },
   "Q142": {
-    "question":"Which header file is required to use any container?",
-    "ans1": "<any>",
-    "ans2": "<stl>",
-    "ans3": "<container-any>",
-    "ans": "ans1"
+    "question":"Which of the following is a plot to investigate the order in which observations were recorded?",
+    "ans1": "ggplot",
+    "ans2": "ggsave",
+    "ans3": "ggorder",
+    "ans": "ans3"
   },
   "Q143": {
-    "question":"What do container adapter provide to interface?",
-    "ans1": "Restricted interface",
-    "ans2": "More interface",
-    "ans3": "Memory interface",
-    "ans": "ans1"
+    "question":"_____ modifies geom/stat aesthetic defaults for future plots.",
+    "ans1": "translate_qplot_base",
+    "ans2": "translate_qplot_gpl",
+    "ans3": "translate_qplot_defaults",
+    "ans": "ans3"
   },
   "Q144": {
-    "question":"Which type of heap is implemented in STL heap?",
-    "ans1": "max heap",
-    "ans2": "min heap",
-    "ans3": "middle heap",
-    "ans": "ans1"
+    "question":"Which of the following is discrete state calculator?",
+    "ans1": "discrete_scale",
+    "ans2": "ggpcp",
+    "ans3": "ggfluctuation",
+    "ans": "ans3"
   },
   "Q145": {
-    "question":"Which function is used to insert an element into heap?",
-    "ans1": "push_back()",
-    "ans2": "push_heap()",
-    "ans3": "pop_back()",
+    "question":"Which of the following creates fluctuation plot?",
+    "ans1": "ggmissplot",
+    "ans2": "ggmissing",
+    "ans3": "ggfluctuation",
     "ans": "ans2"
   },
   "Q146": {
@@ -1023,144 +1023,144 @@
     "ans": "ans1"
   },
   "Q147": {
-    "question":"What is vtable in C++?",
-    "ans1": "Lookup table to resolve function calls in dynamic manners",
-    "ans2": "Lookup table to resolve function calls in static manners",
-    "ans3": "Lookup table to check how many functions are there int he program",
-    "ans": "ans1"
+    "question":"_____ is used to create a plot to illustrate patterns of missing values.",
+    "ans1": "ggmissplot",
+    "ans2": "ggmissing",
+    "ans3": "ggfluctuation",
+    "ans": "ans2"
   },
   "Q148": {
-    "question":"Which classes can have vtable?",
-    "ans1": "Classes having friend functions",
-    "ans2": "Classes having virtual functions",
-    "ans3": "Classes having static functions",
+    "question":"Which of the following function takes multiple columns?",
+    "ans1": "spread()",
+    "ans2": "gather()",
+    "ans3": "separate()",
     "ans": "ans2"
   },
   "Q149": {
-    "question":"What are the Generators in C++?",
-    "ans1": "An object that generates uniformly distributed numbers",
-    "ans2": "An object that generates a number from a given sequence",
-    "ans3": "An object that generates the smallest number from a given range",
-    "ans": "ans1"
+    "question":"Which of the following merges two variables into one?",
+    "ans1": "spread()",
+    "ans2": "gather()",
+    "ans3": "separate()",
+    "ans": "ans3"
   },
   "Q150": {
-    "question":"What is the use of is_array() function in C++?",
-    "ans1": "To check if a variable is array type or not",
-    "ans2": "To check if a variable is 1-D array type or not",
-    "ans3": "To check if a variable is 2-D array type or not",
+    "question":"____ add new variables/columns or transform existing variables.",
+    "ans1": "mutate",
+    "ans2": "add",
+    "ans3": "apped",
     "ans": "ans1"
   },
   "Q151": {
-    "question":"What is the use of rank() function in C++?",
-    "ans1": "Returns size of each dimension",
-    "ans2": "Returns how many elements are in array currently",
-    "ans3": "Returns the dimension of an array",
+    "question":"___ extract a subset of rows from a data frame based on logical conditions.",
+    "ans1": "rename",
+    "ans2": "filter",
+    "ans3": "subset",
     "ans": "ans3"
   },
   "Q152": {
-    "question":"Which of the following is correct about extent() function?",
-    "ans1": "Returns how many elements are in array currently",
-    "ans2": "Returns the size of the 1st dimension",
-    "ans3": "Returns the size of a given dimension",
+    "question":"Which of the following code create a n item vector of random normal deviates?",
+    "ans1": "x1 <- c(snorm(n))",
+    "ans2": "x1 <- c(pnorm(n))",
+    "ans3": "x1 <- c(rnorm(n))",
     "ans": "ans3"
   },
   "Q153": {
-    "question":"Which of the following is the correct way of declaring a tuple?",
-    "ans1": "tuple tp<type1, type2, type3>;",
-    "ans2": "tuple tp = new tuple<type1, type2, type3>;",
-    "ans3": "tuple <type1, type2, type3> tp;",
-    "ans": "ans3"
-  },
-  "Q154": {
-    "question":"Which of the following function is used to initialize a tuple?",
-    "ans1": "make_pair()",
-    "ans2": "make_tuple()",
-    "ans3": "make_Tuple()",
+    "question":"Which of the following statement read a tab or space delimited file?",
+    "ans1": "read.table(filename,header=TRUE)",
+    "ans2": "read.CSV(filename,header=TRUE)",
+    "ans3": "read.table(filename,header=FALSE)",
     "ans": "ans1"
   },
-  "Q155": {
-    "question":"What does the size of the vector refers to in c++?",
-    "ans1": "Type of vector",
-    "ans2": "Number of elements",
-    "ans3": "Size of vector",
+  "Q154": {
+    "question":"which of the following statement chose those objects meeting a logical criterion?",
+    "ans1": "sub(dataset,logical)",
+    "ans2": "subset(dataset,logical)",
+    "ans3": "subsetcon(dataset,logical)",
     "ans": "ans2"
   },
+  "Q155": {
+    "question":"___ list the variables in the workspace.",
+    "ans1": "rm(x)",
+    "ans2": "rm(list=ls())",
+    "ans3": "ls()",
+    "ans": "ans3"
+  },
   "Q156": {
-    "question":"Which operator is used to insert the data into file?",
-    "ans1": ">>",
-    "ans2": "<<",
-    "ans3": "<",
+    "question":"_____ remove all the variables from the workspace.",
+    "ans1": "rm(x)",
+    "ans2": "rm(list=ls())",
+    "ans3": "attach(mat)",
     "ans": "ans2"
   },
   "Q157": {
-    "question":"Which header file is used for reading and writing to a file?",
-    "ans1": "#include<iostream>",
-    "ans2": "#include<fstream>",
-    "ans3": "#include<file>",
-    "ans": "ans2"
-  },
-  "Q158": {
-    "question":"Which of the following is the correct syntax of declaring a complex number?",
-    "ans1": "complex variable_name<type>;",
-    "ans2": "complex<type> variable_name;",
-    "ans3": "Complex<type> variable_name;",
-    "ans": "ans2"
-  },
-  "Q159": {
-    "question":"Which header file is required to use file I/O operations?",
-    "ans1": "<ifstream>",
-    "ans2": "<ostream>",
-    "ans3": "<fstream>",
+    "question":"Which of the following finds row sums for each level of a grouping variable?",
+    "ans1": "rowSums (x, na.rm = FALSE, dims = 1)",
+    "ans2": "colMeans(x, na.rm = FALSE, dims = 1)",
+    "ans3": "rowMeans(x, na.rm = FALSE, dims = 1)",
     "ans": "ans3"
   },
-  "Q160": {
-    "question":"Which header file is used for reading and writing to a file?",
-    "ans1": "#include<iostream>",
-    "ans2": "#include<fstream>",
-    "ans3": "#include<file>",
+  "Q158": {
+    "question":"Which of the following statement finds the maximum for each column?",
+    "ans1": "apply(x,2,max)",
+    "ans2": "col.max(x)",
+    "ans3": "which.min(x)",
+    "ans": "ans1"
+  },
+  "Q159": {
+    "question":"Which of the following finds row sums for each level of a grouping variable?",
+    "ans1": "as.numeric(x)",
+    "ans2": "rowsum(x, group, reorder = TRUE, …)",
+    "ans3": "as.order(x)",
     "ans": "ans2"
   },
+  "Q160": {
+    "question":"Which of the following sets the size of the outer margins for the graph?",
+    "ans1": "par(mfrow=c(nrow,mcol))",
+    "ans2": "par(ask=TRUE)",
+    "ans3": "par(omi=c(0,0,1,0) )",
+    "ans": "ans3"
+  },
   "Q161": {
-    "question":"Which of the following is used to create an output stream?",
-    "ans1": "ofstream",
-    "ans2": "ifstream",
-    "ans3": "iostream",
+    "question":"Which of the following function is used for plotting histogram?",
+    "ans1": "hist()",
+    "ans2": "histog()",
+    "ans3": "histg()",
     "ans": "ans1"
   },
   "Q162": {
-    "question":"Which of the following is not used as a file opening mode?",
-    "ans1": "ios::trunc",
-    "ans2": "ios::binary",
-    "ans3": "ios::in",
-    "ans": "ans1"
+    "question":"Which of the following will add the title “R language” to the graph?",
+    "ans1": "titleAdd( “R language”)",
+    "ans2": "title( “R language”)",
+    "ans3": "titleBar( “R language”)",
+    "ans": "ans2"
   },
   "Q163": {
-    "question":"What is the use of ios::trunc mode?",
-    "ans1": "To open a file in input mode",
-    "ans2": "To open a file in output mode",
-    "ans3": "To truncate an existing file to zero",
+    "question":"Which of the following is a principle of analytic graphics?",
+    "ans1": "Don’t plot more than two variables at at time",
+    "ans2": "Make judicious use of color in your scatterplots",
+    "ans3": "Show causality, mechanism, explanation",
     "ans": "ans3"
   },
   "Q164": {
-    "question":"Which of the following is not used to seek file pointer?",
-    "ans1": "ios::cur",
-    "ans2": "ios::end",
-    "ans3": "ios::set",
-    "ans": "ans3"
-  },
-  "Q165": {
-    "question":"Which function is used to reposition the file pointer?",
-    "ans1": "moveg()",
-    "ans2": "seekg()",
-    "ans3": "changep()",
+    "question":"What is the role of exploratory graphs in data analysis?",
+    "ans1": "They are made for formal presentations",
+    "ans2": "They are typically made very quickly",
+    "ans3": "Axes, legends, and other details are clean and exactly detailed",
     "ans": "ans2"
   },
+  "Q165": {
+    "question":"Which of the following is true about the base plotting system?",
+    "ans1": "Margins and spacings are adjusted automatically depending on the type of plot and the data",
+    "ans2": "Plots are typically created with a single function call",
+    "ans3": "Plots are created and annotated with separate functions",
+    "ans": "ans3"
+  },
   "Q166": {
-    "question":"What is lambda expression in C++?",
-    "ans1": "A technique of C++ that allows us to write inline functions without a name",
-    "ans2": "A technique of C++ that allows us to write overloaded functions",
-    "ans3": "A technique of C++ that allows us to write functions that are called more than once",
-    "ans": "ans1"
+    "question":"Which of the following is an example of a valid graphics device in R?",
+    "ans1": "A socket connection",
+    "ans2": "A Microsoft Word document",
+    "ans3": "A PDF file",
+    "ans": "ans3"
   },
   "Q167": {
     "question":"What is the syntax of defining lambda expression?",
@@ -1170,24 +1170,94 @@
     "ans": "ans1"
   },
   "Q168": {
-    "question":"Which of the following operator is used to capture all the external variable by reference?",
-    "ans1": "=",
-    "ans2": "&",
-    "ans3": "&&",
-    "ans": "ans2"
+    "question":"Which of the following is an example of a vector graphics device in R?",
+    "ans1": "JPEG",
+    "ans2": "PNG",
+    "ans3": "SVG",
+    "ans": "ans3"
   },
   "Q169": {
-    "question":"Which is the correct syntax of capturing a variable ‘X’ by reference and other variable ‘Y’ by value in lambda expression?",
-    "ans1": "[&X, Y]",
-    "ans2": "[X, Y]",
-    "ans3": "[X, &Y]",
-    "ans": "ans1"
+    "question":"Which of the following functions is typically used to add elements to a plot in the base graphics system?",
+    "ans1": "lines()",
+    "ans2": "boxplot()",
+    "ans3": "plot()",
+    "ans": "ans2"
   },
   "Q170": {
-    "question":"What is meant by template specialization?",
-    "ans1": "It will have certain data types to be fixed",
-    "ans2": "It will make certain data types to be dynamic",
-    "ans3": "Certain data types are invalid",
+    "question":"Which function opens the screen graphics device for the Mac?",
+    "ans1": "bitmap()",
+    "ans2": "quartz()",
+    "ans3": "pdf()",
+    "ans": "ans2"
+  },
+  "Q171": {
+    "question":"____ makes it incredibly easy to fit time series models like ARIMA, ARMA, AR, Exponential Smoothing, etc.",
+    "ans1": "sqldf",
+    "ans2": "plyr",
+    "ans3": "forecast",
+    "ans": "ans3"
+  },
+  "Q172": {
+    "question":"____ provides needed string operators in R.",
+    "ans1": "str",
+    "ans2": "forecast",
+    "ans3": "stringr",
+    "ans": "ans3"
+  },
+  "Q173": {
+    "question":"Which of the following will add the title “R language” to the graph?",
+    "ans1": "titleAdd( “R language”)",
+    "ans2": "title( “R language”)",
+    "ans3": "titleBar( “R language”)",
+    "ans": "ans2"
+  },
+  "Q174": {
+    "question":"Which of the following is a library for statistical quality control?",
+    "ans1": "gcc",
+    "ans2": "qcc",
+    "ans3": "anc",
+    "ans": "ans2"
+  },
+  "Q175": {
+    "question":"____ specializes in converting data from wide to long format.",
+    "ans1": "gcc",
+    "ans2": "reshape",
+    "ans3": "reshape2",
+    "ans": "ans3"
+  },
+  "Q176": {
+    "question":"_____ is used to convert wide data to long data.",
+    "ans1": "melt",
+    "ans2": "dcast",
+    "ans3": "cast",
+    "ans": "ans1"
+  },
+  "Q177": {
+    "question":"Which of the following method make vector of repeated values?",
+    "ans1": "rep()",
+    "ans2": "data()",
+    "ans3": "view()",
+    "ans": "ans2"
+  },
+  "Q178": {
+    "question":"Which of the following finds the position of a quantile in a dataset?",
+    "ans1": "quantile()",
+    "ans2": "barplot()",
+    "ans3": "barchart()",
+    "ans": "ans1"
+  },
+  "Q179": {
+    "question":"Which of the following function cross-tabulate tables using formulas?",
+    "ans1": "table",
+    "ans2": "stem",
+    "ans3": "read",
+    "ans": "ans3"
+  },
+  "Q180": {
+    "question":"Which of the following groups find the correlation matrix?",
+    "ans1": "factor.model",
+    "ans2": "col.max(x)",
+    "ans3": "stem",
     "ans": "ans1"
   }
 }}
