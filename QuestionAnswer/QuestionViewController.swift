@@ -61,7 +61,7 @@ class QuestionViewController: UIViewController, GADBannerViewDelegate {
     newQuestion()
     self.tabBarController?.delegate = self
     
-    admobView.adUnitID = "ca-app-pub-9444250027589382/3695919813"
+    admobView.adUnitID = "ca-app-pub-9444250027589382/8970432805"
     admobView.rootViewController = self
     let req = GADRequest()
     admobView.load(req)

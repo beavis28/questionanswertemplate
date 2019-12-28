@@ -19,7 +19,7 @@
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-9444250027589382~2417307792</string>
+	<string>ca-app-pub-9444250027589382~2596596144</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
