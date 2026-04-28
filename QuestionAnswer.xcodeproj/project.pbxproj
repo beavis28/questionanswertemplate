@@ -30,11 +30,6 @@
 		5DE30E302213F0FB000AF932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DE30E332213F0FB000AF932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DE30E352213F0FB000AF932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DE30E4522168220000AF932 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		5DE30E4622168220000AF932 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		5DE30E47221683B7000AF932 /* googlemobileadssdkios.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = googlemobileadssdkios.zip; path = ../../../../Downloads/googlemobileadssdkios.zip; sourceTree = "<group>"; };
-		5DE30E4A221683C1000AF932 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		5DE30E4B221683C1000AF932 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		84C960E9628D3CB5B3A79523 /* Pods-QuestionAnswer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionAnswer.debug.xcconfig"; path = "Target Support Files/Pods-QuestionAnswer/Pods-QuestionAnswer.debug.xcconfig"; sourceTree = "<group>"; };
 		DD9CB11178666CEECD5C42A2 /* Pods-QuestionAnswer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionAnswer.release.xcconfig"; path = "Target Support Files/Pods-QuestionAnswer/Pods-QuestionAnswer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,32 +83,9 @@
 		5DE30E4322168220000AF932 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5DE30E49221683C1000AF932 /* GoogleMobileAdsSdkiOS-7.39.0 */,
-				5DE30E47221683B7000AF932 /* googlemobileadssdkios.zip */,
-				5DE30E4422168220000AF932 /* GoogleMobileAdsSdkiOS-7.39.0 */,
 				1D476E2525E3401ABA2DB34D /* libPods-QuestionAnswer.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5DE30E4422168220000AF932 /* GoogleMobileAdsSdkiOS-7.39.0 */ = {
-			isa = PBXGroup;
-			children = (
-				5DE30E4522168220000AF932 /* GoogleMobileAds.framework */,
-				5DE30E4622168220000AF932 /* README.txt */,
-			);
-			name = "GoogleMobileAdsSdkiOS-7.39.0";
-			path = "../../../../Downloads/GoogleMobileAdsSdkiOS-7.39.0";
-			sourceTree = "<group>";
-		};
-		5DE30E49221683C1000AF932 /* GoogleMobileAdsSdkiOS-7.39.0 */ = {
-			isa = PBXGroup;
-			children = (
-				5DE30E4A221683C1000AF932 /* GoogleMobileAds.framework */,
-				5DE30E4B221683C1000AF932 /* README.txt */,
-			);
-			name = "GoogleMobileAdsSdkiOS-7.39.0";
-			path = "../../../../Downloads/GoogleMobileAdsSdkiOS-7.39.0";
 			sourceTree = "<group>";
 		};
 		CE8F965875C03094A4A5BA57 /* Pods */ = {
@@ -136,6 +108,7 @@
 				5DE30E222213F0F9000AF932 /* Sources */,
 				5DE30E232213F0F9000AF932 /* Frameworks */,
 				5DE30E242213F0F9000AF932 /* Resources */,
+				5C2DAE1BE531C46F613C82D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +167,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5C2DAE1BE531C46F613C82D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuestionAnswer/Pods-QuestionAnswer-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuestionAnswer/Pods-QuestionAnswer-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuestionAnswer/Pods-QuestionAnswer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D4C5928C99E173E2317BC122 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,6 +277,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
@@ -304,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -349,6 +340,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
@@ -360,7 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -384,7 +376,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.securityqanda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -403,7 +395,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.securityqanda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
