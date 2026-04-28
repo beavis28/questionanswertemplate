@@ -22,21 +22,21 @@
     "ans": "ans2"
   },
   "Q4": {
-    "question":"This attack can be deployed by infusing a malicious code in a website’s comment section. What is “this” attack referred to here?",
+    "question":"This attack can be deployed by infusing a malicious code in a website's comment section. What is this attack referred to here?",
     "ans1": "SQL injection",
     "ans2": "Cross Site Scripting (XSS)",
     "ans3": "Cross Site Request Forgery (XSRF)",
     "ans": "ans2"
   },
   "Q5": {
-    "question":"When there is an excessive amount of data flow, which the system cannot handle, _____ attack takes place.",
+    "question":"When there is an excessive amount of data flow which the system cannot handle, _____ attack takes place.",
     "ans1": "DoS (Denial of Service) attack",
     "ans2": "Data overflow Attack",
     "ans3": "Buffer Overflow attack",
     "ans": "ans1"
   },
   "Q6": {
-    "question":"Compromising a user’s session for exploiting the user’s data and do malicious activities or misuse user’s credentials is called ___________",
+    "question":"Compromising a user's session for exploiting the user's data and do malicious activities or misuse user's credentials is called ___________",
     "ans1": "Session Hijacking",
     "ans2": "Session Fixation",
     "ans3": "Session Spying",
@@ -64,7 +64,7 @@
     "ans": "ans3"
   },
   "Q10": {
-    "question":"_________ are the special type of programs used for recording and tracking user’s keystroke.",
+    "question":"_________ are the special type of programs used for recording and tracking user's keystroke.",
     "ans1": "Keylogger",
     "ans2": "Trojans",
     "ans3": "Virus",
@@ -99,11 +99,11 @@
     "ans": "ans3"
   },
   "Q15": {
-    "question":"____ of information means, only authorised users are capable of accessing the information.",
+    "question":"____ of information means only authorised users are capable of accessing the information.",
     "ans1": "Confidentiality",
     "ans2": "Integrity",
     "ans3": "Availability",
-    "ans": "ans3"
+    "ans": "ans1"
   },
   "Q16": {
     "question":"Data ___________ is used to ensure confidentiality.",
@@ -149,10 +149,10 @@
   },
   "Q22": {
     "question":"Which of the following is an example of active reconnaissance?",
-    "ans1": "Sample Konfabulator Widget",
-    "ans2": "Flash your headlights at him",
-    "ans3": "Slow down and let him cross",
-    "ans": "ans3"
+    "ans1": "Searching publicly available social media profiles",
+    "ans2": "Port scanning the target system directly",
+    "ans3": "Reading news articles about the target company",
+    "ans": "ans2"
   },
   "Q23": {
     "question":"________ phase in ethical hacking is known as the pre-attack phase.",
@@ -162,7 +162,7 @@
     "ans": "ans2"
   },
   "Q24": {
-    "question":"Which of them do not comes under scanning methodologies?",
+    "question":"Which of them do not come under scanning methodologies?",
     "ans1": "Vulnerability scanning",
     "ans2": "Sweeping",
     "ans3": "Google Dorks",
@@ -183,14 +183,14 @@
     "ans": "ans3"
   },
   "Q27": {
-    "question":"____ is the tool used for this purpose.",
-    "ans1": "Powersploit",
-    "ans2": "Aircrack – ng",
-    "ans3": "Snort",
-    "ans": "ans1"
+    "question":"OSINT stands for _______",
+    "ans1": "Online Security Intelligence Network",
+    "ans2": "Open Source Intelligence",
+    "ans3": "Operational Security Information Technique",
+    "ans": "ans2"
   },
   "Q28": {
-    "question":"Which of the following hacking tools and techniques hackers’ do not use for maintaining access in a system?",
+    "question":"Which of the following hacking tools and techniques hackers do not use for maintaining access in a system?",
     "ans1": "Wireshark",
     "ans2": "Backdoors",
     "ans3": "Rootkits",
@@ -211,21 +211,21 @@
     "ans": "ans2"
   },
   "Q31": {
-    "question":"Which of the following do not comes under Social Engineering?",
+    "question":"Which of the following do not come under Social Engineering?",
     "ans1": "Footprint removing",
     "ans2": "Tailgating",
     "ans3": "Spamming",
     "ans": "ans3"
   },
   "Q32": {
-    "question":"_________ involves scams where an individual (usually an attacker) lie to a person (the target victim) to acquire privilege data.",
+    "question":"_________ involves scams where an individual lies to a person to acquire privileged data.",
     "ans1": "Phishing",
     "ans2": "Pretexting",
     "ans3": "Spamming",
     "ans": "ans2"
   },
   "Q33": {
-    "question":"Which of the following is the technique used to look for information in trash or around dustbin container?",
+    "question":"Which of the following is the technique used to look for information in trash or around dustbin containers?",
     "ans1": "Baiting",
     "ans2": "Quid Pro Quo",
     "ans3": "Dumpster diving",
@@ -239,7 +239,7 @@
     "ans": "ans3"
   },
   "Q35": {
-    "question":"In a phishing, attackers target the ________ technology to so social engineering.",
+    "question":"In a phishing attack, attackers most commonly target ________ technology.",
     "ans1": "Emails",
     "ans2": "WI-FI network",
     "ans3": "Operating systems",
@@ -302,7 +302,7 @@
     "ans": "ans2"
   },
   "Q44": {
-    "question":"Why did SSL certificate require in HTTP?",
+    "question":"Why does an SSL certificate require HTTP?",
     "ans1": "For making security weak",
     "ans2": "For making information move faster",
     "ans3": "For encrypted data sent over HTTP protocol",
@@ -358,14 +358,14 @@
     "ans": "ans2"
   },
   "Q52": {
-    "question":"_____ is the practice implemented to spy someone using technology for gathering sensitive information.",
+    "question":"_____ is the practice implemented to spy on someone using technology for gathering sensitive information.",
     "ans1": "Cyber espionage",
     "ans2": "Cyber-spy",
     "ans3": "Spyware",
     "ans": "ans1"
   },
   "Q53": {
-    "question":"________ is the way or technique through which majority of the malware gets installed in our system.",
+    "question":"________ is the way or technique through which the majority of malware gets installed in a system.",
     "ans1": "Drive-by click",
     "ans2": "Drive-by redirection",
     "ans3": "Drive-by download",
@@ -379,11 +379,11 @@
     "ans": "ans3"
   },
   "Q55": {
-    "question":"____ is the hacking approach where cyber-criminals design fake websites or pages for tricking or gaining additional traffic.",
+    "question":"_____ is the hacking approach where cyber-criminals redirect users from legitimate websites to fake ones by manipulating DNS.",
     "ans1": "Cyber-replication",
     "ans2": "Mimicking",
     "ans3": "Pharming",
-    "ans": "ans1"
+    "ans": "ans3"
   },
   "Q56": {
     "question":"_____ are deadly exploits where the vulnerability is known and found by cyber-criminals but not known and fixed by the owner of that application or company.",
@@ -393,7 +393,7 @@
     "ans": "ans2"
   },
   "Q57": {
-    "question":"____________ is the kind of firewall is connected between the device and the network connecting to internet.",
+    "question":"____________ is the kind of firewall that is connected between the device and the network connecting to internet.",
     "ans1": "Hardware Firewall",
     "ans2": "Software Firewall",
     "ans3": "Stateful Inspection Firewall",
@@ -407,7 +407,7 @@
     "ans": "ans1"
   },
   "Q59": {
-    "question":"A firewall protects which of the following attacks?",
+    "question":"A firewall protects against which of the following attacks?",
     "ans1": "Phishing",
     "ans2": "Dumpster diving",
     "ans3": "Denial of Service (DoS)",
@@ -442,7 +442,7 @@
     "ans": "ans3"
   },
   "Q64": {
-    "question":"Which of the statements are not true to classify VPN systems?",
+    "question":"Which of the statements is not true to classify VPN systems?",
     "ans1": "Protocols used for tunnelling the traffic",
     "ans2": "Whether VPNs are providing site-to-site or remote access connection",
     "ans3": "Securing the network from bots and malwares",
@@ -456,21 +456,21 @@
     "ans": "ans2"
   },
   "Q66": {
-    "question":"A __________ is a sequential segment of the memory location that is allocated for containing some data such as a character string or an array of integers.",
+    "question":"A __________ is a sequential segment of memory location that is allocated for containing some data such as a character string or an array of integers.",
     "ans1": "stack",
     "ans2": "queue",
     "ans3": "buffer",
     "ans": "ans3"
   },
   "Q67": {
-    "question":"In a _____________ attack, the extra data that holds some specific instructions in the memory for actions is projected by a cyber-criminal or penetration tester to crack the system.",
+    "question":"In a _____________ attack, extra data holding specific instructions is pushed into memory by a cyber-criminal to crack the system.",
     "ans1": "Phishing",
     "ans2": "MiTM",
     "ans3": "Buffer-overflow",
     "ans": "ans3"
   },
   "Q68": {
-    "question":"________ is a widespread app’s coding mistake made by developers which could be exploited by an attacker for gaining access or malfunctioning your system",
+    "question":"________ is a widespread app coding mistake that could be exploited by an attacker for gaining access or malfunctioning a system",
     "ans1": "Memory leakage",
     "ans2": "Buffer-overrun",
     "ans3": "Less processing power",
@@ -491,21 +491,21 @@
     "ans": "ans2"
   },
   "Q71": {
-    "question":"Why apps developed in languages like C, C++ is prone to Buffer-overflow?",
+    "question":"Why apps developed in languages like C, C++ are prone to Buffer-overflow?",
     "ans1": "No string boundary checks in predefined functions",
     "ans2": "No storage check in the external memory",
     "ans3": "No processing power check",
     "ans": "ans1"
   },
   "Q72": {
-    "question":"Among the two types ____________buffer-overflow is complex to execute and the least common attack that may take place.",
+    "question":"Among the two types ____________ buffer-overflow is complex to execute and the least common attack.",
     "ans1": "memory-based",
     "ans2": "queue-based",
     "ans3": "heap-based",
     "ans": "ans3"
   },
   "Q73": {
-    "question":"___________ buffer overflows, which are more common among attackers.",
+    "question":"___________ buffer overflows are more common among attackers.",
     "ans1": "Memory-based",
     "ans2": "Queue-based",
     "ans3": "Stack-based",
@@ -540,7 +540,7 @@
     "ans": "ans1"
   },
   "Q78": {
-    "question":"Variables that gets created dynamically when a function (such as malloc()) is called is created in the form of _______ data-structure.",
+    "question":"Variables that get created dynamically when a function (such as malloc()) is called are in the form of _______ data-structure.",
     "ans1": "array",
     "ans2": "stack",
     "ans3": "heap",
@@ -561,21 +561,21 @@
     "ans": "ans3"
   },
   "Q81": {
-    "question":"______ suite is used for NTP enumeration.",
+    "question":"_____ suite of tools is used for NTP enumeration.",
     "ans1": "DNS",
     "ans2": "NTP",
     "ans3": "SNMP",
-    "ans": "ans1"
+    "ans": "ans2"
   },
   "Q82": {
     "question":"enum4linux is used to enumerate _______",
-    "ans1": "Linux systems",
-    "ans2": "Windows systems",
-    "ans3": "Mac systems",
-    "ans": "ans1"
+    "ans1": "Mac systems",
+    "ans2": "Windows and Samba systems",
+    "ans3": "IoT devices",
+    "ans": "ans2"
   },
   "Q83": {
-    "question":"______ is used that tries for guessing the usernames by using SMTP service",
+    "question":"______ is used to guess usernames by using SMTP service",
     "ans1": "smtp-user-enum",
     "ans2": "smtp-enum",
     "ans3": "snmp-enum",
@@ -589,14 +589,14 @@
     "ans": "ans1"
   },
   "Q85": {
-    "question":"Which of the following do not comes under the intangible skills of hackers?",
+    "question":"Which of the following do not come under the intangible skills of hackers?",
     "ans1": "Creative thinking",
     "ans2": "Problem-solving capability",
     "ans3": "Smart attacking potential",
     "ans": "ans3"
   },
   "Q86": {
-    "question":"_______________ is gained if you send especially skilled packets to a target machine.",
+    "question":"_______________ is gained if you send especially crafted packets to a target machine.",
     "ans1": "Active fingerprinting",
     "ans2": "Passive fingerprinting",
     "ans3": "OS fingerprinting",
@@ -610,7 +610,7 @@
     "ans": "ans2"
   },
   "Q88": {
-    "question":"A _____________ is a network scanning practice through which hackers can use to conclude to a point which IP address from a list of IP addresses is mapping to live hosts",
+    "question":"A _____________ is a network scanning practice through which hackers can conclude which IP addresses from a list are mapping to live hosts",
     "ans1": "ping-based hacking",
     "ans2": "ping sweep",
     "ans3": "ping-range",
@@ -659,21 +659,21 @@
     "ans": "ans3"
   },
   "Q95": {
-    "question":"_____ are essential because they frequently comprises of critical patches to security holes.",
+    "question":"_____ are essential because they frequently comprise critical patches to security holes.",
     "ans1": "System software",
     "ans2": "Utility Software",
     "ans3": "Software updates",
     "ans": "ans3"
   },
   "Q96": {
-    "question":"Which of the following attach is not used by LC4 to recover Windows password?",
+    "question":"Which of the following attacks is not used to recover Windows passwords?",
     "ans1": "Brute-force attack",
     "ans2": "Dictionary attack",
     "ans3": "MiTM attack",
     "ans": "ans3"
   },
   "Q97": {
-    "question":"_____is the world’s most popular vulnerability scanner used in companies for checking vulnerabilities in the network.",
+    "question":"_____is the world's most popular vulnerability scanner used in companies for checking vulnerabilities in the network.",
     "ans1": "Wireshark",
     "ans2": "Nessus",
     "ans3": "Snort",
@@ -701,7 +701,7 @@
     "ans": "ans3"
   },
   "Q101": {
-    "question":"_____ is a platform that essentially keeps the log of data from networks, devices as well as applications in a single location",
+    "question":"_____ is a platform that keeps the log of data from networks, devices and applications in a single location",
     "ans1": "EventLog Analyser",
     "ans2": "Wireshark",
     "ans3": "PacketFilter Analyzer",
@@ -715,7 +715,7 @@
     "ans": "ans3"
   },
   "Q103": {
-    "question":"_____ is a popular corporate security tool that is used to detect the attack on email with cloud only services",
+    "question":"_____ is a popular corporate security tool used to detect attacks on email with cloud-only services",
     "ans1": "Cain and Abel",
     "ans2": "Proofpoint",
     "ans3": "Angry IP Scanner",
@@ -725,11 +725,11 @@
     "question":"______ helps in protecting corporate data, communications and other assets.",
     "ans1": "Snort",
     "ans2": "CipherCloud",
-    "ans3": "Burp Suit",
+    "ans3": "Burp Suite",
     "ans": "ans2"
   },
   "Q105": {
-    "question":"_________ helps in protecting businesses against data breaches that may make threats to cloud",
+    "question":"_________ helps in protecting businesses against data breaches that may pose threats to the cloud",
     "ans1": "Centrify",
     "ans2": "Mailbox Exchange Recovery",
     "ans3": "Nessus",
@@ -743,28 +743,28 @@
     "ans": "ans3"
   },
   "Q107": {
-    "question":"____ is the sum of all the possible points in software or system where unauthorized users can enter as well as extract data from the system",
+    "question":"____ is the sum of all possible points in software or system where unauthorized users can enter and extract data",
     "ans1": "Attack vector",
     "ans2": "Attack surface",
     "ans3": "Attack point",
     "ans": "ans2"
   },
   "Q108": {
-    "question":"_______ is the cyclic practice for identifying & classifying and then solving the vulnerabilities in a system",
+    "question":"_______ is the cyclic practice for identifying, classifying and then solving the vulnerabilities in a system",
     "ans1": "Bug protection",
     "ans2": "Bug bounty",
     "ans3": "Vulnerability management",
     "ans": "ans3"
   },
   "Q109": {
-    "question":"________ is a special type of vulnerability that doesn’t possess risk",
+    "question":"________ is a special type of vulnerability that does not possess risk",
     "ans1": "Vulnerabilities without risk",
     "ans2": "Vulnerabilities without attacker",
     "ans3": "Vulnerabilities without action",
     "ans": "ans1"
   },
   "Q110": {
-    "question":"___ type of exploit requires accessing to any vulnerable system for enhancing privilege for an attacker to run the exploit",
+    "question":"___ type of exploit requires accessing any vulnerable system for enhancing privilege for an attacker to run the exploit",
     "ans1": "Local exploits",
     "ans2": "Remote exploits",
     "ans3": "System exploits",
@@ -785,7 +785,7 @@
     "ans": "ans2"
   },
   "Q113": {
-    "question":"An attacker, who is an employee of your firm may ___________ to know your system password",
+    "question":"An attacker who is an employee of your firm may ___________ to know your system password",
     "ans1": "Shoulder surfing",
     "ans2": "Phishing",
     "ans3": "Spamming",
@@ -813,7 +813,7 @@
     "ans": "ans2"
   },
   "Q117": {
-    "question":"______ is a famous technological medium for the spread of malware, facing problems of spam, & phishing attacks",
+    "question":"______ is a famous technological medium for the spread of malware, facing problems of spam & phishing attacks",
     "ans1": "Cloud",
     "ans2": "Website",
     "ans3": "Email",
@@ -848,7 +848,7 @@
     "ans": "ans2"
   },
   "Q122": {
-    "question":"In _______________ attacks an attacker do not contact with authorizing party for stealing password",
+    "question":"In _______________ attacks an attacker does not contact the authorizing party for stealing the password",
     "ans1": "passive online",
     "ans2": "active online",
     "ans3": "non-electronic",
@@ -862,28 +862,28 @@
     "ans": "ans3"
   },
   "Q124": {
-    "question":"Which of the following do not comes under hurdles of passive online attack for hackers?",
+    "question":"Which of the following do not come under hurdles of passive online attack for hackers?",
     "ans1": "Hard to perpetrate",
     "ans2": "Computationally complex",
     "ans3": "Tools not available",
     "ans": "ans3"
   },
   "Q125": {
-    "question":"Which of the following case comes under victims’ list of an active online attack?",
+    "question":"Which of the following cases come under victims list of an active online attack?",
     "ans1": "Strong password based accounts",
     "ans2": "Unsecured HTTP users",
     "ans3": "Open authentication points",
     "ans": "ans3"
   },
   "Q126": {
-    "question":"________ attack is a combination of Dictionary attack & brute force attack",
+    "question":"________ attack is a combination of Dictionary attack and brute force attack",
     "ans1": "Syllable",
     "ans2": "Syllabi",
     "ans3": "Database",
     "ans": "ans1"
   },
   "Q127": {
-    "question":"A _____________ attack one of the simplest processes of gaining access to any password-protected system",
+    "question":"A _____________ attack is one of the simplest processes of gaining access to any password-protected system",
     "ans1": "Clickjacking",
     "ans2": "Brute force",
     "ans3": "Eavesdropping",
@@ -918,7 +918,7 @@
     "ans": "ans3"
   },
   "Q132": {
-    "question":"The three steps of data loss prevention are – Identify, Discover and_____",
+    "question":"The three steps of data loss prevention are: Identify, Discover and _____",
     "ans1": "Classify",
     "ans2": "Clarify",
     "ans3": "Deletion",
@@ -946,14 +946,14 @@
     "ans": "ans3"
   },
   "Q136": {
-    "question":"Which of the following port is not used by Trojans?",
+    "question":"Which of the following port protocols is not used by Trojans?",
     "ans1": "UDP",
     "ans2": "TCP",
     "ans3": "MP",
     "ans": "ans3"
   },
   "Q137": {
-    "question":"Trojans can not _______",
+    "question":"Trojans cannot _______",
     "ans1": "steal data",
     "ans2": "self-replicate",
     "ans3": "steal login credentials",
@@ -967,14 +967,14 @@
     "ans": "ans2"
   },
   "Q139": {
-    "question":"________ are implemented to carry out distributed DDoS attacks, steal data, send spam messages & permits the hacker to access various devices & its connection",
+    "question":"________ are implemented to carry out distributed DDoS attacks, steal data, send spam messages and permit hackers to access various devices",
     "ans1": "Trojan",
     "ans2": "Virus",
     "ans3": "Botnet",
-    "ans": "ans2"
+    "ans": "ans3"
   },
   "Q140": {
-    "question":"The intent of a ______________ is to overkill the targeted server’s bandwidth and other resources of the target website",
+    "question":"The intent of a ______________ is to overkill the targeted server's bandwidth and other resources of the target website",
     "ans1": "Phishing attack",
     "ans2": "DoS attack",
     "ans3": "Website attack",
@@ -988,7 +988,7 @@
     "ans": "ans2"
   },
   "Q142": {
-    "question":"Phishers often develop ______________ websites for tricking users & filling their personal data",
+    "question":"Phishers often develop ______________ websites for tricking users and filling in their personal data",
     "ans1": "legitimate",
     "ans2": "illegitimate",
     "ans3": "genuine",
@@ -1009,7 +1009,7 @@
     "ans": "ans3"
   },
   "Q145": {
-    "question":"_______ is data interception method used by hackers",
+    "question":"_______ is a data interception method used by hackers",
     "ans1": "Phishing",
     "ans2": "DoS",
     "ans3": "Sniffing",
@@ -1030,14 +1030,14 @@
     "ans": "ans3"
   },
   "Q148": {
-    "question":"Which of the below-mentioned protocol is not susceptible to sniffing?",
+    "question":"Which of the following protocols encrypts data in transit, making it resistant to sniffing?",
     "ans1": "HTTP",
-    "ans2": "SMTP",
-    "ans3": "TCP",
+    "ans2": "FTP",
+    "ans3": "HTTPS",
     "ans": "ans3"
   },
   "Q149": {
-    "question":"______ attack is the exploitation of the web-session & its mechanism that is usually managed with a session token",
+    "question":"______ attack is the exploitation of the web-session and its mechanism that is usually managed with a session token",
     "ans1": "Session Hacking",
     "ans2": "Session Hijacking",
     "ans3": "Session Compromising",
@@ -1051,14 +1051,14 @@
     "ans": "ans1"
   },
   "Q151": {
-    "question":"The ______________ hijacking is implemented on the data flow of protocol shared by all web applicationsm",
+    "question":"The ______________ hijacking is implemented on the data flow of protocol shared by all web applications",
     "ans1": "network level",
     "ans2": "physical level",
     "ans3": "application level",
     "ans": "ans1"
   },
   "Q152": {
-    "question":" Which of the following is not an appropriate method of defacing web server?",
+    "question":"Which of the following is not an appropriate method of defacing a web server?",
     "ans1": "Fetching credentials through MiTM",
     "ans2": "Brute-forcing Admin Password",
     "ans3": "IP address spoofing",
@@ -1079,49 +1079,49 @@
     "ans": "ans1"
   },
   "Q155": {
-    "question":"Which of the following scripting language is used for injecting executable malicious code for web-app hacking?",
+    "question":"Which of the following scripting languages is used for injecting executable malicious code for web-app hacking?",
     "ans1": "C++",
     "ans2": "Python",
     "ans3": "Javascript",
     "ans": "ans3"
   },
   "Q156": {
-    "question":"____ are unwanted software intended to pitch advertisements upon the user’s screen, most often within a web browser",
+    "question":"____ are unwanted software intended to pitch advertisements upon the user's screen, most often within a web browser",
     "ans1": "Shareware",
     "ans2": "Adware",
     "ans3": "Ransomware",
     "ans": "ans2"
   },
   "Q157": {
-    "question":"Users might invite some bogus virus in his/her system by clicking the ______",
+    "question":"Users might invite some bogus virus in their system by clicking the ______",
     "ans1": "Shareware",
     "ans2": "Adware",
     "ans3": "URL",
     "ans": "ans2"
   },
   "Q158": {
-    "question":"Which among the following is not a symptom of your system compromised with adware?",
-    "ans1": "Website links redirect to sites unlike from what user is intended",
-    "ans2": "Web browser acts slows to a crawl",
-    "ans3": "System takes restarts frequently",
+    "question":"Which among the following is not a symptom of your system being compromised with adware?",
+    "ans1": "Website links redirect to sites unlike from what user intended",
+    "ans2": "Web browser slows to a crawl",
+    "ans3": "System restarts frequently",
     "ans": "ans3"
   },
   "Q159": {
-    "question":"_______ are unnecessary software which infiltrates user’s system, spy on user’s activities, stealing internet usage data & sensitive information of that user",
+    "question":"_______ are unnecessary software which infiltrate a user's system, spy on user's activities, stealing internet usage data and sensitive information",
     "ans1": "Shareware",
     "ans2": "Spyware",
     "ans3": "Ransomware",
     "ans": "ans2"
   },
   "Q160": {
-    "question":"_______ are unnecessary software which infiltrates user’s system, spy on user’s activities, stealing internet usage data & sensitive information of that user",
-    "ans1": "Shareware",
-    "ans2": "Spyware",
-    "ans3": "Ransomware",
-    "ans": "ans2"
+    "question":"_______ is a type of spyware specifically designed to secretly monitor a partner's or family member's device without their knowledge",
+    "ans1": "Stalkerware",
+    "ans2": "Rootkit",
+    "ans3": "Adware",
+    "ans": "ans1"
   },
   "Q161": {
-    "question":"Spyware collects user’s personal data & spreads it to______________ data-firms, or its creator.",
+    "question":"Spyware collects user's personal data and spreads it to ______________ data-firms or its creator.",
     "ans1": "advertisers",
     "ans2": "dark-market",
     "ans3": "antivirus company",
@@ -1131,11 +1131,11 @@
     "question":"Which of the following activity is not done by spyware?",
     "ans1": "sell internet usage data",
     "ans2": "capture credit card details",
-    "ans3": "steal signature of the different virus",
+    "ans3": "steal signatures of different viruses",
     "ans": "ans3"
   },
   "Q163": {
-    "question":"_______ track the user’s online activities like search queries, history pages & downloads, for selling purposes",
+    "question":"_______ track the user's online activities like search queries, history pages and downloads, for selling purposes",
     "ans1": "Ad-based spyware",
     "ans2": "System Monitors",
     "ans3": "Tracking cookies",
@@ -1156,21 +1156,21 @@
     "ans": "ans3"
   },
   "Q166": {
-    "question":"Some security issues might exist owing to misconfigured __________________ which can direct to disclosure of information regarding the domain.",
+    "question":"Some security issues might exist due to misconfigured __________________ which can lead to disclosure of information regarding the domain.",
     "ans1": "DNS names",
     "ans2": "HTTP setup",
     "ans3": "ISP setup",
     "ans": "ans1"
   },
   "Q167": {
-    "question":"__________ can be attained by the use of malware or by changing the server’s settings.",
+    "question":"__________ can be attained by the use of malware or by changing the server's settings.",
     "ans1": "DNS poisoning",
     "ans2": "DNS cracking",
     "ans3": "DNS hijacking",
     "ans": "ans3"
   },
   "Q168": {
-    "question":"A ______________ is essentially a text file residing on the server that hosts different domain containing entries for dissimilar resource records",
+    "question":"A ______________ is essentially a text file residing on the server that hosts different domains, containing entries for dissimilar resource records",
     "ans1": "Zone file",
     "ans2": "Robot file",
     "ans3": "DNS file",
@@ -1205,14 +1205,14 @@
     "ans": "ans1"
   },
   "Q173": {
-    "question":"______________ is the art & science of cracking the cipher-text without knowing the key",
+    "question":"______________ is the art and science of cracking cipher-text without knowing the key",
     "ans1": "Cracking",
     "ans2": "Cryptanalysis",
     "ans3": "Cryptography",
     "ans": "ans2"
   },
   "Q174": {
-    "question":"The method of reverting the encrypted text which is known as cipher text to its original form i.e. plain text is known as ______",
+    "question":"The method of reverting encrypted text (cipher text) to its original form (plain text) is known as ______",
     "ans1": "cryptanalysis",
     "ans2": "decryption",
     "ans3": "encryption",
@@ -1227,9 +1227,9 @@
   },
   "Q176": {
     "question":"_________ takes the plain text and the key as input for creating cipher-text",
-    "ans1": "Decryption Algorithm",
-    "ans2": "Hashing Algorithm",
-    "ans3": "Tuning Algorithm",
+    "ans1": "Encryption Algorithm",
+    "ans2": "Decryption Algorithm",
+    "ans3": "Hashing Algorithm",
     "ans": "ans1"
   },
   "Q177": {
@@ -1240,7 +1240,7 @@
     "ans": "ans3"
   },
   "Q178": {
-    "question":"________ is the concept that tells us about the replacement of every alphabet by another alphabet and the entire series gets ‘shifted’ by some fixed quantity.",
+    "question":"________ is the concept where every alphabet is replaced by another alphabet and the entire series gets shifted by some fixed quantity.",
     "ans1": "Rolling Cipher",
     "ans2": "Shift Cipher",
     "ans3": "Playfair Cipher",
@@ -1251,7 +1251,7 @@
     "ans1": "Vigenere Cipher",
     "ans2": "Shift Cipher",
     "ans3": "Playfair Cipher",
-    "ans": "ans2"
+    "ans": "ans1"
   },
   "Q180": {
     "question":"The procedure to add bits to the last block is termed as ______________",
@@ -1261,7 +1261,7 @@
     "ans": "ans3"
   },
   "Q181": {
-    "question":"The term _____________ means taking care of a user’s name as well as the identity hidden or veiled using a variety of applications",
+    "question":"The term _____________ means taking care of a user's name as well as the identity hidden or veiled using a variety of applications",
     "ans1": "pseudonymous",
     "ans2": "anonymous",
     "ans3": "eponymous",
@@ -1279,6 +1279,265 @@
     "ans1": "Cryptography",
     "ans2": "Tomography",
     "ans3": "Chorography",
+    "ans": "ans1"
+  },
+  "Q184": {
+    "question":"What is the core principle of Zero Trust security architecture?",
+    "ans1": "Trust all internal network traffic",
+    "ans2": "Never trust, always verify",
+    "ans3": "Verify once, then trust permanently",
+    "ans": "ans2"
+  },
+  "Q185": {
+    "question":"What is the #1 vulnerability in the OWASP Top 10 (2021 edition)?",
+    "ans1": "Broken Access Control",
+    "ans2": "Injection",
+    "ans3": "Cross-Site Scripting",
+    "ans": "ans1"
+  },
+  "Q186": {
+    "question":"RaaS stands for _________",
+    "ans1": "Remote Access as a Service",
+    "ans2": "Ransomware as a Service",
+    "ans3": "Risk Analysis as a Service",
+    "ans": "ans2"
+  },
+  "Q187": {
+    "question":"The SolarWinds attack (2020) is an example of what type of attack?",
+    "ans1": "Phishing attack",
+    "ans2": "Supply chain attack",
+    "ans3": "Man-in-the-Middle attack",
+    "ans": "ans2"
+  },
+  "Q188": {
+    "question":"Which of the following is NOT a valid factor type used in Multi-Factor Authentication?",
+    "ans1": "Something you know (password)",
+    "ans2": "Something you are (biometrics)",
+    "ans3": "Something you think (intentions)",
     "ans": "ans3"
   },
+  "Q189": {
+    "question":"FIDO2 is a standard that enables _________ authentication",
+    "ans1": "Passwordless",
+    "ans2": "Biometric-only",
+    "ans3": "SMS-based",
+    "ans": "ans1"
+  },
+  "Q190": {
+    "question":"CSPM stands for _________",
+    "ans1": "Cloud Security Posture Management",
+    "ans2": "Cyber Security Policy Management",
+    "ans3": "Cloud Service Protection Module",
+    "ans": "ans1"
+  },
+  "Q191": {
+    "question":"Which tool is commonly used to scan container images for security vulnerabilities?",
+    "ans1": "Metasploit",
+    "ans2": "Trivy",
+    "ans3": "Aircrack-ng",
+    "ans": "ans2"
+  },
+  "Q192": {
+    "question":"Which of the following is a vulnerability listed in the OWASP API Security Top 10?",
+    "ans1": "Broken Object Level Authorization",
+    "ans2": "Buffer Overflow",
+    "ans3": "WEP Cracking",
+    "ans": "ans1"
+  },
+  "Q193": {
+    "question":"The MITRE ATT&CK framework is used to describe _________",
+    "ans1": "Adversary tactics, techniques and procedures",
+    "ans2": "Network routing protocols",
+    "ans3": "Software development best practices",
+    "ans": "ans1"
+  },
+  "Q194": {
+    "question":"_______ is an attack where stolen username and password pairs from one breach are used to log into multiple other services",
+    "ans1": "Password spraying",
+    "ans2": "Credential stuffing",
+    "ans3": "Brute forcing",
+    "ans": "ans2"
+  },
+  "Q195": {
+    "question":"In a _______ attack, an attacker tries a few common passwords against many accounts to avoid account lockout",
+    "ans1": "Credential stuffing",
+    "ans2": "Dictionary attack",
+    "ans3": "Password spraying",
+    "ans": "ans3"
+  },
+  "Q196": {
+    "question":"BEC stands for _________",
+    "ans1": "Browser Exploit Code",
+    "ans2": "Business Email Compromise",
+    "ans3": "Botnet Execution Command",
+    "ans": "ans2"
+  },
+  "Q197": {
+    "question":"_______ malware operates entirely in memory without writing files to disk, making it harder to detect",
+    "ans1": "Rootkit",
+    "ans2": "Fileless",
+    "ans3": "Polymorphic",
+    "ans": "ans2"
+  },
+  "Q198": {
+    "question":"In cybersecurity, _______ refers to techniques attackers use to progressively move through a network after initial access",
+    "ans1": "Lateral movement",
+    "ans2": "Vertical escalation",
+    "ans3": "Horizontal scanning",
+    "ans": "ans1"
+  },
+  "Q199": {
+    "question":"SIEM stands for _________",
+    "ans1": "Security Incident and Event Management",
+    "ans2": "Security Information and Event Management",
+    "ans3": "System Intrusion and Event Monitoring",
+    "ans": "ans2"
+  },
+  "Q200": {
+    "question":"SOAR in cybersecurity stands for _________",
+    "ans1": "Security Operations and Automated Response",
+    "ans2": "System Orchestration and Automated Relay",
+    "ans3": "Security Orchestration, Automation and Response",
+    "ans": "ans3"
+  },
+  "Q201": {
+    "question":"Which term describes indicators like IP addresses and file hashes shared between organizations to identify threats?",
+    "ans1": "CVE (Common Vulnerabilities and Exposures)",
+    "ans2": "IOC (Indicators of Compromise)",
+    "ans3": "TTPs (Tactics, Techniques and Procedures)",
+    "ans": "ans2"
+  },
+  "Q202": {
+    "question":"The Cyber Kill Chain model was developed by _________",
+    "ans1": "MITRE Corporation",
+    "ans2": "Lockheed Martin",
+    "ans3": "NIST",
+    "ans": "ans2"
+  },
+  "Q203": {
+    "question":"A _______ program rewards security researchers for responsibly disclosing vulnerabilities they discover",
+    "ans1": "Red team",
+    "ans2": "Bug bounty",
+    "ans3": "Penetration testing",
+    "ans": "ans2"
+  },
+  "Q204": {
+    "question":"GDPR applies to organizations that handle personal data of individuals in _______",
+    "ans1": "The United States",
+    "ans2": "The European Union",
+    "ans3": "Asia Pacific",
+    "ans": "ans2"
+  },
+  "Q205": {
+    "question":"The Log4Shell vulnerability (CVE-2021-44228) affected which widely-used Java library?",
+    "ans1": "Apache Struts",
+    "ans2": "Log4j",
+    "ans3": "Spring Framework",
+    "ans": "ans2"
+  },
+  "Q206": {
+    "question":"Deepfake attacks in cybersecurity use _______ to create convincing fake audio or video of real people",
+    "ans1": "Machine Learning and AI",
+    "ans2": "JavaScript injection",
+    "ans3": "Steganography",
+    "ans": "ans1"
+  },
+  "Q207": {
+    "question":"SIM swapping is an attack where an attacker convinces a mobile carrier to _______",
+    "ans1": "Disable the victim's phone completely",
+    "ans2": "Transfer the victim's phone number to the attacker's SIM",
+    "ans3": "Clone the victim's SIM card physically",
+    "ans": "ans2"
+  },
+  "Q208": {
+    "question":"XDR (Extended Detection and Response) extends beyond EDR by also covering _______",
+    "ans1": "Network and cloud telemetry",
+    "ans2": "Physical security systems",
+    "ans3": "Employee training programs",
+    "ans": "ans1"
+  },
+  "Q209": {
+    "question":"LotL (Living off the Land) attacks use _______ to avoid detection by security tools",
+    "ans1": "Zero-day exploits",
+    "ans2": "Legitimate built-in system tools",
+    "ans3": "Encrypted payloads",
+    "ans": "ans2"
+  },
+  "Q210": {
+    "question":"DevSecOps integrates _______ into the DevOps software development pipeline",
+    "ans1": "Security testing and practices",
+    "ans2": "Database management",
+    "ans3": "UI/UX design reviews",
+    "ans": "ans1"
+  },
+  "Q211": {
+    "question":"Threat hunting is a _______ approach to finding threats that evade automated security tools",
+    "ans1": "Reactive",
+    "ans2": "Proactive",
+    "ans3": "Passive",
+    "ans": "ans2"
+  },
+  "Q212": {
+    "question":"TLS 1.3 compared to TLS 1.2 offers _______ performance and stronger security",
+    "ans1": "Lower",
+    "ans2": "Equal",
+    "ans3": "Improved",
+    "ans": "ans3"
+  },
+  "Q213": {
+    "question":"AES-256 refers to AES encryption using a _______ bit key",
+    "ans1": "128",
+    "ans2": "192",
+    "ans3": "256",
+    "ans": "ans3"
+  },
+  "Q214": {
+    "question":"A _______ team combines red team offensive and blue team defensive exercises to improve overall security posture",
+    "ans1": "Orange",
+    "ans2": "Purple",
+    "ans3": "Yellow",
+    "ans": "ans2"
+  },
+  "Q215": {
+    "question":"Which of the following is a common IoT security risk?",
+    "ans1": "Strong unique default passwords",
+    "ans2": "Default or hardcoded credentials",
+    "ans3": "Automatic security updates",
+    "ans": "ans2"
+  },
+  "Q216": {
+    "question":"In the cloud shared responsibility model, the cloud provider is always responsible for _______",
+    "ans1": "Customer data encryption",
+    "ans2": "Application-level security",
+    "ans3": "Physical infrastructure security",
+    "ans": "ans3"
+  },
+  "Q217": {
+    "question":"SSRF stands for _______ and allows attackers to make a server perform requests on their behalf",
+    "ans1": "Server-Side Request Forgery",
+    "ans2": "Secure Socket Request Framework",
+    "ans3": "System Security Request Filter",
+    "ans": "ans1"
+  },
+  "Q218": {
+    "question":"A _______ is a decoy system set up to attract and detect attackers by simulating a real target",
+    "ans1": "Sandbox",
+    "ans2": "Honeypot",
+    "ans3": "DMZ",
+    "ans": "ans2"
+  },
+  "Q219": {
+    "question":"CVE stands for _______",
+    "ans1": "Common Vulnerability Enumeration",
+    "ans2": "Critical Vulnerability Exploit",
+    "ans3": "Common Vulnerabilities and Exposures",
+    "ans": "ans3"
+  },
+  "Q220": {
+    "question":"Which of the following best describes a Man-in-the-Browser (MitB) attack?",
+    "ans1": "Attacker physically sits between two computers",
+    "ans2": "Malware modifies browser transactions in real-time without the user's knowledge",
+    "ans3": "Attacker intercepts Wi-Fi signals from a nearby coffee shop",
+    "ans": "ans2"
+  }
 }}
