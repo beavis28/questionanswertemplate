@@ -30,11 +30,6 @@
 		5DE30E302213F0FB000AF932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DE30E332213F0FB000AF932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DE30E352213F0FB000AF932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DE30E4522168220000AF932 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		5DE30E4622168220000AF932 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		5DE30E47221683B7000AF932 /* googlemobileadssdkios.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = googlemobileadssdkios.zip; path = ../../../../Downloads/googlemobileadssdkios.zip; sourceTree = "<group>"; };
-		5DE30E4A221683C1000AF932 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		5DE30E4B221683C1000AF932 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		84C960E9628D3CB5B3A79523 /* Pods-QuestionAnswer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionAnswer.debug.xcconfig"; path = "Target Support Files/Pods-QuestionAnswer/Pods-QuestionAnswer.debug.xcconfig"; sourceTree = "<group>"; };
 		DD9CB11178666CEECD5C42A2 /* Pods-QuestionAnswer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionAnswer.release.xcconfig"; path = "Target Support Files/Pods-QuestionAnswer/Pods-QuestionAnswer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,32 +83,9 @@
 		5DE30E4322168220000AF932 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5DE30E49221683C1000AF932 /* GoogleMobileAdsSdkiOS-7.39.0 */,
-				5DE30E47221683B7000AF932 /* googlemobileadssdkios.zip */,
-				5DE30E4422168220000AF932 /* GoogleMobileAdsSdkiOS-7.39.0 */,
 				1D476E2525E3401ABA2DB34D /* libPods-QuestionAnswer.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5DE30E4422168220000AF932 /* GoogleMobileAdsSdkiOS-7.39.0 */ = {
-			isa = PBXGroup;
-			children = (
-				5DE30E4522168220000AF932 /* GoogleMobileAds.framework */,
-				5DE30E4622168220000AF932 /* README.txt */,
-			);
-			name = "GoogleMobileAdsSdkiOS-7.39.0";
-			path = "../../../../Downloads/GoogleMobileAdsSdkiOS-7.39.0";
-			sourceTree = "<group>";
-		};
-		5DE30E49221683C1000AF932 /* GoogleMobileAdsSdkiOS-7.39.0 */ = {
-			isa = PBXGroup;
-			children = (
-				5DE30E4A221683C1000AF932 /* GoogleMobileAds.framework */,
-				5DE30E4B221683C1000AF932 /* README.txt */,
-			);
-			name = "GoogleMobileAdsSdkiOS-7.39.0";
-			path = "../../../../Downloads/GoogleMobileAdsSdkiOS-7.39.0";
 			sourceTree = "<group>";
 		};
 		CE8F965875C03094A4A5BA57 /* Pods */ = {
@@ -287,6 +259,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -303,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,6 +321,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -358,7 +332,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -374,17 +348,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = XQZ4S6PXLM;
 				INFOPLIST_FILE = QuestionAnswer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.cplusplusqanda;
 				PRODUCT_NAME = "CPlusPlus Q&A";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -395,17 +369,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = XQZ4S6PXLM;
 				INFOPLIST_FILE = QuestionAnswer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.cplusplusqanda;
 				PRODUCT_NAME = "CPlusPlus Q&A";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

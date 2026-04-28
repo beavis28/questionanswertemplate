@@ -5,7 +5,7 @@
     "ans1": "Abstraction",
     "ans2": "Encapsulation",
     "ans3": "Polymorphism",
-    "ans": "ans1"
+    "ans": "ans2"
   },
   "Q2": {
     "question":"How structures and classes in C++ differ?",
@@ -43,21 +43,21 @@
     "ans": "ans3"
   },
   "Q7": {
-    "question":"Why references are different from pointers?",
+    "question":"Why are references different from pointers?",
     "ans1": "A reference cannot be made null",
     "ans2": "A reference cannot be changed once initialized",
     "ans3": "All of the mentioned",
     "ans": "ans3"
   },
   "Q8": {
-    "question":"How run-time polymorphisms are implemented in C++?",
+    "question":"How are run-time polymorphisms implemented in C++?",
     "ans1": "Using Virtual functions",
     "ans2": "Using Templates",
     "ans3": "Using Inheritance and Virtual functions",
     "ans": "ans3"
   },
   "Q9": {
-    "question":"How compile-time polymorphisms are implemented in C++?",
+    "question":"How are compile-time polymorphisms implemented in C++?",
     "ans1": "Using Inheritance",
     "ans2": "Using Virtual functions",
     "ans3": "Using Templates",
@@ -94,23 +94,23 @@
   "Q14": {
     "question":"What is the difference between delete and delete[] in C++?",
     "ans1": "delete is used to delete normal objects whereas delete[] is used to pointer objects",
-    "ans2": "delete is used to delete single object whereas delete[] is used to multiple(array/pointer of) objects",
+    "ans2": "delete is used to delete a single object whereas delete[] is used for multiple (array/pointer of) objects",
     "ans3": "delete is a keyword whereas delete[] is an identifier",
     "ans": "ans2"
   },
   "Q15": {
-    "question":"Which of the following is not a fundamental type is not present in C but present in C++?",
+    "question":"Which fundamental type is present in C++ but not in C?",
     "ans1": "int",
     "ans2": "float",
     "ans3": "bool",
     "ans": "ans3"
   },
   "Q16": {
-    "question":"What is the size of a boolean variable in C++?",
+    "question":"What is the size of a bool variable in C++?",
     "ans1": "1 bit",
     "ans2": "1 byte",
     "ans3": "4 bytes",
-    "ans": "ans1"
+    "ans": "ans2"
   },
   "Q17": {
     "question":"What is dynamic binding?",
@@ -120,24 +120,24 @@
     "ans": "ans1"
   },
   "Q18": {
-    "question":"Which of the following operator is used with this pointer to access members of a class?",
+    "question":"Which operator is used with the this pointer to access members of a class?",
     "ans1": "!",
     "ans2": "->",
     "ans3": ".",
     "ans": "ans2"
   },
   "Q19": {
-    "question":"Why this pointer is used?",
+    "question":"Why is the this pointer used?",
     "ans1": "To access the members of a class which have the same name as local variables in that scope",
     "ans2": "To access all the data stored under that class",
     "ans3": "To access objects of other variables",
     "ans": "ans1"
   },
   "Q20": {
-    "question":"Which of the following is correct about static variables?",
+    "question":"Which of the following is correct about static data members?",
     "ans1": "Static functions do not support polymorphism",
     "ans2": "Static data members cannot be accessed by non-static member functions",
-    "ans3": "Static data members functions can access only static data members",
+    "ans3": "Static member functions can access only static data members",
     "ans": "ans3"
   },
   "Q21": {
@@ -148,16 +148,16 @@
     "ans": "ans1"
   },
   "Q22": {
-    "question":"Which of these expressions will return true if the input integer v is a power of two?",
-    "ans1": "(v | (v + 1)) == 0;",
-    "ans2": "(~v & (v – 1)) == 0;",
-    "ans3": "(v & (v – 1)) == 0;",
+    "question":"Which expression returns true if the input integer v is a power of two?",
+    "ans1": "(v | (v + 1)) == 0",
+    "ans2": "(~v & (v - 1)) == 0",
+    "ans3": "(v & (v - 1)) == 0",
     "ans": "ans3"
   },
   "Q23": {
-    "question":"How do we represent a wide character of the form wchar_t?",
-    "ans1": "L’a’",
-    "ans2": "l’a’",
+    "question":"How do we represent a wide character literal of type wchar_t for 'a'?",
+    "ans1": "L'a'",
+    "ans2": "l'a'",
     "ans3": "L[a]",
     "ans": "ans1"
   },
@@ -169,24 +169,24 @@
     "ans": "ans2"
   },
   "Q25": {
-    "question":"In which type do the enumerators are stored by the compiler?",
+    "question":"In which type do the enumerators get stored by the compiler?",
     "ans1": "string",
     "ans2": "integer",
     "ans3": "float",
     "ans": "ans2"
   },
   "Q26": {
-    "question":"What will happen when defining the enumerated type?",
-    "ans1": "it will not allocate memory",
-    "ans2": "it will allocate memory",
-    "ans3": "allocate memory to objects",
+    "question":"What will happen when defining an enumerated type?",
+    "ans1": "It will not allocate memory",
+    "ans2": "It will allocate memory",
+    "ans3": "It allocates memory to objects",
     "ans": "ans1"
   },
   "Q27": {
-    "question":"What does the following statement mean?\n int (*fp)(char*)",
+    "question":"What does the following statement mean? int (*fp)(char*)",
     "ans1": "pointer to a pointer",
     "ans2": "pointer to an array of chars",
-    "ans3": "pointer to function taking a char* argument and returns an int",
+    "ans3": "pointer to function taking a char* argument and returning an int",
     "ans": "ans3"
   },
   "Q28": {
@@ -197,28 +197,28 @@
     "ans": "ans1"
   },
   "Q29": {
-    "question":"Choose the right option.\n string* x, y;",
+    "question":"Choose the right option for: string* x, y;",
     "ans1": "x is a pointer to a string, y is a string",
     "ans2": "y is a pointer to a string, x is a string",
     "ans3": "both x and y are pointers to string types",
     "ans": "ans1"
   },
   "Q30": {
-    "question":"Which one of the following is not a possible state for a pointer.",
+    "question":"Which one of the following is not a possible state for a pointer?",
     "ans1": "hold the address of the specific object",
     "ans2": "zero",
     "ans3": "point to a type",
     "ans": "ans3"
   },
   "Q31": {
-    "question":"Which of the following is illegal?",
+    "question":"Which of the following is illegal in C++?",
     "ans1": "int *ip;",
     "ans2": "string s, *sp = 0;",
     "ans3": "int i; double* dp = &i;",
     "ans": "ans3"
   },
   "Q32": {
-    "question":"The correct statement for a function that takes pointer to a float, a pointer to a pointer to a char and returns a pointer to a pointer to a integer is ___",
+    "question":"The correct statement for a function that takes a pointer to float, a pointer to a pointer to char, and returns a pointer to a pointer to integer is ___",
     "ans1": "int **fun(float**, char**)",
     "ans2": "int **fun(float*, char**)",
     "ans3": "int ***fun(*float, **char)",
@@ -253,28 +253,28 @@
     "ans": "ans3"
   },
   "Q37": {
-    "question":"What is the meaning of the following declaration?\n int(*p[5])();",
+    "question":"What is the meaning of the following declaration? int(*p[5])();",
     "ans1": "p is pointer to function",
     "ans2": "p is array of pointer to function",
-    "ans3": "p is pointer to such function which return type is the array",
+    "ans3": "p is pointer to a function whose return type is an array",
     "ans": "ans2"
   },
   "Q38": {
-    "question":"What is size of generic pointer in C++ (in 32-bit platform)?",
-    "ans1": "2",
-    "ans2": "4",
-    "ans3": "8",
+    "question":"What is the size of a generic pointer in C++ on a 32-bit platform?",
+    "ans1": "2 bytes",
+    "ans2": "4 bytes",
+    "ans3": "8 bytes",
     "ans": "ans2"
   },
   "Q39": {
-    "question":"How are the constants declared?",
-    "ans1": "const keyword",
-    "ans2": "#define preprocessor",
-    "ans3": "both const keyword and #define preprocessor",
+    "question":"How are constants declared in C++?",
+    "ans1": "const keyword only",
+    "ans2": "#define preprocessor only",
+    "ans3": "Both const keyword and #define preprocessor",
     "ans": "ans3"
   },
   "Q40": {
-    "question":"Which value can we not assign to reference?",
+    "question":"Which value cannot be assigned to a reference?",
     "ans1": "integer",
     "ans2": "floating",
     "ans3": "null",
@@ -288,38 +288,38 @@
     "ans": "ans2"
   },
   "Q42": {
-    "question":"Which reference modifier is used to define the reference variable?",
+    "question":"Which modifier is used to define a reference variable?",
     "ans1": "&",
     "ans2": "$",
     "ans3": "#",
     "ans": "ans1"
   },
   "Q43": {
-    "question":"Identify the correct sentence regarding inequality between reference and pointer.",
-    "ans1": "we can not create the array of reference",
-    "ans2": "we can create the Array of reference",
-    "ans3": "we can use reference to reference",
+    "question":"Identify the correct statement regarding the inequality between reference and pointer.",
+    "ans1": "We cannot create an array of references",
+    "ans2": "We can create an array of references",
+    "ans3": "We can use reference to reference",
     "ans": "ans1"
   },
   "Q44": {
     "question":"The pointer can point to any variable that is not declared with which of these?",
     "ans1": "const",
     "ans2": "volatile",
-    "ans3": "both const & volatile",
+    "ans3": "Both const and volatile",
     "ans": "ans3"
   },
   "Q45": {
-    "question":"The data elements in the structure are also known as what?",
+    "question":"The data elements in a structure are also known as what?",
     "ans1": "objects",
     "ans2": "members",
     "ans3": "data",
     "ans": "ans2"
   },
   "Q46": {
-    "question":"What will happen when the structure is declared?",
-    "ans1": "it will not allocate any memory",
-    "ans2": "it will allocate the memory",
-    "ans3": "it will be declared and initialized",
+    "question":"What will happen when a structure is declared?",
+    "ans1": "It will not allocate any memory",
+    "ans2": "It will allocate memory",
+    "ans3": "It will be declared and initialized",
     "ans": "ans1"
   },
   "Q47": {
@@ -330,7 +330,7 @@
     "ans": "ans3"
   },
   "Q48": {
-    "question":"Which of the following accesses a variable in structure *b?",
+    "question":"Which of the following accesses a variable in structure pointer *b?",
     "ans1": "b->var;",
     "ans2": "b.var;",
     "ans3": "b-var;",
@@ -351,7 +351,7 @@
     "ans": "ans2"
   },
   "Q51": {
-    "question":"Which function is used to check whether a character is a number?",
+    "question":"Which function is used to check whether a character is a digit?",
     "ans1": "isalpha()",
     "ans2": "isalnum()",
     "ans3": "isdigit()",
@@ -365,63 +365,63 @@
     "ans": "ans3"
   },
   "Q53": {
-    "question":"Which operator is having the right to left associativity in the following?",
+    "question":"Which operator has right-to-left associativity?",
     "ans1": "Array subscripting",
     "ans2": "Type cast",
     "ans3": "Function call",
     "ans": "ans2"
   },
   "Q54": {
-    "question":"What is the use of dynamic_cast operator?",
-    "ans1": "it converts virtual base class to derived class",
-    "ans2": "it converts the virtual base object to derived objects",
-    "ans3": "it will convert the operator based on precedence",
+    "question":"What is the use of the dynamic_cast operator?",
+    "ans1": "It converts virtual base class to derived class",
+    "ans2": "It converts the virtual base object to derived objects",
+    "ans3": "It will convert the operator based on precedence",
     "ans": "ans1"
   },
   "Q55": {
-    "question":"How many can max number of arguments present in function in the c99 compiler?",
+    "question":"How many maximum arguments can be present in a function in the C99 compiler?",
     "ans1": "99",
     "ans2": "90",
     "ans3": "127",
     "ans": "ans3"
   },
   "Q56": {
-    "question":"Which is more effective while calling the functions?",
+    "question":"Which is more effective while calling functions?",
     "ans1": "call by value",
     "ans2": "call by reference",
     "ans3": "call by pointer",
     "ans": "ans2"
   },
   "Q57": {
-    "question":"What is the scope of the variable declared in the user defined function?",
-    "ans1": "only inside the {} block",
-    "ans2": "the main function",
-    "ans3": "whole program",
+    "question":"What is the scope of a variable declared in a user-defined function?",
+    "ans1": "Only inside the {} block",
+    "ans2": "The main function",
+    "ans3": "Whole program",
     "ans": "ans1"
   },
   "Q58": {
-    "question":"Which is used to keep the call by reference value as intact?",
+    "question":"Which keyword is used to keep a call-by-reference value intact (read-only)?",
     "ans1": "static",
     "ans2": "const",
     "ans3": "virtual",
     "ans": "ans2"
   },
   "Q59": {
-    "question":"By default how the value are passed in c++?",
+    "question":"By default, how are values passed in C++?",
     "ans1": "call by value",
     "ans2": "call by reference",
     "ans3": "call by pointer",
     "ans": "ans1"
   },
   "Q60": {
-    "question":"What will you use if you are not intended to get a return value?",
+    "question":"What will you use when you do not intend to get a return value from a function?",
     "ans1": "static",
     "ans2": "void",
     "ans3": "volatile",
     "ans": "ans2"
   },
   "Q61": {
-    "question":"Where does the return statement returns the execution of the program?",
+    "question":"Where does the return statement return execution of the program to?",
     "ans1": "main function",
     "ans2": "caller function",
     "ans3": "block function",
@@ -437,16 +437,16 @@
   "Q63": {
     "question":"What will happen while using pass by reference?",
     "ans1": "The values of those variables are passed to the function so that it can manipulate them",
-    "ans2": "The location of variable in memory is passed to the function so that it can use the same memory area for its processing",
+    "ans2": "The location of the variable in memory is passed so that the function can use the same memory area",
     "ans3": "The function declaration should contain $",
     "ans": "ans2"
   },
   "Q64": {
-    "question":"What should be passed in parameters when function does not require any parameters?",
-    "ans1": "void",
-    "ans2": "blank space",
-    "ans3": "tab space",
-    "ans": "ans2"
+    "question":"Which keyword explicitly prevents a constructor from being used for implicit conversions?",
+    "ans1": "final",
+    "ans2": "override",
+    "ans3": "explicit",
+    "ans": "ans3"
   },
   "Q65": {
     "question":"What are the advantages of passing arguments by reference?",
@@ -456,21 +456,21 @@
     "ans": "ans3"
   },
   "Q66": {
-    "question":"To which does the function pointer point to?",
+    "question":"To which does a function pointer point?",
     "ans1": "variable",
     "ans2": "constants",
     "ans3": "function",
     "ans": "ans3"
   },
   "Q67": {
-    "question":"What will we not do with function pointers?",
+    "question":"What cannot be done with function pointers?",
     "ans1": "allocation of memory",
     "ans2": "deallocation of memory",
-    "ans3": "both allocation & deallocation of memory",
+    "ans3": "both allocation and deallocation of memory",
     "ans": "ans3"
   },
   "Q68": {
-    "question":"What is the default calling convention for a compiler in c++?",
+    "question":"What is the default calling convention for a compiler in C++?",
     "ans1": "__cdecl",
     "ans2": "__stdcall",
     "ans3": "__pascal",
@@ -484,14 +484,14 @@
     "ans": "ans3"
   },
   "Q70": {
-    "question":"which keyword is used to define the macros in c++?",
+    "question":"Which keyword is used to define macros in C++?",
     "ans1": "macro",
     "ans2": "#define",
     "ans3": "#macro",
     "ans": "ans2"
   },
   "Q71": {
-    "question":"which of the following is used to implement the c++ interfaces?",
+    "question":"Which of the following is used to implement C++ interfaces?",
     "ans1": "absolute variables",
     "ans2": "abstract classes",
     "ans3": "constant variables",
@@ -499,16 +499,16 @@
   },
   "Q72": {
     "question":"Identify the correct statement.",
-    "ans1": "c++ does not have built-in interfaces",
-    "ans2": "c++ does have built-in interfaces",
-    "ans3": "c++ does have built-in interfaces & classes",
+    "ans1": "C++ does not have built-in interfaces",
+    "ans2": "C++ does have built-in interfaces",
+    "ans3": "C++ has both built-in interfaces and classes",
     "ans": "ans1"
   },
   "Q73": {
-    "question":"What is similar to the interface in c++?",
+    "question":"What is similar to an interface in C++?",
     "ans1": "pure abstract class",
     "ans2": "instance of a class",
-    "ans3": "methods & instance of a class",
+    "ans3": "methods and instance of a class",
     "ans": "ans1"
   },
   "Q74": {
@@ -519,94 +519,94 @@
     "ans": "ans3"
   },
   "Q75": {
-    "question":"What is the use of Namespace?",
+    "question":"What is the use of a Namespace?",
     "ans1": "To encapsulate the data",
     "ans2": "To structure a program into logical units",
-    "ans3": "Encapsulate the data & structure a program into logical units",
+    "ans3": "To encapsulate the data and structure a program into logical units",
     "ans": "ans2"
   },
   "Q76": {
-    "question":"What is the general syntax for accessing the namespace variable?",
+    "question":"What is the general syntax for accessing a namespace variable?",
     "ans1": "namespace::operator",
     "ans2": "namespace#operator",
     "ans3": "namespace$operator",
     "ans": "ans1"
   },
   "Q77": {
-    "question":"Which keyword is used to access the variable in the namespace?",
+    "question":"Which keyword is used to access a variable in the namespace?",
     "ans1": "using",
     "ans2": "dynamic",
     "ans3": "const",
     "ans": "ans1"
   },
   "Q78": {
-    "question":"To where does the program control transfers when the exception is arisen?",
+    "question":"To where does program control transfer when an exception is raised?",
     "ans1": "catch",
     "ans2": "handlers",
     "ans3": "throw",
     "ans": "ans2"
   },
   "Q79": {
-    "question":"Which keyword is used to check exception in the block of code?",
+    "question":"Which keyword is used to check for exceptions in a block of code?",
     "ans1": "catch",
     "ans2": "throw",
     "ans3": "try",
     "ans": "ans3"
   },
   "Q80": {
-    "question":"What will happen when the exception is not caught in the program?",
+    "question":"What will happen when an exception is not caught in the program?",
     "ans1": "error",
-    "ans2": "program will execute",
+    "ans2": "program will execute normally",
     "ans3": "block of that code will not execute",
     "ans": "ans1"
   },
   "Q81": {
-    "question":"What will happen when the handler is not found for an exception?",
+    "question":"What will happen when no handler is found for an exception?",
     "ans1": "calls the standard library function terminate()",
     "ans2": "raise an error",
     "ans3": "executes the remaining block",
     "ans": "ans1"
   },
   "Q82": {
-    "question":"To use external linkage we have to use which keyword?",
+    "question":"To use external linkage you have to use which keyword?",
     "ans1": "static",
     "ans2": "extern",
     "ans3": "argc",
     "ans": "ans2"
   },
   "Q83": {
-    "question":"What is the user-defined header file extension in c++?",
+    "question":"What is the user-defined header file extension in C++?",
     "ans1": "cpp",
     "ans2": "h",
     "ans3": "m",
     "ans": "ans2"
   },
   "Q84": {
-    "question":"Which of the following keyword is used to declare the header file?",
+    "question":"Which of the following keywords is used to include a header file?",
     "ans1": "include",
     "ans2": "namespace",
     "ans3": "exclude",
     "ans": "ans1"
   },
   "Q85": {
-    "question":"Which of the following header file does not exist?",
+    "question":"Which of the following header files does not exist in standard C++?",
     "ans1": "<iostream>",
     "ans2": "<string>",
     "ans3": "<sstring>",
     "ans": "ans3"
   },
   "Q86": {
-    "question":"Which of the header file must be included to use stringstream?",
+    "question":"Which header file must be included to use stringstream?",
     "ans1": "<iostream>",
     "ans2": "<string>",
     "ans3": "<sstream>",
-    "ans": "ans2"
+    "ans": "ans3"
   },
   "Q87": {
     "question":"Which of the following header files is required for creating and reading data files?",
-    "ans1": "ofstream.h",
-    "ans2": "fstream.h",
-    "ans3": "ifstream.h",
+    "ans1": "<ofstream>",
+    "ans2": "<fstream>",
+    "ans3": "<ifstream>",
     "ans": "ans2"
   },
   "Q88": {
@@ -620,46 +620,46 @@
     "question":"Constructors are used to ______",
     "ans1": "initialize the objects",
     "ans2": "construct the data members",
-    "ans3": "both initialize the objects & construct the data members",
+    "ans3": "both initialize the objects and construct the data members",
     "ans": "ans1"
   },
   "Q90": {
-    "question":"When struct is used instead of the keyword class means, what will happen in the program?",
+    "question":"When struct is used instead of the keyword class, what will happen?",
     "ans1": "access is public by default",
     "ans2": "access is private by default",
     "ans3": "access is protected by default",
     "ans": "ans1"
   },
   "Q91": {
-    "question":"Which keyword is used to define the user defined data types?",
+    "question":"Which keyword is used to define user-defined data types?",
     "ans1": "def",
     "ans2": "typedef",
     "ans3": "type",
     "ans": "ans2"
   },
   "Q92": {
-    "question":"What does the data type defined by union will do?",
-    "ans1": "It allow one different portion of memory to be accessed as same data types",
-    "ans2": "It allow one same portion of memory to be accessed as different data types",
-    "ans3": "It allow one different portion of memory to be accessed as different data types",
+    "question":"What does the union data type do?",
+    "ans1": "It allows one different portion of memory to be accessed as same data types",
+    "ans2": "It allows one same portion of memory to be accessed as different data types",
+    "ans3": "It allows one different portion of memory to be accessed as different data types",
     "ans": "ans2"
   },
   "Q93": {
-    "question":"What is the syntax of user-defined data types?",
+    "question":"What is the syntax of a user-defined type alias?",
     "ans1": "typedef ExistingDataType NameByUser",
     "ans2": "typedef NameByUser ExistingDataType",
     "ans3": "def NameByUser ExistingDataType",
     "ans": "ans1"
   },
   "Q94": {
-    "question":"Pick out the other definition of objects.",
+    "question":"Pick out the other definition of an object.",
     "ans1": "member of the class",
     "ans2": "instance of the class",
     "ans3": "attribute of the class",
     "ans": "ans2"
   },
   "Q95": {
-    "question":"How to declare operator function?",
+    "question":"How to declare an operator function?",
     "ans1": "operator sign",
     "ans2": "name of the class",
     "ans3": "operator",
@@ -667,10 +667,10 @@
   },
   "Q96": {
     "question":"Operator overloading is _______",
-    "ans1": "making c++ operator works with objects",
-    "ans2": "adding operation to the existing operators",
+    "ans1": "making C++ operators work with user-defined objects",
+    "ans2": "adding new operators to the language",
     "ans3": "making the new operator",
-    "ans": "ans2"
+    "ans": "ans1"
   },
   "Q97": {
     "question":"What is the syntax of overloading operator + for class A?",
@@ -680,10 +680,10 @@
     "ans": "ans1"
   },
   "Q98": {
-    "question":"Why we use the “dynamic_cast” type conversion?",
-    "ans1": "result of the type conversion is a valid",
-    "ans2": "to be used in low memory",
-    "ans3": "result of the type conversion is an invalid",
+    "question":"Why do we use the dynamic_cast type conversion?",
+    "ans1": "To ensure the result of the type conversion is valid",
+    "ans2": "To be used in low memory",
+    "ans3": "The result of the type conversion is an invalid",
     "ans": "ans1"
   },
   "Q99": {
@@ -694,10 +694,10 @@
     "ans": "ans1"
   },
   "Q100": {
-    "question":"Which rule will not affect the friend function?",
+    "question":"Which rule will NOT affect the friend function?",
     "ans1": "private and protected members of a class cannot be accessed from outside",
-    "ans2": "private and protected member can be accessed anywhere",
-    "ans3": "protected member can be accessed anywhere",
+    "ans2": "private and protected members can be accessed anywhere",
+    "ans3": "protected members can be accessed anywhere",
     "ans": "ans1"
   },
   "Q101": {
@@ -715,24 +715,24 @@
     "ans": "ans3"
   },
   "Q103": {
-    "question":"Pick the correct statement.",
+    "question":"Pick the correct statement about friend functions.",
     "ans1": "Friend functions are in the scope of a class",
     "ans2": "Friend functions can be called using class objects",
     "ans3": "Friend functions can be invoked as a normal function",
     "ans": "ans3"
   },
   "Q104": {
-    "question":"How to store the large objects in c++ if it extends its allocated memory?",
+    "question":"How do you store large objects in C++ if they extend allocated stack memory?",
     "ans1": "memory heap",
     "ans2": "stack",
     "ans3": "queue",
     "ans": "ans1"
   },
   "Q105": {
-    "question":"Which option is best to eliminate the memory problem?",
+    "question":"Which option is best to eliminate memory management problems in C++?",
     "ans1": "use smart pointers",
     "ans2": "use raw pointers",
-    "ans3": "use smart pointers & virtual destructor",
+    "ans3": "use smart pointers and virtual destructor",
     "ans": "ans3"
   },
   "Q106": {
@@ -746,7 +746,7 @@
     "question":"What is a copy constructor?",
     "ans1": "A constructor that allows a user to move data from one object to another",
     "ans2": "A constructor to initialize an object with the values of another object",
-    "ans3": "A constructor to check the whether to objects are equal or not",
+    "ans3": "A constructor to check whether two objects are equal or not",
     "ans": "ans2"
   },
   "Q108": {
@@ -764,17 +764,17 @@
     "ans": "ans2"
   },
   "Q110": {
-    "question":"Which of the following is correct?",
+    "question":"Which of the following is correct about destructors?",
     "ans1": "Destructors can be virtual",
     "ans2": "There can be more than one destructor in a class",
     "ans3": "Destructor is used to initialize objects",
     "ans": "ans1"
   },
   "Q111": {
-    "question":"Which of the following can derived class inherit?",
+    "question":"Which of the following can a derived class inherit?",
     "ans1": "members",
     "ans2": "functions",
-    "ans3": "both members & functions",
+    "ans3": "both members and functions",
     "ans": "ans3"
   },
   "Q112": {
@@ -785,14 +785,14 @@
     "ans": "ans2"
   },
   "Q113": {
-    "question":"Which class is used to design the base class?",
+    "question":"Which class is used to design the base class of an abstraction?",
     "ans1": "abstract class",
     "ans2": "derived class",
     "ans3": "static class",
     "ans": "ans1"
   },
   "Q114": {
-    "question":"Which is also called as abstract class?",
+    "question":"Which is also called a pure abstract class?",
     "ans1": "virtual function",
     "ans2": "pure virtual function",
     "ans3": "derived class",
@@ -800,13 +800,13 @@
   },
   "Q115": {
     "question":"What is a template?",
-    "ans1": "A template is a formula for creating a generic class",
+    "ans1": "A template is a formula for creating a generic class or function",
     "ans2": "A template is used to manipulate the class",
     "ans3": "A template is used for creating the attributes",
     "ans": "ans1"
   },
   "Q116": {
-    "question":"How to declare a template?",
+    "question":"How do you declare a template?",
     "ans1": "template<>",
     "ans2": "temp()",
     "ans3": "temp",
@@ -814,9 +814,9 @@
   },
   "Q117": {
     "question":"What is a function template?",
-    "ans1": "creating a function without having to specify the exact type",
-    "ans2": "creating a function with having an exact type",
-    "ans3": "creating a function without having blank spaces",
+    "ans1": "Creating a function without having to specify the exact type",
+    "ans2": "Creating a function with an exact type",
+    "ans3": "Creating a function without having blank spaces",
     "ans": "ans1"
   },
   "Q118": {
@@ -827,45 +827,45 @@
     "ans": "ans2"
   },
   "Q119": {
-    "question":"How the template class is different from the normal class?",
-    "ans1": "Template class generate objects of classes based on the template type",
+    "question":"How is a template class different from a normal class?",
+    "ans1": "Template class generates objects of classes based on the template type",
     "ans2": "Template class saves system memory",
     "ans3": "All of the mentioned",
     "ans": "ans3"
   },
   "Q120": {
-    "question":"Which is called on allocating the memory for the array of objects?",
+    "question":"Which is called when allocating memory for an array of objects?",
     "ans1": "destructor",
     "ans2": "constructor",
     "ans3": "method",
     "ans": "ans2"
   },
   "Q121": {
-    "question":"Which of the following can derived class inherit?",
-    "ans1": "members",
-    "ans2": "functions",
-    "ans3": "both members & functions",
-    "ans": "ans3"
+    "question":"What is the Rule of Five in modern C++?",
+    "ans1": "A class with 5 data members needs special handling",
+    "ans2": "If you define any of destructor, copy constructor, copy assignment, move constructor, or move assignment, define all five",
+    "ans3": "Every class must have exactly 5 member functions",
+    "ans": "ans2"
   },
   "Q122": {
     "question":"What is the Standard Template Library?",
     "ans1": "Set of C++ template classes to provide common programming data structures and functions",
     "ans2": "Set of C++ classes",
-    "ans3": "Set of Template functions used for easy data structures implementation",
+    "ans3": "Set of template functions used for easy data structures implementation",
     "ans": "ans1"
   },
   "Q123": {
-    "question":"What are the containers?",
+    "question":"What are containers in the STL?",
     "ans1": "Containers store objects and data",
-    "ans2": "Containers stores all the algorithms",
+    "ans2": "Containers store all the algorithms",
     "ans3": "Containers contain overloaded functions",
     "ans": "ans1"
   },
   "Q124": {
-    "question":"What are the Sequence Containers?",
-    "ans1": "Containers that implements data structures which can be accessed sequentially",
-    "ans2": "Containers that implements sorted data structures for fast search in O(logn)",
-    "ans3": "Containers that implements data structures which can be accessed non-sequentially",
+    "question":"What are Sequence Containers?",
+    "ans1": "Containers that implement data structures which can be accessed sequentially",
+    "ans2": "Containers that implement sorted data structures for fast search in O(log n)",
+    "ans3": "Containers that implement data structures which can be accessed non-sequentially",
     "ans": "ans1"
   },
   "Q125": {
@@ -876,21 +876,21 @@
     "ans": "ans1"
   },
   "Q126": {
-    "question":"What does the cerr represent?",
+    "question":"What does cerr represent in C++?",
     "ans1": "Standard logging stream",
     "ans2": "Input stream",
     "ans3": "Standard error stream",
     "ans": "ans3"
   },
   "Q127": {
-    "question":"Which symbol is used to create multiple inheritances?",
+    "question":"Which symbol is used to separate base classes in multiple inheritances?",
     "ans1": "Dot",
     "ans2": "Comma",
     "ans3": "Dollar",
     "ans": "ans2"
   },
   "Q128": {
-    "question":"Which design patterns benefit from the multiple inheritances?",
+    "question":"Which design patterns benefit from multiple inheritances?",
     "ans1": "Adapter and observer pattern",
     "ans2": "Code pattern",
     "ans3": "Star pattern",
@@ -904,28 +904,28 @@
     "ans": "ans2"
   },
   "Q130": {
-    "question":"What do vectors represent?",
+    "question":"What do vectors represent in the STL?",
     "ans1": "Static arrays",
     "ans2": "Dynamic arrays",
     "ans3": "Queue",
     "ans": "ans2"
   },
   "Q131": {
-    "question":"Pick out the correct statement about vector.",
-    "ans1": "vector<int> values (5)",
-    "ans2": "vector values (5)",
-    "ans3": "vector<int> (5)",
+    "question":"Pick out the correct way to declare a vector of 5 integers.",
+    "ans1": "vector<int> values(5)",
+    "ans2": "vector values(5)",
+    "ans3": "vector<int>(5)",
     "ans": "ans1"
   },
   "Q132": {
-    "question":"How the list containers are implemented?",
+    "question":"How are list containers implemented in STL?",
     "ans1": "Using Double linked list",
     "ans2": "Using Single linked list",
     "ans3": "Using linear linked list",
     "ans": "ans1"
   },
   "Q133": {
-    "question":"What do container adapter provide to interface?",
+    "question":"What do container adapters provide to their interface?",
     "ans1": "Restricted interface",
     "ans2": "More interface",
     "ans3": "Memory interface",
@@ -935,28 +935,28 @@
     "question":"What do maps and sets support?",
     "ans1": "Single directional iterators",
     "ans2": "Bi-directional iterators",
-    "ans3": "functional iterators",
+    "ans3": "Functional iterators",
     "ans": "ans2"
   },
   "Q135": {
-    "question":"What type of access does deque and vector provide?",
+    "question":"What type of access do deque and vector provide?",
     "ans1": "Linear access",
     "ans2": "Parallel access",
     "ans3": "Random access",
     "ans": "ans3"
   },
   "Q136": {
-    "question":"What is a pair?",
+    "question":"What is std::pair?",
     "ans1": "Container consisting of one header and two data elements of the same type",
     "ans2": "Container consisting of two data elements of different type",
-    "ans3": "Container consisting of two data elements can have the same or different type",
+    "ans3": "Container consisting of two data elements that can be the same or different type",
     "ans": "ans3"
   },
   "Q137": {
-    "question":"Which of the following is the correct syntax of using pair p?",
-    "ans1": "pair <type,type> p;",
-    "ans2": "pair p <type,type>;",
-    "ans3": "pair [type,type] p;",
+    "question":"Which of the following is the correct syntax of declaring a pair p?",
+    "ans1": "pair<type,type> p;",
+    "ans2": "pair p<type,type>;",
+    "ans3": "pair[type,type] p;",
     "ans": "ans1"
   },
   "Q138": {
@@ -974,220 +974,500 @@
     "ans": "ans1"
   },
   "Q140": {
-    "question":"What is any in C++?",
+    "question":"What is std::any in C++17?",
     "ans1": "STL container used to store a single value of any type",
     "ans2": "Exception class in C++",
     "ans3": "Fundamental type provided by C++",
     "ans": "ans1"
   },
   "Q141": {
-    "question":"Which of the following syntax is used to convert any variable to its original type?",
+    "question":"Which of the following syntax is used to convert an std::any variable to its original type?",
     "ans1": "any_cast<variable_name>();",
     "ans2": "<original_type>(variable_name);",
     "ans3": "any_cast<original_type>(variable_name);",
     "ans": "ans3"
   },
   "Q142": {
-    "question":"Which header file is required to use any container?",
+    "question":"Which header file is required to use std::any?",
     "ans1": "<any>",
     "ans2": "<stl>",
     "ans3": "<container-any>",
     "ans": "ans1"
   },
   "Q143": {
-    "question":"What do container adapter provide to interface?",
-    "ans1": "Restricted interface",
-    "ans2": "More interface",
-    "ans3": "Memory interface",
-    "ans": "ans1"
-  },
-  "Q144": {
-    "question":"Which type of heap is implemented in STL heap?",
+    "question":"Which type of heap is implemented in the STL heap functions?",
     "ans1": "max heap",
     "ans2": "min heap",
     "ans3": "middle heap",
     "ans": "ans1"
   },
-  "Q145": {
-    "question":"Which function is used to insert an element into heap?",
+  "Q144": {
+    "question":"Which function is used to insert an element into an STL heap?",
     "ans1": "push_back()",
     "ans2": "push_heap()",
     "ans3": "pop_back()",
     "ans": "ans2"
   },
-  "Q146": {
-    "question":"Elements in STL heap are removed in ____",
+  "Q145": {
+    "question":"Elements in an STL heap are removed in ____",
     "ans1": "decreasing order",
     "ans2": "increasing order",
     "ans3": "input order",
     "ans": "ans1"
   },
-  "Q147": {
-    "question":"What is vtable in C++?",
-    "ans1": "Lookup table to resolve function calls in dynamic manners",
-    "ans2": "Lookup table to resolve function calls in static manners",
-    "ans3": "Lookup table to check how many functions are there int he program",
+  "Q146": {
+    "question":"What is a vtable in C++?",
+    "ans1": "Lookup table to resolve function calls in a dynamic manner",
+    "ans2": "Lookup table to resolve function calls in a static manner",
+    "ans3": "Lookup table to check how many functions are in the program",
     "ans": "ans1"
   },
-  "Q148": {
-    "question":"Which classes can have vtable?",
+  "Q147": {
+    "question":"Which classes can have a vtable?",
     "ans1": "Classes having friend functions",
     "ans2": "Classes having virtual functions",
     "ans3": "Classes having static functions",
     "ans": "ans2"
   },
-  "Q149": {
-    "question":"What are the Generators in C++?",
+  "Q148": {
+    "question":"What are Generators in C++?",
     "ans1": "An object that generates uniformly distributed numbers",
     "ans2": "An object that generates a number from a given sequence",
     "ans3": "An object that generates the smallest number from a given range",
     "ans": "ans1"
   },
-  "Q150": {
-    "question":"What is the use of is_array() function in C++?",
+  "Q149": {
+    "question":"What is the use of is_array() in C++?",
     "ans1": "To check if a variable is array type or not",
     "ans2": "To check if a variable is 1-D array type or not",
     "ans3": "To check if a variable is 2-D array type or not",
     "ans": "ans1"
   },
-  "Q151": {
-    "question":"What is the use of rank() function in C++?",
+  "Q150": {
+    "question":"What is the use of rank() in C++?",
     "ans1": "Returns size of each dimension",
     "ans2": "Returns how many elements are in array currently",
-    "ans3": "Returns the dimension of an array",
+    "ans3": "Returns the number of dimensions of an array",
     "ans": "ans3"
   },
-  "Q152": {
-    "question":"Which of the following is correct about extent() function?",
-    "ans1": "Returns how many elements are in array currently",
+  "Q151": {
+    "question":"Which of the following is correct about extent()?",
+    "ans1": "Returns how many elements are in the array currently",
     "ans2": "Returns the size of the 1st dimension",
     "ans3": "Returns the size of a given dimension",
     "ans": "ans3"
   },
-  "Q153": {
+  "Q152": {
     "question":"Which of the following is the correct way of declaring a tuple?",
     "ans1": "tuple tp<type1, type2, type3>;",
     "ans2": "tuple tp = new tuple<type1, type2, type3>;",
-    "ans3": "tuple <type1, type2, type3> tp;",
+    "ans3": "tuple<type1, type2, type3> tp;",
     "ans": "ans3"
   },
-  "Q154": {
-    "question":"Which of the following function is used to initialize a tuple?",
+  "Q153": {
+    "question":"Which function is used to initialize a tuple?",
     "ans1": "make_pair()",
     "ans2": "make_tuple()",
     "ans3": "make_Tuple()",
-    "ans": "ans1"
-  },
-  "Q155": {
-    "question":"What does the size of the vector refers to in c++?",
-    "ans1": "Type of vector",
-    "ans2": "Number of elements",
-    "ans3": "Size of vector",
     "ans": "ans2"
   },
-  "Q156": {
-    "question":"Which operator is used to insert the data into file?",
+  "Q154": {
+    "question":"What does the size() function of a vector return?",
+    "ans1": "Type of vector",
+    "ans2": "Number of elements",
+    "ans3": "Capacity of vector",
+    "ans": "ans2"
+  },
+  "Q155": {
+    "question":"Which operator is used to insert the data into a file stream?",
     "ans1": ">>",
     "ans2": "<<",
     "ans3": "<",
     "ans": "ans2"
   },
-  "Q157": {
+  "Q156": {
     "question":"Which header file is used for reading and writing to a file?",
     "ans1": "#include<iostream>",
     "ans2": "#include<fstream>",
     "ans3": "#include<file>",
     "ans": "ans2"
   },
-  "Q158": {
+  "Q157": {
     "question":"Which of the following is the correct syntax of declaring a complex number?",
     "ans1": "complex variable_name<type>;",
     "ans2": "complex<type> variable_name;",
     "ans3": "Complex<type> variable_name;",
     "ans": "ans2"
   },
-  "Q159": {
+  "Q158": {
     "question":"Which header file is required to use file I/O operations?",
     "ans1": "<ifstream>",
     "ans2": "<ostream>",
     "ans3": "<fstream>",
     "ans": "ans3"
   },
-  "Q160": {
-    "question":"Which header file is used for reading and writing to a file?",
-    "ans1": "#include<iostream>",
-    "ans2": "#include<fstream>",
-    "ans3": "#include<file>",
-    "ans": "ans2"
-  },
-  "Q161": {
-    "question":"Which of the following is used to create an output stream?",
+  "Q159": {
+    "question":"Which of the following is used to create an output file stream?",
     "ans1": "ofstream",
     "ans2": "ifstream",
     "ans3": "iostream",
     "ans": "ans1"
   },
-  "Q162": {
-    "question":"Which of the following is not used as a file opening mode?",
-    "ans1": "ios::trunc",
-    "ans2": "ios::binary",
-    "ans3": "ios::in",
-    "ans": "ans1"
+  "Q160": {
+    "question":"Which of the following is the correct file opening mode to truncate existing content?",
+    "ans1": "ios::app",
+    "ans2": "ios::in",
+    "ans3": "ios::trunc",
+    "ans": "ans3"
   },
-  "Q163": {
+  "Q161": {
     "question":"What is the use of ios::trunc mode?",
     "ans1": "To open a file in input mode",
     "ans2": "To open a file in output mode",
-    "ans3": "To truncate an existing file to zero",
+    "ans3": "To truncate an existing file to zero length",
     "ans": "ans3"
   },
-  "Q164": {
-    "question":"Which of the following is not used to seek file pointer?",
-    "ans1": "ios::cur",
+  "Q162": {
+    "question":"Which of the following is NOT used to seek the file pointer position?",
+    "ans1": "ios::beg",
     "ans2": "ios::end",
     "ans3": "ios::set",
     "ans": "ans3"
   },
-  "Q165": {
-    "question":"Which function is used to reposition the file pointer?",
+  "Q163": {
+    "question":"Which function is used to reposition the file get-pointer?",
     "ans1": "moveg()",
     "ans2": "seekg()",
     "ans3": "changep()",
     "ans": "ans2"
   },
+  "Q164": {
+    "question":"What is a lambda expression in C++?",
+    "ans1": "A technique that allows writing inline anonymous functions",
+    "ans2": "A technique that allows writing overloaded functions",
+    "ans3": "A technique that allows writing functions called more than once",
+    "ans": "ans1"
+  },
+  "Q165": {
+    "question":"What is the syntax of defining a lambda expression?",
+    "ans1": "[capture clause](parameters) -> return_type { body }",
+    "ans2": "[parameters](capture clause) -> return_type { body }",
+    "ans3": "[parameters:capture clause]() -> return_type { body }",
+    "ans": "ans1"
+  },
   "Q166": {
-    "question":"What is lambda expression in C++?",
-    "ans1": "A technique of C++ that allows us to write inline functions without a name",
-    "ans2": "A technique of C++ that allows us to write overloaded functions",
-    "ans3": "A technique of C++ that allows us to write functions that are called more than once",
-    "ans": "ans1"
-  },
-  "Q167": {
-    "question":"What is the syntax of defining lambda expression?",
-    "ans1": "[capture clause](parameters) -> return_type { body of the function }",
-    "ans2": "[parameters](capture clause) -> return_type { body of the function }",
-    "ans3": "[parameters:capture clause]() -> return_type { body of the function }",
-    "ans": "ans1"
-  },
-  "Q168": {
-    "question":"Which of the following operator is used to capture all the external variable by reference?",
+    "question":"Which operator is used to capture all external variables by reference in a lambda?",
     "ans1": "=",
     "ans2": "&",
     "ans3": "&&",
     "ans": "ans2"
   },
-  "Q169": {
-    "question":"Which is the correct syntax of capturing a variable ‘X’ by reference and other variable ‘Y’ by value in lambda expression?",
+  "Q167": {
+    "question":"Which is the correct syntax of capturing variable 'X' by reference and 'Y' by value in a lambda?",
     "ans1": "[&X, Y]",
     "ans2": "[X, Y]",
     "ans3": "[X, &Y]",
     "ans": "ans1"
   },
-  "Q170": {
+  "Q168": {
     "question":"What is meant by template specialization?",
-    "ans1": "It will have certain data types to be fixed",
-    "ans2": "It will make certain data types to be dynamic",
-    "ans3": "Certain data types are invalid",
+    "ans1": "Providing a specific implementation for certain data types",
+    "ans2": "Making certain data types dynamic",
+    "ans3": "Making certain data types invalid",
+    "ans": "ans1"
+  },
+  "Q169": {
+    "question":"What does the auto keyword do in C++11?",
+    "ans1": "Allocates memory automatically",
+    "ans2": "Lets the compiler deduce the type of a variable from its initializer",
+    "ans3": "Declares a variable with automatic storage duration explicitly",
+    "ans": "ans2"
+  },
+  "Q170": {
+    "question":"What is nullptr in C++11?",
+    "ans1": "A macro that expands to 0",
+    "ans2": "A keyword representing a null pointer of type std::nullptr_t",
+    "ans3": "An integer constant equal to 0",
+    "ans": "ans2"
+  },
+  "Q171": {
+    "question":"Which C++11 feature allows iterating over a container without using an index?",
+    "ans1": "Standard for loop",
+    "ans2": "Range-based for loop",
+    "ans3": "Iterator for loop",
+    "ans": "ans2"
+  },
+  "Q172": {
+    "question":"What is std::unique_ptr used for?",
+    "ans1": "A smart pointer that allows shared ownership of a resource",
+    "ans2": "A smart pointer with exclusive ownership that auto-deletes when out of scope",
+    "ans3": "A raw pointer with manual memory management",
+    "ans": "ans2"
+  },
+  "Q173": {
+    "question":"What is std::shared_ptr used for?",
+    "ans1": "Exclusive ownership of a resource with automatic deletion",
+    "ans2": "Shared ownership of a resource using reference counting",
+    "ans3": "Non-owning observation of a resource",
+    "ans": "ans2"
+  },
+  "Q174": {
+    "question":"What is std::weak_ptr used for?",
+    "ans1": "To break circular references between shared_ptrs",
+    "ans2": "To take exclusive ownership of a resource",
+    "ans3": "To share ownership with reference counting",
+    "ans": "ans1"
+  },
+  "Q175": {
+    "question":"What does std::move do in C++11?",
+    "ans1": "Copies an object to a new location in memory",
+    "ans2": "Casts an object to an rvalue reference to enable move semantics",
+    "ans3": "Physically moves memory blocks",
+    "ans": "ans2"
+  },
+  "Q176": {
+    "question":"What is an rvalue reference denoted by?",
+    "ans1": "&",
+    "ans2": "&&",
+    "ans3": "ref&",
+    "ans": "ans2"
+  },
+  "Q177": {
+    "question":"What does constexpr mean in C++?",
+    "ans1": "The value or function is evaluated at compile time",
+    "ans2": "The value cannot change after initialization",
+    "ans3": "The function runs in a constrained environment",
+    "ans": "ans1"
+  },
+  "Q178": {
+    "question":"What does the noexcept specifier indicate?",
+    "ans1": "The function may throw exceptions",
+    "ans2": "The function will never throw exceptions",
+    "ans3": "The function catches all exceptions",
+    "ans": "ans2"
+  },
+  "Q179": {
+    "question":"What is std::string_view introduced in C++17?",
+    "ans1": "A mutable reference to a string",
+    "ans2": "A non-owning, read-only reference to a string or substring",
+    "ans3": "A new string class replacing std::string",
+    "ans": "ans2"
+  },
+  "Q180": {
+    "question":"What is uniform initialization using {} in C++11?",
+    "ans1": "A syntax that allows initializing any object using curly braces",
+    "ans2": "A method to initialize only arrays",
+    "ans3": "A compile-time constant initialization syntax",
+    "ans": "ans1"
+  },
+  "Q181": {
+    "question":"What are structured bindings introduced in C++17?",
+    "ans1": "A way to bind multiple return values to individual variables",
+    "ans2": "A technique to bind functions to classes",
+    "ans3": "A way to bind templates to types",
+    "ans": "ans1"
+  },
+  "Q182": {
+    "question":"What is std::optional introduced in C++17?",
+    "ans1": "A container that holds either a value or nothing (nullopt)",
+    "ans2": "A pointer that can be null",
+    "ans3": "A variant type that holds one of many types",
+    "ans": "ans1"
+  },
+  "Q183": {
+    "question":"What is std::variant introduced in C++17?",
+    "ans1": "A container that holds either a value or nothing",
+    "ans2": "A type-safe union that holds one value of one of its specified types",
+    "ans3": "A dynamic array that holds multiple types",
+    "ans": "ans2"
+  },
+  "Q184": {
+    "question":"What does if constexpr allow in C++17?",
+    "ans1": "Compile-time conditional branching in template code",
+    "ans2": "Runtime conditional branching that is faster",
+    "ans3": "A way to create constant if-else chains",
+    "ans": "ans1"
+  },
+  "Q185": {
+    "question":"What are fold expressions introduced in C++17?",
+    "ans1": "A way to simplify variadic template parameter pack operations",
+    "ans2": "A way to fold functions into classes",
+    "ans3": "A technique to compress data in templates",
+    "ans": "ans1"
+  },
+  "Q186": {
+    "question":"What header is used for std::filesystem introduced in C++17?",
+    "ans1": "<fileio>",
+    "ans2": "<filesystem>",
+    "ans3": "<fstream>",
+    "ans": "ans2"
+  },
+  "Q187": {
+    "question":"What is CTAD (Class Template Argument Deduction) in C++17?",
+    "ans1": "Automatically deducing template arguments from constructor arguments",
+    "ans2": "Deducing class members from base class",
+    "ans3": "Auto-generating template specializations",
+    "ans": "ans1"
+  },
+  "Q188": {
+    "question":"What is std::array different from a raw array in C++?",
+    "ans1": "std::array is dynamically sized while raw array is fixed",
+    "ans2": "std::array is a fixed-size container that knows its own size and works with STL algorithms",
+    "ans3": "std::array is slower than raw array in all cases",
+    "ans": "ans2"
+  },
+  "Q189": {
+    "question":"What is the difference between emplace_back() and push_back() in a vector?",
+    "ans1": "emplace_back constructs the object in-place, avoiding a copy; push_back copies or moves an existing object",
+    "ans2": "push_back is faster than emplace_back in all cases",
+    "ans3": "emplace_back adds to the front while push_back adds to the back",
+    "ans": "ans1"
+  },
+  "Q190": {
+    "question":"What is std::function in C++?",
+    "ans1": "A template class that can store any callable object (function, lambda, functor)",
+    "ans2": "A pointer to a regular function only",
+    "ans3": "A base class for all functions",
+    "ans": "ans1"
+  },
+  "Q191": {
+    "question":"What are Concepts introduced in C++20?",
+    "ans1": "Named constraints on template parameters to improve error messages and readability",
+    "ans2": "A new object-oriented design pattern",
+    "ans3": "Comments that describe template behavior",
+    "ans": "ans1"
+  },
+  "Q192": {
+    "question":"What is std::span introduced in C++20?",
+    "ans1": "A dynamic array that resizes automatically",
+    "ans2": "A non-owning view over a contiguous sequence of elements",
+    "ans3": "A pointer to the first element of an array",
+    "ans": "ans2"
+  },
+  "Q193": {
+    "question":"What is the three-way comparison operator <=> introduced in C++20?",
+    "ans1": "An operator that checks if two values are approximately equal",
+    "ans2": "An operator that returns ordering (<, =, >) in a single comparison",
+    "ans3": "An operator that compares three values at once",
+    "ans": "ans2"
+  },
+  "Q194": {
+    "question":"What is std::format introduced in C++20?",
+    "ans1": "A function to convert types to string",
+    "ans2": "A type-safe string formatting facility similar to Python's f-strings",
+    "ans3": "A file formatting utility",
+    "ans": "ans2"
+  },
+  "Q195": {
+    "question":"What are variadic templates in C++11?",
+    "ans1": "Templates with a variable number of template parameters",
+    "ans2": "Templates that vary based on runtime input",
+    "ans3": "Templates that can be overloaded",
+    "ans": "ans1"
+  },
+  "Q196": {
+    "question":"What is std::forward used for in C++11?",
+    "ans1": "Moving objects forward in a container",
+    "ans2": "Perfect forwarding - preserving the value category (lvalue/rvalue) when passing arguments",
+    "ans3": "Forwarding function return values",
+    "ans": "ans2"
+  },
+  "Q197": {
+    "question":"What is RAII in C++?",
+    "ans1": "Resource Acquisition Is Initialization - resources are tied to object lifetime",
+    "ans2": "Runtime Array Index Iteration",
+    "ans3": "Random Access Iterator Interface",
+    "ans": "ans1"
+  },
+  "Q198": {
+    "question":"What does = delete do when applied to a function?",
+    "ans1": "Removes the function from memory",
+    "ans2": "Explicitly prevents the compiler from generating or using that function",
+    "ans3": "Delays the function execution",
+    "ans": "ans2"
+  },
+  "Q199": {
+    "question":"What does = default do when applied to a constructor?",
+    "ans1": "Provides a default parameter value",
+    "ans2": "Explicitly tells the compiler to generate the default implementation",
+    "ans3": "Makes the constructor private",
+    "ans": "ans2"
+  },
+  "Q200": {
+    "question":"What is a move constructor in C++11?",
+    "ans1": "A constructor that copies data from another object",
+    "ans2": "A constructor that transfers ownership of resources from a temporary object",
+    "ans3": "A constructor that moves the object to a different scope",
+    "ans": "ans2"
+  },
+  "Q201": {
+    "question":"Which smart pointer should you use when you want NO ownership of a resource?",
+    "ans1": "std::unique_ptr",
+    "ans2": "std::shared_ptr",
+    "ans3": "std::weak_ptr",
+    "ans": "ans3"
+  },
+  "Q202": {
+    "question":"What does the override keyword do in C++11?",
+    "ans1": "Creates a new virtual function",
+    "ans2": "Explicitly marks a function as overriding a virtual function in the base class",
+    "ans3": "Prevents a function from being overridden",
+    "ans": "ans2"
+  },
+  "Q203": {
+    "question":"What does the final keyword do in C++11?",
+    "ans1": "Marks the last function in a class",
+    "ans2": "Prevents a class from being inherited or a virtual function from being overridden",
+    "ans3": "Declares a constant at the end of a class",
+    "ans": "ans2"
+  },
+  "Q204": {
+    "question":"What is an initializer list in C++11?",
+    "ans1": "A list used to initialize only arrays",
+    "ans2": "Allows constructors to initialize base classes and members before the body executes",
+    "ans3": "A list of default values for function parameters",
+    "ans": "ans2"
+  },
+  "Q205": {
+    "question":"What does std::thread provide in C++11?",
+    "ans1": "A way to create and manage threads for concurrent execution",
+    "ans2": "A way to create thread-safe containers",
+    "ans3": "A scheduler for async tasks",
+    "ans": "ans1"
+  },
+  "Q206": {
+    "question":"What is std::async used for in C++11?",
+    "ans1": "Launching a function asynchronously and returning a std::future",
+    "ans2": "Synchronizing multiple threads",
+    "ans3": "Creating a new thread pool",
+    "ans": "ans1"
+  },
+  "Q207": {
+    "question":"What does std::mutex provide?",
+    "ans1": "A mechanism to ensure only one thread accesses a resource at a time",
+    "ans2": "A container for thread-safe data",
+    "ans3": "A way to terminate threads safely",
+    "ans": "ans1"
+  },
+  "Q208": {
+    "question":"What is an unordered_map in C++?",
+    "ans1": "A map that is sorted by key",
+    "ans2": "A hash-table based associative container with average O(1) lookup",
+    "ans3": "A map that is sorted by value",
+    "ans": "ans2"
+  },
+  "Q209": {
+    "question":"What is the time complexity of lookup in std::map?",
+    "ans1": "O(1)",
+    "ans2": "O(n)",
+    "ans3": "O(log n)",
+    "ans": "ans3"
+  },
+  "Q210": {
+    "question":"What is the purpose of the mutable keyword in C++?",
+    "ans1": "Allows a data member to be modified even in a const member function",
+    "ans2": "Makes a variable's value change automatically",
+    "ans3": "Prevents a variable from being optimized away",
     "ans": "ans1"
   }
 }}
