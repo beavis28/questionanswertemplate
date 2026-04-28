@@ -381,6 +381,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.javascriptqanda;
 				PRODUCT_NAME = "Javascript Q&A";
 				SWIFT_VERSION = 4.2;
@@ -401,6 +402,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.javascriptqanda;
 				PRODUCT_NAME = "Javascript Q&A";
 				SWIFT_VERSION = 4.2;
